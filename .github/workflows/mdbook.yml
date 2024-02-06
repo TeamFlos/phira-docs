@@ -33,9 +33,11 @@ jobs:
       - name: Install mdBook
         run: |
           version=$(wget -qO- -t1 -T2 "https://api.github.com/repos/rust-lang/mdBook/releases/latest" | grep "tag_name" | head -n 1 | awk -F ":" '{print $2}' | sed 's/\"//g;s/,//g;s/ //g')
-          wget "https://github.com/rust-lang/mdBook/releases/download/$version/mdbook-$version-x86_64-unknown-linux-gnu.tar.gz"
+          mkdir mdbook
+          wget "https://github.com/rust-lang/mdBook/releases/download/$version/mdbook-$version-x86_64-unknown-linux-gnu.tar.gz" -P mdbook
+          cd mdbook
           tar -xzf "mdbook-$version-x86_64-unknown-linux-gnu.tar.gz"
-          echo `pwd`/mdbook >> $GITHUB_PATH
+          echo `pwd` >> $GITHUB_PATH
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
