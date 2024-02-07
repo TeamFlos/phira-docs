@@ -17,3 +17,6 @@
   - [样例 UML](./uml/examples/README.md)
     - [模板活动](./uml/examples/template_event.md)
     - [2024 圣诞夜惊魂](./uml/examples/xmas-2024.md)
+
+  - [使用进阶](./uml/advanced/README.md)
+    - [页面切换](./uml/advanced/page_switch.md)
