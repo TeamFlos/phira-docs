@@ -20,3 +20,7 @@
 
   - [使用进阶](./uml/advanced/README.md)
     - [页面切换](./uml/advanced/page_switch.md)
+
+- [糗事集锦](./dev-incident/README.md)
+  - [长风的柳絮](./dev-incident/长风的柳絮.md)
+  - [6th PecJam](./dev-incident/6thpecjam.md)
