@@ -4,8 +4,7 @@
 
 例如, 我们可以这样放置横纵六个页面的内容:
 
-
-```
+```text
             |-----------|
             |   3, 2    |
             |           |
@@ -145,7 +144,7 @@ let page_offset_x_1 = page_offset_x_1_ratio_eased * -2
 
 这样, 我们就完成了页面切换效果.
 
-完整的 UML 代码如下: 
+完整的 UML 代码如下:
 
 ```js
 let animation_duration = 0.7
