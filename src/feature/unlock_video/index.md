@@ -12,7 +12,7 @@
 如果你的谱面已经有了 `info.yml`，请跳转到第三步。
 
 1. 在 Phira 中导入你的谱面；
-2. 在 `data/charts/custom` 中搜索你的谱面 ID（如 `9067228`），找到对应的文件夹，在里面找到 `info.yml`；
+2. 在 `data/charts/custom` 中搜索你的谱面 ID（如 `9067228`），找到对应的文件夹，在里面找到 `info.yml`，拷贝到你的谱面文件夹里（注意不是导入到 Phira 后的文件夹，是 pez 解压出来的文件夹）；
 3. 向你的谱面文件夹（注意不是导入到 Phira 后的文件夹，是 pez 解压出来的文件夹）内加入解锁动画，假设文件名为 `unlock.mp4`；
 4. 在 `info.yml` 中找到 `unlockVideo: null` 一行，替换为 `unlockVideo: unlock.mp4`（如果没有这一行，则加上这一行）；
 5. 重新导入你的谱面。
