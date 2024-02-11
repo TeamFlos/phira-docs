@@ -36,6 +36,12 @@
     - [表达式](./uml/syntax/expression.md)
     - [变量](./uml/syntax/variable.md)
     - [元素](./uml/syntax/element.md)
+
+      - [段落元素 `p`](./uml/syntax/elements/p.md)
+      - [图片元素 `img`](./uml/syntax/elements/img.md)
+      - [谱面合集元素 `col`](./uml/syntax/elements/col.md)
+      - [按钮元素 `btn`](./uml/syntax/elements/btn.md)
+
     - [注释](./uml/syntax/comment.md)
     - [注释表达式](./uml/syntax/comment_expression.md)
 
