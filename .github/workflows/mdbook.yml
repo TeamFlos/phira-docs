@@ -25,7 +25,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  LANGUAGES: en
+  LANGUAGES:
 
 jobs:
   # Build job
@@ -43,8 +43,8 @@ jobs:
       - name: Install mdbook
         uses: ./.github/workflows/install-mdbook
 
-      - name: Build course in English
-        run: .github/workflows/build.sh en book
+      - name: Build doc in Chinese
+        run: .github/workflows/build.sh zh-CN book
 
       - name: Build all translations
         run: |
