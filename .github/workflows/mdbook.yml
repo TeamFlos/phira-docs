@@ -24,25 +24,39 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+  LANGUAGES: en
+
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Install mdBook
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # We need the full history for build.sh below.
+
+      - name: Setup Rust cache
+        uses: ./.github/workflows/setup-rust-cache
+
+      - name: Install mdbook
+        uses: ./.github/workflows/install-mdbook
+
+      - name: Build course in English
+        run: .github/workflows/build.sh en book
+
+      - name: Build all translations
         run: |
-          version=$(wget -qO- -t1 -T2 "https://api.github.com/repos/rust-lang/mdBook/releases/latest" | grep "tag_name" | head -n 1 | awk -F ":" '{print $2}' | sed 's/\"//g;s/,//g;s/ //g')
-          mkdir mdbook
-          wget "https://github.com/rust-lang/mdBook/releases/download/$version/mdbook-$version-x86_64-unknown-linux-gnu.tar.gz" -P mdbook
-          cd mdbook
-          tar -xzf "mdbook-$version-x86_64-unknown-linux-gnu.tar.gz"
-          echo `pwd` >> $GITHUB_PATH
+          for po_lang in ${{ env.LANGUAGES }}; do
+              .github/workflows/build.sh $po_lang book/$po_lang
+              mv book/$po_lang/html book/html/$po_lang
+          done
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-      - name: Build with mdBook
-        run: mdbook build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
