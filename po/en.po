@@ -40,47 +40,47 @@ msgstr "Built-in shaders"
 
 #: src/SUMMARY.md:13 src/feature/effect/builtin/chromatic.md:1
 msgid "`chromatic`"
-msgstr ""
+msgstr "`chromatic`"
 
 #: src/SUMMARY.md:14 src/feature/effect/builtin/circleBlur.md:1
 msgid "`circleBlur`"
-msgstr ""
+msgstr "`circleBlur`"
 
 #: src/SUMMARY.md:15 src/feature/effect/builtin/fisheye.md:1
 msgid "`fisheye`"
-msgstr ""
+msgstr "`fisheye`"
 
 #: src/SUMMARY.md:16 src/feature/effect/builtin/glitch.md:1
 msgid "`glitch`"
-msgstr ""
+msgstr "`glitch`"
 
 #: src/SUMMARY.md:17 src/feature/effect/builtin/grayscale.md:1
 msgid "`grayscale`"
-msgstr ""
+msgstr "`grayscale`"
 
 #: src/SUMMARY.md:18 src/feature/effect/builtin/noise.md:1
 msgid "`noise`"
-msgstr ""
+msgstr "`noise`"
 
 #: src/SUMMARY.md:19 src/feature/effect/builtin/pixel.md:1
 msgid "`pixel`"
-msgstr ""
+msgstr "`pixel`"
 
 #: src/SUMMARY.md:20 src/feature/effect/builtin/radialBlur.md:1
 msgid "`radialBlur`"
-msgstr ""
+msgstr "`radialBlur`"
 
 #: src/SUMMARY.md:21 src/feature/effect/builtin/shockwave.md:1
 msgid "`shockwave`"
-msgstr ""
+msgstr "`shockwave`"
 
 #: src/SUMMARY.md:22
 msgid "`vignette`"
-msgstr ""
+msgstr "`vignette`"
 
 #: src/SUMMARY.md:24 src/feature/effect/custom-shader.md:1
 msgid "自行编写着色器"
-msgstr ""
+msgstr "Writing your own shaders"
 
 #: src/SUMMARY.md:26 src/feature/video/index.md:1
 msgid "视频背景"
@@ -180,7 +180,7 @@ msgstr ""
 
 #: src/SUMMARY.md:61
 msgid "6th PecJam"
-msgstr ""
+msgstr "6th PecJam"
 
 #: src/index.md:1
 msgid "Phira-docs 说明"
@@ -472,7 +472,7 @@ msgstr ""
 
 #: src/feature/index.md:6
 msgid "[视频背景](./video/index.md)"
-msgstr ""
+msgstr "[Video Background](./video/index.md)"
 
 #: src/feature/index.md:8
 msgid ""
@@ -492,12 +492,12 @@ msgstr ""
 
 #: src/feature/index.md:16 src/feature/index.md:17 src/feature/index.md:18
 msgid "\"bpm\""
-msgstr ""
+msgstr "\"bpm\""
 
 #: src/feature/index.md:17 src/feature/index.md:18
 #: src/feature/video/index.md:16
 msgid "\"time\""
-msgstr ""
+msgstr "\"time\""
 
 #: src/feature/index.md:24
 msgid "这里表示歌曲最初 BPM 为 `200`，而后在十又二分之一拍是转换为 `250`。"
@@ -694,11 +694,11 @@ msgstr ""
 
 #: src/feature/effect/index.md:37 src/feature/effect/index.md:56
 msgid "\"power\""
-msgstr ""
+msgstr "\"power\""
 
 #: src/feature/effect/index.md:38
 msgid "\"radius\""
-msgstr ""
+msgstr "\"radius\""
 
 #: src/feature/effect/index.md:43 src/feature/effect/custom-shader.md:36
 msgid "示例"
@@ -940,7 +940,7 @@ msgstr ""
 
 #: src/feature/effect/builtin/vignette.md:1
 msgid "vignette"
-msgstr ""
+msgstr "vignette"
 
 #: src/feature/effect/builtin/vignette.md:3
 msgid ""
@@ -1015,6 +1015,9 @@ msgid ""
 "uniform type name; // %def%\n"
 "```"
 msgstr ""
+"```glsl\n"
+"uniform type name; // %def%\n"
+"```"
 
 #: src/feature/effect/custom-shader.md:34
 msgid ""
@@ -1043,6 +1046,20 @@ msgid ""
 "}\n"
 "```"
 msgstr ""
+"```glsl\n"
+"#version 100\n"
+"precision mediump float;\n"
+"\n"
+"varying lowp vec2 uv;\n"
+"uniform sampler2D screenTexture;\n"
+"\n"
+"uniform float factor; // %0.5% 0..1\n"
+"\n"
+"void main() {\n"
+"  gl_FragColor = mix(texture2D(screenTexture, uv), vec4(1.0, 0.0, 0.0, 1.0), "
+"factor);\n"
+"}\n"
+"```"
 
 #: src/feature/video/index.md:3
 msgid ""
@@ -1219,7 +1236,7 @@ msgstr ""
 
 #: src/uml/syntax/type.md:5
 msgid "`Float`"
-msgstr ""
+msgstr "`Float`"
 
 #: src/uml/syntax/type.md:7
 msgid "单精度浮点数, 任意的数字都是 `Float`."
@@ -1227,7 +1244,7 @@ msgstr ""
 
 #: src/uml/syntax/type.md:9
 msgid "`Rect`"
-msgstr ""
+msgstr "`Rect`"
 
 #: src/uml/syntax/type.md:11
 msgid ""
@@ -1273,7 +1290,7 @@ msgstr ""
 
 #: src/uml/syntax/type.md:24
 msgid "`Bool`"
-msgstr ""
+msgstr "`Bool`"
 
 #: src/uml/syntax/type.md:26
 msgid "布尔值. 值是 `true` 或 `false`, 目前只能用于元素的属性中."
@@ -1281,7 +1298,7 @@ msgstr ""
 
 #: src/uml/syntax/type.md:28
 msgid "`String`"
-msgstr ""
+msgstr "`String`"
 
 #: src/uml/syntax/type.md:30
 msgid "字符串. 用双引号括起来的文本, 用于表示按钮行为, 颜色, URL, 具体如下:"
@@ -1295,31 +1312,31 @@ msgstr ""
 
 #: src/uml/syntax/type.md:33
 msgid "`\"white\"`"
-msgstr ""
+msgstr "`\"white\"`"
 
 #: src/uml/syntax/type.md:34
 msgid "`\"black\"`"
-msgstr ""
+msgstr "`\"black\"`"
 
 #: src/uml/syntax/type.md:35
 msgid "`\"red\"`"
-msgstr ""
+msgstr "`\"red\"`"
 
 #: src/uml/syntax/type.md:36
 msgid "`\"blue\"`"
-msgstr ""
+msgstr "`\"blue\"`"
 
 #: src/uml/syntax/type.md:37
 msgid "`\"yellow\"`"
-msgstr ""
+msgstr "`\"yellow\"`"
 
 #: src/uml/syntax/type.md:38
 msgid "`\"green\"`"
-msgstr ""
+msgstr "`\"green\"`"
 
 #: src/uml/syntax/type.md:39
 msgid "`\"gray\"`"
-msgstr ""
+msgstr "`\"gray\"`"
 
 #: src/uml/syntax/type.md:40
 msgid "`Action`: 按钮行为. 可用的值有:"
@@ -1942,6 +1959,51 @@ msgid ""
 "let $h = 0\n"
 "```"
 msgstr ""
+"```uml\n"
+"let w = 1920\n"
+"let h = 1080\n"
+"let rh = 2 * top\n"
+"\n"
+"let bg_rect = [0, 0 - rh + o, 2, rh]\n"
+"\n"
+"img(id: bg, url: \"https://files-cf.phira.cn/events/xmas-2023-kedmue/bg."
+"jpeg\", r: bg_rect, t: cropCenter)\n"
+"\n"
+"# Back button\n"
+"let back_btn_rect = [bg_rect.x + 100 / w * 2, bg_rect.t + 50 / h * rh, -45 / "
+"w * 2, 75 / h * 1.18]\n"
+"img(id: back_btn_img, url: \"https://files-cf.phira.cn/ltc-arrow.png\", r: "
+"back_btn_rect, t: fit)\n"
+"btn(id: back_btn, r: back_btn_rect, action: \"exit\")\n"
+"\n"
+"let chart_h = 0.4 * top\n"
+"\n"
+"# left-top\n"
+"let dx1 = 0.003 * sin(90 * t) + 0.01 * sin(11.5 * (1 + t / 100000) * t)\n"
+"let dy1 = 0.004 * sin(87 * t) + 0.008 * sin(11.3 * (1 + t / 10000) * t)\n"
+"let s1 = 1 + 0.03 * sin(10 * exp(1.01 * ln(t)) - 2 * t)\n"
+"let col_r1 = [bg_rect.l + 0.87 + dx1 + 0.45 * (1 - s1), bg_rect.t + 0.452 * "
+"rh + dy1 + chart_h * (1 - s1), 0.45 * s1, chart_h * s1]\n"
+"col(id: col_xmas, cid: 12762, r: col_r1, rn: 1, rh: chart_h * s1)\n"
+"\n"
+"# left-bottom\n"
+"let dx2 = 0.003 * sin(89 * t) + 0.01 * sin(12 * (1 + t / 99000) * t)\n"
+"let dy2 = 0.004 * sin(88 * t) + 0.0069 * sin(15 * (1 + t / 11000) * t)\n"
+"let s2 = 1 + 0.03 * sin(10.45 * exp(0.99 * ln(t)) + t)\n"
+"let col_r2 = [bg_rect.l + 1.02 + dx2 + 0.45 * (1 - s2), bg_rect.t + 0.72 * "
+"rh + dy2 + chart_h * (1 - s2), 0.45 * s2, chart_h * s2]\n"
+"col(id: col_xmas, cid: 12769, r: col_r2, rn: 1, rh: chart_h * s2)\n"
+"\n"
+"# right-top\n"
+"let dx3 = 0.003 * sin(91 * t) + 0.01 * sin(12.5 * (1 + t / 109000) * t)\n"
+"let dy3 = 0.0035 * sin(86 * t) + 0.0082 * sin(11.6 * (1 + t / 9900) * t)\n"
+"let s3 = 1 + 0.03 * sin(10.2 * exp(1.02 * ln(t)) - 3 * t)\n"
+"let col_r3 = [bg_rect.l + 1.42 + dx3 + 0.45 * (1 - s3), bg_rect.t + 0.49 * "
+"rh + dy3 + chart_h * (1 - s3), 0.45 * s3, chart_h * s3]\n"
+"col(id: col_xmas, cid: 12770, r: col_r3, rn: 1, rh: chart_h * s3)\n"
+"\n"
+"let $h = 0\n"
+"```"
 
 #: src/uml/advanced/index.md:3
 msgid ""
@@ -1973,6 +2035,8 @@ msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "blank.png\""
 msgstr ""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"blank.png\""
 
 #: src/uml/advanced/page_switch.md:47
 msgid ""
@@ -2001,6 +2065,8 @@ msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "right_arrow.png\""
 msgstr ""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"right_arrow.png\""
 
 #: src/uml/advanced/page_switch.md:78 src/uml/advanced/page_switch.md:86
 #: src/uml/advanced/page_switch.md:94 src/uml/advanced/page_switch.md:269
@@ -2009,6 +2075,8 @@ msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "left_arrow.png\""
 msgstr ""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"left_arrow.png\""
 
 #: src/uml/advanced/page_switch.md:99 src/uml/advanced/page_switch.md:108
 #: src/uml/advanced/page_switch.md:290 src/uml/advanced/page_switch.md:299
@@ -2016,6 +2084,8 @@ msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "up_arrow.png\""
 msgstr ""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"up_arrow.png\""
 
 #: src/uml/advanced/page_switch.md:104 src/uml/advanced/page_switch.md:114
 #: src/uml/advanced/page_switch.md:295 src/uml/advanced/page_switch.md:305
@@ -2023,6 +2093,8 @@ msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "down_arrow.png\""
 msgstr ""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"down_arrow.png\""
 
 #: src/uml/advanced/page_switch.md:119
 msgid "其中按钮 `id` 最后的编号表示按钮所在的页面."
@@ -2110,7 +2182,7 @@ msgstr ""
 
 #: src/dev-incident/6thpecjam.md:1
 msgid "6thPecJam"
-msgstr ""
+msgstr "6thPecJam"
 
 #: src/dev-incident/6thpecjam.md:3
 msgid ""
