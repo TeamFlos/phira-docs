@@ -23,7 +23,7 @@ msgstr ""
 
 #: src/SUMMARY.md:5 src/respack/index.md:1
 msgid "资源包"
-msgstr ""
+msgstr "Respack"
 
 #: src/SUMMARY.md:7 src/feature/index.md:1
 msgid "谱面特性"
@@ -36,7 +36,7 @@ msgstr ""
 #: src/SUMMARY.md:11 src/feature/effect/index.md:72
 #: src/feature/effect/builtin/index.md:1
 msgid "内置着色器"
-msgstr ""
+msgstr "Built-in shaders"
 
 #: src/SUMMARY.md:13 src/feature/effect/builtin/chromatic.md:1
 msgid "`chromatic`"
@@ -84,7 +84,7 @@ msgstr ""
 
 #: src/SUMMARY.md:26 src/feature/video/index.md:1
 msgid "视频背景"
-msgstr ""
+msgstr "Video Background"
 
 #: src/SUMMARY.md:28 src/feature/unlock_video/index.md:2
 msgid "解锁动画"
@@ -216,12 +216,18 @@ msgid ""
 "wiki/List_of_ISO_639_language_codes)"
 msgstr ""
 
+# Missing translation: "在测试群或频道中找到"
 #: src/respack/index.md:3
+#, fuzzy
 msgid ""
 "在 prpr 中，你可以自定义资源包。资源包包含了音符的样式、粒子效果、打击音效等"
 "等元素。你可以在测试群或频道中找到资源包，也可以选择自己制作资源包。以下将具"
 "体阐述资源包的文件结构。"
 msgstr ""
+"In prpr, you can customize the respack. The respack consists of how the "
+"notes look, particle effects, hit sound effects, etc. You can find premade "
+"respacks, or you choose to make one yourself. The file structure of the "
+"respack is explained in detailed below:"
 
 #: src/respack/index.md:5
 msgid "结构"
@@ -235,93 +241,108 @@ msgstr ""
 
 #: src/respack/index.md:9
 msgid "资源文件"
-msgstr ""
+msgstr "Resource files"
 
 #: src/respack/index.md:11
 msgid "资源文件必须包括："
-msgstr ""
+msgstr "The resource files must include:"
 
 #: src/respack/index.md:13
 msgid "`click.png` 和 `click_mh.png`：Click 音符的皮肤，`mh` 代表双押；"
 msgstr ""
+"`click.png` and `click_mh.png`: The note skin for click notes, `mh` "
+"represents simultaneous clicks."
 
 #: src/respack/index.md:14
 msgid "`drag.png` 和 `drag_mh.png`：Drag 音符的皮肤，`mh` 代表双押；"
 msgstr ""
+"`drag.png` and `drag_mh.png`: The note skin for drag notes, `mh` represents "
+"simultaneous drags."
 
 #: src/respack/index.md:15
 msgid "`flick.png` 和 `flick_mh.png`：Flick 音符的皮肤，`mh` 代表双押；"
 msgstr ""
+"`flick.png` and `flick_mh.png`: The note skin for flick notes, `mh` "
+"represents simultaneous flicks."
 
 #: src/respack/index.md:16
 msgid "`hold.png` 和 `hold_mh.png`：Hold 音符的皮肤，`mh` 代表双押；"
 msgstr ""
+"`hold.png` and `hold_mh.png`: The note skin for hold notes, `mh` represents "
+"simultaneous holds."
 
 #: src/respack/index.md:17
 msgid "`hit_fx.png`：打击特效图片。"
-msgstr ""
+msgstr "`hit_fx.png`: The image for hit effect."
 
 #: src/respack/index.md:19
 msgid "资源文件可以包括（即若不包括，将使用默认）："
 msgstr ""
+"The resource files can also include (If they are not included, the default "
+"will be used):"
 
 #: src/respack/index.md:21
 msgid ""
 "`click.ogg`、`drag.ogg` 和 `flick.ogg`：对应音符的打击音效，注意采样率必须为 "
 "44100Hz，否则在渲染时（prpr-render）会导致崩溃；"
 msgstr ""
+"`click.ogg`, `drag.ogg` and `flick.ogg`: The sound effects for the "
+"corresponding notes, note that the sampling rate must be 44100 Hz, or else "
+"it will cause crashes during rendering (prpr-render)."
 
 #: src/respack/index.md:22
 msgid "`ending.mp3`：结算界面背景音乐。"
-msgstr ""
+msgstr "`ending.mp3`: The background music for the score screen."
 
 #: src/respack/index.md:24
 msgid "配置文件"
-msgstr ""
+msgstr "Configuration file"
 
 #: src/respack/index.md:26
 msgid "配置文件采用 yml，其中必填项如下（以默认资源包为例）："
 msgstr ""
+"The configuration file uses yml format, with the following required fields "
+"(using a default respack as an example):"
 
 #: src/respack/index.md:29
 msgid "name"
-msgstr ""
+msgstr "name"
 
 #: src/respack/index.md:29
 msgid "Default"
-msgstr ""
+msgstr "Default"
 
 #: src/respack/index.md:29
 msgid "author"
-msgstr ""
+msgstr "author"
 
 #: src/respack/index.md:30
 msgid "\"Mivik & MisaLiu\""
-msgstr ""
+msgstr "\"Mivik & MisaLiu\""
 
 #: src/respack/index.md:30
 msgid "hitFx"
-msgstr ""
+msgstr "hitFx"
 
 #: src/respack/index.md:31
 msgid "holdAtlas"
-msgstr ""
+msgstr "holdAtlas"
 
 #: src/respack/index.md:32
 msgid "holdAtlasMH"
-msgstr ""
+msgstr "holdAtlasMH"
 
 #: src/respack/index.md:36
 msgid "`name`：资源包的名字；"
-msgstr ""
+msgstr "`name`: The name of the respack."
 
 #: src/respack/index.md:37
 msgid "`author`：资源包的作者；"
-msgstr ""
+msgstr "`author`: The author/creator of the respack."
 
 #: src/respack/index.md:38
 msgid "`description`：资源包介绍；"
-msgstr ""
+msgstr "`description`: The description/introduction of the respack."
 
 #: src/respack/index.md:39
 msgid ""
@@ -330,6 +351,14 @@ msgid ""
 "别为 5 与 6（最后一行不太看得见，但是是存在的）（图片为了便于辨识使用了黑色背"
 "景，但在制作资源包时应当使用透明背景）；"
 msgstr ""
+"`hitFx`: The frame count of the width and height of the hit effect. Hit "
+"effects are stored as multiple frames in a single image, thus, it is "
+"necessary to specify the number of horizontal and vertical frames in the "
+"image. For example, in [this image](image/hit_fx.jpg), the horizontal and "
+"vertical frame count is 5 and 6 respectively (the last row is not very "
+"visible, but it is present there) (the image uses a black background for the "
+"ease of viewing, but a transparent background should be used when creating a "
+"respack)."
 
 #: src/respack/index.md:40
 msgid ""
@@ -337,38 +366,57 @@ msgid ""
 "为 Hold 的尾部、中间和头部。而 `holdAtlas` 的两个数字则分别指定了图片中尾部和"
 "头部的高度。例如，在 [此图](image/hold.png) 中，尾部和头部高度均为 50 像素。"
 msgstr ""
+"`holdAtlas`: The height of the tail and head of the hold image. The note "
+"skin of the hold is **an image**, it has the tail section, middle section "
+"and the head section, from top to bottom of the image. The 2 numbers of "
+"`holdAtlas` specify the height of the tail and head respectively in the "
+"image. For example, in [the image](image/hold.png), the height of the tail "
+"and head section are both 50 pixels. "
 
 #: src/respack/index.md:41
 msgid "`holdAtlasMH`：意义与上一条类似，指定多押 Hold 的相关信息。"
 msgstr ""
+"`holdAtlasMH`: Similar to the previous bullet point, specifies the related "
+"details for simultaneous holds. "
 
 #: src/respack/index.md:43
 msgid "此外还有选填项："
-msgstr ""
+msgstr "In addition, there are these optional fields:"
 
 #: src/respack/index.md:45
 msgid "`hitFxDuration`（小数，默认 `0.5`）：打击特效的持续时间，以秒为单位；"
 msgstr ""
+"`hitFxDuration` (float, default value: `0.5`): The duration of the hit "
+"effect in seconds."
 
 #: src/respack/index.md:46
 msgid "`hitFxScale`（小数，默认 `1.0`）：打击特效缩放比例；"
 msgstr ""
+"`hitFxScale` (float, default value: `1.0`): The scale of the hit effect."
 
 #: src/respack/index.md:47
 msgid "`hitFxRotate`（布尔值，默认 `false`）：打击特效是否随 Note 旋转；"
 msgstr ""
+"`hitFxRotate` (bool, default value: `false`): Whether the hit effect rotates "
+"with the note."
 
 #: src/respack/index.md:48
 msgid "`hitFxTinted`（布尔值，默认 `true`）：打击特效是否依照判定线颜色着色；"
 msgstr ""
+"`hitFxTinted` (bool, default value: `true`): Whether the hit effect is "
+"colored according to the color of the judgement line."
 
 #: src/respack/index.md:49
 msgid "`hideParticles`（布尔值，默认 `false`）：打击时是否隐藏方形粒子效果；"
 msgstr ""
+" `hideParticles` (bool, default value: `false`): Whether the hit effect "
+"particles are hidden."
 
 #: src/respack/index.md:50
 msgid "`holdKeepHead`（布尔值，默认 `false`）：Hold 触线后是否还显示头部；"
 msgstr ""
+"`holdKeepHead` (bool, default value: `false`): Whether to keep showing the "
+"hold’s head section once it touches the line."
 
 #: src/respack/index.md:51
 msgid ""
@@ -376,6 +424,11 @@ msgid ""
 "里的三张图](image/hold_repeat.jpg) 从左到右依次是 Hold 资源图、不启用 "
 "`holdRepeat` 时的长条和启用 `holdRepeat` 时的长条；"
 msgstr ""
+"`holdRepeat` (bool. Default value: `false`): Whether the middle section of "
+"the hold is repetitively stretched. [The below shows 3 images](image/"
+"hold_repeat.jpg), the hold’s image on the left, the image of how the hold "
+"will look like when `holdRepeat` is false on the middle, and the image of "
+"how the hold will look like when `holdRepeat` is true on the right. "
 
 #: src/respack/index.md:52
 msgid ""
@@ -384,18 +437,28 @@ msgid ""
 "果就会是左边第一张图，Hold 的头尾是和中间隔开的；而右边两张图都是开启了 "
 "`holdCompact` 的效果；"
 msgstr ""
+"`holdCompact` (bool, default value: `false`): Whether to overlap the hold’s "
+"head and tail section with the middle section. Using the previous [example]"
+"(image/hold_repeat.jpg), if `holdCompact` is false, the hold will look like "
+"the image on the left, you can see that the tail and head section are "
+"separated from the middle section. If `holdCompact` is true, the hold will "
+"look like the image on the middle and right. "
 
 #: src/respack/index.md:53
 msgid ""
 "`colorPerfect`（十六进制颜色代码，默认 `0xe1ffec9f`）：AP（全 Perfect）情况下"
 "的判定线颜色；"
 msgstr ""
+"`colorPerfect` (Hexadecimal color code, default value: `0xe1ffec9f`): The "
+"color of the judgement line when it is still AP (All Perfect)."
 
 #: src/respack/index.md:54
 msgid ""
 "`colorGood`（十六进制颜色代码，默认 `0xebb4e1ff`）：FC（全连）情况下的判定线"
 "颜色。"
 msgstr ""
+"`colorGood` (Hexadecimal color code, default value: `0xebb4e1ff`): The color "
+"of the judgement line when it is still FC (Full Combo)."
 
 #: src/feature/index.md:3
 msgid ""
@@ -442,13 +505,17 @@ msgstr ""
 
 #: src/feature/index.md:26
 msgid "动画变量"
-msgstr ""
+msgstr "Animation variables"
 
+# Regarding the translation of "配置文件" into "charts", this is awaiting review.
 #: src/feature/index.md:28
+#, fuzzy
 msgid ""
 "在配置文件中会常常用到动画变量。例如，在 RPE 中，的 X 坐标变化事件实际上就是 "
 "X 坐标作为一个动画变量。"
 msgstr ""
+"Animation variables are often used in charts. For example, in RPE, the X "
+"coordinate change event is actually the X coordinate as an animation variable"
 
 #: src/feature/index.md:30
 msgid ""
@@ -456,132 +523,174 @@ msgid ""
 "值。这种格式是为了方便填写而适用的。第二种格式与 RPE 中的格式相同，是由多个 "
 "`Event` 组成的。单个 `Event` 格式如下所示："
 msgstr ""
+"There are 2 formats for prpr’s animation variables. The 1st is for a "
+"constant value, which means that the variable will not change and will "
+"always have the same value. This format is applied just for the ease of "
+"filling up the fields. The second format is the same as the one in RPE and "
+"is composed of multiple `Event`. The format of a single `Event` is shown "
+"below:"
 
 #: src/feature/index.md:34 src/feature/index.md:57
 #: src/feature/effect/index.md:58
 msgid "\"startTime\""
-msgstr ""
+msgstr "\"startTime\""
 
 #: src/feature/index.md:35 src/feature/index.md:58
 #: src/feature/effect/index.md:59
 msgid "\"endTime\""
-msgstr ""
+msgstr "\"endTime\""
 
 #: src/feature/index.md:36 src/feature/index.md:59
 #: src/feature/effect/index.md:60
 msgid "\"easingType\""
-msgstr ""
+msgstr "\"easingType\""
 
 #: src/feature/index.md:37
 msgid "\"easingLeft\""
-msgstr ""
+msgstr "\"easingLeft\""
 
 #: src/feature/index.md:38
 msgid "\"easingRight\""
-msgstr ""
+msgstr "\"easingRight\""
 
 #: src/feature/index.md:39 src/feature/index.md:60
 #: src/feature/effect/index.md:15 src/feature/effect/index.md:52
 #: src/feature/effect/index.md:61
 msgid "\"start\""
-msgstr ""
+msgstr "\"start\""
 
 #: src/feature/index.md:40 src/feature/index.md:61
 #: src/feature/effect/index.md:16 src/feature/effect/index.md:53
 #: src/feature/effect/index.md:62
 msgid "\"end\""
-msgstr ""
+msgstr "\"end\""
 
 #: src/feature/index.md:44
 msgid ""
 "其中 `startTime`、`endTime` 是事件的开始和结束时间；`easingType` 是缓动类型；"
 "`easingLeft`、`easingRight` 是可选的，代表裁剪缓动的开始与结束位置。"
 msgstr ""
+"where `startTime` and `endTime` are the event’s start time and end time "
+"respectively; `easingType` is the type of easing `easingLeft` and "
+"`easingRight` are optional, it represents the start and end position of the "
+"ease. "
 
 #: src/feature/index.md:46
 msgid ""
 "`start` 和 `end` 代表该时间开始和结束处该变量的值。这里值的类型是取决于变量本"
 "身的类型的，它可以是下面类型中的任意一种："
 msgstr ""
+"`start` and `end` represent the values at the beginning and end of the time. "
+"The type of the value here depends on the type of the animation variable "
+"itself, which can be any of the following types:"
 
 #: src/feature/index.md:48
 msgid "`float`：单个小数；"
-msgstr ""
+msgstr "`float`: a single decimal"
 
 #: src/feature/index.md:49
 msgid "`vec2`：两个小数表示的二维向量，用数组表示；"
-msgstr ""
+msgstr "`vec2`: 2 decimal representing a 2D vector, represented as an array"
 
 #: src/feature/index.md:50
 msgid "`color`：四个整数（0-255）表示的颜色，格式为 `[R, G, B, A]`。"
 msgstr ""
+"`color`: 4 integers (0-255) that represents a color, the format is `[R, G, "
+"B, A]`"
 
 #: src/feature/index.md:52
 msgid "例如，下面的动画变量将在特定时段内从 `0` 到 `1` 线性变化："
 msgstr ""
+"For example, the following animation variable will vary linearly from `0` to "
+"`1` over a given time period"
 
+# Missing translation: "特效是在一段时间内对谱面整体施加着色器效果的特性，可以用以达成一些普通谱面无法实现或难以实现的视觉效果。"
 #: src/feature/effect/index.md:3
+#, fuzzy
 msgid ""
 "特效是在一段时间内对谱面整体施加着色器效果的特性，可以用以达成一些普通谱面无"
 "法实现或难以实现的视觉效果。prpr 预置了一批着色器，你也可以自己编写着色器，详"
 "见 [自行编写着色器](./custom-shader.md)。"
 msgstr ""
+"prpr comes with a number of pre-made shaders, you can also write your own "
+"shaders as well. For more details look at the [Writing your own shaders](./"
+"custom-shader.md) section."
 
 #: src/feature/effect/index.md:5 src/feature/video/index.md:5
 msgid "格式"
-msgstr ""
+msgstr "Format"
 
 #: src/feature/effect/index.md:7
 msgid "你需要在 `extra.json` 中加入 `effects` 字段，其内容为 `Effect` 的数组。"
 msgstr ""
+"You need to add the `effects` field in `extra.json`, whose content is an "
+"array of `Effect`."
 
 #: src/feature/effect/index.md:9
 msgid "Effect"
-msgstr ""
+msgstr "Effect"
 
 #: src/feature/effect/index.md:11
 msgid "单个 `Effect` 的格式如下所示："
-msgstr ""
+msgstr "The format of a single `Effect` is shown below:"
 
 #: src/feature/effect/index.md:17 src/feature/effect/index.md:54
 msgid "\"shader\""
-msgstr ""
+msgstr "\"shader\""
 
+# Originally, PingTKP used comments to express "着色器名字", but since the comma is not in the Source Text, it is written directly in the value.
 #: src/feature/effect/index.md:17
+#, fuzzy
 msgid "\"着色器名字\""
-msgstr ""
+msgstr "\"Name of shader\""
 
 #: src/feature/effect/index.md:18
 msgid "\"global\""
-msgstr ""
+msgstr "\"global\""
 
 #: src/feature/effect/index.md:19 src/feature/effect/index.md:36
 #: src/feature/effect/index.md:55
 msgid "\"vars\""
-msgstr ""
+msgstr "\"vars\""
 
+# Possible missing translation: "默认的"
+# Are there any other time formats in RPE?
 #: src/feature/effect/index.md:25
+#, fuzzy
 msgid ""
 "`start` 和 `end` 指定了特效的开始和结束时间，格式与 RPE 默认的时间表示格式相"
 "同（`[小节数, 分子, 分母]`）。"
 msgstr ""
+"`start` and `end` specify the start and end time respectively in the same "
+"format as RPE's time format (`[bar number, numerator, denominator]`)."
 
 #: src/feature/effect/index.md:27
 msgid "`shader`，即着色器名字，既可以是内置着色器，也可以是自定义的着色器。"
 msgstr ""
+"`shader` represents the shader's name, it can be a built-in shader, or a "
+"custom shader."
 
 #: src/feature/effect/index.md:29
 msgid ""
 "`global` 决定了该特效会不会影响到 UI 元素（连击数、暂停按钮等）。可以不填，默"
 "认为 `false`。"
 msgstr ""
+"`global` determines whether the effect will affect UI elements (combo count, "
+"pause button, etc). This field can be left blank, and its default value is "
+"`false`."
 
+# Save or Change "animation properties" to "animation variables"
 #: src/feature/effect/index.md:31
 msgid ""
 "`vars` 是可选项，它是一个变量名字到 [`动画变量`](../index.html#动画变量) 的映"
 "射，用于指定着色器的参数（或者说，着色器的 `uniform` 变量）。即，假设我需要指"
 "定两个变量 `power` 和 `radius` 的值，我可以这样写："
 msgstr ""
+"vars is an optional parameter, it is a mapping of variable names to "
+"[animation properties](../index.html#animation-variables), it is used to "
+"specify the parameters of the shader (or rather: shader's `uniform` "
+"variables). i.e. suppose I need to specify the values of 2 variables, "
+"`power` and `radius`, I can write it like this:"
 
 #: src/feature/effect/index.md:37 src/feature/effect/index.md:56
 msgid "\"power\""
@@ -593,7 +702,7 @@ msgstr ""
 
 #: src/feature/effect/index.md:43 src/feature/effect/custom-shader.md:36
 msgid "示例"
-msgstr ""
+msgstr "Example"
 
 #: src/feature/effect/index.md:45
 msgid ""
@@ -601,18 +710,21 @@ msgid ""
 "将 `power` 这一参数在这一时段内从 `0` 到 `0.1` 线性变化，且 `sampleCount` 被"
 "固定为 `5`："
 msgstr ""
+"The following example will apply the built-in `chromatic` shader from `[2, "
+"0, 1]` to `[4, 0, 1]` and will vary the `power` parameter linearly from `0` "
+"to `0.1` in this time period, with the `sampleCount` fixed at `5`."
 
 #: src/feature/effect/index.md:50
 msgid "\"effects\""
-msgstr ""
+msgstr "\"effects\""
 
 #: src/feature/effect/index.md:54
 msgid "\"chromatic\""
-msgstr ""
+msgstr "\"chromatic\""
 
 #: src/feature/effect/index.md:65
 msgid "\"sampleCount\""
-msgstr ""
+msgstr "\"sampleCount\""
 
 #: src/feature/effect/index.md:74
 msgid ""
@@ -939,74 +1051,96 @@ msgid ""
 "传中需要用到视频背景，建议是用来实现一些小的动画、并对视频进行压缩（包括但不"
 "仅限于删除音频轨道）。"
 msgstr ""
+"In prpr, you can play a video in the background, but the audio will not be "
+"played. However, since most videos have a large file size and the upload "
+"limit for prpr charts is 10MB, charts that have large BGA may not be "
+"uploaded. If you need to have a video background, it is recommended that the "
+"video background is used for small animations and compressed (including but "
+"not limited to removing audio)."
 
 #: src/feature/video/index.md:7
 msgid "你需要在 `extra.json` 中加入 `videos` 字段，其内容为 `Video` 的数组。"
 msgstr ""
+"You need to add a `videos` field in the `extra.json` file, whose content is "
+"an array of `Video`."
 
 #: src/feature/video/index.md:9
 msgid "Video"
-msgstr ""
+msgstr "Video"
 
 #: src/feature/video/index.md:11
 msgid "单个 `Video` 的格式如下所示："
-msgstr ""
+msgstr "The format for a single `Video` is as shown below:"
 
 #: src/feature/video/index.md:15
 msgid "\"path\""
-msgstr ""
+msgstr "\"path\""
 
 #: src/feature/video/index.md:15
 msgid "\"bga.mp4\""
-msgstr ""
+msgstr "\"bga.mp4\""
 
 #: src/feature/video/index.md:17
 msgid "\"scale\""
-msgstr ""
+msgstr "\"scale\""
 
 #: src/feature/video/index.md:17
 msgid "\"cropCenter\""
-msgstr ""
+msgstr "\"cropCenter\""
 
 #: src/feature/video/index.md:18
 msgid "\"alpha\""
-msgstr ""
+msgstr "\"alpha\""
 
 #: src/feature/video/index.md:19
 msgid "\"dim\""
-msgstr ""
+msgstr "\"dim\""
 
 #: src/feature/video/index.md:23
 msgid "其中 `path` 为必填，指向视频文件路径，其它四项均为选填。"
 msgstr ""
+"The `path` field is mandatory to be filled in, and it should point to the "
+"file path of the video, the other four fields are optional."
 
 #: src/feature/video/index.md:25
 msgid "`time` 用拍数表示视频的开始时间。"
 msgstr ""
+"`time` indicates the start time of the video in terms of beat numbers. "
 
 #: src/feature/video/index.md:27
 msgid ""
 "`scale` 表示视频的缩放方式。在制作谱面时，你需要考虑在谱面不同宽高比下的显示"
 "情况。为此，`scale` 有三种值可选："
 msgstr ""
+"`scale` indicates how the video is scaled. When making a chart, you need to "
+"consider how the chart will look at different aspect ratios. For this "
+"purpose, the `scale` field has 3 options available:"
 
 #: src/feature/video/index.md:29
 msgid "`cropCenter`（默认）：等比例放大视频直到视频能恰好填满屏幕；"
 msgstr ""
+"`cropCenter` (default): Scales up the video uniformly until it fills the "
+"screen."
 
 #: src/feature/video/index.md:30
 msgid "`inside`：等比例缩放视频，保证整个视频能显示在屏幕内；"
 msgstr ""
+"`inside`: Scales down the video uniformly, ensures that the entire video is "
+"shown within the screen."
 
 #: src/feature/video/index.md:31
 msgid "`fit`：强制拉伸视频到整个屏幕。"
-msgstr ""
+msgstr "`fit`: Forcefully stretch the video to the entire screen."
 
 #: src/feature/video/index.md:33
 msgid ""
 "`alpha` 和 `scale` 分别代表视频的不透明度（若透明，则会显示下方的曲绘）和昏暗"
 "程度，他们都是 [`动画变量`](../index.html#动画变量)。"
 msgstr ""
+"`alpha` and `dim` represents the transparency of the video (if it is "
+"invisible, the song background art will be displayed instead) and dimness "
+"respectively, they are both [`Animation variables`](../index.html#animation-"
+"variables)"
 
 #: src/feature/unlock_video/index.md:4
 msgid "**请注意解锁动画和视频背景的区别**"
