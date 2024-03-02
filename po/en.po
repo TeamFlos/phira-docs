@@ -371,13 +371,13 @@ msgstr ""
 "and the head section, from top to bottom of the image. The 2 numbers of "
 "`holdAtlas` specify the height of the tail and head respectively in the "
 "image. For example, in [the image](image/hold.png), the height of the tail "
-"and head section are both 50 pixels. "
+"and head section are both 50 pixels."
 
 #: src/respack/index.md:41
 msgid "`holdAtlasMH`：意义与上一条类似，指定多押 Hold 的相关信息。"
 msgstr ""
 "`holdAtlasMH`: Similar to the previous bullet point, specifies the related "
-"details for simultaneous holds. "
+"details for simultaneous holds."
 
 #: src/respack/index.md:43
 msgid "此外还有选填项："
@@ -409,7 +409,7 @@ msgstr ""
 #: src/respack/index.md:49
 msgid "`hideParticles`（布尔值，默认 `false`）：打击时是否隐藏方形粒子效果；"
 msgstr ""
-" `hideParticles` (bool, default value: `false`): Whether the hit effect "
+"`hideParticles` (bool, default value: `false`): Whether the hit effect "
 "particles are hidden."
 
 #: src/respack/index.md:50
@@ -428,7 +428,7 @@ msgstr ""
 "the hold is repetitively stretched. [The below shows 3 images](image/"
 "hold_repeat.jpg), the hold’s image on the left, the image of how the hold "
 "will look like when `holdRepeat` is false on the middle, and the image of "
-"how the hold will look like when `holdRepeat` is true on the right. "
+"how the hold will look like when `holdRepeat` is true on the right."
 
 #: src/respack/index.md:52
 msgid ""
@@ -442,7 +442,7 @@ msgstr ""
 "(image/hold_repeat.jpg), if `holdCompact` is false, the hold will look like "
 "the image on the left, you can see that the tail and head section are "
 "separated from the middle section. If `holdCompact` is true, the hold will "
-"look like the image on the middle and right. "
+"look like the image on the middle and right."
 
 #: src/respack/index.md:53
 msgid ""
@@ -573,7 +573,7 @@ msgstr ""
 "where `startTime` and `endTime` are the event’s start time and end time "
 "respectively; `easingType` is the type of easing `easingLeft` and "
 "`easingRight` are optional, it represents the start and end position of the "
-"ease. "
+"ease."
 
 #: src/feature/index.md:46
 msgid ""
@@ -1121,8 +1121,7 @@ msgstr ""
 
 #: src/feature/video/index.md:25
 msgid "`time` 用拍数表示视频的开始时间。"
-msgstr ""
-"`time` indicates the start time of the video in terms of beat numbers. "
+msgstr "`time` indicates the start time of the video in terms of beat numbers."
 
 #: src/feature/video/index.md:27
 msgid ""
