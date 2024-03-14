@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Phira Documents\n"
 "POT-Creation-Date: 2024-02-28T17:18:27+08:00\n"
-"PO-Revision-Date: 2024-03-14 15:45+0800\n"
+"PO-Revision-Date: 2024-03-14 16:15+0800\n"
 "Last-Translator: sjfhsjfh <sjfhsjfh@qq.com>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -227,59 +227,60 @@ msgstr ""
 "List_of_ISO_639_language_codes) for language code reference"
 
 #: src/respack/index.md:3
-#, fuzzy
 msgid ""
 "在 prpr 中，你可以自定义资源包。资源包包含了音符的样式、粒子效果、打击音效等"
 "等元素。你可以在测试群或频道中找到资源包，也可以选择自己制作资源包。以下将具"
 "体阐述资源包的文件结构。"
 msgstr ""
-"在 prpr 中，你可以自定义资源包。资源包包含了音符的样式、粒子效果、打击音效等"
-"等元素。你可以在测试群或频道中找到资源包，也可以选择自己制作资源包。以下将具"
-"体阐述资源包的文件结构。"
+"In prpr, you can customize resource packs. Resource packs contain elements "
+"such as note styles, particle effects, hit sounds, and more. You can find "
+"res-packs in testing groups or channels, or you can choose to make your own. "
+"The following describes the file structure of a resource pack."
 
 #: src/respack/index.md:5
-#, fuzzy
 msgid "结构"
-msgstr "结构"
+msgstr "Structure"
 
 #: src/respack/index.md:7
-#, fuzzy
 msgid ""
 "资源包是单个 zip 压缩文件，其中包含了配置文件 `info.yml` 和其他的资源文件。其"
 "中，资源文件有些是必须存在，有些则是可选的。"
 msgstr ""
-"资源包是单个 zip 压缩文件，其中包含了配置文件 `info.yml` 和其他的资源文件。其"
-"中，资源文件有些是必须存在，有些则是可选的。"
+"A resource pack is a single zip archive containing the configuration file "
+"`info.yml` and other resource files. Some of the resource files are required "
+"and some are optional."
 
 #: src/respack/index.md:9
-#, fuzzy
 msgid "资源文件"
-msgstr "资源文件"
+msgstr "Resource files"
 
 #: src/respack/index.md:11
-#, fuzzy
 msgid "资源文件必须包括："
-msgstr "资源文件必须包括："
+msgstr "The resource file must include:"
 
 #: src/respack/index.md:13
-#, fuzzy
 msgid "`click.png` 和 `click_mh.png`：Click 音符的皮肤，`mh` 代表双押；"
-msgstr "`click.png` 和 `click_mh.png`：Click 音符的皮肤，`mh` 代表双押；"
+msgstr ""
+"`click.png` and `click_mh.png`: skins for the Click note, `mh` for multi-"
+"hint(simultaneous note highlight);"
 
 #: src/respack/index.md:14
-#, fuzzy
 msgid "`drag.png` 和 `drag_mh.png`：Drag 音符的皮肤，`mh` 代表双押；"
-msgstr "`drag.png` 和 `drag_mh.png`：Drag 音符的皮肤，`mh` 代表双押；"
+msgstr ""
+"`drag.png` and `drag_mh.png`: skins for Drag notes, `mh` for multi-"
+"hint(simultaneous note highlight);"
 
 #: src/respack/index.md:15
-#, fuzzy
 msgid "`flick.png` 和 `flick_mh.png`：Flick 音符的皮肤，`mh` 代表双押；"
-msgstr "`flick.png` 和 `flick_mh.png`：Flick 音符的皮肤，`mh` 代表双押；"
+msgstr ""
+"`flick.png` and `flick_mh.png`: skins for Flick notes, `mh` for multi-"
+"hit(simultaneous note highlight);"
 
 #: src/respack/index.md:16
-#, fuzzy
 msgid "`hold.png` 和 `hold_mh.png`：Hold 音符的皮肤，`mh` 代表双押；"
-msgstr "`hold.png` 和 `hold_mh.png`：Hold 音符的皮肤，`mh` 代表双押；"
+msgstr ""
+"`hold.png` and `hold_mh.png`: skins for Hold notes, `mh` for mult-"
+"hint(simultaneous note highlight);"
 
 #: src/respack/index.md:17
 #, fuzzy
@@ -316,160 +317,156 @@ msgid "配置文件采用 yml，其中必填项如下（以默认资源包为例
 msgstr "配置文件采用 yml，其中必填项如下（以默认资源包为例）："
 
 #: src/respack/index.md:29
-#, fuzzy
 msgid "name"
 msgstr "name"
 
 #: src/respack/index.md:29
-#, fuzzy
 msgid "Default"
 msgstr "Default"
 
 #: src/respack/index.md:29
-#, fuzzy
 msgid "author"
 msgstr "author"
 
 #: src/respack/index.md:30
-#, fuzzy
 msgid "\"Mivik & MisaLiu\""
 msgstr "\"Mivik & MisaLiu\""
 
 #: src/respack/index.md:30
-#, fuzzy
 msgid "hitFx"
 msgstr "hitFx"
 
 #: src/respack/index.md:31
-#, fuzzy
 msgid "holdAtlas"
 msgstr "holdAtlas"
 
 #: src/respack/index.md:32
-#, fuzzy
 msgid "holdAtlasMH"
 msgstr "holdAtlasMH"
 
 #: src/respack/index.md:36
-#, fuzzy
 msgid "`name`：资源包的名字；"
-msgstr "`name`：资源包的名字；"
+msgstr "`name`: the name of the respack;"
 
 #: src/respack/index.md:37
-#, fuzzy
 msgid "`author`：资源包的作者；"
-msgstr "`author`：资源包的作者；"
+msgstr "`author`: the author of the respack;"
 
 #: src/respack/index.md:38
-#, fuzzy
 msgid "`description`：资源包介绍；"
-msgstr "`description`：资源包介绍；"
+msgstr "`description`: description of the respack;"
 
 #: src/respack/index.md:39
-#, fuzzy
 msgid ""
 "`hitFx`：打击特效宽、高的帧数。打击特效是将多帧动画存储在一张图中的，因此需要"
 "指定这张图中横竖各有几帧，例如，在 [此图](image/hit_fx.jpg) 中横、竖的帧数分"
 "别为 5 与 6（最后一行不太看得见，但是是存在的）（图片为了便于辨识使用了黑色背"
 "景，但在制作资源包时应当使用透明背景）；"
 msgstr ""
-"`hitFx`：打击特效宽、高的帧数。打击特效是将多帧动画存储在一张图中的，因此需要"
-"指定这张图中横竖各有几帧，例如，在 [此图](image/hit_fx.jpg) 中横、竖的帧数分"
-"别为 5 与 6（最后一行不太看得见，但是是存在的）（图片为了便于辨识使用了黑色背"
-"景，但在制作资源包时应当使用透明背景）；"
+"`hitFx`: the number of frames for the width and height of the hit effect. "
+"Hit FXs store multiple frames of animation in a single image, so you need to "
+"specify how many frames are in the image horizontally and vertically, e.g. 5 "
+"and 6 frames horizontally and vertically (the last line is not quite "
+"visible, but it’s there) in [this image](image/hit_fx.jpg) (the image has a "
+"black background for legibility, but you should have used a transparent "
+"background for the respack);"
 
 #: src/respack/index.md:40
-#, fuzzy
 msgid ""
 "`holdAtlas`：Hold 贴图的尾、头高度。Hold 的皮肤是 **一张图片**，从上到下分别"
 "为 Hold 的尾部、中间和头部。而 `holdAtlas` 的两个数字则分别指定了图片中尾部和"
 "头部的高度。例如，在 [此图](image/hold.png) 中，尾部和头部高度均为 50 像素。"
 msgstr ""
-"`holdAtlas`：Hold 贴图的尾、头高度。Hold 的皮肤是 **一张图片**，从上到下分别"
-"为 Hold 的尾部、中间和头部。而 `holdAtlas` 的两个数字则分别指定了图片中尾部和"
-"头部的高度。例如，在 [此图](image/hold.png) 中，尾部和头部高度均为 50 像素。"
+"`holdAtlas`: the height of the tail and head of the Hold mapping. hold’s "
+"skin is **an image**, from top to bottom are the tail, center and head of "
+"the Hold. The two numbers in `holdAtlas` specify the height of the tail and "
+"head of the image. For example, in [this image](image/hold.png), the height "
+"of the tail and head are both 50 pixels."
 
 #: src/respack/index.md:41
-#, fuzzy
 msgid "`holdAtlasMH`：意义与上一条类似，指定多押 Hold 的相关信息。"
-msgstr "`holdAtlasMH`：意义与上一条类似，指定多押 Hold 的相关信息。"
+msgstr ""
+"`holdAtlasMH`: similar in meaning to the previous entry, specifying "
+"information about the multi-hint(simultaneous note highlight)."
 
 #: src/respack/index.md:43
-#, fuzzy
 msgid "此外还有选填项："
-msgstr "此外还有选填项："
+msgstr "There are also optional items:"
 
 #: src/respack/index.md:45
-#, fuzzy
 msgid "`hitFxDuration`（小数，默认 `0.5`）：打击特效的持续时间，以秒为单位；"
-msgstr "`hitFxDuration`（小数，默认 `0.5`）：打击特效的持续时间，以秒为单位；"
+msgstr ""
+"`hitFxDuration` (decimal, default `0.5`): duration of the hit effect, in "
+"seconds;"
 
 #: src/respack/index.md:46
-#, fuzzy
 msgid "`hitFxScale`（小数，默认 `1.0`）：打击特效缩放比例；"
-msgstr "`hitFxScale`（小数，默认 `1.0`）：打击特效缩放比例；"
+msgstr "`hitFxScale` (decimal, default `1.0`): hitFx scale;"
 
 #: src/respack/index.md:47
-#, fuzzy
 msgid "`hitFxRotate`（布尔值，默认 `false`）：打击特效是否随 Note 旋转；"
-msgstr "`hitFxRotate`（布尔值，默认 `false`）：打击特效是否随 Note 旋转；"
+msgstr ""
+"`hitFxRotate` (boolean, default `false`): if or not the hit effect rotates "
+"with the note;"
 
 #: src/respack/index.md:48
-#, fuzzy
 msgid "`hitFxTinted`（布尔值，默认 `true`）：打击特效是否依照判定线颜色着色；"
-msgstr "`hitFxTinted`（布尔值，默认 `true`）：打击特效是否依照判定线颜色着色；"
+msgstr ""
+"`hitFxTinted` (boolean, default `true`): If or not the hit effect is tinted "
+"according to the judge line color;"
 
 #: src/respack/index.md:49
-#, fuzzy
 msgid "`hideParticles`（布尔值，默认 `false`）：打击时是否隐藏方形粒子效果；"
-msgstr "`hideParticles`（布尔值，默认 `false`）：打击时是否隐藏方形粒子效果；"
+msgstr ""
+"`hideParticles` (boolean, default `false`): whether or not to hide the "
+"square particle effect when striking;"
 
 #: src/respack/index.md:50
-#, fuzzy
 msgid "`holdKeepHead`（布尔值，默认 `false`）：Hold 触线后是否还显示头部；"
-msgstr "`holdKeepHead`（布尔值，默认 `false`）：Hold 触线后是否还显示头部；"
+msgstr ""
+"`holdKeepHead` (boolean, default `false`): whether or not the head is still "
+"displayed after Hold touches the line;"
 
 #: src/respack/index.md:51
-#, fuzzy
 msgid ""
 "`holdRepeat`（布尔值，默认 `false`）：Hold 的中间部分是否采用重复式拉伸。[这"
 "里的三张图](image/hold_repeat.jpg) 从左到右依次是 Hold 资源图、不启用 "
 "`holdRepeat` 时的长条和启用 `holdRepeat` 时的长条；"
 msgstr ""
-"`holdRepeat`（布尔值，默认 `false`）：Hold 的中间部分是否采用重复式拉伸。[这"
-"里的三张图](image/hold_repeat.jpg) 从左到右依次是 Hold 资源图、不启用 "
-"`holdRepeat` 时的长条和启用 `holdRepeat` 时的长条；"
+"`holdRepeat` (boolean, default `false`): whether or not the middle part of "
+"the Hold uses repetitive stretching. [The three images here](image/"
+"hold_repeat.jpg) are, from left to right, the Hold resource map, the long "
+"bar without `holdRepeat` enabled, and the long bar with `holdRepeat` enabled;"
 
 #: src/respack/index.md:52
-#, fuzzy
 msgid ""
 "`holdCompact`（布尔值，默认 `false`）：是否把 Hold 的头部和尾部与 Hold 中间重"
 "叠。还是用上面的 [示例](image/hold_repeat.jpg)，如果不开启 `holdCompact`，效"
 "果就会是左边第一张图，Hold 的头尾是和中间隔开的；而右边两张图都是开启了 "
 "`holdCompact` 的效果；"
 msgstr ""
-"`holdCompact`（布尔值，默认 `false`）：是否把 Hold 的头部和尾部与 Hold 中间重"
-"叠。还是用上面的 [示例](image/hold_repeat.jpg)，如果不开启 `holdCompact`，效"
-"果就会是左边第一张图，Hold 的头尾是和中间隔开的；而右边两张图都是开启了 "
-"`holdCompact` 的效果；"
+"`holdCompact` (boolean, default `false`): if or not overlap the head and "
+"tail of the Hold with the middle of the Hold. Still using the above [example]"
+"(image/hold_repeat.jpg), if you don’t enable `holdCompact`, the effect will "
+"be that in the first image on the left, the head and tail of the Hold are "
+"separated from the center, while the two images on the right are both with "
+"`holdCompact` enabled;"
 
 #: src/respack/index.md:53
-#, fuzzy
 msgid ""
 "`colorPerfect`（十六进制颜色代码，默认 `0xe1ffec9f`）：AP（全 Perfect）情况下"
 "的判定线颜色；"
 msgstr ""
-"`colorPerfect`（十六进制颜色代码，默认 `0xe1ffec9f`）：AP（全 Perfect）情况下"
-"的判定线颜色；"
+"`colorPerfect` (hexadecimal color code, default `0xe1ffec9f`): the color of "
+"the judgment line in the AP (All Perfect) case;"
 
 #: src/respack/index.md:54
-#, fuzzy
 msgid ""
 "`colorGood`（十六进制颜色代码，默认 `0xebb4e1ff`）：FC（全连）情况下的判定线"
 "颜色。"
 msgstr ""
-"`colorGood`（十六进制颜色代码，默认 `0xebb4e1ff`）：FC（全连）情况下的判定线"
-"颜色。"
+"`colorGood` (hexadecimal color code, default `0xebb4e1ff`): the color of the "
+"judgment line in the FC (full combo) case."
 
 #: src/feature/index.md:3
 #, fuzzy
@@ -514,13 +511,11 @@ msgstr ""
 "**在进行相关配置前，你需要在 `extra.json` 中预先设定好曲目的 BPM**。例如："
 
 #: src/feature/index.md:16 src/feature/index.md:17 src/feature/index.md:18
-#, fuzzy
 msgid "\"bpm\""
 msgstr "\"bpm\""
 
 #: src/feature/index.md:17 src/feature/index.md:18
 #: src/feature/video/index.md:16
-#, fuzzy
 msgid "\"time\""
 msgstr "\"time\""
 
@@ -556,43 +551,36 @@ msgstr ""
 
 #: src/feature/index.md:34 src/feature/index.md:57
 #: src/feature/effect/index.md:58
-#, fuzzy
 msgid "\"startTime\""
 msgstr "\"startTime\""
 
 #: src/feature/index.md:35 src/feature/index.md:58
 #: src/feature/effect/index.md:59
-#, fuzzy
 msgid "\"endTime\""
 msgstr "\"endTime\""
 
 #: src/feature/index.md:36 src/feature/index.md:59
 #: src/feature/effect/index.md:60
-#, fuzzy
 msgid "\"easingType\""
 msgstr "\"easingType\""
 
 #: src/feature/index.md:37
-#, fuzzy
 msgid "\"easingLeft\""
 msgstr "\"easingLeft\""
 
 #: src/feature/index.md:38
-#, fuzzy
 msgid "\"easingRight\""
 msgstr "\"easingRight\""
 
 #: src/feature/index.md:39 src/feature/index.md:60
 #: src/feature/effect/index.md:15 src/feature/effect/index.md:52
 #: src/feature/effect/index.md:61
-#, fuzzy
 msgid "\"start\""
 msgstr "\"start\""
 
 #: src/feature/index.md:40 src/feature/index.md:61
 #: src/feature/effect/index.md:16 src/feature/effect/index.md:53
 #: src/feature/effect/index.md:62
-#, fuzzy
 msgid "\"end\""
 msgstr "\"end\""
 
@@ -667,7 +655,6 @@ msgid "单个 `Effect` 的格式如下所示："
 msgstr "单个 `Effect` 的格式如下所示："
 
 #: src/feature/effect/index.md:17 src/feature/effect/index.md:54
-#, fuzzy
 msgid "\"shader\""
 msgstr "\"shader\""
 
@@ -677,13 +664,11 @@ msgid "\"着色器名字\""
 msgstr "\"着色器名字\""
 
 #: src/feature/effect/index.md:18
-#, fuzzy
 msgid "\"global\""
 msgstr "\"global\""
 
 #: src/feature/effect/index.md:19 src/feature/effect/index.md:36
 #: src/feature/effect/index.md:55
-#, fuzzy
 msgid "\"vars\""
 msgstr "\"vars\""
 
@@ -722,12 +707,10 @@ msgstr ""
 "定两个变量 `power` 和 `radius` 的值，我可以这样写："
 
 #: src/feature/effect/index.md:37 src/feature/effect/index.md:56
-#, fuzzy
 msgid "\"power\""
 msgstr "\"power\""
 
 #: src/feature/effect/index.md:38
-#, fuzzy
 msgid "\"radius\""
 msgstr "\"radius\""
 
@@ -748,17 +731,14 @@ msgstr ""
 "固定为 `5`："
 
 #: src/feature/effect/index.md:50
-#, fuzzy
 msgid "\"effects\""
 msgstr "\"effects\""
 
 #: src/feature/effect/index.md:54
-#, fuzzy
 msgid "\"chromatic\""
 msgstr "\"chromatic\""
 
 #: src/feature/effect/index.md:65
-#, fuzzy
 msgid "\"sampleCount\""
 msgstr "\"sampleCount\""
 
@@ -1038,7 +1018,6 @@ msgid "`expand`（小数，默认 `10.0`）：冲击波延伸广度。"
 msgstr "`expand`（小数，默认 `10.0`）：冲击波延伸广度。"
 
 #: src/feature/effect/builtin/vignette.md:1
-#, fuzzy
 msgid "vignette"
 msgstr "vignette"
 
@@ -1215,7 +1194,6 @@ msgid "你需要在 `extra.json` 中加入 `videos` 字段，其内容为 `Video
 msgstr "你需要在 `extra.json` 中加入 `videos` 字段，其内容为 `Video` 的数组。"
 
 #: src/feature/video/index.md:9
-#, fuzzy
 msgid "Video"
 msgstr "Video"
 
@@ -1225,32 +1203,26 @@ msgid "单个 `Video` 的格式如下所示："
 msgstr "单个 `Video` 的格式如下所示："
 
 #: src/feature/video/index.md:15
-#, fuzzy
 msgid "\"path\""
 msgstr "\"path\""
 
 #: src/feature/video/index.md:15
-#, fuzzy
 msgid "\"bga.mp4\""
 msgstr "\"bga.mp4\""
 
 #: src/feature/video/index.md:17
-#, fuzzy
 msgid "\"scale\""
 msgstr "\"scale\""
 
 #: src/feature/video/index.md:17
-#, fuzzy
 msgid "\"cropCenter\""
 msgstr "\"cropCenter\""
 
 #: src/feature/video/index.md:18
-#, fuzzy
 msgid "\"alpha\""
 msgstr "\"alpha\""
 
 #: src/feature/video/index.md:19
-#, fuzzy
 msgid "\"dim\""
 msgstr "\"dim\""
 
@@ -1400,7 +1372,6 @@ msgid "UML 中有如下数据类型:"
 msgstr "UML 中有如下数据类型:"
 
 #: src/uml/syntax/type.md:5
-#, fuzzy
 msgid "`Float`"
 msgstr "`Float`"
 
@@ -1410,7 +1381,6 @@ msgid "单精度浮点数, 任意的数字都是 `Float`."
 msgstr "单精度浮点数, 任意的数字都是 `Float`."
 
 #: src/uml/syntax/type.md:9
-#, fuzzy
 msgid "`Rect`"
 msgstr "`Rect`"
 
@@ -1469,7 +1439,6 @@ msgid "`Rect.cy`: 中心 `y` 坐标"
 msgstr "`Rect.cy`: 中心 `y` 坐标"
 
 #: src/uml/syntax/type.md:24
-#, fuzzy
 msgid "`Bool`"
 msgstr "`Bool`"
 
@@ -1479,7 +1448,6 @@ msgid "布尔值. 值是 `true` 或 `false`, 目前只能用于元素的属性�
 msgstr "布尔值. 值是 `true` 或 `false`, 目前只能用于元素的属性中."
 
 #: src/uml/syntax/type.md:28
-#, fuzzy
 msgid "`String`"
 msgstr "`String`"
 
@@ -1498,37 +1466,30 @@ msgstr ""
 "`\"#7fffffff\"`)或颜色名(如 `\"red\"`). 目前可用的颜色名有:"
 
 #: src/uml/syntax/type.md:33
-#, fuzzy
 msgid "`\"white\"`"
 msgstr "`\"white\"`"
 
 #: src/uml/syntax/type.md:34
-#, fuzzy
 msgid "`\"black\"`"
 msgstr "`\"black\"`"
 
 #: src/uml/syntax/type.md:35
-#, fuzzy
 msgid "`\"red\"`"
 msgstr "`\"red\"`"
 
 #: src/uml/syntax/type.md:36
-#, fuzzy
 msgid "`\"blue\"`"
 msgstr "`\"blue\"`"
 
 #: src/uml/syntax/type.md:37
-#, fuzzy
 msgid "`\"yellow\"`"
 msgstr "`\"yellow\"`"
 
 #: src/uml/syntax/type.md:38
-#, fuzzy
 msgid "`\"green\"`"
 msgstr "`\"green\"`"
 
 #: src/uml/syntax/type.md:39
-#, fuzzy
 msgid "`\"gray\"`"
 msgstr "`\"gray\"`"
 
@@ -2291,7 +2252,6 @@ msgid "这是 sjfhsjfh 在"
 msgstr "这是 sjfhsjfh 在"
 
 #: src/uml/examples/xmas-2024.md:7
-#, fuzzy
 msgid ""
 "```uml\n"
 "let w = 1920\n"
@@ -2461,7 +2421,6 @@ msgstr ""
 #: src/uml/advanced/page_switch.md:74 src/uml/advanced/page_switch.md:82
 #: src/uml/advanced/page_switch.md:90 src/uml/advanced/page_switch.md:265
 #: src/uml/advanced/page_switch.md:273 src/uml/advanced/page_switch.md:281
-#, fuzzy
 msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "right_arrow.png\""
@@ -2472,7 +2431,6 @@ msgstr ""
 #: src/uml/advanced/page_switch.md:78 src/uml/advanced/page_switch.md:86
 #: src/uml/advanced/page_switch.md:94 src/uml/advanced/page_switch.md:269
 #: src/uml/advanced/page_switch.md:277 src/uml/advanced/page_switch.md:285
-#, fuzzy
 msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "left_arrow.png\""
@@ -2482,7 +2440,6 @@ msgstr ""
 
 #: src/uml/advanced/page_switch.md:99 src/uml/advanced/page_switch.md:108
 #: src/uml/advanced/page_switch.md:290 src/uml/advanced/page_switch.md:299
-#, fuzzy
 msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "up_arrow.png\""
@@ -2617,7 +2574,6 @@ msgid "此事件耗费 Mivik 约一个晚上进行恢复, 当天的消息全部�
 msgstr "此事件耗费 Mivik 约一个晚上进行恢复, 当天的消息全部丢失"
 
 #: src/dev-incident/6thpecjam.md:1
-#, fuzzy
 msgid "6thPecJam"
 msgstr "6thPecJam"
 
