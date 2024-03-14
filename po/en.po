@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Phira Documents\n"
 "POT-Creation-Date: 2024-03-01T19:25:15+08:00\n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2024-03-15 00:44+0800\n"
 "Last-Translator: PingTKP <75591605+PingTKP@users.noreply.github.com>\n"
-"Language-Team: \n"
+"Language-Team: English\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -194,7 +194,7 @@ msgid ""
 msgstr ""
 "This is the instruction of Phira-related documentation, visit [GitHub]"
 "(https://github.com/TeamFlos/phira-docs) to submit feedbacks or contribute, "
-"\"read in other language by editing the url, for example [`/en/`](./en/)\""
+"read in other language by editing the url, for example [`/en/`](./en/)"
 
 #: src/index.md:5
 msgid "如果希望提供翻译, 请参考"
@@ -241,14 +241,18 @@ msgstr ""
 "respack is explained in detailed below:"
 
 #: src/respack/index.md:5
+#, fuzzy
 msgid "结构"
-msgstr ""
+msgstr "结构"
 
 #: src/respack/index.md:7
+#, fuzzy
 msgid ""
 "资源包是单个 zip 压缩文件，其中包含了配置文件 `info.yml` 和其他的资源文件。其"
 "中，资源文件有些是必须存在，有些则是可选的。"
 msgstr ""
+"资源包是单个 zip 压缩文件，其中包含了配置文件 `info.yml` 和其他的资源文件。其"
+"中，资源文件有些是必须存在，有些则是可选的。"
 
 #: src/respack/index.md:9
 msgid "资源文件"
@@ -472,10 +476,13 @@ msgstr ""
 "of the judgement line when it is still FC (Full Combo)."
 
 #: src/feature/index.md:3
+#, fuzzy
 msgid ""
 "prpr 在支持 Phigros 官方谱面格式、`pec` 格式和 `rpe` 格式之外，加入了一些谱面"
 "特性。这些谱面特性目前只在 prpr 及基于其构建的客户端上可用。它们包括："
 msgstr ""
+"prpr 在支持 Phigros 官方谱面格式、`pec` 格式和 `rpe` 格式之外，加入了一些谱面"
+"特性。这些谱面特性目前只在 prpr 及基于其构建的客户端上可用。它们包括："
 
 #: src/feature/index.md:5
 msgid "[特效](./effect/index.md)"
@@ -486,20 +493,27 @@ msgid "[视频背景](./video/index.md)"
 msgstr "[Video Background](./video/index.md)"
 
 #: src/feature/index.md:8
+#, fuzzy
 msgid ""
 "关于特性的配置需要全部存储在压缩包根目录的 `extra.json` 中。为了使用谱面特"
 "性，你需要手动编辑 JSON 文件。如果你不知道 JSON 是什么，请参阅 [JSON 教程]"
 "(http://c.biancheng.net/json/)。"
 msgstr ""
+"关于特性的配置需要全部存储在压缩包根目录的 `extra.json` 中。为了使用谱面特"
+"性，你需要手动编辑 JSON 文件。如果你不知道 JSON 是什么，请参阅 [JSON 教程]"
+"(http://c.biancheng.net/json/)。"
 
 #: src/feature/index.md:10
+#, fuzzy
 msgid "BPM 配置"
-msgstr ""
+msgstr "BPM 配置"
 
 #: src/feature/index.md:12
+#, fuzzy
 msgid ""
 "**在进行相关配置前，你需要在 `extra.json` 中预先设定好曲目的 BPM**。例如："
 msgstr ""
+"**在进行相关配置前，你需要在 `extra.json` 中预先设定好曲目的 BPM**。例如："
 
 #: src/feature/index.md:16 src/feature/index.md:17 src/feature/index.md:18
 msgid "\"bpm\""
@@ -511,8 +525,9 @@ msgid "\"time\""
 msgstr "\"time\""
 
 #: src/feature/index.md:24
+#, fuzzy
 msgid "这里表示歌曲最初 BPM 为 `200`，而后在十又二分之一拍是转换为 `250`。"
-msgstr ""
+msgstr "这里表示歌曲最初 BPM 为 `200`，而后在十又二分之一拍是转换为 `250`。"
 
 #: src/feature/index.md:26
 msgid "动画变量"
@@ -739,10 +754,13 @@ msgid "\"sampleCount\""
 msgstr "\"sampleCount\""
 
 #: src/feature/effect/index.md:74
+#, fuzzy
 msgid ""
 "你可以在 [这里](./builtin/index.md) 查看所有的内置着色器，以及它们的参数和相"
 "关说明。"
 msgstr ""
+"你可以在 [这里](./builtin/index.md) 查看所有的内置着色器，以及它们的参数和相"
+"关说明。"
 
 #: src/feature/effect/builtin/index.md:3
 msgid "该部分列举了 prpr 的内置着色器。"
