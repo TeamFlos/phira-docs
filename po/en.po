@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Phira Documents\n"
 "POT-Creation-Date: 2024-02-28T17:18:27+08:00\n"
-"PO-Revision-Date: 2024-03-14 16:15+0800\n"
+"PO-Revision-Date: 2024-03-14 16:31+0800\n"
 "Last-Translator: sjfhsjfh <sjfhsjfh@qq.com>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -284,38 +284,36 @@ msgstr ""
 "hint(simultaneous note highlight);"
 
 #: src/respack/index.md:17
-#, fuzzy
 msgid "`hit_fx.png`：打击特效图片。"
-msgstr "`hit_fx.png`：打击特效图片。"
+msgstr "`hit_fx.png`: picture of the hit effect."
 
 #: src/respack/index.md:19
-#, fuzzy
 msgid "资源文件可以包括（即若不包括，将使用默认）："
-msgstr "资源文件可以包括（即若不包括，将使用默认）："
+msgstr ""
+"Resource files can be included (i.e. if not, the default will be used):"
 
 #: src/respack/index.md:21
-#, fuzzy
 msgid ""
 "`click.ogg`、`drag.ogg` 和 `flick.ogg`：对应音符的打击音效，注意采样率必须为 "
 "44100Hz，否则在渲染时（prpr-render）会导致崩溃；"
 msgstr ""
-"`click.ogg`、`drag.ogg` 和 `flick.ogg`：对应音符的打击音效，注意采样率必须为 "
-"44100Hz，否则在渲染时（prpr-render）会导致崩溃；"
+"`click.ogg`, `drag.ogg` and `flick.ogg`: percussive sound effects "
+"corresponding to notes, note that the sample rate must be 44100Hz or it will "
+"cause a crash during rendering (prpr-render);"
 
 #: src/respack/index.md:22
-#, fuzzy
 msgid "`ending.mp3`：结算界面背景音乐。"
-msgstr "`ending.mp3`：结算界面背景音乐。"
+msgstr "`ending.mp3`: background music for the gameplay result screen."
 
 #: src/respack/index.md:24
-#, fuzzy
 msgid "配置文件"
-msgstr "配置文件"
+msgstr "configuration file"
 
 #: src/respack/index.md:26
-#, fuzzy
 msgid "配置文件采用 yml，其中必填项如下（以默认资源包为例）："
-msgstr "配置文件采用 yml，其中必填项如下（以默认资源包为例）："
+msgstr ""
+"The configuration file is in yml, with the following required fields (in the "
+"case of the default respack):"
 
 #: src/respack/index.md:29
 msgid "name"
