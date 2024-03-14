@@ -15,11 +15,11 @@ msgstr ""
 
 #: src/SUMMARY.md:1
 msgid "总览"
-msgstr ""
+msgstr "Summary"
 
 #: src/SUMMARY.md:3
 msgid "简介"
-msgstr ""
+msgstr "Introduction"
 
 #: src/SUMMARY.md:5 src/respack/index.md:1
 msgid "资源包"
@@ -27,11 +27,11 @@ msgstr "Respack"
 
 #: src/SUMMARY.md:7 src/feature/index.md:1
 msgid "谱面特性"
-msgstr ""
+msgstr "Chart Feature"
 
 #: src/SUMMARY.md:9 src/feature/effect/index.md:1
 msgid "特效"
-msgstr ""
+msgstr "Effects"
 
 #: src/SUMMARY.md:11 src/feature/effect/index.md:72
 #: src/feature/effect/builtin/index.md:1
@@ -88,95 +88,95 @@ msgstr "Video Background"
 
 #: src/SUMMARY.md:28 src/feature/unlock_video/index.md:2
 msgid "解锁动画"
-msgstr ""
+msgstr "Unlock animation"
 
 #: src/SUMMARY.md:30
 msgid "UML文档"
-msgstr ""
+msgstr "UML documentation"
 
 #: src/SUMMARY.md:32 src/uml/syntax/index.md:1
 msgid "语法"
-msgstr ""
+msgstr "Grammar"
 
 #: src/SUMMARY.md:34 src/uml/syntax/coordinate.md:1
 msgid "坐标"
-msgstr ""
+msgstr "Coordinates"
 
 #: src/SUMMARY.md:35 src/uml/syntax/type.md:1
 msgid "数据类型"
-msgstr ""
+msgstr "Data type"
 
 #: src/SUMMARY.md:36 src/uml/syntax/expression.md:1
 msgid "表达式"
-msgstr ""
+msgstr "Expression"
 
 #: src/SUMMARY.md:37 src/uml/syntax/variable.md:1
 msgid "变量"
-msgstr ""
+msgstr "Variable"
 
 #: src/SUMMARY.md:38 src/uml/syntax/element.md:1
 msgid "元素"
-msgstr ""
+msgstr "Element"
 
 #: src/SUMMARY.md:40 src/uml/syntax/elements/p.md:1
 msgid "段落元素 `p`"
-msgstr ""
+msgstr "Paragraph Element `p`"
 
 #: src/SUMMARY.md:41 src/uml/syntax/elements/img.md:1
 msgid "图片元素 `img`"
-msgstr ""
+msgstr "Image Element `img`"
 
 #: src/SUMMARY.md:42 src/uml/syntax/elements/col.md:1
 msgid "谱面合集元素 `col`"
-msgstr ""
+msgstr "Chart Collection Element `col`"
 
 #: src/SUMMARY.md:43 src/uml/syntax/elements/btn.md:1
 msgid "按钮元素 `btn`"
-msgstr ""
+msgstr "Button Element `btn`"
 
 #: src/SUMMARY.md:45 src/uml/syntax/comment.md:2
 msgid "注释"
-msgstr ""
+msgstr "Comment"
 
 #: src/SUMMARY.md:46 src/uml/syntax/comment_expression.md:1
 msgid "注释表达式"
-msgstr ""
+msgstr "Comment Expression"
 
 #: src/SUMMARY.md:48 src/uml/debugging.md:1
 msgid "如何调试"
-msgstr ""
+msgstr "How to Debug"
 
 #: src/SUMMARY.md:50 src/uml/examples/index.md:1
 msgid "样例 UML"
-msgstr ""
+msgstr "Example UML"
 
 #: src/SUMMARY.md:52 src/uml/examples/template_event.md:1
 msgid "模板活动"
-msgstr ""
+msgstr "Event Template"
 
 #: src/SUMMARY.md:53 src/uml/examples/xmas-2024.md:1
 msgid "2024 圣诞夜惊魂"
-msgstr ""
+msgstr "2024 Xmas"
 
 #: src/SUMMARY.md:55 src/uml/advanced/index.md:1
 msgid "使用进阶"
-msgstr ""
+msgstr "Advanced skills"
 
 #: src/SUMMARY.md:56 src/uml/advanced/page_switch.md:1
 msgid "页面切换"
-msgstr ""
+msgstr "Page Switch"
 
 #: src/SUMMARY.md:58
 msgid "糗事集锦"
-msgstr ""
+msgstr "aNecdOtes"
 
 #: src/SUMMARY.md:59 src/dev-incident/长风的柳絮.md:1
 msgid "长风的柳絮"
-msgstr ""
+msgstr "长风的柳絮"
 
 #: src/SUMMARY.md:60 src/dev-incident/v0.6.0更新消息.md:1
 msgid "v0.6.0 更新消息"
-msgstr ""
+msgstr "v0.6.0 Update"
 
 #: src/SUMMARY.md:61
 msgid "6th PecJam"
@@ -184,7 +184,7 @@ msgstr "6th PecJam"
 
 #: src/index.md:1
 msgid "Phira-docs 说明"
-msgstr ""
+msgstr "Phira-docs Instruction"
 
 #: src/index.md:3
 msgid ""
@@ -192,22 +192,29 @@ msgid ""
 "phira-docs) 提出问题或者贡献文档, 其他语言请通过修改 url 来访问, 如 [`/en/`]"
 "(./en/)"
 msgstr ""
+"This is the instruction of Phira-related documentation, visit [GitHub]"
+"(https://github.com/TeamFlos/phira-docs) to submit feedbacks or contribute, "
+"\"read in other language by editing the url, for example [`/en/`](./en/)\""
 
 #: src/index.md:5
 msgid "如果希望提供翻译, 请参考"
-msgstr ""
+msgstr "If you’re willing to provide translation, please refer to"
 
 #: src/index.md:7
 msgid ""
 "[mdbook-i18n-helpers 的指引](https://github.com/google/mdbook-i18n-helpers/"
 "blob/main/i18n-helpers/USAGE.md)"
 msgstr ""
+"[Instructions in mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-"
+"helpers/blob/main/i18n-helpers/USAGE.md)"
 
 #: src/index.md:8
 msgid ""
 "[comprehensive-rust 的示例](https://github.com/google/comprehensive-rust/"
 "blob/main/TRANSLATIONS.md)"
 msgstr ""
+"[Examples in comprehensive-rust](https://github.com/google/comprehensive-"
+"rust/blob/main/TRANSLATIONS.md)"
 
 #: src/index.md:10
 msgid ""
@@ -215,6 +222,10 @@ msgid ""
 "`LANGUAGES` 中添加对应的语言, 语言代码见 [ISO 639](https://en.wikipedia.org/"
 "wiki/List_of_ISO_639_language_codes)"
 msgstr ""
+"Provide the translated `.po` file in the Pull Request, and add the "
+"corresponding language code in `LANGUAGES` in `env` in the `.github/mdbook."
+"yml` file, visit [ISO 639](https://en.wikipedia.org/wiki/"
+"List_of_ISO_639_language_codes) for language code reference"
 
 # Missing translation: "在测试群或频道中找到"
 #: src/respack/index.md:3
@@ -468,7 +479,7 @@ msgstr ""
 
 #: src/feature/index.md:5
 msgid "[特效](./effect/index.md)"
-msgstr ""
+msgstr "[Effects](./effect/index.md)"
 
 #: src/feature/index.md:6
 msgid "[视频背景](./video/index.md)"
@@ -681,6 +692,7 @@ msgstr ""
 
 # Save or Change "animation properties" to "animation variables"
 #: src/feature/effect/index.md:31
+#, fuzzy
 msgid ""
 "`vars` 是可选项，它是一个变量名字到 [`动画变量`](../index.html#动画变量) 的映"
 "射，用于指定着色器的参数（或者说，着色器的 `uniform` 变量）。即，假设我需要指"
