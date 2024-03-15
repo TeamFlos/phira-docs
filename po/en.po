@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Phira Documents\n"
 "POT-Creation-Date: 2024-03-01T19:25:15+08:00\n"
-"PO-Revision-Date: 2024-03-15 00:44+0800\n"
+"PO-Revision-Date: 2024-03-15 20:29+0800\n"
 "Last-Translator: PingTKP <75591605+PingTKP@users.noreply.github.com>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -597,7 +597,7 @@ msgid ""
 "`easingLeft`、`easingRight` 是可选的，代表裁剪缓动的开始与结束位置。"
 msgstr ""
 "where `startTime` and `endTime` are the event’s start time and end time "
-"respectively; `easingType` is the type of easing `easingLeft` and "
+"respectively; `easingType` is the type of easing; `easingLeft` and "
 "`easingRight` are optional, it represents the start and end position of the "
 "ease."
 
@@ -768,7 +768,7 @@ msgstr ""
 
 #: src/feature/effect/builtin/chromatic.md:3
 msgid "色差效果。"
-msgstr ""
+msgstr "Chromatic effect"
 
 #: src/feature/effect/builtin/chromatic.md:5
 msgid "![示例](image/chromatic.png)"
@@ -784,21 +784,27 @@ msgstr ""
 #: src/feature/effect/builtin/shockwave.md:7
 #: src/feature/effect/builtin/vignette.md:7
 msgid "参数"
-msgstr ""
+msgstr "Parameters"
 
 #: src/feature/effect/builtin/chromatic.md:9
 msgid ""
 "`sampleCount`（整数，默认 `3`，范围 `1-64`）：采样次数，越高显示会更连贯，开"
 "销也更大；"
 msgstr ""
+"`sampleCount` (integer, default value: `3`, Range: `1-64`): Sample count, "
+"the higher the value, the display will be more coherent, and the overhead "
+"will be higher"
 
 #: src/feature/effect/builtin/chromatic.md:10
 msgid "`power`（小数，默认 `0.01`）：强度，或者说偏移距离。"
 msgstr ""
+"`power` (float, default value: `0.01`): The intensity, or offset distance."
 
 #: src/feature/effect/builtin/circleBlur.md:3
 msgid "圆点模糊。会将像素点模糊放大为亮点，建议搭配参数动画使用。"
 msgstr ""
+" Dot blurring. Will enlarge the pixel blur as highlight, recommended to use "
+"with parameter."
 
 #: src/feature/effect/builtin/circleBlur.md:5
 msgid "![示例](image/circleBlur.png)"
@@ -807,14 +813,16 @@ msgstr ""
 #: src/feature/effect/builtin/circleBlur.md:9
 msgid "`size`（小数，默认 `10.0`）：原点的大小，以像素为单位。"
 msgstr ""
+"`size` (float, default value: `10.0`): The size of the origin, in pixels"
 
 #: src/feature/effect/builtin/fisheye.md:3
 msgid "鱼眼效果。当 `power` 为负数时可以做出类似隧洞穿梭的效果。"
 msgstr ""
+"Fisheye effect. When `power` is negative, you can make tunneling effect."
 
 #: src/feature/effect/builtin/fisheye.md:5
 msgid "`power` 为负数："
-msgstr ""
+msgstr "`power` as negative value"
 
 #: src/feature/effect/builtin/fisheye.md:7
 msgid "![示例](image/fisheye-neg.png)"
@@ -822,7 +830,7 @@ msgstr ""
 
 #: src/feature/effect/builtin/fisheye.md:9
 msgid "`power` 为正数："
-msgstr ""
+msgstr "`power` as positive value"
 
 #: src/feature/effect/builtin/fisheye.md:11
 msgid "![示例](image/fisheye-pos.png)"
@@ -830,11 +838,13 @@ msgstr ""
 
 #: src/feature/effect/builtin/fisheye.md:15
 msgid "`power`（小数，默认 `-0.1`）：鱼眼缩放比例。"
-msgstr ""
+msgstr "- `power` (float, default value: `-0.1`): Scale of fisheye effect"
 
 #: src/feature/effect/builtin/glitch.md:3
 msgid "混乱 / 错误效果。该效果会随时间产生不确定的闪烁。"
 msgstr ""
+"Confusion/Error effect. The effect produces an indeterminate flicker over "
+"time."
 
 #: src/feature/effect/builtin/glitch.md:5
 msgid "![示例](image/glitch.png)"
@@ -842,29 +852,35 @@ msgstr ""
 
 #: src/feature/effect/builtin/glitch.md:9
 msgid "`power`（小数，默认 `0.3`）：闪烁强度；"
-msgstr ""
+msgstr "`power` (float, default value: `0.3`): Flicker intensity"
 
 #: src/feature/effect/builtin/glitch.md:10
 msgid ""
 "`rate`（小数，默认 `0.6`，范围 `0-1`）：闪烁频率。`0` 为总不闪烁，`1` 为总是"
 "闪烁；"
 msgstr ""
+"`rate` (float, default value: `0.6`, range: `0-1`): Flicker frequency. `0` "
+"for no flickers, `1` for always flicker."
 
 #: src/feature/effect/builtin/glitch.md:11
 msgid "`speed`（小数，默认 `5.0`）：整个闪烁动画的速度；"
-msgstr ""
+msgstr "`speed` (float, default value: `5.0`): Speed of flickering animation"
 
 #: src/feature/effect/builtin/glitch.md:12
 msgid "`blockCount`（小数，默认 `30.5`）：见上图，错位条带的条数（大概）；"
 msgstr ""
+"`blockCount` (float, default value: `30.5`): Look at above images, number of "
+"misaligned strips (approximate)"
 
 #: src/feature/effect/builtin/glitch.md:13
 msgid "`colorRate`（小数，默认 `0.01`，范围 `0-1`）：色差的距离。"
 msgstr ""
+"`colorRate` (float, default value: `0.01`, range: `0-1`): Distance of color "
+"difference"
 
 #: src/feature/effect/builtin/grayscale.md:3
 msgid "灰度化效果。"
-msgstr ""
+msgstr "Grayscale effect."
 
 #: src/feature/effect/builtin/grayscale.md:5
 msgid "![示例](image/grayscale.png)"
@@ -875,10 +891,12 @@ msgid ""
 "`factor`（小数，默认 `1.0`）：灰度化程度。`0` 为不进行灰度化处理，`1` 为完全"
 "进行灰度化处理。"
 msgstr ""
+"`factor` (float, default value: `1.0`): Grayscale level. `0` for no "
+"grayscale processing, `1` for complete grayscale processing."
 
 #: src/feature/effect/builtin/noise.md:3
 msgid "噪音效果。向画面附加一层随机的模糊效果。"
-msgstr ""
+msgstr "Noise effect. Applies a random layer of blur to the screen."
 
 #: src/feature/effect/builtin/noise.md:5
 msgid "![示例](image/noise.png)"
@@ -889,16 +907,20 @@ msgid ""
 "`seed`（小数，默认 `81.0`）：用来生成随机图案的种子。通过连续地变化种子可以使"
 "图案发生连续的变化。"
 msgstr ""
+"`seed` (float, default value: `81.0`): Used to generate random patterns. By "
+"varying the seeds continuously, the pattern can be changed continuously."
 
 #: src/feature/effect/builtin/noise.md:10
 msgid ""
 "`power`（小数，默认 `0.03`，范围 `0-1`）：见上图，模糊的程度（像素偏移范"
 "围）。"
 msgstr ""
+"`power` (float, default value: `0.03`, range: `0-1`): Look at above images, "
+"intensity of blur (Range of pixel offset)"
 
 #: src/feature/effect/builtin/pixel.md:3
 msgid "像素化效果。"
-msgstr ""
+msgstr "Pixelated effect"
 
 #: src/feature/effect/builtin/pixel.md:5
 msgid "![示例](image/pixel.png)"
@@ -907,10 +929,12 @@ msgstr ""
 #: src/feature/effect/builtin/pixel.md:9
 msgid "`size`（小数，默认 `10.0`）：像素化后的单个像素大小。"
 msgstr ""
+"`size` (float, default value: `10.0`): Size of individual pixels after "
+"pixelation."
 
 #: src/feature/effect/builtin/radialBlur.md:3
 msgid "放射模糊。"
-msgstr ""
+msgstr "Radial blur"
 
 #: src/feature/effect/builtin/radialBlur.md:5
 msgid "![示例](image/radialBlur.png)"
@@ -919,24 +943,32 @@ msgstr ""
 #: src/feature/effect/builtin/radialBlur.md:9
 msgid "`centerX`（小数，默认 `0.5`，范围 `0-1`）：放射中心的 X 坐标；"
 msgstr ""
+"`centerX` (float, default value: `0.5`, range: `0-1`): X coordinate of the "
+"effect center"
 
 #: src/feature/effect/builtin/radialBlur.md:10
 msgid "`centerY`（小数，默认 `0.5`，范围 `0-1`）：放射中心的 Y 坐标；"
 msgstr ""
+"`centerY` (float, default value: `0.5`, range: `0-1`): Y coordinate of the "
+"effect center"
 
 #: src/feature/effect/builtin/radialBlur.md:11
 msgid "`power`（小数，默认 `0.01`，范围 `0-1`）：放射强度；"
 msgstr ""
+"`power` (float, default value: `0.01`, range: `0-1`): Intensity of effect"
 
 #: src/feature/effect/builtin/radialBlur.md:12
 msgid ""
 "`sampleCount`（整数，默认 `3`，范围 `1-64`）：采样次数，越高显示会更连贯，开"
 "销也更大。"
 msgstr ""
+"`sampleCount` (integer, default value: `3`, range: `1-64`): Sample count, "
+"the higher the value, the display will be more coherent, and the overhead "
+"will be higher"
 
 #: src/feature/effect/builtin/shockwave.md:3
 msgid "冲击波效果。建议配合 `progress` 的参数动画使用。"
-msgstr ""
+msgstr "Shockwave effect. Recommended to use with `progress` parameter."
 
 #: src/feature/effect/builtin/shockwave.md:5
 msgid "![示例](image/shockwave.png)"
@@ -947,26 +979,33 @@ msgid ""
 "`progress`（小数，默认 `0.2`，范围 `0-1`）：冲击波的进度。冲击波是一个动画，"
 "`0` 进度为开始，直到 `1` 进度结束；"
 msgstr ""
+"`progress` (float, default value: `0.2`, range: `0-1`): Progress of the "
+"effect. Shockwave is an animation, `0` for start of animation, `1` for end "
+"of animation)"
 
 #: src/feature/effect/builtin/shockwave.md:10
 msgid "`centerX`（小数，默认 `0.5`，范围 `0-1`）：冲击波中心的 X 坐标；"
 msgstr ""
+"`centerX` (float, default value: `0.5`, range: `0-1`): X coordinate of the "
+"effect center"
 
 #: src/feature/effect/builtin/shockwave.md:11
 msgid "`centerY`（小数，默认 `0.5`，范围 `0-1`）：冲击波中心的 Y 坐标；"
 msgstr ""
+"`centerY` (float, default value: `0.5`, range: `0-1`): Y coordinate of the "
+"effect center"
 
 #: src/feature/effect/builtin/shockwave.md:12
 msgid "`width`（小数，默认 `0.1`）：冲击波的宽度；"
-msgstr ""
+msgstr "`width` (float, default value: `0.1`): Width of the effect"
 
 #: src/feature/effect/builtin/shockwave.md:13
 msgid "`distortion`（小数，默认 `0.8`）：冲击波扭曲程度；"
-msgstr ""
+msgstr "`distortion` (float, default value: `0.8`): Intensity of distortion"
 
 #: src/feature/effect/builtin/shockwave.md:14
 msgid "`expand`（小数，默认 `10.0`）：冲击波延伸广度。"
-msgstr ""
+msgstr "`expand` (float, default value: `10.0`): Breadth of expansion"
 
 #: src/feature/effect/builtin/vignette.md:1
 msgid "vignette"
@@ -977,6 +1016,8 @@ msgid ""
 "虚光照效果。将屏幕的边缘调暗或调成其他颜色，可以用来模拟 Arcaea 的部分异象效"
 "果。"
 msgstr ""
+"Virtual lighting effect. Will darken or tint the edges of the screen to "
+"other colors, can be used to simulate some of Arcaea's anomaly effect"
 
 #: src/feature/effect/builtin/vignette.md:5
 msgid "![示例](image/vignette.png)"
@@ -985,35 +1026,47 @@ msgstr ""
 #: src/feature/effect/builtin/vignette.md:9
 msgid "`color`（颜色，默认黑色）：边缘的颜色；"
 msgstr ""
+"`color` (color, default color: `black`): Color at the edges of the screen"
 
 #: src/feature/effect/builtin/vignette.md:10
 msgid ""
 "`extend`（小数，默认 `0.25`，范围 `0-1`）：边缘的延伸程度，值越大黑色部分越"
 "多；"
 msgstr ""
+"`extend` (float, default value: `0.25`, range: `0-1`): The extension from "
+"the edge, the larger the value, the more black parts"
 
 #: src/feature/effect/builtin/vignette.md:11
 msgid "`radius`（小数，默认 `15.0`）：中央光照大小，值越小受到影响的范围越大。"
 msgstr ""
+"- `radius` (float, default value: `15.0`): Size of central light, the "
+"smaller the value, the greater the range affacted"
 
+# Need to consider how to translate `/shader路径` (with single backticks)
+# "注意这里的 `/` 是必不可少的" but translate it as "this field must be filled..."
 #: src/feature/effect/custom-shader.md:3
+#, fuzzy
 msgid ""
 "用于特效的着色器是片元着色器。你可以自行编写着色器并将其附加于谱面压缩包中。"
 "在 `shader` 字段，你需要填写 `/shader路径`。注意这里的 `/` 是必不可少的，它将"
 "内置着色器和自定义着色器区分开来。"
 msgstr ""
+"Fragment shaders are used for making the special effects. You can write your "
+"own shaders and attach them to the chart's zip file. In the `shader` field, "
+"you need to fill in the `/shader_path`. Note that this field must be filled "
+"in because it distinguishes the built-in shaders from the custom shaders."
 
 #: src/feature/effect/custom-shader.md:5
 msgid "为保证兼容性，着色器版本要求为 GLSL 1.00。"
-msgstr ""
+msgstr "For compatibility, GLSL 1.00 is used."
 
 #: src/feature/effect/custom-shader.md:7 src/uml/syntax/variable.md:13
 msgid "内置变量"
-msgstr ""
+msgstr "Built-in variables"
 
 #: src/feature/effect/custom-shader.md:9
 msgid "prpr 为着色器内置了如下变量："
-msgstr ""
+msgstr "prpr has the following variables used for shaders:"
 
 #: src/feature/effect/custom-shader.md:11
 msgid ""
@@ -1024,20 +1077,35 @@ msgid ""
 "uniform float time; // 谱面时间，以秒为单位\n"
 "```"
 msgstr ""
+"```glsl\n"
+"varying vec2 uv; // UV of texture\n"
+"uniform vec2 screenSize; // Size of the screen (Note that it refers to the "
+"entire screen, and not just the chart/gameplay area)\n"
+"uniform sampler2D screenTexture; // Texture of the screen (Refers to the "
+"texture of the entire screen, and not just the chart/gameplay area)\n"
+"uniform float time; // The chart's time in seconds\n"
+"```"
 
 #: src/feature/effect/custom-shader.md:18
 msgid ""
 "还有一些变量是虽然存在，但在片元着色器中使用无意义的。在定义自己的变量时，你"
 "应该避免与它们重名："
 msgstr ""
+"There are also variables that exists, but these variables are useless in the "
+"fragment shaders. When defining your own variables, you should avoid these "
+"variables' name."
 
 #: src/feature/effect/custom-shader.md:26
 msgid "着色器变量"
-msgstr ""
+msgstr "Shader variables"
 
+# variable or variables?
 #: src/feature/effect/custom-shader.md:28
+#, fuzzy
 msgid "为了在谱面中可以指定参数，你需要这样定义你的着色器 `uniform` 变量："
 msgstr ""
+"In order to define your own parameters in the chart, you need to define your "
+"shader `uniform` variables like this:"
 
 #: src/feature/effect/custom-shader.md:30
 msgid ""
@@ -1054,10 +1122,15 @@ msgid ""
 "其中 `type` 为类型，目前支持 `float`、`vec2` 和 `vec4`；`name` 为变量名；"
 "`def` 为默认值。三个都是不可缺少的。"
 msgstr ""
+"where `type` is the variable type, currently `float`, `vec2`, and `vec4` are "
+"supported; `name` is the variable name; `def` is the default value. Any of "
+"the 3 values cannot be left out."
 
 #: src/feature/effect/custom-shader.md:38
 msgid "下面的示例着色器将会根据 `factor` 的值给屏幕叠加上强弱不等的红色："
 msgstr ""
+"The example below shows that the shader will overlay the screen with varying "
+"shades of red depending on the value of factor."
 
 #: src/feature/effect/custom-shader.md:40
 msgid ""
