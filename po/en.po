@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Phira Documents\n"
 "POT-Creation-Date: 2024-03-01T19:25:15+08:00\n"
-"PO-Revision-Date: 2024-03-15 20:29+0800\n"
+"PO-Revision-Date: 2024-03-17 20:35+0800\n"
 "Last-Translator: PingTKP <75591605+PingTKP@users.noreply.github.com>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -541,7 +541,8 @@ msgid ""
 "X 坐标作为一个动画变量。"
 msgstr ""
 "Animation variables are often used in charts. For example, in RPE, the X "
-"coordinate change event is actually the X coordinate as an animation variable"
+"coordinate change event is actually the X coordinate as an animation "
+"variable."
 
 #: src/feature/index.md:30
 msgid ""
@@ -612,23 +613,23 @@ msgstr ""
 
 #: src/feature/index.md:48
 msgid "`float`：单个小数；"
-msgstr "`float`: a single decimal"
+msgstr "`float`: a single decimal."
 
 #: src/feature/index.md:49
 msgid "`vec2`：两个小数表示的二维向量，用数组表示；"
-msgstr "`vec2`: 2 decimal representing a 2D vector, represented as an array"
+msgstr "`vec2`: 2 decimal representing a 2D vector, represented as an array."
 
 #: src/feature/index.md:50
 msgid "`color`：四个整数（0-255）表示的颜色，格式为 `[R, G, B, A]`。"
 msgstr ""
 "`color`: 4 integers (0-255) that represents a color, the format is `[R, G, "
-"B, A]`"
+"B, A]`."
 
 #: src/feature/index.md:52
 msgid "例如，下面的动画变量将在特定时段内从 `0` 到 `1` 线性变化："
 msgstr ""
 "For example, the following animation variable will vary linearly from `0` to "
-"`1` over a given time period"
+"`1` over a given time period."
 
 # Missing translation: "特效是在一段时间内对谱面整体施加着色器效果的特性，可以用以达成一些普通谱面无法实现或难以实现的视觉效果。"
 #: src/feature/effect/index.md:3
@@ -666,7 +667,6 @@ msgstr "\"shader\""
 
 # Originally, PingTKP used comments to express "着色器名字", but since the comma is not in the Source Text, it is written directly in the value.
 #: src/feature/effect/index.md:17
-#, fuzzy
 msgid "\"着色器名字\""
 msgstr "\"Name of shader\""
 
@@ -768,11 +768,11 @@ msgstr ""
 
 #: src/feature/effect/builtin/chromatic.md:3
 msgid "色差效果。"
-msgstr "Chromatic effect"
+msgstr "Chromatic effect."
 
 #: src/feature/effect/builtin/chromatic.md:5
 msgid "![示例](image/chromatic.png)"
-msgstr ""
+msgstr "![example](image/chromatic.png)"
 
 #: src/feature/effect/builtin/chromatic.md:7
 #: src/feature/effect/builtin/circleBlur.md:7
@@ -793,7 +793,7 @@ msgid ""
 msgstr ""
 "`sampleCount` (integer, default value: `3`, Range: `1-64`): Sample count, "
 "the higher the value, the display will be more coherent, and the overhead "
-"will be higher"
+"will be higher."
 
 #: src/feature/effect/builtin/chromatic.md:10
 msgid "`power`（小数，默认 `0.01`）：强度，或者说偏移距离。"
@@ -808,12 +808,12 @@ msgstr ""
 
 #: src/feature/effect/builtin/circleBlur.md:5
 msgid "![示例](image/circleBlur.png)"
-msgstr ""
+msgstr "![example](image/circleBlur.png)"
 
 #: src/feature/effect/builtin/circleBlur.md:9
 msgid "`size`（小数，默认 `10.0`）：原点的大小，以像素为单位。"
 msgstr ""
-"`size` (float, default value: `10.0`): The size of the origin, in pixels"
+"`size` (float, default value: `10.0`): The size of the origin, in pixels."
 
 #: src/feature/effect/builtin/fisheye.md:3
 msgid "鱼眼效果。当 `power` 为负数时可以做出类似隧洞穿梭的效果。"
@@ -822,23 +822,23 @@ msgstr ""
 
 #: src/feature/effect/builtin/fisheye.md:5
 msgid "`power` 为负数："
-msgstr "`power` as negative value"
+msgstr "`power` as negative value."
 
 #: src/feature/effect/builtin/fisheye.md:7
 msgid "![示例](image/fisheye-neg.png)"
-msgstr ""
+msgstr "![example](image/fisheye-neg.png)"
 
 #: src/feature/effect/builtin/fisheye.md:9
 msgid "`power` 为正数："
-msgstr "`power` as positive value"
+msgstr "`power` as positive value."
 
 #: src/feature/effect/builtin/fisheye.md:11
 msgid "![示例](image/fisheye-pos.png)"
-msgstr ""
+msgstr "![example](image/fisheye-pos.png)"
 
 #: src/feature/effect/builtin/fisheye.md:15
 msgid "`power`（小数，默认 `-0.1`）：鱼眼缩放比例。"
-msgstr "- `power` (float, default value: `-0.1`): Scale of fisheye effect"
+msgstr "- `power` (float, default value: `-0.1`): Scale of fisheye effect."
 
 #: src/feature/effect/builtin/glitch.md:3
 msgid "混乱 / 错误效果。该效果会随时间产生不确定的闪烁。"
@@ -848,11 +848,11 @@ msgstr ""
 
 #: src/feature/effect/builtin/glitch.md:5
 msgid "![示例](image/glitch.png)"
-msgstr ""
+msgstr "![example](image/glitch.png)"
 
 #: src/feature/effect/builtin/glitch.md:9
 msgid "`power`（小数，默认 `0.3`）：闪烁强度；"
-msgstr "`power` (float, default value: `0.3`): Flicker intensity"
+msgstr "`power` (float, default value: `0.3`): Flicker intensity."
 
 #: src/feature/effect/builtin/glitch.md:10
 msgid ""
@@ -864,19 +864,19 @@ msgstr ""
 
 #: src/feature/effect/builtin/glitch.md:11
 msgid "`speed`（小数，默认 `5.0`）：整个闪烁动画的速度；"
-msgstr "`speed` (float, default value: `5.0`): Speed of flickering animation"
+msgstr "`speed` (float, default value: `5.0`): Speed of flickering animation."
 
 #: src/feature/effect/builtin/glitch.md:12
 msgid "`blockCount`（小数，默认 `30.5`）：见上图，错位条带的条数（大概）；"
 msgstr ""
 "`blockCount` (float, default value: `30.5`): Look at above images, number of "
-"misaligned strips (approximate)"
+"misaligned strips (approximate)."
 
 #: src/feature/effect/builtin/glitch.md:13
 msgid "`colorRate`（小数，默认 `0.01`，范围 `0-1`）：色差的距离。"
 msgstr ""
 "`colorRate` (float, default value: `0.01`, range: `0-1`): Distance of color "
-"difference"
+"difference."
 
 #: src/feature/effect/builtin/grayscale.md:3
 msgid "灰度化效果。"
@@ -884,7 +884,7 @@ msgstr "Grayscale effect."
 
 #: src/feature/effect/builtin/grayscale.md:5
 msgid "![示例](image/grayscale.png)"
-msgstr ""
+msgstr "![example](image/grayscale.png)"
 
 #: src/feature/effect/builtin/grayscale.md:9
 msgid ""
@@ -900,7 +900,7 @@ msgstr "Noise effect. Applies a random layer of blur to the screen."
 
 #: src/feature/effect/builtin/noise.md:5
 msgid "![示例](image/noise.png)"
-msgstr ""
+msgstr "![example](image/noise.png)"
 
 #: src/feature/effect/builtin/noise.md:9
 msgid ""
@@ -916,7 +916,7 @@ msgid ""
 "围）。"
 msgstr ""
 "`power` (float, default value: `0.03`, range: `0-1`): Look at above images, "
-"intensity of blur (Range of pixel offset)"
+"intensity of blur (Range of pixel offset)."
 
 #: src/feature/effect/builtin/pixel.md:3
 msgid "像素化效果。"
@@ -924,7 +924,7 @@ msgstr "Pixelated effect"
 
 #: src/feature/effect/builtin/pixel.md:5
 msgid "![示例](image/pixel.png)"
-msgstr ""
+msgstr "![example](image/pixel.png)"
 
 #: src/feature/effect/builtin/pixel.md:9
 msgid "`size`（小数，默认 `10.0`）：像素化后的单个像素大小。"
@@ -934,28 +934,28 @@ msgstr ""
 
 #: src/feature/effect/builtin/radialBlur.md:3
 msgid "放射模糊。"
-msgstr "Radial blur"
+msgstr "Radial blur."
 
 #: src/feature/effect/builtin/radialBlur.md:5
 msgid "![示例](image/radialBlur.png)"
-msgstr ""
+msgstr "![example](image/radialBlur.png)"
 
 #: src/feature/effect/builtin/radialBlur.md:9
 msgid "`centerX`（小数，默认 `0.5`，范围 `0-1`）：放射中心的 X 坐标；"
 msgstr ""
 "`centerX` (float, default value: `0.5`, range: `0-1`): X coordinate of the "
-"effect center"
+"effect center."
 
 #: src/feature/effect/builtin/radialBlur.md:10
 msgid "`centerY`（小数，默认 `0.5`，范围 `0-1`）：放射中心的 Y 坐标；"
 msgstr ""
 "`centerY` (float, default value: `0.5`, range: `0-1`): Y coordinate of the "
-"effect center"
+"effect center."
 
 #: src/feature/effect/builtin/radialBlur.md:11
 msgid "`power`（小数，默认 `0.01`，范围 `0-1`）：放射强度；"
 msgstr ""
-"`power` (float, default value: `0.01`, range: `0-1`): Intensity of effect"
+"`power` (float, default value: `0.01`, range: `0-1`): Intensity of effect."
 
 #: src/feature/effect/builtin/radialBlur.md:12
 msgid ""
@@ -964,7 +964,7 @@ msgid ""
 msgstr ""
 "`sampleCount` (integer, default value: `3`, range: `1-64`): Sample count, "
 "the higher the value, the display will be more coherent, and the overhead "
-"will be higher"
+"will be higher."
 
 #: src/feature/effect/builtin/shockwave.md:3
 msgid "冲击波效果。建议配合 `progress` 的参数动画使用。"
@@ -972,7 +972,7 @@ msgstr "Shockwave effect. Recommended to use with `progress` parameter."
 
 #: src/feature/effect/builtin/shockwave.md:5
 msgid "![示例](image/shockwave.png)"
-msgstr ""
+msgstr "![example](image/shockwave.png)"
 
 #: src/feature/effect/builtin/shockwave.md:9
 msgid ""
@@ -981,31 +981,31 @@ msgid ""
 msgstr ""
 "`progress` (float, default value: `0.2`, range: `0-1`): Progress of the "
 "effect. Shockwave is an animation, `0` for start of animation, `1` for end "
-"of animation)"
+"of animation)."
 
 #: src/feature/effect/builtin/shockwave.md:10
 msgid "`centerX`（小数，默认 `0.5`，范围 `0-1`）：冲击波中心的 X 坐标；"
 msgstr ""
 "`centerX` (float, default value: `0.5`, range: `0-1`): X coordinate of the "
-"effect center"
+"effect center."
 
 #: src/feature/effect/builtin/shockwave.md:11
 msgid "`centerY`（小数，默认 `0.5`，范围 `0-1`）：冲击波中心的 Y 坐标；"
 msgstr ""
 "`centerY` (float, default value: `0.5`, range: `0-1`): Y coordinate of the "
-"effect center"
+"effect center."
 
 #: src/feature/effect/builtin/shockwave.md:12
 msgid "`width`（小数，默认 `0.1`）：冲击波的宽度；"
-msgstr "`width` (float, default value: `0.1`): Width of the effect"
+msgstr "`width` (float, default value: `0.1`): Width of the effect."
 
 #: src/feature/effect/builtin/shockwave.md:13
 msgid "`distortion`（小数，默认 `0.8`）：冲击波扭曲程度；"
-msgstr "`distortion` (float, default value: `0.8`): Intensity of distortion"
+msgstr "`distortion` (float, default value: `0.8`): Intensity of distortion."
 
 #: src/feature/effect/builtin/shockwave.md:14
 msgid "`expand`（小数，默认 `10.0`）：冲击波延伸广度。"
-msgstr "`expand` (float, default value: `10.0`): Breadth of expansion"
+msgstr "`expand` (float, default value: `10.0`): Breadth of expansion."
 
 #: src/feature/effect/builtin/vignette.md:1
 msgid "vignette"
@@ -1017,16 +1017,16 @@ msgid ""
 "果。"
 msgstr ""
 "Virtual lighting effect. Will darken or tint the edges of the screen to "
-"other colors, can be used to simulate some of Arcaea's anomaly effect"
+"other colors, can be used to simulate some of Arcaea's anomaly effect."
 
 #: src/feature/effect/builtin/vignette.md:5
 msgid "![示例](image/vignette.png)"
-msgstr ""
+msgstr "![example](image/vignette.png)"
 
 #: src/feature/effect/builtin/vignette.md:9
 msgid "`color`（颜色，默认黑色）：边缘的颜色；"
 msgstr ""
-"`color` (color, default color: `black`): Color at the edges of the screen"
+"`color` (color, default color: `black`): Color at the edges of the screen."
 
 #: src/feature/effect/builtin/vignette.md:10
 msgid ""
@@ -1034,13 +1034,13 @@ msgid ""
 "多；"
 msgstr ""
 "`extend` (float, default value: `0.25`, range: `0-1`): The extension from "
-"the edge, the larger the value, the more black parts"
+"the edge, the larger the value, the more black parts."
 
 #: src/feature/effect/builtin/vignette.md:11
 msgid "`radius`（小数，默认 `15.0`）：中央光照大小，值越小受到影响的范围越大。"
 msgstr ""
 "- `radius` (float, default value: `15.0`): Size of central light, the "
-"smaller the value, the greater the range affacted"
+"smaller the value, the greater the range affacted."
 
 # Need to consider how to translate `/shader路径` (with single backticks)
 # "注意这里的 `/` 是必不可少的" but translate it as "this field must be filled..."
@@ -1259,7 +1259,7 @@ msgstr ""
 "`alpha` and `dim` represents the transparency of the video (if it is "
 "invisible, the song background art will be displayed instead) and dimness "
 "respectively, they are both [`Animation variables`](../index.html#animation-"
-"variables)"
+"variables)."
 
 #: src/feature/unlock_video/index.md:4
 msgid "**请注意解锁动画和视频背景的区别**"
