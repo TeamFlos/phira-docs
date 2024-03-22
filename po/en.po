@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Phira Documents\n"
 "POT-Creation-Date: 2024-03-01T19:25:15+08:00\n"
-"PO-Revision-Date: 2024-03-17 20:35+0800\n"
+"PO-Revision-Date: 2024-03-22 18:03+0800\n"
 "Last-Translator: PingTKP <75591605+PingTKP@users.noreply.github.com>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -227,9 +227,9 @@ msgstr ""
 "yml` file, visit [ISO 639](https://en.wikipedia.org/wiki/"
 "List_of_ISO_639_language_codes) for language code reference"
 
-# Missing translation: "在测试群或频道中找到"
+# "在测试群或频道中找到资源包" is not translated because at that time there is no phira discord server and alot of the players are unable to access QQ. So I left the translation out.
+# by PingTKP
 #: src/respack/index.md:3
-#, fuzzy
 msgid ""
 "在 prpr 中，你可以自定义资源包。资源包包含了音符的样式、粒子效果、打击音效等"
 "等元素。你可以在测试群或频道中找到资源包，也可以选择自己制作资源包。以下将具"
@@ -504,16 +504,15 @@ msgstr ""
 "(http://c.biancheng.net/json/)。"
 
 #: src/feature/index.md:10
-#, fuzzy
 msgid "BPM 配置"
-msgstr "BPM 配置"
+msgstr "BPM Config"
 
 #: src/feature/index.md:12
-#, fuzzy
 msgid ""
 "**在进行相关配置前，你需要在 `extra.json` 中预先设定好曲目的 BPM**。例如："
 msgstr ""
-"**在进行相关配置前，你需要在 `extra.json` 中预先设定好曲目的 BPM**。例如："
+"**Before making any configurations, you need to set the BPM of the song/"
+"track in `extra.json`**. For example:"
 
 #: src/feature/index.md:16 src/feature/index.md:17 src/feature/index.md:18
 msgid "\"bpm\""
@@ -525,17 +524,16 @@ msgid "\"time\""
 msgstr "\"time\""
 
 #: src/feature/index.md:24
-#, fuzzy
 msgid "这里表示歌曲最初 BPM 为 `200`，而后在十又二分之一拍是转换为 `250`。"
-msgstr "这里表示歌曲最初 BPM 为 `200`，而后在十又二分之一拍是转换为 `250`。"
+msgstr ""
+"This shows that the song has an initial BPM of `200`, the BPM then changes "
+"to `250` at the 10.5 beat."
 
 #: src/feature/index.md:26
 msgid "动画变量"
 msgstr "Animation variables"
 
-# Regarding the translation of "配置文件" into "charts", this is awaiting review.
 #: src/feature/index.md:28
-#, fuzzy
 msgid ""
 "在配置文件中会常常用到动画变量。例如，在 RPE 中，的 X 坐标变化事件实际上就是 "
 "X 坐标作为一个动画变量。"
@@ -631,17 +629,17 @@ msgstr ""
 "For example, the following animation variable will vary linearly from `0` to "
 "`1` over a given time period."
 
-# Missing translation: "特效是在一段时间内对谱面整体施加着色器效果的特性，可以用以达成一些普通谱面无法实现或难以实现的视觉效果。"
 #: src/feature/effect/index.md:3
-#, fuzzy
 msgid ""
 "特效是在一段时间内对谱面整体施加着色器效果的特性，可以用以达成一些普通谱面无"
 "法实现或难以实现的视觉效果。prpr 预置了一批着色器，你也可以自己编写着色器，详"
 "见 [自行编写着色器](./custom-shader.md)。"
 msgstr ""
-"prpr comes with a number of pre-made shaders, you can also write your own "
-"shaders as well. For more details look at the [Writing your own shaders](./"
-"custom-shader.md) section."
+"Effect is a feature that applies shader to the entire chart for a specified "
+"amount of time. They can be used to achieve visual effects that are "
+"impossible or difficult to achieve in vanilla charts. prpr has some premade "
+"shaders, or you can also write your own shaders. For more details, see "
+"[Writing your own shader](./custom-shader.md)."
 
 #: src/feature/effect/index.md:5 src/feature/video/index.md:5
 msgid "格式"
@@ -665,7 +663,6 @@ msgstr "The format of a single `Effect` is shown below:"
 msgid "\"shader\""
 msgstr "\"shader\""
 
-# Originally, PingTKP used comments to express "着色器名字", but since the comma is not in the Source Text, it is written directly in the value.
 #: src/feature/effect/index.md:17
 msgid "\"着色器名字\""
 msgstr "\"Name of shader\""
@@ -679,16 +676,13 @@ msgstr "\"global\""
 msgid "\"vars\""
 msgstr "\"vars\""
 
-# Possible missing translation: "默认的"
-# Are there any other time formats in RPE?
 #: src/feature/effect/index.md:25
-#, fuzzy
 msgid ""
 "`start` 和 `end` 指定了特效的开始和结束时间，格式与 RPE 默认的时间表示格式相"
 "同（`[小节数, 分子, 分母]`）。"
 msgstr ""
 "`start` and `end` specify the start and end time respectively in the same "
-"format as RPE's time format (`[bar number, numerator, denominator]`)."
+"format as RPE's default time format (`[bar number, numerator, denominator]`)."
 
 #: src/feature/effect/index.md:27
 msgid "`shader`，即着色器名字，既可以是内置着色器，也可以是自定义的着色器。"
@@ -705,16 +699,14 @@ msgstr ""
 "pause button, etc). This field can be left blank, and its default value is "
 "`false`."
 
-# Save or Change "animation properties" to "animation variables"
 #: src/feature/effect/index.md:31
-#, fuzzy
 msgid ""
 "`vars` 是可选项，它是一个变量名字到 [`动画变量`](../index.html#动画变量) 的映"
 "射，用于指定着色器的参数（或者说，着色器的 `uniform` 变量）。即，假设我需要指"
 "定两个变量 `power` 和 `radius` 的值，我可以这样写："
 msgstr ""
 "vars is an optional parameter, it is a mapping of variable names to "
-"[animation properties](../index.html#animation-variables), it is used to "
+"[animation variables](../index.html#animation-variables), it is used to "
 "specify the parameters of the shader (or rather: shader's `uniform` "
 "variables). i.e. suppose I need to specify the values of 2 variables, "
 "`power` and `radius`, I can write it like this:"
@@ -764,7 +756,7 @@ msgstr ""
 
 #: src/feature/effect/builtin/index.md:3
 msgid "该部分列举了 prpr 的内置着色器。"
-msgstr ""
+msgstr "This section lists prpr's built-in shaders."
 
 #: src/feature/effect/builtin/chromatic.md:3
 msgid "色差效果。"
@@ -803,7 +795,7 @@ msgstr ""
 #: src/feature/effect/builtin/circleBlur.md:3
 msgid "圆点模糊。会将像素点模糊放大为亮点，建议搭配参数动画使用。"
 msgstr ""
-" Dot blurring. Will enlarge the pixel blur as highlight, recommended to use "
+"Dot blurring. Will enlarge the pixel blur as highlight, recommended to use "
 "with parameter."
 
 #: src/feature/effect/builtin/circleBlur.md:5
@@ -920,7 +912,7 @@ msgstr ""
 
 #: src/feature/effect/builtin/pixel.md:3
 msgid "像素化效果。"
-msgstr "Pixelated effect"
+msgstr "Pixelated effect."
 
 #: src/feature/effect/builtin/pixel.md:5
 msgid "![示例](image/pixel.png)"
@@ -1042,10 +1034,7 @@ msgstr ""
 "- `radius` (float, default value: `15.0`): Size of central light, the "
 "smaller the value, the greater the range affacted."
 
-# Need to consider how to translate `/shader路径` (with single backticks)
-# "注意这里的 `/` 是必不可少的" but translate it as "this field must be filled..."
 #: src/feature/effect/custom-shader.md:3
-#, fuzzy
 msgid ""
 "用于特效的着色器是片元着色器。你可以自行编写着色器并将其附加于谱面压缩包中。"
 "在 `shader` 字段，你需要填写 `/shader路径`。注意这里的 `/` 是必不可少的，它将"
@@ -1053,8 +1042,9 @@ msgid ""
 msgstr ""
 "Fragment shaders are used for making the special effects. You can write your "
 "own shaders and attach them to the chart's zip file. In the `shader` field, "
-"you need to fill in the `/shader_path`. Note that this field must be filled "
-"in because it distinguishes the built-in shaders from the custom shaders."
+"you need to fill in the `/shader_path`. Note that the `/` must be included "
+"and this field must be filled in because it distinguishes the built-in "
+"shaders from the custom shaders."
 
 #: src/feature/effect/custom-shader.md:5
 msgid "为保证兼容性，着色器版本要求为 GLSL 1.00。"
@@ -1099,9 +1089,8 @@ msgstr ""
 msgid "着色器变量"
 msgstr "Shader variables"
 
-# variable or variables?
+# I think it is better to put it as plural because you can have multiple uniform variables. There are also multiple uniform vairables in the example.
 #: src/feature/effect/custom-shader.md:28
-#, fuzzy
 msgid "为了在谱面中可以指定参数，你需要这样定义你的着色器 `uniform` 变量："
 msgstr ""
 "In order to define your own parameters in the chart, you need to define your "
