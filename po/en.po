@@ -3,17 +3,16 @@ msgstr ""
 "Project-Id-Version: Phira Documents\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-01T19:25:15+08:00\n"
-"PO-Revision-Date: 2024-03-23 14:25+0000\n"
+"PO-Revision-Date: 2024-03-24 00:28+0800\n"
 "Last-Translator: PingTKP <75591605+PingTKP@users.noreply.github.com>\n"
 "Language-Team: English\n"
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
+"X-Generator: PO File Editor https://pofile.net/free-po-editor\n"
 "X-Source-Language: zh\n"
-"\n"
 
 #: src/SUMMARY.md:1
 msgid "总览"
@@ -35,7 +34,7 @@ msgstr "Chart Feature"
 msgid "特效"
 msgstr "Effects"
 
-#: src/SUMMARY.md:11 src/feature/effect/index.md:72 
+#: src/SUMMARY.md:11 src/feature/effect/index.md:72
 #: src/feature/effect/builtin/index.md:1
 msgid "内置着色器"
 msgstr "Built-in shaders"
@@ -193,9 +192,10 @@ msgid ""
 "这里是 Phira 相关的文档说明, 可前往 [GitHub](https://github.com/TeamFlos/phira-docs) "
 "提出问题或者贡献文档, 其他语言请通过修改 url 来访问, 如 [`/en/`](./en/)"
 msgstr ""
-"This is the instruction of Phira-related documentation, visit [GitHub](https:"
-"//github.com/TeamFlos/phira-docs) to submit feedbacks or contribute, read in "
-"other language by editing the url, for example [`/en/`](./en/)"
+"This is the instruction of Phira-related documentation, visit "
+"[GitHub](https://github.com/TeamFlos/phira-docs) to submit feedbacks or "
+"contribute, read in other language by editing the url, for example "
+"[`/en/`](./en/)"
 
 #: src/index.md:5
 msgid "如果希望提供翻译, 请参考"
@@ -203,37 +203,42 @@ msgstr "If you’re willing to provide translation, please refer to"
 
 #: src/index.md:7
 msgid ""
-"[mdbook-i18n-helpers 的指引](https://github.com/google/mdbook-i18n-"
-"helpers/blob/main/i18n-helpers/USAGE.md)"
+"[mdbook-i18n-helpers "
+"的指引](https://github.com/google/mdbook-i18n-helpers/blob/main/i18n-helpers/"
+"USAGE.md)"
 msgstr ""
-"[Instructions in mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-"
-"helpers/blob/main/i18n-helpers/USAGE.md)"
+"[Instructions in "
+"mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers/blob/"
+"main/i18n-helpers/USAGE.md)"
 
 #: src/index.md:8
 msgid ""
-"[comprehensive-rust 的示例](https://github.com/google/comprehensive-"
-"rust/blob/main/TRANSLATIONS.md)"
+"[comprehensive-rust "
+"的示例](https://github.com/google/comprehensive-rust/blob/main/TRANSLATIONS.md)"
 msgstr ""
-"[Examples in comprehensive-rust](https://github.com/google/comprehensive-"
-"rust/blob/main/TRANSLATIONS.md)"
+"[Examples in "
+"comprehensive-rust](https://github.com/google/comprehensive-rust/blob/main/"
+"TRANSLATIONS.md)"
 
 #: src/index.md:10
 msgid ""
 "在 PR 内提供相应的翻译后 `.po` 文件, 并在 `.github/mdbook.yml` 的 `env` 的 `LANGUAGES` "
-"中添加对应的语言, 语言代码见 [ISO 639](https://en.wikipedia."
-"org/wiki/List_of_ISO_639_language_codes)"
+"中添加对应的语言, 语言代码见 [ISO "
+"639](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes)"
 msgstr ""
 "Provide the translated `.po` file in the Pull Request, and add the "
-"corresponding language code in `LANGUAGES` in `env` in the `.github/mdbook."
-"yml` file, visit [ISO 639](https://en.wikipedia."
-"org/wiki/List_of_ISO_639_language_codes) for language code reference"
+"corresponding language code in `LANGUAGES` in `env` in the "
+"`.github/mdbook.yml` file, visit [ISO "
+"639](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) for "
+"language code reference"
 
 # "在测试群或频道中找到资源包" is not translated because at that time there is no phira discord server and alot of the players are unable to access QQ. So I left the translation out.
 # by PingTKP
 #: src/respack/index.md:3
 msgid ""
 "在 prpr "
-"中，你可以自定义资源包。资源包包含了音符的样式、粒子效果、打击音效等等元素。你可以在测试群或频道中找到资源包，也可以选择自己制作资源包。以下将具体阐述资源包的文件结构。"
+"中，你可以自定义资源包。资源包包含了音符的样式、粒子效果、打击音效等等元素。你可以在测试群或频道中找到资源包，也可以选择自己制作资源包。以下将具体阐述资"
+"源包的文件结构。"
 msgstr ""
 "In prpr, you can customize the respack. The respack consists of how the "
 "notes look, particle effects, hit sound effects, etc. You can find premade "
@@ -245,12 +250,11 @@ msgid "结构"
 msgstr "Structure"
 
 #: src/respack/index.md:7
-#, fuzzy
 msgid "资源包是单个 zip 压缩文件，其中包含了配置文件 `info.yml` 和其他的资源文件。其中，资源文件有些是必须存在，有些则是可选的。"
 msgstr ""
-"A Respack is a single zip archive containing the configuration file `info."
-"yml` and other resource files. Some of the resource files are required and "
-"some are optional."
+"A Respack is a single zip archive containing the configuration file "
+"`info.yml` and other resource files. Some of the resource files are "
+"required and some are optional."
 
 #: src/respack/index.md:9
 msgid "资源文件"
@@ -296,8 +300,8 @@ msgstr ""
 
 #: src/respack/index.md:21
 msgid ""
-"`click.ogg`、`drag.ogg` 和 `flick.ogg`：对应音符的打击音效，注意采样率必须为 44100Hz，否则在渲染时（prpr-"
-"render）会导致崩溃；"
+"`click.ogg`、`drag.ogg` 和 `flick.ogg`：对应音符的打击音效，注意采样率必须为 "
+"44100Hz，否则在渲染时（prpr-render）会导致崩溃；"
 msgstr ""
 "`click.ogg`, `drag.ogg` and `flick.ogg`: The sound effects for the "
 "corresponding notes, note that the sampling rate must be 44100 Hz, or else "
@@ -359,8 +363,8 @@ msgstr "`description`: The description/introduction of the respack."
 
 #: src/respack/index.md:39
 msgid ""
-"`hitFx`：打击特效宽、高的帧数。打击特效是将多帧动画存储在一张图中的，因此需要指定这张图中横竖各有几帧，例如，在 [此图]"
-"(image/hit_fx.jpg) 中横、竖的帧数分别为 5 与 "
+"`hitFx`：打击特效宽、高的帧数。打击特效是将多帧动画存储在一张图中的，因此需要指定这张图中横竖各有几帧，例如，在 "
+"[此图](image/hit_fx.jpg) 中横、竖的帧数分别为 5 与 "
 "6（最后一行不太看得见，但是是存在的）（图片为了便于辨识使用了黑色背景，但在制作资源包时应当使用透明背景）；"
 msgstr ""
 "`hitFx`: The frame count of the width and height of the hit effect. Hit "
@@ -368,9 +372,9 @@ msgstr ""
 "necessary to specify the number of horizontal and vertical frames in the "
 "image. For example, in [this image](image/hit_fx.jpg), the horizontal and "
 "vertical frame count is 5 and 6 respectively (the last row is not very "
-"visible, but it is present there) (the image uses a black background for the "
-"ease of viewing, but a transparent background should be used when creating a "
-"respack)."
+"visible, but it is present there) (the image uses a black background for "
+"the ease of viewing, but a transparent background should be used when "
+"creating a respack)."
 
 #: src/respack/index.md:40
 msgid ""
@@ -403,14 +407,13 @@ msgstr ""
 
 #: src/respack/index.md:46
 msgid "`hitFxScale`（小数，默认 `1.0`）：打击特效缩放比例；"
-msgstr ""
-"`hitFxScale` (float, default value: `1.0`): The scale of the hit effect."
+msgstr "`hitFxScale` (float, default value: `1.0`): The scale of the hit effect."
 
 #: src/respack/index.md:47
 msgid "`hitFxRotate`（布尔值，默认 `false`）：打击特效是否随 Note 旋转；"
 msgstr ""
-"`hitFxRotate` (bool, default value: `false`): Whether the hit effect rotates "
-"with the note."
+"`hitFxRotate` (bool, default value: `false`): Whether the hit effect "
+"rotates with the note."
 
 #: src/respack/index.md:48
 msgid "`hitFxTinted`（布尔值，默认 `true`）：打击特效是否依照判定线颜色着色；"
@@ -432,27 +435,29 @@ msgstr ""
 
 #: src/respack/index.md:51
 msgid ""
-"`holdRepeat`（布尔值，默认 `false`）：Hold 的中间部分是否采用重复式拉伸。[这里的三张图](image/hold_repeat."
-"jpg) 从左到右依次是 Hold 资源图、不启用 `holdRepeat` 时的长条和启用 `holdRepeat` 时的长条；"
+"`holdRepeat`（布尔值，默认 `false`）：Hold "
+"的中间部分是否采用重复式拉伸。[这里的三张图](image/hold_repeat.jpg) 从左到右依次是 Hold 资源图、不启用 "
+"`holdRepeat` 时的长条和启用 `holdRepeat` 时的长条；"
 msgstr ""
 "`holdRepeat` (bool. Default value: `false`): Whether the middle section of "
-"the hold is repetitively stretched. [The below shows 3 images]"
-"(image/hold_repeat.jpg), the hold’s image on the left, the image of how the "
-"hold will look like when `holdRepeat` is false on the middle, and the image "
-"of how the hold will look like when `holdRepeat` is true on the right."
+"the hold is repetitively stretched. [The below shows 3 "
+"images](image/hold_repeat.jpg), the hold’s image on the left, the image of "
+"how the hold will look like when `holdRepeat` is false on the middle, and "
+"the image of how the hold will look like when `holdRepeat` is true on the "
+"right."
 
 #: src/respack/index.md:52
 msgid ""
-"`holdCompact`（布尔值，默认 `false`）：是否把 Hold 的头部和尾部与 Hold 中间重叠。还是用上面的 [示例]"
-"(image/hold_repeat.jpg)，如果不开启 `holdCompact`，效果就会是左边第一张图，Hold "
+"`holdCompact`（布尔值，默认 `false`）：是否把 Hold 的头部和尾部与 Hold 中间重叠。还是用上面的 "
+"[示例](image/hold_repeat.jpg)，如果不开启 `holdCompact`，效果就会是左边第一张图，Hold "
 "的头尾是和中间隔开的；而右边两张图都是开启了 `holdCompact` 的效果；"
 msgstr ""
 "`holdCompact` (bool, default value: `false`): Whether to overlap the hold’s "
-"head and tail section with the middle section. Using the previous [example]"
-"(image/hold_repeat.jpg), if `holdCompact` is false, the hold will look like "
-"the image on the left, you can see that the tail and head section are "
-"separated from the middle section. If `holdCompact` is true, the hold will "
-"look like the image on the middle and right."
+"head and tail section with the middle section. Using the previous "
+"[example](image/hold_repeat.jpg), if `holdCompact` is false, the hold will "
+"look like the image on the left, you can see that the tail and head section "
+"are separated from the middle section. If `holdCompact` is true, the hold "
+"will look like the image on the middle and right."
 
 #: src/respack/index.md:53
 msgid "`colorPerfect`（十六进制颜色代码，默认 `0xe1ffec9f`）：AP（全 Perfect）情况下的判定线颜色；"
@@ -463,8 +468,8 @@ msgstr ""
 #: src/respack/index.md:54
 msgid "`colorGood`（十六进制颜色代码，默认 `0xebb4e1ff`）：FC（全连）情况下的判定线颜色。"
 msgstr ""
-"`colorGood` (Hexadecimal color code, default value: `0xebb4e1ff`): The color "
-"of the judgement line when it is still FC (Full Combo)."
+"`colorGood` (Hexadecimal color code, default value: `0xebb4e1ff`): The "
+"color of the judgement line when it is still FC (Full Combo)."
 
 #: src/feature/index.md:3
 msgid ""
@@ -473,7 +478,8 @@ msgid ""
 msgstr ""
 "prpr not only supports the official Phigros, 'pec', and 'rpe' chart format, "
 "but also added some unique features. These chart features can only be used "
-"in prpr and other clients that built on top of prpr. These features include: "
+"in prpr and other clients that built on top of prpr. These features "
+"include: "
 
 #: src/feature/index.md:5
 msgid "[特效](./effect/index.md)"
@@ -508,7 +514,7 @@ msgstr ""
 msgid "\"bpm\""
 msgstr "\"bpm\""
 
-#: src/feature/index.md:17 src/feature/index.md:18 
+#: src/feature/index.md:17 src/feature/index.md:18
 #: src/feature/video/index.md:16
 msgid "\"time\""
 msgstr "\"time\""
@@ -542,17 +548,17 @@ msgstr ""
 "is composed of multiple `Event`. The format of a single `Event` is shown "
 "below:"
 
-#: src/feature/index.md:34 src/feature/index.md:57 
+#: src/feature/index.md:34 src/feature/index.md:57
 #: src/feature/effect/index.md:58
 msgid "\"startTime\""
 msgstr "\"startTime\""
 
-#: src/feature/index.md:35 src/feature/index.md:58 
+#: src/feature/index.md:35 src/feature/index.md:58
 #: src/feature/effect/index.md:59
 msgid "\"endTime\""
 msgstr "\"endTime\""
 
-#: src/feature/index.md:36 src/feature/index.md:59 
+#: src/feature/index.md:36 src/feature/index.md:59
 #: src/feature/effect/index.md:60
 msgid "\"easingType\""
 msgstr "\"easingType\""
@@ -565,14 +571,14 @@ msgstr "\"easingLeft\""
 msgid "\"easingRight\""
 msgstr "\"easingRight\""
 
-#: src/feature/index.md:39 src/feature/index.md:60 
-#: src/feature/effect/index.md:15 src/feature/effect/index.md:52 
+#: src/feature/index.md:39 src/feature/index.md:60
+#: src/feature/effect/index.md:15 src/feature/effect/index.md:52
 #: src/feature/effect/index.md:61
 msgid "\"start\""
 msgstr "\"start\""
 
-#: src/feature/index.md:40 src/feature/index.md:61 
-#: src/feature/effect/index.md:16 src/feature/effect/index.md:53 
+#: src/feature/index.md:40 src/feature/index.md:61
+#: src/feature/effect/index.md:16 src/feature/effect/index.md:53
 #: src/feature/effect/index.md:62
 msgid "\"end\""
 msgstr "\"end\""
@@ -590,9 +596,9 @@ msgstr ""
 #: src/feature/index.md:46
 msgid "`start` 和 `end` 代表该时间开始和结束处该变量的值。这里值的类型是取决于变量本身的类型的，它可以是下面类型中的任意一种："
 msgstr ""
-"`start` and `end` represent the values at the beginning and end of the time. "
-"The type of the value here depends on the type of the animation variable "
-"itself, which can be any of the following types:"
+"`start` and `end` represent the values at the beginning and end of the "
+"time. The type of the value here depends on the type of the animation "
+"variable itself, which can be any of the following types:"
 
 #: src/feature/index.md:48
 msgid "`float`：单个小数；"
@@ -605,14 +611,14 @@ msgstr "`vec2`: 2 decimal representing a 2D vector, represented as an array."
 #: src/feature/index.md:50
 msgid "`color`：四个整数（0-255）表示的颜色，格式为 `[R, G, B, A]`。"
 msgstr ""
-"`color`: 4 integers (0-255) that represents a color, the format is `[R, G, B,"
-" A]`."
+"`color`: 4 integers (0-255) that represents a color, the format is `[R, G, "
+"B, A]`."
 
 #: src/feature/index.md:52
 msgid "例如，下面的动画变量将在特定时段内从 `0` 到 `1` 线性变化："
 msgstr ""
-"For example, the following animation variable will vary linearly from `0` to "
-"`1` over a given time period."
+"For example, the following animation variable will vary linearly from `0` "
+"to `1` over a given time period."
 
 #: src/feature/effect/index.md:3
 msgid ""
@@ -655,7 +661,7 @@ msgstr "\"Name of shader\""
 msgid "\"global\""
 msgstr "\"global\""
 
-#: src/feature/effect/index.md:19 src/feature/effect/index.md:36 
+#: src/feature/effect/index.md:19 src/feature/effect/index.md:36
 #: src/feature/effect/index.md:55
 msgid "\"vars\""
 msgstr "\"vars\""
@@ -664,7 +670,8 @@ msgstr "\"vars\""
 msgid "`start` 和 `end` 指定了特效的开始和结束时间，格式与 RPE 默认的时间表示格式相同（`[小节数, 分子, 分母]`）。"
 msgstr ""
 "`start` and `end` specify the start and end time respectively in the same "
-"format as RPE's default time format (`[bar number, numerator, denominator]`)."
+"format as RPE's default time format (`[bar number, numerator, "
+"denominator]`)."
 
 #: src/feature/effect/index.md:27
 msgid "`shader`，即着色器名字，既可以是内置着色器，也可以是自定义的着色器。"
@@ -675,9 +682,9 @@ msgstr ""
 #: src/feature/effect/index.md:29
 msgid "`global` 决定了该特效会不会影响到 UI 元素（连击数、暂停按钮等）。可以不填，默认为 `false`。"
 msgstr ""
-"`global` determines whether the effect will affect UI elements (combo count, "
-"pause button, etc). This field can be left blank, and its default value is "
-"`false`."
+"`global` determines whether the effect will affect UI elements (combo "
+"count, pause button, etc). This field can be left blank, and its default "
+"value is `false`."
 
 #: src/feature/effect/index.md:31
 msgid ""
@@ -707,9 +714,9 @@ msgid ""
 "下面的例子将在 `[2, 0, 1]` 到 `[4, 0, 1]` 中使用 `chromatic` 内置着色器，并将 `power` "
 "这一参数在这一时段内从 `0` 到 `0.1` 线性变化，且 `sampleCount` 被固定为 `5`："
 msgstr ""
-"The following example will apply the built-in `chromatic` shader from `[2, 0,"
-" 1]` to `[4, 0, 1]` and will vary the `power` parameter linearly from `0` to "
-"`0.1` in this time period, with the `sampleCount` fixed at `5`."
+"The following example will apply the built-in `chromatic` shader from `[2, "
+"0, 1]` to `[4, 0, 1]` and will vary the `power` parameter linearly from `0` "
+"to `0.1` in this time period, with the `sampleCount` fixed at `5`."
 
 #: src/feature/effect/index.md:50
 msgid "\"effects\""
@@ -741,14 +748,14 @@ msgstr "Chromatic effect."
 msgid "![示例](image/chromatic.png)"
 msgstr "![example](image/chromatic.png)"
 
-#: src/feature/effect/builtin/chromatic.md:7 
-#: src/feature/effect/builtin/circleBlur.md:7 
-#: src/feature/effect/builtin/fisheye.md:13 
-#: src/feature/effect/builtin/glitch.md:7 
-#: src/feature/effect/builtin/grayscale.md:7 
-#: src/feature/effect/builtin/noise.md:7 src/feature/effect/builtin/pixel.md:7 
-#: src/feature/effect/builtin/radialBlur.md:7 
-#: src/feature/effect/builtin/shockwave.md:7 
+#: src/feature/effect/builtin/chromatic.md:7
+#: src/feature/effect/builtin/circleBlur.md:7
+#: src/feature/effect/builtin/fisheye.md:13
+#: src/feature/effect/builtin/glitch.md:7
+#: src/feature/effect/builtin/grayscale.md:7
+#: src/feature/effect/builtin/noise.md:7 src/feature/effect/builtin/pixel.md:7
+#: src/feature/effect/builtin/radialBlur.md:7
+#: src/feature/effect/builtin/shockwave.md:7
 #: src/feature/effect/builtin/vignette.md:7
 msgid "参数"
 msgstr "Parameters"
@@ -762,8 +769,7 @@ msgstr ""
 
 #: src/feature/effect/builtin/chromatic.md:10
 msgid "`power`（小数，默认 `0.01`）：强度，或者说偏移距离。"
-msgstr ""
-"`power` (float, default value: `0.01`): The intensity, or offset distance."
+msgstr "`power` (float, default value: `0.01`): The intensity, or offset distance."
 
 #: src/feature/effect/builtin/circleBlur.md:3
 msgid "圆点模糊。会将像素点模糊放大为亮点，建议搭配参数动画使用。"
@@ -777,13 +783,11 @@ msgstr "![example](image/circleBlur.png)"
 
 #: src/feature/effect/builtin/circleBlur.md:9
 msgid "`size`（小数，默认 `10.0`）：原点的大小，以像素为单位。"
-msgstr ""
-"`size` (float, default value: `10.0`): The size of the origin, in pixels."
+msgstr "`size` (float, default value: `10.0`): The size of the origin, in pixels."
 
 #: src/feature/effect/builtin/fisheye.md:3
 msgid "鱼眼效果。当 `power` 为负数时可以做出类似隧洞穿梭的效果。"
-msgstr ""
-"Fisheye effect. When `power` is negative, you can make tunneling effect."
+msgstr "Fisheye effect. When `power` is negative, you can make tunneling effect."
 
 #: src/feature/effect/builtin/fisheye.md:5
 msgid "`power` 为负数："
@@ -832,8 +836,8 @@ msgstr "`speed` (float, default value: `5.0`): Speed of flickering animation."
 #: src/feature/effect/builtin/glitch.md:12
 msgid "`blockCount`（小数，默认 `30.5`）：见上图，错位条带的条数（大概）；"
 msgstr ""
-"`blockCount` (float, default value: `30.5`): Look at above images, number of "
-"misaligned strips (approximate)."
+"`blockCount` (float, default value: `30.5`): Look at above images, number "
+"of misaligned strips (approximate)."
 
 #: src/feature/effect/builtin/glitch.md:13
 msgid "`colorRate`（小数，默认 `0.01`，范围 `0-1`）：色差的距离。"
@@ -911,8 +915,7 @@ msgstr ""
 
 #: src/feature/effect/builtin/radialBlur.md:11
 msgid "`power`（小数，默认 `0.01`，范围 `0-1`）：放射强度；"
-msgstr ""
-"`power` (float, default value: `0.01`, range: `0-1`): Intensity of effect."
+msgstr "`power` (float, default value: `0.01`, range: `0-1`): Intensity of effect."
 
 #: src/feature/effect/builtin/radialBlur.md:12
 msgid "`sampleCount`（整数，默认 `3`，范围 `1-64`）：采样次数，越高显示会更连贯，开销也更大。"
@@ -976,8 +979,7 @@ msgstr "![example](image/vignette.png)"
 
 #: src/feature/effect/builtin/vignette.md:9
 msgid "`color`（颜色，默认黑色）：边缘的颜色；"
-msgstr ""
-"`color` (color, default color: `black`): Color at the edges of the screen."
+msgstr "`color` (color, default color: `black`): Color at the edges of the screen."
 
 #: src/feature/effect/builtin/vignette.md:10
 msgid "`extend`（小数，默认 `0.25`，范围 `0-1`）：边缘的延伸程度，值越大黑色部分越多；"
@@ -996,11 +998,11 @@ msgid ""
 "用于特效的着色器是片元着色器。你可以自行编写着色器并将其附加于谱面压缩包中。在 `shader` 字段，你需要填写 `/shader路径`。注意这里的 "
 "`/` 是必不可少的，它将内置着色器和自定义着色器区分开来。"
 msgstr ""
-"Fragment shaders are used for making the special effects. You can write your "
-"own shaders and attach them to the chart's zip file. In the `shader` field, "
-"you need to fill in the `/shader_path`. Note that the `/` must be included "
-"and this field must be filled in because it distinguishes the built-in "
-"shaders from the custom shaders."
+"Fragment shaders are used for making the special effects. You can write "
+"your own shaders and attach them to the chart's zip file. In the `shader` "
+"field, you need to fill in the `/shader_path`. Note that the `/` must be "
+"included and this field must be filled in because it distinguishes the "
+"built-in shaders from the custom shaders."
 
 #: src/feature/effect/custom-shader.md:5
 msgid "为保证兼容性，着色器版本要求为 GLSL 1.00。"
@@ -1035,9 +1037,9 @@ msgstr ""
 #: src/feature/effect/custom-shader.md:18
 msgid "还有一些变量是虽然存在，但在片元着色器中使用无意义的。在定义自己的变量时，你应该避免与它们重名："
 msgstr ""
-"There are also variables that exists, but these variables are useless in the "
-"fragment shaders. When defining your own variables, you should avoid these "
-"variables' name."
+"There are also variables that exists, but these variables are useless in "
+"the fragment shaders. When defining your own variables, you should avoid "
+"these variables' name."
 
 #: src/feature/effect/custom-shader.md:26
 msgid "着色器变量"
@@ -1047,8 +1049,8 @@ msgstr "Shader variables"
 #: src/feature/effect/custom-shader.md:28
 msgid "为了在谱面中可以指定参数，你需要这样定义你的着色器 `uniform` 变量："
 msgstr ""
-"In order to define your own parameters in the chart, you need to define your "
-"shader `uniform` variables like this:"
+"In order to define your own parameters in the chart, you need to define "
+"your shader `uniform` variables like this:"
 
 #: src/feature/effect/custom-shader.md:30
 msgid ""
@@ -1061,18 +1063,17 @@ msgstr ""
 "```"
 
 #: src/feature/effect/custom-shader.md:34
-msgid ""
-"其中 `type` 为类型，目前支持 `float`、`vec2` 和 `vec4`；`name` 为变量名；`def` 为默认值。三个都是不可缺少的。"
+msgid "其中 `type` 为类型，目前支持 `float`、`vec2` 和 `vec4`；`name` 为变量名；`def` 为默认值。三个都是不可缺少的。"
 msgstr ""
-"where `type` is the variable type, currently `float`, `vec2`, and `vec4` are "
-"supported; `name` is the variable name; `def` is the default value. Any of "
-"the 3 values cannot be left out."
+"where `type` is the variable type, currently `float`, `vec2`, and `vec4` "
+"are supported; `name` is the variable name; `def` is the default value. Any "
+"of the 3 values cannot be left out."
 
 #: src/feature/effect/custom-shader.md:38
 msgid "下面的示例着色器将会根据 `factor` 的值给屏幕叠加上强弱不等的红色："
 msgstr ""
-"The example below shows that the shader will overlay the screen with varying "
-"shades of red depending on the value of factor."
+"The example below shows that the shader will overlay the screen with "
+"varying shades of red depending on the value of factor."
 
 #: src/feature/effect/custom-shader.md:40
 msgid ""
@@ -1086,8 +1087,8 @@ msgid ""
 "uniform float factor; // %0.5% 0..1\n"
 "\n"
 "void main() {\n"
-"  gl_FragColor = mix(texture2D(screenTexture, uv), vec4(1.0, 0.0, 0.0, 1.0), "
-"factor);\n"
+"  gl_FragColor = mix(texture2D(screenTexture, uv), vec4(1.0, 0.0, 0.0, "
+"1.0), factor);\n"
 "}\n"
 "```"
 msgstr ""
@@ -1101,8 +1102,8 @@ msgstr ""
 "uniform float factor; // %0.5% 0..1\n"
 "\n"
 "void main() {\n"
-"  gl_FragColor = mix(texture2D(screenTexture, uv), vec4(1.0, 0.0, 0.0, 1.0), "
-"factor);\n"
+"  gl_FragColor = mix(texture2D(screenTexture, uv), vec4(1.0, 0.0, 0.0, "
+"1.0), factor);\n"
 "}\n"
 "```"
 
@@ -1114,9 +1115,9 @@ msgstr ""
 "In prpr, you can play a video in the background, but the audio will not be "
 "played. However, since most videos have a large file size and the upload "
 "limit for prpr charts is 10MB, charts that have large BGA may not be "
-"uploaded. If you need to have a video background, it is recommended that the "
-"video background is used for small animations and compressed (including but "
-"not limited to removing audio)."
+"uploaded. If you need to have a video background, it is recommended that "
+"the video background is used for small animations and compressed (including "
+"but not limited to removing audio)."
 
 #: src/feature/video/index.md:7
 msgid "你需要在 `extra.json` 中加入 `videos` 字段，其内容为 `Video` 的数组。"
@@ -1191,59 +1192,72 @@ msgstr "`fit`: Forcefully stretch the video to the entire screen."
 
 #: src/feature/video/index.md:33
 msgid ""
-"`alpha` 和 `scale` 分别代表视频的不透明度（若透明，则会显示下方的曲绘）和昏暗程度，他们都是 [`动画变量`](../index."
-"html#动画变量)。"
+"`alpha` 和 `scale` 分别代表视频的不透明度（若透明，则会显示下方的曲绘）和昏暗程度，他们都是 "
+"[`动画变量`](../index.html#动画变量)。"
 msgstr ""
 "`alpha` and `dim` represents the transparency of the video (if it is "
 "invisible, the song background art will be displayed instead) and dimness "
-"respectively, they are both [`Animation variables`](../index.html#animation-"
-"variables)."
+"respectively, they are both [`Animation "
+"variables`](../index.html#animation-variables)."
 
 #: src/feature/unlock_video/index.md:4
 msgid "**请注意解锁动画和视频背景的区别**"
-msgstr ""
-"**Please note the difference between unlock animation and video background**"
+msgstr "**Please note the difference between unlock animation and video background**"
 
 #: src/feature/unlock_video/index.md:6
 msgid "解锁动画允许在玩家初次游玩谱面前播放一段视频。"
 msgstr ""
+"The unlock animation allows a video to be played before the player's "
+"initial playthrough of the chart."
 
 #: src/feature/unlock_video/index.md:8
 msgid "使用方法"
-msgstr ""
+msgstr "Usage"
 
 #: src/feature/unlock_video/index.md:10
 msgid "目前 UI 还没做好，稍微有些麻烦。下面的步骤建议在 Windows 上进行。"
 msgstr ""
+"The UI is currently not ready and is slightly cumbersome. The following "
+"steps are recommended for Windows."
 
 #: src/feature/unlock_video/index.md:12
 msgid "如果你的谱面已经有了 `info.yml`，请跳转到第三步。"
-msgstr ""
+msgstr "If your chart already has `info.yml`, please skip to step three."
 
 #: src/feature/unlock_video/index.md:14
 msgid "在 Phira 中导入你的谱面；"
-msgstr ""
+msgstr "Import your chart in Phira;"
 
 #: src/feature/unlock_video/index.md:15
 msgid ""
-"在 `data/charts/custom` 中搜索你的谱面 ID（如 `9067228`），找到对应的文件夹，在里面找到 `info."
-"yml`，拷贝到你的谱面文件夹里（注意不是导入到 Phira 后的文件夹，是 pez 解压出来的文件夹）；"
+"在 `data/charts/custom` 中搜索你的谱面 ID（如 `9067228`），找到对应的文件夹，在里面找到 "
+"`info.yml`，拷贝到你的谱面文件夹里（注意不是导入到 Phira 后的文件夹，是 pez 解压出来的文件夹）；"
 msgstr ""
+"Search for your chart ID in `data/charts/custom` (e.g. `9067228`), locate "
+"the corresponding folder, find `info.yml` in the folder, and copy it to "
+"your chart folder (Note that the folder mentioned here is not the folder "
+"that you get after importing into Phira, it's the folder that you extracted "
+"from pez);"
 
 #: src/feature/unlock_video/index.md:16
-msgid ""
-"向你的谱面文件夹（注意不是导入到 Phira 后的文件夹，是 pez 解压出来的文件夹）内加入解锁动画，假设文件名为 `unlock.mp4`；"
+msgid "向你的谱面文件夹（注意不是导入到 Phira 后的文件夹，是 pez 解压出来的文件夹）内加入解锁动画，假设文件名为 `unlock.mp4`；"
 msgstr ""
+"Add the unlock animation to your chart folder (Note that the folder "
+"mentioned here is not the folder that you get after importing into Phira, "
+"it's the folder that you extracted from pez), assuming the file name is "
+"`unlock.mp4`;"
 
 #: src/feature/unlock_video/index.md:17
 msgid ""
-"在 `info.yml` 中找到 `unlockVideo: null` 一行，替换为 `unlockVideo: unlock."
-"mp4`（如果没有这一行，则加上这一行）；"
+"在 `info.yml` 中找到 `unlockVideo: null` 一行，替换为 `unlockVideo: "
+"unlock.mp4`（如果没有这一行，则加上这一行）；"
 msgstr ""
+"Find the line `unlockVideo: null` in `info.yml` and replace it with "
+"`unlockVideo: unlock.mp4` (or add that line if it's not there);"
 
 #: src/feature/unlock_video/index.md:18
 msgid "重新导入你的谱面。"
-msgstr ""
+msgstr "Re-import your chart."
 
 #: src/uml/index.md:1
 msgid "UML 文档"
@@ -1282,8 +1296,7 @@ msgid "`Rect`"
 msgstr "`Rect`"
 
 #: src/uml/syntax/type.md:11
-msgid ""
-"矩形. 由 `[left, top, width, height]`(分别是左上角 `x` 坐标, 左上角 `y` 坐标, 矩形宽度, 矩形高度)定义."
+msgid "矩形. 由 `[left, top, width, height]`(分别是左上角 `x` 坐标, 左上角 `y` 坐标, 矩形宽度, 矩形高度)定义."
 msgstr ""
 
 #: src/uml/syntax/type.md:13
@@ -1340,8 +1353,8 @@ msgstr ""
 
 #: src/uml/syntax/type.md:32
 msgid ""
-"`Color`: 颜色. 可以是十六进制 RGB 或 ARGB 颜色值(如 `\"#ff0000\"` 或 `\"#7fffffff\"`)或颜色名(如 "
-"`\"red\"`). 目前可用的颜色名有:"
+"`Color`: 颜色. 可以是十六进制 RGB 或 ARGB 颜色值(如 `\"#ff0000\"` 或 "
+"`\"#7fffffff\"`)或颜色名(如 `\"red\"`). 目前可用的颜色名有:"
 msgstr ""
 
 #: src/uml/syntax/type.md:33
@@ -1394,11 +1407,11 @@ msgstr ""
 
 #: src/uml/syntax/expression.md:5
 msgid "运算符"
-msgstr ""
+msgstr "Operators"
 
 #: src/uml/syntax/expression.md:7
 msgid "可以使用的运算符有:"
-msgstr ""
+msgstr "The operators that can be used are:"
 
 #: src/uml/syntax/expression.md:9
 msgid "`+`: 加法"
@@ -1588,8 +1601,8 @@ msgstr ""
 
 #: src/uml/syntax/element.md:9
 msgid ""
-"其中, `type` 为元素的类型, `attrN` 和 `valueN` 分别为属性名称和属性值. 不同类型的元素的属性也各不相同, 其中一些是必填, "
-"会在介绍元素时具体标注."
+"其中, `type` 为元素的类型, `attrN` 和 `valueN` 分别为属性名称和属性值. 不同类型的元素的属性也各不相同, "
+"其中一些是必填, 会在介绍元素时具体标注."
 msgstr ""
 
 #: src/uml/syntax/element.md:11
@@ -1600,7 +1613,7 @@ msgstr ""
 msgid "后面的 `{ Hello }` 是可选内容, 代表该元素的文字内容. 只对 `p`(段落元素)生效."
 msgstr ""
 
-#: src/uml/syntax/elements/p.md:9 src/uml/syntax/elements/img.md:7 
+#: src/uml/syntax/elements/p.md:9 src/uml/syntax/elements/img.md:7
 #: src/uml/syntax/elements/col.md:7 src/uml/syntax/elements/btn.md:7
 msgid "`id`(选填): 元素 ID"
 msgstr ""
@@ -1615,8 +1628,8 @@ msgstr ""
 
 #: src/uml/syntax/elements/p.md:12
 msgid ""
-"`ax`(选填, 默认为 `0`): 文本横向对齐, `[0, 1]` 间的浮点数. 为 `0` 时, 按照 `x` 坐标左对齐, 为 `1` 时右对齐,"
-" `0.5` 时居中"
+"`ax`(选填, 默认为 `0`): 文本横向对齐, `[0, 1]` 间的浮点数. 为 `0` 时, 按照 `x` 坐标左对齐, 为 `1` "
+"时右对齐, `0.5` 时居中"
 msgstr ""
 
 #: src/uml/syntax/elements/p.md:13
@@ -1880,8 +1893,7 @@ msgid "低版本兼容表达式 `#>if-no-v2`"
 msgstr ""
 
 #: src/uml/syntax/comment_expression.md:95
-msgid ""
-"如果你的 UML 文件中使用了 V2 版本中没有的特性, 可以在使用这个表达式显示部分元素, 以提示使用低版本的 Phira 客户端的用户尽快升级."
+msgid "如果你的 UML 文件中使用了 V2 版本中没有的特性, 可以在使用这个表达式显示部分元素, 以提示使用低版本的 Phira 客户端的用户尽快升级."
 msgstr ""
 
 #: src/uml/syntax/comment_expression.md:97
@@ -1923,12 +1935,13 @@ msgid ""
 "\n"
 "let bg_rect = [0, 0 - rh + o, 2, rh]\n"
 "\n"
-"img(id: bg, url: \"https://files-cf.phira.cn/events/xmas-2023-kedmue/bg."
-"jpeg\", r: bg_rect, t: cropCenter)\n"
+"img(id: bg, url: "
+"\"https://files-cf.phira.cn/events/xmas-2023-kedmue/bg.jpeg\", r: bg_rect, "
+"t: cropCenter)\n"
 "\n"
 "# Back button\n"
-"let back_btn_rect = [bg_rect.x + 100 / w * 2, bg_rect.t + 50 / h * rh, -45 / "
-"w * 2, 75 / h * 1.18]\n"
+"let back_btn_rect = [bg_rect.x + 100 / w * 2, bg_rect.t + 50 / h * rh, -45 "
+"/ w * 2, 75 / h * 1.18]\n"
 "img(id: back_btn_img, url: \"https://files-cf.phira.cn/ltc-arrow.png\", r: "
 "back_btn_rect, t: fit)\n"
 "btn(id: back_btn, r: back_btn_rect, action: \"exit\")\n"
@@ -1969,12 +1982,13 @@ msgstr ""
 "\n"
 "let bg_rect = [0, 0 - rh + o, 2, rh]\n"
 "\n"
-"img(id: bg, url: \"https://files-cf.phira.cn/events/xmas-2023-kedmue/bg."
-"jpeg\", r: bg_rect, t: cropCenter)\n"
+"img(id: bg, url: "
+"\"https://files-cf.phira.cn/events/xmas-2023-kedmue/bg.jpeg\", r: bg_rect, "
+"t: cropCenter)\n"
 "\n"
 "# Back button\n"
-"let back_btn_rect = [bg_rect.x + 100 / w * 2, bg_rect.t + 50 / h * rh, -45 / "
-"w * 2, 75 / h * 1.18]\n"
+"let back_btn_rect = [bg_rect.x + 100 / w * 2, bg_rect.t + 50 / h * rh, -45 "
+"/ w * 2, 75 / h * 1.18]\n"
 "img(id: back_btn_img, url: \"https://files-cf.phira.cn/ltc-arrow.png\", r: "
 "back_btn_rect, t: fit)\n"
 "btn(id: back_btn, r: back_btn_rect, action: \"exit\")\n"
@@ -2024,18 +2038,18 @@ msgstr ""
 msgid "可以在每个页面的左上角放置一个 `o` 方便计算每个页面上的元素的位置:"
 msgstr ""
 
-#: src/uml/advanced/page_switch.md:25 src/uml/advanced/page_switch.md:28 
-#: src/uml/advanced/page_switch.md:31 src/uml/advanced/page_switch.md:34 
-#: src/uml/advanced/page_switch.md:38 src/uml/advanced/page_switch.md:43 
-#: src/uml/advanced/page_switch.md:242 src/uml/advanced/page_switch.md:245 
-#: src/uml/advanced/page_switch.md:248 src/uml/advanced/page_switch.md:251 
+#: src/uml/advanced/page_switch.md:25 src/uml/advanced/page_switch.md:28
+#: src/uml/advanced/page_switch.md:31 src/uml/advanced/page_switch.md:34
+#: src/uml/advanced/page_switch.md:38 src/uml/advanced/page_switch.md:43
+#: src/uml/advanced/page_switch.md:242 src/uml/advanced/page_switch.md:245
+#: src/uml/advanced/page_switch.md:248 src/uml/advanced/page_switch.md:251
 #: src/uml/advanced/page_switch.md:255 src/uml/advanced/page_switch.md:260
 msgid ""
-"\"https://teamflos.github.io/phira-"
-"docs/assets/uml/advanced/page_switch/blank.png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"blank.png\""
 msgstr ""
-"\"https://teamflos.github.io/phira-"
-"docs/assets/uml/advanced/page_switch/blank.png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"blank.png\""
 
 #: src/uml/advanced/page_switch.md:47
 msgid ""
@@ -2045,51 +2059,51 @@ msgstr ""
 
 #: src/uml/advanced/page_switch.md:49
 msgid ""
-"此外, 我们还通过 `#>if` 设置了 `o22` 和 `o32` 绘制的时机. 这是为了防止纵向切换后, 用户在活动首屏看到当前页面上方页面的内容. "
-"通过这个值, 我们可以将页面上方的内容移出屏幕."
+"此外, 我们还通过 `#>if` 设置了 `o22` 和 `o32` 绘制的时机. 这是为了防止纵向切换后, "
+"用户在活动首屏看到当前页面上方页面的内容. 通过这个值, 我们可以将页面上方的内容移出屏幕."
 msgstr ""
 
 #: src/uml/advanced/page_switch.md:51
 msgid "为了得出这些偏移量的具体值, 我们需要使用定义一些用于切换页面的按钮, 并通过按钮的 `last` 属性计算出偏移量的值."
 msgstr ""
 
-#: src/uml/advanced/page_switch.md:74 src/uml/advanced/page_switch.md:82 
-#: src/uml/advanced/page_switch.md:90 src/uml/advanced/page_switch.md:265 
+#: src/uml/advanced/page_switch.md:74 src/uml/advanced/page_switch.md:82
+#: src/uml/advanced/page_switch.md:90 src/uml/advanced/page_switch.md:265
 #: src/uml/advanced/page_switch.md:273 src/uml/advanced/page_switch.md:281
 msgid ""
-"\"https://teamflos.github.io/phira-"
-"docs/assets/uml/advanced/page_switch/right_arrow.png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"right_arrow.png\""
 msgstr ""
-"\"https://teamflos.github.io/phira-"
-"docs/assets/uml/advanced/page_switch/right_arrow.png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"right_arrow.png\""
 
-#: src/uml/advanced/page_switch.md:78 src/uml/advanced/page_switch.md:86 
-#: src/uml/advanced/page_switch.md:94 src/uml/advanced/page_switch.md:269 
+#: src/uml/advanced/page_switch.md:78 src/uml/advanced/page_switch.md:86
+#: src/uml/advanced/page_switch.md:94 src/uml/advanced/page_switch.md:269
 #: src/uml/advanced/page_switch.md:277 src/uml/advanced/page_switch.md:285
 msgid ""
-"\"https://teamflos.github.io/phira-"
-"docs/assets/uml/advanced/page_switch/left_arrow.png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"left_arrow.png\""
 msgstr ""
-"\"https://teamflos.github.io/phira-"
-"docs/assets/uml/advanced/page_switch/left_arrow.png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"left_arrow.png\""
 
-#: src/uml/advanced/page_switch.md:99 src/uml/advanced/page_switch.md:108 
+#: src/uml/advanced/page_switch.md:99 src/uml/advanced/page_switch.md:108
 #: src/uml/advanced/page_switch.md:290 src/uml/advanced/page_switch.md:299
 msgid ""
-"\"https://teamflos.github.io/phira-"
-"docs/assets/uml/advanced/page_switch/up_arrow.png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/up_"
+"arrow.png\""
 msgstr ""
-"\"https://teamflos.github.io/phira-"
-"docs/assets/uml/advanced/page_switch/up_arrow.png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/up_"
+"arrow.png\""
 
-#: src/uml/advanced/page_switch.md:104 src/uml/advanced/page_switch.md:114 
+#: src/uml/advanced/page_switch.md:104 src/uml/advanced/page_switch.md:114
 #: src/uml/advanced/page_switch.md:295 src/uml/advanced/page_switch.md:305
 msgid ""
-"\"https://teamflos.github.io/phira-"
-"docs/assets/uml/advanced/page_switch/down_arrow.png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"down_arrow.png\""
 msgstr ""
-"\"https://teamflos.github.io/phira-"
-"docs/assets/uml/advanced/page_switch/down_arrow.png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"down_arrow.png\""
 
 #: src/uml/advanced/page_switch.md:119
 msgid "其中按钮 `id` 最后的编号表示按钮所在的页面."
@@ -2123,7 +2137,7 @@ msgstr ""
 msgid "此事件发生于 2023-07-10 18:53 (此为 sjfhsjfh 在内部群发送消息 \"我来磕大头了\" 的时间)"
 msgstr ""
 
-#: src/dev-incident/长风的柳絮.md:5 src/dev-incident/v0.6.0更新消息.md:7 
+#: src/dev-incident/长风的柳絮.md:5 src/dev-incident/v0.6.0更新消息.md:7
 #: src/dev-incident/6thpecjam.md:7
 msgid "事件经过"
 msgstr ""
@@ -2157,8 +2171,7 @@ msgid "同 [长风的柳絮](./长风的柳絮.md) 事件类似, 为手动操作
 msgstr ""
 
 #: src/dev-incident/v0.6.0更新消息.md:9
-msgid ""
-"sjfhsjfh 企图修改误放出的错误公告, 且心急如焚, 故不当操作导致所有用户的所有消息内容被修改为新的公告内容(即 v0.6.0 更新公告)"
+msgid "sjfhsjfh 企图修改误放出的错误公告, 且心急如焚, 故不当操作导致所有用户的所有消息内容被修改为新的公告内容(即 v0.6.0 更新公告)"
 msgstr ""
 
 #: src/dev-incident/v0.6.0更新消息.md:11
