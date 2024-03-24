@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Phira Documents\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-01T19:25:15+08:00\n"
-"PO-Revision-Date: 2024-03-24 13:17+0800\n"
+"PO-Revision-Date: 2024-03-24 14:32+0800\n"
 "Last-Translator: PingTKP <75591605+PingTKP@users.noreply.github.com>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -238,7 +238,7 @@ msgstr ""
 "In prpr, you can customize the respack. The respack consists of how the notes "
 "look, particle effects, hit sound effects, etc. You can find premade respacks, or "
 "you choose to make one yourself. The file structure of the respack is explained in "
-"detailed below:"
+"detailed below."
 
 #: src/respack/index.md:5
 msgid "结构"
@@ -382,7 +382,7 @@ msgstr ""
 "`holdAtlas`: The height of the tail and head of the hold image. The note skin of "
 "the hold is **an image**, it has the tail section, middle section and the head "
 "section, from top to bottom of the image. The 2 numbers of `holdAtlas` specify the "
-"height of the tail and head respectively in the image. For example, in [the image]"
+"height of the tail and head respectively in the image. For example, in [this image]"
 "(image/hold.png), the height of the tail and head section are both 50 pixels."
 
 #: src/respack/index.md:41
@@ -611,7 +611,7 @@ msgstr ""
 msgid "例如，下面的动画变量将在特定时段内从 `0` 到 `1` 线性变化："
 msgstr ""
 "For example, the following animation variable will vary linearly from `0` to `1` "
-"over a given time period."
+"over a given time period:"
 
 #: src/feature/effect/index.md:3
 msgid ""
@@ -714,7 +714,7 @@ msgid ""
 msgstr ""
 "The following example will apply the built-in `chromatic` shader from `[2, 0, 1]` "
 "to `[4, 0, 1]` and will vary the `power` parameter linearly from `0` to `0.1` in "
-"this time period, with the `sampleCount` fixed at `5`."
+"this time period, with the `sampleCount` fixed at `5`:"
 
 #: src/feature/effect/index.md:50
 msgid "\"effects\""
@@ -790,7 +790,7 @@ msgstr "Fisheye effect. When `power` is negative, you can make tunneling effect.
 
 #: src/feature/effect/builtin/fisheye.md:5
 msgid "`power` 为负数："
-msgstr "`power` as negative value."
+msgstr "`power` as negative value:"
 
 #: src/feature/effect/builtin/fisheye.md:7
 msgid "![示例](image/fisheye-neg.png)"
@@ -798,7 +798,7 @@ msgstr "![example](image/fisheye-neg.png)"
 
 #: src/feature/effect/builtin/fisheye.md:9
 msgid "`power` 为正数："
-msgstr "`power` as positive value."
+msgstr "`power` as positive value:"
 
 #: src/feature/effect/builtin/fisheye.md:11
 msgid "![示例](image/fisheye-pos.png)"
@@ -1001,7 +1001,7 @@ msgstr ""
 "`radius` (float, default value: `15.0`): Size of central light, the smaller the "
 "value, the greater the range affacted."
 
-# `/shader_path` would be a placeholder. A better notation is needed. 
+# `/shader_path` would be a placeholder. A better notation is needed.
 #: src/feature/effect/custom-shader.md:3
 msgid ""
 "用于特效的着色器是片元着色器。你可以自行编写着色器并将其附加于谱面压缩包中。在 "
@@ -1051,7 +1051,7 @@ msgid ""
 msgstr ""
 "There are also variables that exists, but these variables are useless in the "
 "fragment shaders. When defining your own variables, you should avoid these "
-"variables' name."
+"variables' name:"
 
 #: src/feature/effect/custom-shader.md:26
 msgid "着色器变量"
@@ -1087,7 +1087,7 @@ msgstr ""
 msgid "下面的示例着色器将会根据 `factor` 的值给屏幕叠加上强弱不等的红色："
 msgstr ""
 "The example below shows that the shader will overlay the screen with varying "
-"shades of red depending on the value of factor."
+"shades of red depending on the value of factor:"
 
 #: src/feature/effect/custom-shader.md:40
 msgid ""
@@ -1241,7 +1241,7 @@ msgstr "If your chart already has `info.yml`, please skip to step three."
 
 #: src/feature/unlock_video/index.md:14
 msgid "在 Phira 中导入你的谱面；"
-msgstr "Import your chart in Phira;"
+msgstr "Import your chart in Phira."
 
 #: src/feature/unlock_video/index.md:15
 msgid ""
@@ -1252,7 +1252,7 @@ msgstr ""
 "Search for your chart ID in `data/charts/custom` (e.g. `9067228`), locate the "
 "corresponding folder, find `info.yml` in the folder, and copy it to your chart "
 "folder (Note that the folder mentioned here is not the folder that you get after "
-"importing into Phira, it's the folder that you extracted from pez);"
+"importing into Phira, it's the folder that you extracted from pez)."
 
 #: src/feature/unlock_video/index.md:16
 msgid ""
@@ -1261,7 +1261,7 @@ msgid ""
 msgstr ""
 "Add the unlock animation to your chart folder (Note that the folder mentioned here "
 "is not the folder that you get after importing into Phira, it's the folder that "
-"you extracted from pez), assuming the file name is `unlock.mp4`;"
+"you extracted from pez), assuming the file name is `unlock.mp4`."
 
 #: src/feature/unlock_video/index.md:17
 msgid ""
@@ -1269,7 +1269,7 @@ msgid ""
 "果没有这一行，则加上这一行）；"
 msgstr ""
 "Find the line `unlockVideo: null` in `info.yml` and replace it with `unlockVideo: "
-"unlock.mp4` (or add that line if it's not there);"
+"unlock.mp4` (or add that line if it's not there)."
 
 #: src/feature/unlock_video/index.md:18
 msgid "重新导入你的谱面。"
