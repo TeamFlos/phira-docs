@@ -3,3 +3,6 @@ book
 # gettext
 *.pot
 *.mo
+
+# m*ther f*cking Mac
+.DS_Store
