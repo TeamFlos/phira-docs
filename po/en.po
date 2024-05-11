@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Phira Documents\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-01T19:25:15+08:00\n"
+"POT-Creation-Date: 2024-05-11T16:14:09+08:00\n"
 "PO-Revision-Date: 2024-03-24 14:44+0800\n"
 "Last-Translator: PingTKP <75591605+PingTKP@users.noreply.github.com>\n"
 "Language-Team: English\n"
@@ -14,1101 +14,1140 @@ msgstr ""
 "X-Generator: Poedit 3.4.2\n"
 "X-Source-Language: zh\n"
 
-#: src/SUMMARY.md:1
+#: src/SUMMARY.md
 msgid "总览"
 msgstr "Summary"
 
-#: src/SUMMARY.md:3
+#: src/SUMMARY.md
 msgid "简介"
 msgstr "Introduction"
 
-#: src/SUMMARY.md:5 src/respack/index.md:1
+#: src/SUMMARY.md src/respack/index.md
 msgid "资源包"
 msgstr "Respack"
 
-#: src/SUMMARY.md:7 src/feature/index.md:1
+#: src/SUMMARY.md src/feature/index.md
 msgid "谱面特性"
 msgstr "Chart Feature"
 
-#: src/SUMMARY.md:9 src/feature/effect/index.md:1
+#: src/SUMMARY.md src/feature/effect/index.md
 msgid "特效"
 msgstr "Effects"
 
-#: src/SUMMARY.md:11 src/feature/effect/index.md:72
-#: src/feature/effect/builtin/index.md:1
+#: src/SUMMARY.md src/feature/effect/index.md
+#: src/feature/effect/builtin/index.md
 msgid "内置着色器"
 msgstr "Built-in shaders"
 
-#: src/SUMMARY.md:13 src/feature/effect/builtin/chromatic.md:1
+#: src/SUMMARY.md src/feature/effect/builtin/chromatic.md
 msgid "`chromatic`"
 msgstr "`chromatic`"
 
-#: src/SUMMARY.md:14 src/feature/effect/builtin/circleBlur.md:1
+#: src/SUMMARY.md src/feature/effect/builtin/circleBlur.md
 msgid "`circleBlur`"
 msgstr "`circleBlur`"
 
-#: src/SUMMARY.md:15 src/feature/effect/builtin/fisheye.md:1
+#: src/SUMMARY.md src/feature/effect/builtin/fisheye.md
 msgid "`fisheye`"
 msgstr "`fisheye`"
 
-#: src/SUMMARY.md:16 src/feature/effect/builtin/glitch.md:1
+#: src/SUMMARY.md src/feature/effect/builtin/glitch.md
 msgid "`glitch`"
 msgstr "`glitch`"
 
-#: src/SUMMARY.md:17 src/feature/effect/builtin/grayscale.md:1
+#: src/SUMMARY.md src/feature/effect/builtin/grayscale.md
 msgid "`grayscale`"
 msgstr "`grayscale`"
 
-#: src/SUMMARY.md:18 src/feature/effect/builtin/noise.md:1
+#: src/SUMMARY.md src/feature/effect/builtin/noise.md
 msgid "`noise`"
 msgstr "`noise`"
 
-#: src/SUMMARY.md:19 src/feature/effect/builtin/pixel.md:1
+#: src/SUMMARY.md src/feature/effect/builtin/pixel.md
 msgid "`pixel`"
 msgstr "`pixel`"
 
-#: src/SUMMARY.md:20 src/feature/effect/builtin/radialBlur.md:1
+#: src/SUMMARY.md src/feature/effect/builtin/radialBlur.md
 msgid "`radialBlur`"
 msgstr "`radialBlur`"
 
-#: src/SUMMARY.md:21 src/feature/effect/builtin/shockwave.md:1
+#: src/SUMMARY.md src/feature/effect/builtin/shockwave.md
 msgid "`shockwave`"
 msgstr "`shockwave`"
 
-#: src/SUMMARY.md:22
+#: src/SUMMARY.md
 msgid "`vignette`"
 msgstr "`vignette`"
 
-#: src/SUMMARY.md:24 src/feature/effect/custom-shader.md:1
+#: src/SUMMARY.md src/feature/effect/custom-shader.md
 msgid "自行编写着色器"
 msgstr "Writing your own shaders"
 
-#: src/SUMMARY.md:26 src/feature/video/index.md:1
+#: src/SUMMARY.md src/feature/video/index.md
 msgid "视频背景"
 msgstr "Video Background"
 
-#: src/SUMMARY.md:28 src/feature/unlock_video/index.md:2
+#: src/SUMMARY.md src/feature/unlock_video/index.md
 msgid "解锁动画"
 msgstr "Unlock animation"
 
-#: src/SUMMARY.md:30
+#: src/SUMMARY.md
 msgid "UML文档"
 msgstr "UML documentation"
 
-#: src/SUMMARY.md:32 src/uml/syntax/index.md:1
+#: src/SUMMARY.md src/uml/syntax/index.md
 msgid "语法"
 msgstr "Grammar"
 
-#: src/SUMMARY.md:34 src/uml/syntax/coordinate.md:1
+#: src/SUMMARY.md src/uml/syntax/coordinate.md
 msgid "坐标"
 msgstr "Coordinates"
 
-#: src/SUMMARY.md:35 src/uml/syntax/type.md:1
+#: src/SUMMARY.md src/uml/syntax/type.md
 msgid "数据类型"
 msgstr "Data type"
 
-#: src/SUMMARY.md:36 src/uml/syntax/expression.md:1
+#: src/SUMMARY.md src/uml/syntax/expression.md
 msgid "表达式"
 msgstr "Expression"
 
-#: src/SUMMARY.md:37 src/uml/syntax/variable.md:1
+#: src/SUMMARY.md src/uml/syntax/variable.md
 msgid "变量"
 msgstr "Variable"
 
-#: src/SUMMARY.md:38 src/uml/syntax/element.md:1
+#: src/SUMMARY.md src/uml/syntax/element.md
 msgid "元素"
 msgstr "Element"
 
-#: src/SUMMARY.md:40 src/uml/syntax/elements/p.md:1
+#: src/SUMMARY.md src/uml/syntax/elements/p.md
 msgid "段落元素 `p`"
 msgstr "Paragraph Element `p`"
 
-#: src/SUMMARY.md:41 src/uml/syntax/elements/img.md:1
+#: src/SUMMARY.md src/uml/syntax/elements/img.md
 msgid "图片元素 `img`"
 msgstr "Image Element `img`"
 
-#: src/SUMMARY.md:42 src/uml/syntax/elements/col.md:1
+#: src/SUMMARY.md src/uml/syntax/elements/col.md
 msgid "谱面合集元素 `col`"
 msgstr "Chart Collection Element `col`"
 
-#: src/SUMMARY.md:43 src/uml/syntax/elements/btn.md:1
+#: src/SUMMARY.md src/uml/syntax/elements/btn.md
 msgid "按钮元素 `btn`"
 msgstr "Button Element `btn`"
 
-#: src/SUMMARY.md:45 src/uml/syntax/comment.md:2
+#: src/SUMMARY.md src/uml/syntax/comment.md
 msgid "注释"
 msgstr "Comment"
 
-#: src/SUMMARY.md:46 src/uml/syntax/comment_expression.md:1
+#: src/SUMMARY.md src/uml/syntax/comment_expression.md
 msgid "注释表达式"
 msgstr "Comment Expression"
 
-#: src/SUMMARY.md:48 src/uml/debugging.md:1
+#: src/SUMMARY.md src/uml/debugging.md
 msgid "如何调试"
 msgstr "How to Debug"
 
-#: src/SUMMARY.md:50 src/uml/examples/index.md:1
+#: src/SUMMARY.md src/uml/examples/index.md
 msgid "样例 UML"
 msgstr "Example UML"
 
-#: src/SUMMARY.md:52 src/uml/examples/template_event.md:1
+#: src/SUMMARY.md src/uml/examples/template_event.md
 msgid "模板活动"
 msgstr "Event Template"
 
-#: src/SUMMARY.md:53 src/uml/examples/xmas-2024.md:1
+#: src/SUMMARY.md src/uml/examples/xmas-2024.md
 msgid "2024 圣诞夜惊魂"
 msgstr "2024 Xmas"
 
-#: src/SUMMARY.md:55 src/uml/advanced/index.md:1
+#: src/SUMMARY.md src/uml/advanced/index.md
 msgid "使用进阶"
 msgstr "Advanced skills"
 
-#: src/SUMMARY.md:56 src/uml/advanced/page_switch.md:1
+#: src/SUMMARY.md src/uml/advanced/page_switch.md
 msgid "页面切换"
 msgstr "Page Switch"
 
-#: src/SUMMARY.md:58
+#: src/SUMMARY.md
+msgid "Phira 构建指南"
+msgstr ""
+
+#: src/SUMMARY.md
+msgid "cargo 安装教程"
+msgstr ""
+
+#: src/SUMMARY.md src/phira_build_guide/cargo.md
+#: src/phira_build_guide/Windows.md
+msgid "Windows"
+msgstr ""
+
+#: src/SUMMARY.md src/phira_build_guide/cargo.md src/phira_build_guide/Linux.md
+msgid "Linux"
+msgstr ""
+
+#: src/SUMMARY.md
 msgid "糗事集锦"
 msgstr "aNecdOtes"
 
-#: src/SUMMARY.md:59 src/dev-incident/长风的柳絮.md:1
+#: src/SUMMARY.md src/dev-incident/长风的柳絮.md
 msgid "长风的柳絮"
 msgstr "长风的柳絮"
 
-#: src/SUMMARY.md:60 src/dev-incident/v0.6.0更新消息.md:1
+#: src/SUMMARY.md src/dev-incident/v0.6.0更新消息.md
 msgid "v0.6.0 更新消息"
 msgstr "v0.6.0 Update"
 
-#: src/SUMMARY.md:61
+#: src/SUMMARY.md
 msgid "6th PecJam"
 msgstr "6th PecJam"
 
-#: src/index.md:1
+#: src/index.md
 msgid "Phira-docs 说明"
 msgstr "Phira-docs Instruction"
 
-#: src/index.md:3
+#: src/index.md
 msgid ""
-"这里是 Phira 相关的文档说明, 可前往 [GitHub](https://github.com/TeamFlos/phira-"
-"docs) 提出问题或者贡献文档, 其他语言请通过修改 url 来访问, 如 [`/en/`](./en/)"
+"这里是 Phira 相关的文档说明, 可前往 [GitHub](https://github.com/TeamFlos/"
+"phira-docs) 提出问题或者贡献文档, 其他语言请通过修改 url 来访问, 如 [`/en/`]"
+"(./en/)"
 msgstr ""
-"This is the instruction of Phira-related documentation, visit [GitHub](https://"
-"github.com/TeamFlos/phira-docs) to submit feedbacks or contribute, read in other "
-"language by editing the url, for example [`/en/`](./en/)"
+"This is the instruction of Phira-related documentation, visit [GitHub]"
+"(https://github.com/TeamFlos/phira-docs) to submit feedbacks or contribute, "
+"read in other language by editing the url, for example [`/en/`](./en/)"
 
-#: src/index.md:5
+#: src/index.md
 msgid "如果希望提供翻译, 请参考"
 msgstr "If you’re willing to provide translation, please refer to"
 
-#: src/index.md:7
+#: src/index.md
 msgid ""
-"[mdbook-i18n-helpers 的指引](https://github.com/google/mdbook-i18n-helpers/blob/"
-"main/i18n-helpers/USAGE.md)"
+"[mdbook-i18n-helpers 的指引](https://github.com/google/mdbook-i18n-helpers/"
+"blob/main/i18n-helpers/USAGE.md)"
 msgstr ""
 "[Instructions in mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-"
 "helpers/blob/main/i18n-helpers/USAGE.md)"
 
-#: src/index.md:8
+#: src/index.md
 msgid ""
-"[comprehensive-rust 的示例](https://github.com/google/comprehensive-rust/blob/main/"
-"TRANSLATIONS.md)"
+"[comprehensive-rust 的示例](https://github.com/google/comprehensive-rust/"
+"blob/main/TRANSLATIONS.md)"
 msgstr ""
-"[Examples in comprehensive-rust](https://github.com/google/comprehensive-rust/blob/"
-"main/TRANSLATIONS.md)"
+"[Examples in comprehensive-rust](https://github.com/google/comprehensive-"
+"rust/blob/main/TRANSLATIONS.md)"
 
-#: src/index.md:10
+#: src/index.md
 msgid ""
 "在 PR 内提供相应的翻译后 `.po` 文件, 并在 `.github/mdbook.yml` 的 `env` 的 "
-"`LANGUAGES` 中添加对应的语言, 语言代码见 [ISO 639](https://en.wikipedia.org/wiki/"
-"List_of_ISO_639_language_codes)"
+"`LANGUAGES` 中添加对应的语言, 语言代码见 [ISO 639](https://en.wikipedia.org/"
+"wiki/List_of_ISO_639_language_codes)"
 msgstr ""
-"Provide the translated `.po` file in the Pull Request, and add the corresponding "
-"language code in `LANGUAGES` in `env` in the `.github/mdbook.yml` file, visit [ISO "
-"639](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) for language "
-"code reference"
+"Provide the translated `.po` file in the Pull Request, and add the "
+"corresponding language code in `LANGUAGES` in `env` in the `.github/mdbook."
+"yml` file, visit [ISO 639](https://en.wikipedia.org/wiki/"
+"List_of_ISO_639_language_codes) for language code reference"
 
 # "在测试群或频道中找到资源包" is not translated because at that time there is no phira discord server and alot of the players are unable to access QQ. So I left the translation out.
 # by PingTKP
-#: src/respack/index.md:3
+#: src/respack/index.md
 msgid ""
-"在 prpr 中，你可以自定义资源包。资源包包含了音符的样式、粒子效果、打击音效等等元"
-"素。你可以在测试群或频道中找到资源包，也可以选择自己制作资源包。以下将具体阐述资源"
-"包的文件结构。"
+"在 prpr 中，你可以自定义资源包。资源包包含了音符的样式、粒子效果、打击音效等"
+"等元素。你可以在测试群或频道中找到资源包，也可以选择自己制作资源包。以下将具"
+"体阐述资源包的文件结构。"
 msgstr ""
-"In prpr, you can customize the respack. The respack consists of how the notes "
-"look, particle effects, hit sound effects, etc. You can find premade respacks, or "
-"you choose to make one yourself. The file structure of the respack is explained in "
-"detailed below."
+"In prpr, you can customize the respack. The respack consists of how the "
+"notes look, particle effects, hit sound effects, etc. You can find premade "
+"respacks, or you choose to make one yourself. The file structure of the "
+"respack is explained in detailed below."
 
-#: src/respack/index.md:5
+#: src/respack/index.md
 msgid "结构"
 msgstr "Structure"
 
-#: src/respack/index.md:7
+#: src/respack/index.md
 msgid ""
-"资源包是单个 zip 压缩文件，其中包含了配置文件 `info.yml` 和其他的资源文件。其中，资"
-"源文件有些是必须存在，有些则是可选的。"
+"资源包是单个 zip 压缩文件，其中包含了配置文件 `info.yml` 和其他的资源文件。其"
+"中，资源文件有些是必须存在，有些则是可选的。"
 msgstr ""
-"A Respack is a single zip archive containing the configuration file `info.yml` and "
-"other resource files. Some of the resource files are required and some are "
-"optional."
+"A Respack is a single zip archive containing the configuration file `info."
+"yml` and other resource files. Some of the resource files are required and "
+"some are optional."
 
-#: src/respack/index.md:9
+#: src/respack/index.md
 msgid "资源文件"
 msgstr "Resource files"
 
-#: src/respack/index.md:11
+#: src/respack/index.md
 msgid "资源文件必须包括："
 msgstr "The resource files must include:"
 
-#: src/respack/index.md:13
+#: src/respack/index.md
 msgid "`click.png` 和 `click_mh.png`：Click 音符的皮肤，`mh` 代表双押；"
 msgstr ""
-"`click.png` and `click_mh.png`: The note skin for click notes, `mh` represents "
-"simultaneous clicks."
+"`click.png` and `click_mh.png`: The note skin for click notes, `mh` "
+"represents simultaneous clicks."
 
-#: src/respack/index.md:14
+#: src/respack/index.md
 msgid "`drag.png` 和 `drag_mh.png`：Drag 音符的皮肤，`mh` 代表双押；"
 msgstr ""
 "`drag.png` and `drag_mh.png`: The note skin for drag notes, `mh` represents "
 "simultaneous drags."
 
-#: src/respack/index.md:15
+#: src/respack/index.md
 msgid "`flick.png` 和 `flick_mh.png`：Flick 音符的皮肤，`mh` 代表双押；"
 msgstr ""
-"`flick.png` and `flick_mh.png`: The note skin for flick notes, `mh` represents "
-"simultaneous flicks."
+"`flick.png` and `flick_mh.png`: The note skin for flick notes, `mh` "
+"represents simultaneous flicks."
 
-#: src/respack/index.md:16
+#: src/respack/index.md
 msgid "`hold.png` 和 `hold_mh.png`：Hold 音符的皮肤，`mh` 代表双押；"
 msgstr ""
 "`hold.png` and `hold_mh.png`: The note skin for hold notes, `mh` represents "
 "simultaneous holds."
 
-#: src/respack/index.md:17
+#: src/respack/index.md
 msgid "`hit_fx.png`：打击特效图片。"
 msgstr "`hit_fx.png`: The image for hit effect."
 
-#: src/respack/index.md:19
+#: src/respack/index.md
 msgid "资源文件可以包括（即若不包括，将使用默认）："
 msgstr ""
-"The resource files can also include (If they are not included, the default will be "
-"used):"
+"The resource files can also include (If they are not included, the default "
+"will be used):"
 
-#: src/respack/index.md:21
+#: src/respack/index.md
 msgid ""
 "`click.ogg`、`drag.ogg` 和 `flick.ogg`：对应音符的打击音效，注意采样率必须为 "
 "44100Hz，否则在渲染时（prpr-render）会导致崩溃；"
 msgstr ""
-"`click.ogg`, `drag.ogg` and `flick.ogg`: The sound effects for the corresponding "
-"notes, note that the sampling rate must be 44100 Hz, or else it will cause crashes "
-"during rendering (prpr-render)."
+"`click.ogg`, `drag.ogg` and `flick.ogg`: The sound effects for the "
+"corresponding notes, note that the sampling rate must be 44100 Hz, or else "
+"it will cause crashes during rendering (prpr-render)."
 
-#: src/respack/index.md:22
+#: src/respack/index.md
 msgid "`ending.mp3`：结算界面背景音乐。"
 msgstr "`ending.mp3`: The background music for the score screen."
 
-#: src/respack/index.md:24
+#: src/respack/index.md
 msgid "配置文件"
 msgstr "Configuration file"
 
-#: src/respack/index.md:26
+#: src/respack/index.md
 msgid "配置文件采用 yml，其中必填项如下（以默认资源包为例）："
 msgstr ""
-"The configuration file uses yml format, with the following required fields (using "
-"a default respack as an example):"
+"The configuration file uses yml format, with the following required fields "
+"(using a default respack as an example):"
 
-#: src/respack/index.md:29
+#: src/respack/index.md
 msgid "name"
 msgstr "name"
 
-#: src/respack/index.md:29
+#: src/respack/index.md
 msgid "Default"
 msgstr "Default"
 
-#: src/respack/index.md:29
+#: src/respack/index.md
 msgid "author"
 msgstr "author"
 
-#: src/respack/index.md:30
+#: src/respack/index.md
 msgid "\"Mivik & MisaLiu\""
 msgstr "\"Mivik & MisaLiu\""
 
-#: src/respack/index.md:30
+#: src/respack/index.md
 msgid "hitFx"
 msgstr "hitFx"
 
-#: src/respack/index.md:31
+#: src/respack/index.md
 msgid "holdAtlas"
 msgstr "holdAtlas"
 
-#: src/respack/index.md:32
+#: src/respack/index.md
 msgid "holdAtlasMH"
 msgstr "holdAtlasMH"
 
-#: src/respack/index.md:36
+#: src/respack/index.md
 msgid "`name`：资源包的名字；"
 msgstr "`name`: The name of the respack."
 
-#: src/respack/index.md:37
+#: src/respack/index.md
 msgid "`author`：资源包的作者；"
 msgstr "`author`: The author/creator of the respack."
 
-#: src/respack/index.md:38
+#: src/respack/index.md
 msgid "`description`：资源包介绍；"
 msgstr "`description`: The description/introduction of the respack."
 
-#: src/respack/index.md:39
+#: src/respack/index.md
 msgid ""
-"`hitFx`：打击特效宽、高的帧数。打击特效是将多帧动画存储在一张图中的，因此需要指定这"
-"张图中横竖各有几帧，例如，在 [此图](image/hit_fx.jpg) 中横、竖的帧数分别为 5 与 6"
-"（最后一行不太看得见，但是是存在的）（图片为了便于辨识使用了黑色背景，但在制作资源"
-"包时应当使用透明背景）；"
+"`hitFx`：打击特效宽、高的帧数。打击特效是将多帧动画存储在一张图中的，因此需要"
+"指定这张图中横竖各有几帧，例如，在 [此图](image/hit_fx.jpg) 中横、竖的帧数分"
+"别为 5 与 6（最后一行不太看得见，但是是存在的）（图片为了便于辨识使用了黑色背"
+"景，但在制作资源包时应当使用透明背景）；"
 msgstr ""
-"`hitFx`: The frame count of the width and height of the hit effect. Hit effects "
-"are stored as multiple frames in a single image, thus, it is necessary to specify "
-"the number of horizontal and vertical frames in the image. For example, in [this "
-"image](image/hit_fx.jpg), the horizontal and vertical frame count is 5 and 6 "
-"respectively (the last row is not very visible, but it is present there) (the "
-"image uses a black background for the ease of viewing, but a transparent "
-"background should be used when creating a respack)."
+"`hitFx`: The frame count of the width and height of the hit effect. Hit "
+"effects are stored as multiple frames in a single image, thus, it is "
+"necessary to specify the number of horizontal and vertical frames in the "
+"image. For example, in [this image](image/hit_fx.jpg), the horizontal and "
+"vertical frame count is 5 and 6 respectively (the last row is not very "
+"visible, but it is present there) (the image uses a black background for the "
+"ease of viewing, but a transparent background should be used when creating a "
+"respack)."
 
-#: src/respack/index.md:40
+#: src/respack/index.md
 msgid ""
-"`holdAtlas`：Hold 贴图的尾、头高度。Hold 的皮肤是 **一张图片**，从上到下分别为 "
-"Hold 的尾部、中间和头部。而 `holdAtlas` 的两个数字则分别指定了图片中尾部和头部的高"
-"度。例如，在 [此图](image/hold.png) 中，尾部和头部高度均为 50 像素。"
+"`holdAtlas`：Hold 贴图的尾、头高度。Hold 的皮肤是 **一张图片**，从上到下分别"
+"为 Hold 的尾部、中间和头部。而 `holdAtlas` 的两个数字则分别指定了图片中尾部和"
+"头部的高度。例如，在 [此图](image/hold.png) 中，尾部和头部高度均为 50 像素。"
 msgstr ""
-"`holdAtlas`: The height of the tail and head of the hold image. The note skin of "
-"the hold is **an image**, it has the tail section, middle section and the head "
-"section, from top to bottom of the image. The 2 numbers of `holdAtlas` specify the "
-"height of the tail and head respectively in the image. For example, in [this image]"
-"(image/hold.png), the height of the tail and head section are both 50 pixels."
+"`holdAtlas`: The height of the tail and head of the hold image. The note "
+"skin of the hold is **an image**, it has the tail section, middle section "
+"and the head section, from top to bottom of the image. The 2 numbers of "
+"`holdAtlas` specify the height of the tail and head respectively in the "
+"image. For example, in [this image](image/hold.png), the height of the tail "
+"and head section are both 50 pixels."
 
-#: src/respack/index.md:41
+#: src/respack/index.md
 msgid "`holdAtlasMH`：意义与上一条类似，指定多押 Hold 的相关信息。"
 msgstr ""
-"`holdAtlasMH`: Similar to the previous bullet point, specifies the related details "
-"for simultaneous holds."
+"`holdAtlasMH`: Similar to the previous bullet point, specifies the related "
+"details for simultaneous holds."
 
-#: src/respack/index.md:43
+#: src/respack/index.md
 msgid "此外还有选填项："
 msgstr "In addition, there are these optional fields:"
 
-#: src/respack/index.md:45
+#: src/respack/index.md
 msgid "`hitFxDuration`（小数，默认 `0.5`）：打击特效的持续时间，以秒为单位；"
 msgstr ""
-"`hitFxDuration` (float, default value: `0.5`): The duration of the hit effect in "
-"seconds."
+"`hitFxDuration` (float, default value: `0.5`): The duration of the hit "
+"effect in seconds."
 
-#: src/respack/index.md:46
+#: src/respack/index.md
 msgid "`hitFxScale`（小数，默认 `1.0`）：打击特效缩放比例；"
-msgstr "`hitFxScale` (float, default value: `1.0`): The scale of the hit effect."
+msgstr ""
+"`hitFxScale` (float, default value: `1.0`): The scale of the hit effect."
 
-#: src/respack/index.md:47
+#: src/respack/index.md
 msgid "`hitFxRotate`（布尔值，默认 `false`）：打击特效是否随 Note 旋转；"
 msgstr ""
-"`hitFxRotate` (bool, default value: `false`): Whether the hit effect rotates with "
-"the note."
+"`hitFxRotate` (bool, default value: `false`): Whether the hit effect rotates "
+"with the note."
 
-#: src/respack/index.md:48
+#: src/respack/index.md
 msgid "`hitFxTinted`（布尔值，默认 `true`）：打击特效是否依照判定线颜色着色；"
 msgstr ""
-"`hitFxTinted` (bool, default value: `true`): Whether the hit effect is colored "
-"according to the color of the judgement line."
+"`hitFxTinted` (bool, default value: `true`): Whether the hit effect is "
+"colored according to the color of the judgement line."
 
-#: src/respack/index.md:49
+#: src/respack/index.md
 msgid "`hideParticles`（布尔值，默认 `false`）：打击时是否隐藏方形粒子效果；"
 msgstr ""
-"`hideParticles` (bool, default value: `false`): Whether the hit effect particles "
-"are hidden."
+"`hideParticles` (bool, default value: `false`): Whether the hit effect "
+"particles are hidden."
 
-#: src/respack/index.md:50
+#: src/respack/index.md
 msgid "`holdKeepHead`（布尔值，默认 `false`）：Hold 触线后是否还显示头部；"
 msgstr ""
-"`holdKeepHead` (bool, default value: `false`): Whether to keep showing the hold’s "
-"head section once it touches the line."
+"`holdKeepHead` (bool, default value: `false`): Whether to keep showing the "
+"hold’s head section once it touches the line."
 
-#: src/respack/index.md:51
+#: src/respack/index.md
 msgid ""
-"`holdRepeat`（布尔值，默认 `false`）：Hold 的中间部分是否采用重复式拉伸。[这里的三"
-"张图](image/hold_repeat.jpg) 从左到右依次是 Hold 资源图、不启用 `holdRepeat` 时的长"
-"条和启用 `holdRepeat` 时的长条；"
+"`holdRepeat`（布尔值，默认 `false`）：Hold 的中间部分是否采用重复式拉伸。[这"
+"里的三张图](image/hold_repeat.jpg) 从左到右依次是 Hold 资源图、不启用 "
+"`holdRepeat` 时的长条和启用 `holdRepeat` 时的长条；"
 msgstr ""
-"`holdRepeat` (bool. default value: `false`): Whether the middle section of the "
-"hold is repetitively stretched. [The below shows 3 images](image/hold_repeat.jpg), "
-"the hold’s image on the left, the image of how the hold will look like when "
-"`holdRepeat` is false on the middle, and the image of how the hold will look like "
-"when `holdRepeat` is true on the right."
+"`holdRepeat` (bool. default value: `false`): Whether the middle section of "
+"the hold is repetitively stretched. [The below shows 3 images](image/"
+"hold_repeat.jpg), the hold’s image on the left, the image of how the hold "
+"will look like when `holdRepeat` is false on the middle, and the image of "
+"how the hold will look like when `holdRepeat` is true on the right."
 
-#: src/respack/index.md:52
+#: src/respack/index.md
 msgid ""
-"`holdCompact`（布尔值，默认 `false`）：是否把 Hold 的头部和尾部与 Hold 中间重叠。还"
-"是用上面的 [示例](image/hold_repeat.jpg)，如果不开启 `holdCompact`，效果就会是左边"
-"第一张图，Hold 的头尾是和中间隔开的；而右边两张图都是开启了 `holdCompact` 的效果；"
+"`holdCompact`（布尔值，默认 `false`）：是否把 Hold 的头部和尾部与 Hold 中间重"
+"叠。还是用上面的 [示例](image/hold_repeat.jpg)，如果不开启 `holdCompact`，效"
+"果就会是左边第一张图，Hold 的头尾是和中间隔开的；而右边两张图都是开启了 "
+"`holdCompact` 的效果；"
 msgstr ""
-"`holdCompact` (bool, default value: `false`): Whether to overlap the hold’s head "
-"and tail section with the middle section. Using the previous [example](image/"
-"hold_repeat.jpg), if `holdCompact` is false, the hold will look like the image on "
-"the left, you can see that the tail and head section are separated from the middle "
-"section. If `holdCompact` is true, the hold will look like the image on the middle "
-"and right."
+"`holdCompact` (bool, default value: `false`): Whether to overlap the hold’s "
+"head and tail section with the middle section. Using the previous [example]"
+"(image/hold_repeat.jpg), if `holdCompact` is false, the hold will look like "
+"the image on the left, you can see that the tail and head section are "
+"separated from the middle section. If `holdCompact` is true, the hold will "
+"look like the image on the middle and right."
 
-#: src/respack/index.md:53
+#: src/respack/index.md
 msgid ""
-"`colorPerfect`（十六进制颜色代码，默认 `0xe1ffec9f`）：AP（全 Perfect）情况下的判定"
-"线颜色；"
+"`colorPerfect`（十六进制颜色代码，默认 `0xe1ffec9f`）：AP（全 Perfect）情况下"
+"的判定线颜色；"
 msgstr ""
-"`colorPerfect` (Hexadecimal color code, default value: `0xe1ffec9f`): The color of "
-"the judgement line when it is still AP (All Perfect)."
+"`colorPerfect` (Hexadecimal color code, default value: `0xe1ffec9f`): The "
+"color of the judgement line when it is still AP (All Perfect)."
 
-#: src/respack/index.md:54
+#: src/respack/index.md
 msgid ""
-"`colorGood`（十六进制颜色代码，默认 `0xebb4e1ff`）：FC（全连）情况下的判定线颜色。"
+"`colorGood`（十六进制颜色代码，默认 `0xebb4e1ff`）：FC（全连）情况下的判定线"
+"颜色。"
 msgstr ""
-"`colorGood` (Hexadecimal color code, default value: `0xebb4e1ff`): The color of "
-"the judgement line when it is still FC (Full Combo)."
+"`colorGood` (Hexadecimal color code, default value: `0xebb4e1ff`): The color "
+"of the judgement line when it is still FC (Full Combo)."
 
-#: src/feature/index.md:3
+#: src/feature/index.md
 #, fuzzy
 msgid ""
-"prpr 在支持 Phigros 官方谱面格式、`pec` 格式和 `rpe` 格式之外，加入了一些谱面特性。"
-"这些谱面特性目前只在 prpr 及基于其构建的客户端上可用。它们包括："
+"prpr 在支持 Phigros 官方谱面格式、`pec` 格式和 `rpe` 格式之外，加入了一些谱面"
+"特性。这些谱面特性目前只在 prpr 及基于其构建的客户端上可用。它们包括："
 msgstr ""
-"prpr not only supports the official Phigros, 'pec', and 'rpe' chart format, but "
-"also added some unique features. These chart features can only be used in prpr and "
-"other clients that built on top of prpr. These features include:"
+"prpr not only supports the official Phigros, 'pec', and 'rpe' chart format, "
+"but also added some unique features. These chart features can only be used "
+"in prpr and other clients that built on top of prpr. These features include:"
 
-#: src/feature/index.md:5
+#: src/feature/index.md
 #, fuzzy
 msgid "[特效](./effect/index.md)"
 msgstr "[Effects](./effect/index.md)"
 
-#: src/feature/index.md:6
+#: src/feature/index.md
 #, fuzzy
 msgid "[视频背景](./video/index.md)"
 msgstr "[Video Background](./video/index.md)"
 
 # Compressed file can be used instead of zip file as well
-#: src/feature/index.md:8
+#: src/feature/index.md
 #, fuzzy
 msgid ""
-"关于特性的配置需要全部存储在压缩包根目录的 `extra.json` 中。为了使用谱面特性，你需"
-"要手动编辑 JSON 文件。如果你不知道 JSON 是什么，请参阅 [JSON 教程](http://c."
-"biancheng.net/json/)。"
+"关于特性的配置需要全部存储在压缩包根目录的 `extra.json` 中。为了使用谱面特"
+"性，你需要手动编辑 JSON 文件。如果你不知道 JSON 是什么，请参阅 [JSON 教程]"
+"(http://c.biancheng.net/json/)。"
 msgstr ""
-"The configuration of chart features need to be saved in `extra.json` which can be "
-"found in the root directory of the zip file. In order to use the chart features, "
-"you need to edit the JSON file manually. If you don't know what JSON is, see [JSON "
-"Tutorial](http://c.biancheng.net/json/)."
+"The configuration of chart features need to be saved in `extra.json` which "
+"can be found in the root directory of the zip file. In order to use the "
+"chart features, you need to edit the JSON file manually. If you don't know "
+"what JSON is, see [JSON Tutorial](http://c.biancheng.net/json/)."
 
-#: src/feature/index.md:10
+#: src/feature/index.md
 #, fuzzy
 msgid "BPM 配置"
 msgstr "BPM Config"
 
-#: src/feature/index.md:12
-msgid "**在进行相关配置前，你需要在 `extra.json` 中预先设定好曲目的 BPM**。例如："
+#: src/feature/index.md
+msgid ""
+"**在进行相关配置前，你需要在 `extra.json` 中预先设定好曲目的 BPM**。例如："
 msgstr ""
-"**Before making any configurations, you need to set the BPM of the song/track in "
-"`extra.json`**. For example:"
+"**Before making any configurations, you need to set the BPM of the song/"
+"track in `extra.json`**. For example:"
 
-#: src/feature/index.md:16 src/feature/index.md:17 src/feature/index.md:18
+#: src/feature/index.md
 msgid "\"bpm\""
 msgstr "\"bpm\""
 
-#: src/feature/index.md:17 src/feature/index.md:18 src/feature/video/index.md:16
+#: src/feature/index.md src/feature/video/index.md
 msgid "\"time\""
 msgstr "\"time\""
 
-#: src/feature/index.md:24
+#: src/feature/index.md
 #, fuzzy
 msgid "这里表示歌曲最初 BPM 为 `200`，而后在十又二分之一拍是转换为 `250`。"
 msgstr ""
-"This shows that the song has an initial BPM of `200`, the BPM then changes to "
-"`250` at the 10.5 beat."
+"This shows that the song has an initial BPM of `200`, the BPM then changes "
+"to `250` at the 10.5 beat."
 
-#: src/feature/index.md:26
+#: src/feature/index.md
 #, fuzzy
 msgid "动画变量"
 msgstr "Animation variables"
 
-#: src/feature/index.md:28
+#: src/feature/index.md
 #, fuzzy
 msgid ""
-"在配置文件中会常常用到动画变量。例如，在 RPE 中，的 X 坐标变化事件实际上就是 X 坐标"
-"作为一个动画变量。"
+"在配置文件中会常常用到动画变量。例如，在 RPE 中，的 X 坐标变化事件实际上就是 "
+"X 坐标作为一个动画变量。"
 msgstr ""
 "Animation variables are often used in charts. For example, in RPE, the X "
-"coordinate change event is actually the X coordinate as an animation variable."
+"coordinate change event is actually the X coordinate as an animation "
+"variable."
 
-#: src/feature/index.md:30
+#: src/feature/index.md
 #, fuzzy
 msgid ""
-"prpr 的动画变量有两种格式。第一种即单个值，表示该变量不会更改，一直维持同一个值。这"
-"种格式是为了方便填写而适用的。第二种格式与 RPE 中的格式相同，是由多个 `Event` 组成"
-"的。单个 `Event` 格式如下所示："
+"prpr 的动画变量有两种格式。第一种即单个值，表示该变量不会更改，一直维持同一个"
+"值。这种格式是为了方便填写而适用的。第二种格式与 RPE 中的格式相同，是由多个 "
+"`Event` 组成的。单个 `Event` 格式如下所示："
 msgstr ""
-"There are 2 formats for prpr’s animation variables. The first is for a constant "
-"value, which means that the variable will not change and will always have the same "
-"value. This format is applied just for the ease of filling up the fields. The "
-"second format is the same as the one in RPE and is composed of multiple `Event`. "
-"The format of a single `Event` is shown below:"
+"There are 2 formats for prpr’s animation variables. The first is for a "
+"constant value, which means that the variable will not change and will "
+"always have the same value. This format is applied just for the ease of "
+"filling up the fields. The second format is the same as the one in RPE and "
+"is composed of multiple `Event`. The format of a single `Event` is shown "
+"below:"
 
-#: src/feature/index.md:34 src/feature/index.md:57 src/feature/effect/index.md:58
+#: src/feature/index.md src/feature/effect/index.md
 msgid "\"startTime\""
 msgstr "\"startTime\""
 
-#: src/feature/index.md:35 src/feature/index.md:58 src/feature/effect/index.md:59
+#: src/feature/index.md src/feature/effect/index.md
 msgid "\"endTime\""
 msgstr "\"endTime\""
 
-#: src/feature/index.md:36 src/feature/index.md:59 src/feature/effect/index.md:60
+#: src/feature/index.md src/feature/effect/index.md
 msgid "\"easingType\""
 msgstr "\"easingType\""
 
-#: src/feature/index.md:37
+#: src/feature/index.md
 msgid "\"easingLeft\""
 msgstr "\"easingLeft\""
 
-#: src/feature/index.md:38
+#: src/feature/index.md
 msgid "\"easingRight\""
 msgstr "\"easingRight\""
 
-#: src/feature/index.md:39 src/feature/index.md:60 src/feature/effect/index.md:15
-#: src/feature/effect/index.md:52 src/feature/effect/index.md:61
+#: src/feature/index.md src/feature/effect/index.md
 msgid "\"start\""
 msgstr "\"start\""
 
-#: src/feature/index.md:40 src/feature/index.md:61 src/feature/effect/index.md:16
-#: src/feature/effect/index.md:53 src/feature/effect/index.md:62
+#: src/feature/index.md src/feature/effect/index.md
 msgid "\"end\""
 msgstr "\"end\""
 
-#: src/feature/index.md:44
+#: src/feature/index.md
 #, fuzzy
 msgid ""
 "其中 `startTime`、`endTime` 是事件的开始和结束时间；`easingType` 是缓动类型；"
 "`easingLeft`、`easingRight` 是可选的，代表裁剪缓动的开始与结束位置。"
 msgstr ""
 "where `startTime` and `endTime` are the event’s start time and end time "
-"respectively; `easingType` is the type of easing; `easingLeft` and `easingRight` "
-"are optional, it represents the start and end position of the ease."
+"respectively; `easingType` is the type of easing; `easingLeft` and "
+"`easingRight` are optional, it represents the start and end position of the "
+"ease."
 
-#: src/feature/index.md:46
+#: src/feature/index.md
 #, fuzzy
 msgid ""
-"`start` 和 `end` 代表该时间开始和结束处该变量的值。这里值的类型是取决于变量本身的类"
-"型的，它可以是下面类型中的任意一种："
+"`start` 和 `end` 代表该时间开始和结束处该变量的值。这里值的类型是取决于变量本"
+"身的类型的，它可以是下面类型中的任意一种："
 msgstr ""
-"`start` and `end` represent the values at the beginning and end of the time. The "
-"type of the value here depends on the type of the animation variable itself, which "
-"can be any of the following types:"
+"`start` and `end` represent the values at the beginning and end of the time. "
+"The type of the value here depends on the type of the animation variable "
+"itself, which can be any of the following types:"
 
-#: src/feature/index.md:48
+#: src/feature/index.md
 #, fuzzy
 msgid "`float`：单个小数；"
 msgstr "`float`: a single decimal."
 
-#: src/feature/index.md:49
+#: src/feature/index.md
 #, fuzzy
 msgid "`vec2`：两个小数表示的二维向量，用数组表示；"
 msgstr "`vec2`: 2 decimal representing a 2D vector, represented as an array."
 
-#: src/feature/index.md:50
+#: src/feature/index.md
 #, fuzzy
 msgid "`color`：四个整数（0-255）表示的颜色，格式为 `[R, G, B, A]`。"
 msgstr ""
-"`color`: 4 integers (0-255) that represents a color, the format is `[R, G, B, A]`."
+"`color`: 4 integers (0-255) that represents a color, the format is `[R, G, "
+"B, A]`."
 
-#: src/feature/index.md:52
+#: src/feature/index.md
 #, fuzzy
 msgid "例如，下面的动画变量将在特定时段内从 `0` 到 `1` 线性变化："
 msgstr ""
-"For example, the following animation variable will vary linearly from `0` to `1` "
-"over a given time period:"
+"For example, the following animation variable will vary linearly from `0` to "
+"`1` over a given time period:"
 
-#: src/feature/effect/index.md:3
+#: src/feature/effect/index.md
 #, fuzzy
 msgid ""
-"特效是在一段时间内对谱面整体施加着色器效果的特性，可以用以达成一些普通谱面无法实现"
-"或难以实现的视觉效果。prpr 预置了一批着色器，你也可以自己编写着色器，详见 [自行编写"
-"着色器](./custom-shader.md)。"
+"特效是在一段时间内对谱面整体施加着色器效果的特性，可以用以达成一些普通谱面无"
+"法实现或难以实现的视觉效果。prpr 预置了一批着色器，你也可以自己编写着色器，详"
+"见 [自行编写着色器](./custom-shader.md)。"
 msgstr ""
-"Effect is a feature that applies shader to the entire chart for a specified amount "
-"of time. They can be used to achieve visual effects that are impossible or "
-"difficult to achieve in vanilla charts. prpr has some premade shaders, or you can "
-"also write your own shaders. For more details, see [Writing your own shader](./"
-"custom-shader.md)."
+"Effect is a feature that applies shader to the entire chart for a specified "
+"amount of time. They can be used to achieve visual effects that are "
+"impossible or difficult to achieve in vanilla charts. prpr has some premade "
+"shaders, or you can also write your own shaders. For more details, see "
+"[Writing your own shader](./custom-shader.md)."
 
-#: src/feature/effect/index.md:5 src/feature/video/index.md:5
+#: src/feature/effect/index.md src/feature/video/index.md
 #, fuzzy
 msgid "格式"
 msgstr "Format"
 
-#: src/feature/effect/index.md:7
+#: src/feature/effect/index.md
 #, fuzzy
 msgid "你需要在 `extra.json` 中加入 `effects` 字段，其内容为 `Effect` 的数组。"
 msgstr ""
-"You need to add the `effects` field in `extra.json`, whose content is an array of "
-"`Effect`."
+"You need to add the `effects` field in `extra.json`, whose content is an "
+"array of `Effect`."
 
-#: src/feature/effect/index.md:9
+#: src/feature/effect/index.md
 #, fuzzy
 msgid "Effect"
 msgstr "Effect"
 
-#: src/feature/effect/index.md:11
+#: src/feature/effect/index.md
 #, fuzzy
 msgid "单个 `Effect` 的格式如下所示："
 msgstr "The format of a single `Effect` is shown below:"
 
-#: src/feature/effect/index.md:17 src/feature/effect/index.md:54
+#: src/feature/effect/index.md
 msgid "\"shader\""
 msgstr "\"shader\""
 
-#: src/feature/effect/index.md:17
+#: src/feature/effect/index.md
 #, fuzzy
 msgid "\"着色器名字\""
 msgstr "\"Name of shader\""
 
-#: src/feature/effect/index.md:18
+#: src/feature/effect/index.md
 msgid "\"global\""
 msgstr "\"global\""
 
-#: src/feature/effect/index.md:19 src/feature/effect/index.md:36
-#: src/feature/effect/index.md:55
+#: src/feature/effect/index.md
 msgid "\"vars\""
 msgstr "\"vars\""
 
-#: src/feature/effect/index.md:25
+#: src/feature/effect/index.md
 #, fuzzy
 msgid ""
-"`start` 和 `end` 指定了特效的开始和结束时间，格式与 RPE 默认的时间表示格式相同"
-"（`[小节数, 分子, 分母]`）。"
+"`start` 和 `end` 指定了特效的开始和结束时间，格式与 RPE 默认的时间表示格式相"
+"同（`[小节数, 分子, 分母]`）。"
 msgstr ""
-"`start` and `end` specify the start and end time respectively in the same format "
-"as RPE's default time format (`[bar number, numerator, denominator]`)."
+"`start` and `end` specify the start and end time respectively in the same "
+"format as RPE's default time format (`[bar number, numerator, denominator]`)."
 
-#: src/feature/effect/index.md:27
+#: src/feature/effect/index.md
 #, fuzzy
 msgid "`shader`，即着色器名字，既可以是内置着色器，也可以是自定义的着色器。"
 msgstr ""
-"`shader` represents the shader's name, it can be a built-in shader, or a custom "
-"shader."
+"`shader` represents the shader's name, it can be a built-in shader, or a "
+"custom shader."
 
-#: src/feature/effect/index.md:29
+#: src/feature/effect/index.md
 #, fuzzy
 msgid ""
-"`global` 决定了该特效会不会影响到 UI 元素（连击数、暂停按钮等）。可以不填，默认为 "
-"`false`。"
+"`global` 决定了该特效会不会影响到 UI 元素（连击数、暂停按钮等）。可以不填，默"
+"认为 `false`。"
 msgstr ""
-"`global` determines whether the effect will affect UI elements (combo count, pause "
-"button, etc). This field can be left blank, and its default value is `false`."
+"`global` determines whether the effect will affect UI elements (combo count, "
+"pause button, etc). This field can be left blank, and its default value is "
+"`false`."
 
-#: src/feature/effect/index.md:31
+#: src/feature/effect/index.md
 #, fuzzy
 msgid ""
-"`vars` 是可选项，它是一个变量名字到 [`动画变量`](../index.html#动画变量) 的映射，用"
-"于指定着色器的参数（或者说，着色器的 `uniform` 变量）。即，假设我需要指定两个变量 "
-"`power` 和 `radius` 的值，我可以这样写："
+"`vars` 是可选项，它是一个变量名字到 [`动画变量`](../index.html#动画变量) 的映"
+"射，用于指定着色器的参数（或者说，着色器的 `uniform` 变量）。即，假设我需要指"
+"定两个变量 `power` 和 `radius` 的值，我可以这样写："
 msgstr ""
-"`vars` is an optional parameter, it is a mapping of variable names to [animation "
-"variables](../index.html#animation-variables), it is used to specify the "
-"parameters of the shader (or rather: shader's `uniform` variables). i.e. suppose I "
-"need to specify the values of 2 variables, `power` and `radius`, I can write it "
-"like this:"
+"`vars` is an optional parameter, it is a mapping of variable names to "
+"[animation variables](../index.html#animation-variables), it is used to "
+"specify the parameters of the shader (or rather: shader's `uniform` "
+"variables). i.e. suppose I need to specify the values of 2 variables, "
+"`power` and `radius`, I can write it like this:"
 
-#: src/feature/effect/index.md:37 src/feature/effect/index.md:56
+#: src/feature/effect/index.md
 msgid "\"power\""
 msgstr "\"power\""
 
-#: src/feature/effect/index.md:38
+#: src/feature/effect/index.md
 msgid "\"radius\""
 msgstr "\"radius\""
 
-#: src/feature/effect/index.md:43 src/feature/effect/custom-shader.md:36
+#: src/feature/effect/index.md src/feature/effect/custom-shader.md
 #, fuzzy
 msgid "示例"
 msgstr "Example"
 
-#: src/feature/effect/index.md:45
+#: src/feature/effect/index.md
 #, fuzzy
 msgid ""
-"下面的例子将在 `[2, 0, 1]` 到 `[4, 0, 1]` 中使用 `chromatic` 内置着色器，并将 "
-"`power` 这一参数在这一时段内从 `0` 到 `0.1` 线性变化，且 `sampleCount` 被固定为 "
-"`5`："
+"下面的例子将在 `[2, 0, 1]` 到 `[4, 0, 1]` 中使用 `chromatic` 内置着色器，并"
+"将 `power` 这一参数在这一时段内从 `0` 到 `0.1` 线性变化，且 `sampleCount` 被"
+"固定为 `5`："
 msgstr ""
-"The following example will apply the built-in `chromatic` shader from `[2, 0, 1]` "
-"to `[4, 0, 1]` and will vary the `power` parameter linearly from `0` to `0.1` in "
-"this time period, with the `sampleCount` fixed at `5`:"
+"The following example will apply the built-in `chromatic` shader from `[2, "
+"0, 1]` to `[4, 0, 1]` and will vary the `power` parameter linearly from `0` "
+"to `0.1` in this time period, with the `sampleCount` fixed at `5`:"
 
-#: src/feature/effect/index.md:50
+#: src/feature/effect/index.md
 msgid "\"effects\""
 msgstr "\"effects\""
 
-#: src/feature/effect/index.md:54
+#: src/feature/effect/index.md
 msgid "\"chromatic\""
 msgstr "\"chromatic\""
 
-#: src/feature/effect/index.md:65
+#: src/feature/effect/index.md
 msgid "\"sampleCount\""
 msgstr "\"sampleCount\""
 
-#: src/feature/effect/index.md:74
+#: src/feature/effect/index.md
 #, fuzzy
 msgid ""
-"你可以在 [这里](./builtin/index.md) 查看所有的内置着色器，以及它们的参数和相关说"
-"明。"
+"你可以在 [这里](./builtin/index.md) 查看所有的内置着色器，以及它们的参数和相"
+"关说明。"
 msgstr ""
-"You can view all the built-in shaders, along with their parameters and related "
-"descriptions, at [here](./builtin/index.md)."
+"You can view all the built-in shaders, along with their parameters and "
+"related descriptions, at [here](./builtin/index.md)."
 
-#: src/feature/effect/builtin/index.md:3
+#: src/feature/effect/builtin/index.md
 #, fuzzy
 msgid "该部分列举了 prpr 的内置着色器。"
 msgstr "This section lists prpr's built-in shaders."
 
-#: src/feature/effect/builtin/chromatic.md:3
+#: src/feature/effect/builtin/chromatic.md
 #, fuzzy
 msgid "色差效果。"
 msgstr "Chromatic effect."
 
-#: src/feature/effect/builtin/chromatic.md:5
+#: src/feature/effect/builtin/chromatic.md
 #, fuzzy
 msgid "![示例](image/chromatic.png)"
 msgstr "![example](image/chromatic.png)"
 
-#: src/feature/effect/builtin/chromatic.md:7
-#: src/feature/effect/builtin/circleBlur.md:7
-#: src/feature/effect/builtin/fisheye.md:13 src/feature/effect/builtin/glitch.md:7
-#: src/feature/effect/builtin/grayscale.md:7 src/feature/effect/builtin/noise.md:7
-#: src/feature/effect/builtin/pixel.md:7 src/feature/effect/builtin/radialBlur.md:7
-#: src/feature/effect/builtin/shockwave.md:7 src/feature/effect/builtin/vignette.md:7
+#: src/feature/effect/builtin/chromatic.md
+#: src/feature/effect/builtin/circleBlur.md
+#: src/feature/effect/builtin/fisheye.md src/feature/effect/builtin/glitch.md
+#: src/feature/effect/builtin/grayscale.md src/feature/effect/builtin/noise.md
+#: src/feature/effect/builtin/pixel.md src/feature/effect/builtin/radialBlur.md
+#: src/feature/effect/builtin/shockwave.md
+#: src/feature/effect/builtin/vignette.md
 msgid "参数"
 msgstr "Parameters"
 
-#: src/feature/effect/builtin/chromatic.md:9
+#: src/feature/effect/builtin/chromatic.md
 #, fuzzy
 msgid ""
-"`sampleCount`（整数，默认 `3`，范围 `1-64`）：采样次数，越高显示会更连贯，开销也更"
-"大；"
+"`sampleCount`（整数，默认 `3`，范围 `1-64`）：采样次数，越高显示会更连贯，开"
+"销也更大；"
 msgstr ""
-"`sampleCount` (integer, default value: `3`, Range: `1-64`): Sample count, the "
-"higher the value, the display will be more coherent, and the overhead will be "
-"higher."
+"`sampleCount` (integer, default value: `3`, Range: `1-64`): Sample count, "
+"the higher the value, the display will be more coherent, and the overhead "
+"will be higher."
 
-#: src/feature/effect/builtin/chromatic.md:10
+#: src/feature/effect/builtin/chromatic.md
 #, fuzzy
 msgid "`power`（小数，默认 `0.01`）：强度，或者说偏移距离。"
-msgstr "`power` (float, default value: `0.01`): The intensity, or offset distance."
+msgstr ""
+"`power` (float, default value: `0.01`): The intensity, or offset distance."
 
-#: src/feature/effect/builtin/circleBlur.md:3
+#: src/feature/effect/builtin/circleBlur.md
 #, fuzzy
 msgid "圆点模糊。会将像素点模糊放大为亮点，建议搭配参数动画使用。"
 msgstr ""
-"Dot blurring. Will enlarge the pixel blur as highlight, recommended to use with "
-"parameter."
+"Dot blurring. Will enlarge the pixel blur as highlight, recommended to use "
+"with parameter."
 
-#: src/feature/effect/builtin/circleBlur.md:5
+#: src/feature/effect/builtin/circleBlur.md
 #, fuzzy
 msgid "![示例](image/circleBlur.png)"
 msgstr "![example](image/circleBlur.png)"
 
-#: src/feature/effect/builtin/circleBlur.md:9
+#: src/feature/effect/builtin/circleBlur.md
 #, fuzzy
 msgid "`size`（小数，默认 `10.0`）：原点的大小，以像素为单位。"
-msgstr "`size` (float, default value: `10.0`): The size of the origin, in pixels."
+msgstr ""
+"`size` (float, default value: `10.0`): The size of the origin, in pixels."
 
-#: src/feature/effect/builtin/fisheye.md:3
+#: src/feature/effect/builtin/fisheye.md
 #, fuzzy
 msgid "鱼眼效果。当 `power` 为负数时可以做出类似隧洞穿梭的效果。"
-msgstr "Fisheye effect. When `power` is negative, you can make tunneling effect."
+msgstr ""
+"Fisheye effect. When `power` is negative, you can make tunneling effect."
 
-#: src/feature/effect/builtin/fisheye.md:5
+#: src/feature/effect/builtin/fisheye.md
 #, fuzzy
 msgid "`power` 为负数："
 msgstr "`power` as negative value:"
 
-#: src/feature/effect/builtin/fisheye.md:7
+#: src/feature/effect/builtin/fisheye.md
 #, fuzzy
 msgid "![示例](image/fisheye-neg.png)"
 msgstr "![example](image/fisheye-neg.png)"
 
-#: src/feature/effect/builtin/fisheye.md:9
+#: src/feature/effect/builtin/fisheye.md
 #, fuzzy
 msgid "`power` 为正数："
 msgstr "`power` as positive value:"
 
-#: src/feature/effect/builtin/fisheye.md:11
+#: src/feature/effect/builtin/fisheye.md
 #, fuzzy
 msgid "![示例](image/fisheye-pos.png)"
 msgstr "![example](image/fisheye-pos.png)"
 
-#: src/feature/effect/builtin/fisheye.md:15
+#: src/feature/effect/builtin/fisheye.md
 #, fuzzy
 msgid "`power`（小数，默认 `-0.1`）：鱼眼缩放比例。"
 msgstr "`power` (float, default value: `-0.1`): Scale of fisheye effect."
 
-#: src/feature/effect/builtin/glitch.md:3
+#: src/feature/effect/builtin/glitch.md
 #, fuzzy
 msgid "混乱 / 错误效果。该效果会随时间产生不确定的闪烁。"
 msgstr ""
-"Confusion/Error effect. The effect produces an indeterminate flicker over time."
+"Confusion/Error effect. The effect produces an indeterminate flicker over "
+"time."
 
-#: src/feature/effect/builtin/glitch.md:5
+#: src/feature/effect/builtin/glitch.md
 #, fuzzy
 msgid "![示例](image/glitch.png)"
 msgstr "![example](image/glitch.png)"
 
-#: src/feature/effect/builtin/glitch.md:9
+#: src/feature/effect/builtin/glitch.md
 #, fuzzy
 msgid "`power`（小数，默认 `0.3`）：闪烁强度；"
 msgstr "`power` (float, default value: `0.3`): Flicker intensity."
 
-#: src/feature/effect/builtin/glitch.md:10
+#: src/feature/effect/builtin/glitch.md
 #, fuzzy
 msgid ""
-"`rate`（小数，默认 `0.6`，范围 `0-1`）：闪烁频率。`0` 为总不闪烁，`1` 为总是闪烁；"
+"`rate`（小数，默认 `0.6`，范围 `0-1`）：闪烁频率。`0` 为总不闪烁，`1` 为总是"
+"闪烁；"
 msgstr ""
-"`rate` (float, default value: `0.6`, range: `0-1`): Flicker frequency. `0` for no "
-"flickers, `1` for always flicker."
+"`rate` (float, default value: `0.6`, range: `0-1`): Flicker frequency. `0` "
+"for no flickers, `1` for always flicker."
 
-#: src/feature/effect/builtin/glitch.md:11
+#: src/feature/effect/builtin/glitch.md
 #, fuzzy
 msgid "`speed`（小数，默认 `5.0`）：整个闪烁动画的速度；"
 msgstr "`speed` (float, default value: `5.0`): Speed of flickering animation."
 
-#: src/feature/effect/builtin/glitch.md:12
+#: src/feature/effect/builtin/glitch.md
 #, fuzzy
 msgid "`blockCount`（小数，默认 `30.5`）：见上图，错位条带的条数（大概）；"
 msgstr ""
 "`blockCount` (float, default value: `30.5`): Look at above images, number of "
 "misaligned strips (approximate)."
 
-#: src/feature/effect/builtin/glitch.md:13
+#: src/feature/effect/builtin/glitch.md
 #, fuzzy
 msgid "`colorRate`（小数，默认 `0.01`，范围 `0-1`）：色差的距离。"
 msgstr ""
 "`colorRate` (float, default value: `0.01`, range: `0-1`): Distance of color "
 "difference."
 
-#: src/feature/effect/builtin/grayscale.md:3
+#: src/feature/effect/builtin/grayscale.md
 #, fuzzy
 msgid "灰度化效果。"
 msgstr "Grayscale effect."
 
-#: src/feature/effect/builtin/grayscale.md:5
+#: src/feature/effect/builtin/grayscale.md
 #, fuzzy
 msgid "![示例](image/grayscale.png)"
 msgstr "![example](image/grayscale.png)"
 
-#: src/feature/effect/builtin/grayscale.md:9
+#: src/feature/effect/builtin/grayscale.md
 #, fuzzy
 msgid ""
-"`factor`（小数，默认 `1.0`）：灰度化程度。`0` 为不进行灰度化处理，`1` 为完全进行灰"
-"度化处理。"
+"`factor`（小数，默认 `1.0`）：灰度化程度。`0` 为不进行灰度化处理，`1` 为完全"
+"进行灰度化处理。"
 msgstr ""
-"`factor` (float, default value: `1.0`): Grayscale level. `0` for no grayscale "
-"processing, `1` for complete grayscale processing."
+"`factor` (float, default value: `1.0`): Grayscale level. `0` for no "
+"grayscale processing, `1` for complete grayscale processing."
 
-#: src/feature/effect/builtin/noise.md:3
+#: src/feature/effect/builtin/noise.md
 #, fuzzy
 msgid "噪音效果。向画面附加一层随机的模糊效果。"
 msgstr "Noise effect. Applies a random layer of blur to the screen."
 
-#: src/feature/effect/builtin/noise.md:5
+#: src/feature/effect/builtin/noise.md
 #, fuzzy
 msgid "![示例](image/noise.png)"
 msgstr "![example](image/noise.png)"
 
-#: src/feature/effect/builtin/noise.md:9
+#: src/feature/effect/builtin/noise.md
 #, fuzzy
 msgid ""
-"`seed`（小数，默认 `81.0`）：用来生成随机图案的种子。通过连续地变化种子可以使图案发"
-"生连续的变化。"
+"`seed`（小数，默认 `81.0`）：用来生成随机图案的种子。通过连续地变化种子可以使"
+"图案发生连续的变化。"
 msgstr ""
 "`seed` (float, default value: `81.0`): Used to generate random patterns. By "
 "varying the seeds continuously, the pattern can be changed continuously."
 
-#: src/feature/effect/builtin/noise.md:10
+#: src/feature/effect/builtin/noise.md
 #, fuzzy
 msgid ""
-"`power`（小数，默认 `0.03`，范围 `0-1`）：见上图，模糊的程度（像素偏移范围）。"
+"`power`（小数，默认 `0.03`，范围 `0-1`）：见上图，模糊的程度（像素偏移范"
+"围）。"
 msgstr ""
 "`power` (float, default value: `0.03`, range: `0-1`): Look at above images, "
 "intensity of blur (Range of pixel offset)."
 
-#: src/feature/effect/builtin/pixel.md:3
+#: src/feature/effect/builtin/pixel.md
 #, fuzzy
 msgid "像素化效果。"
 msgstr "Pixelated effect."
 
-#: src/feature/effect/builtin/pixel.md:5
+#: src/feature/effect/builtin/pixel.md
 #, fuzzy
 msgid "![示例](image/pixel.png)"
 msgstr "![example](image/pixel.png)"
 
-#: src/feature/effect/builtin/pixel.md:9
+#: src/feature/effect/builtin/pixel.md
 #, fuzzy
 msgid "`size`（小数，默认 `10.0`）：像素化后的单个像素大小。"
 msgstr ""
-"`size` (float, default value: `10.0`): Size of individual pixels after pixelation."
+"`size` (float, default value: `10.0`): Size of individual pixels after "
+"pixelation."
 
-#: src/feature/effect/builtin/radialBlur.md:3
+#: src/feature/effect/builtin/radialBlur.md
 #, fuzzy
 msgid "放射模糊。"
 msgstr "Radial blur."
 
-#: src/feature/effect/builtin/radialBlur.md:5
+#: src/feature/effect/builtin/radialBlur.md
 #, fuzzy
 msgid "![示例](image/radialBlur.png)"
 msgstr "![example](image/radialBlur.png)"
 
-#: src/feature/effect/builtin/radialBlur.md:9
+#: src/feature/effect/builtin/radialBlur.md
 #, fuzzy
 msgid "`centerX`（小数，默认 `0.5`，范围 `0-1`）：放射中心的 X 坐标；"
 msgstr ""
-"`centerX` (float, default value: `0.5`, range: `0-1`): X coordinate of the effect "
-"center."
+"`centerX` (float, default value: `0.5`, range: `0-1`): X coordinate of the "
+"effect center."
 
-#: src/feature/effect/builtin/radialBlur.md:10
+#: src/feature/effect/builtin/radialBlur.md
 #, fuzzy
 msgid "`centerY`（小数，默认 `0.5`，范围 `0-1`）：放射中心的 Y 坐标；"
 msgstr ""
-"`centerY` (float, default value: `0.5`, range: `0-1`): Y coordinate of the effect "
-"center."
+"`centerY` (float, default value: `0.5`, range: `0-1`): Y coordinate of the "
+"effect center."
 
-#: src/feature/effect/builtin/radialBlur.md:11
+#: src/feature/effect/builtin/radialBlur.md
 #, fuzzy
 msgid "`power`（小数，默认 `0.01`，范围 `0-1`）：放射强度；"
-msgstr "`power` (float, default value: `0.01`, range: `0-1`): Intensity of effect."
+msgstr ""
+"`power` (float, default value: `0.01`, range: `0-1`): Intensity of effect."
 
-#: src/feature/effect/builtin/radialBlur.md:12
+#: src/feature/effect/builtin/radialBlur.md
 #, fuzzy
 msgid ""
-"`sampleCount`（整数，默认 `3`，范围 `1-64`）：采样次数，越高显示会更连贯，开销也更"
-"大。"
+"`sampleCount`（整数，默认 `3`，范围 `1-64`）：采样次数，越高显示会更连贯，开"
+"销也更大。"
 msgstr ""
-"`sampleCount` (integer, default value: `3`, range: `1-64`): Sample count, the "
-"higher the value, the display will be more coherent, and the overhead will be "
-"higher."
+"`sampleCount` (integer, default value: `3`, range: `1-64`): Sample count, "
+"the higher the value, the display will be more coherent, and the overhead "
+"will be higher."
 
-#: src/feature/effect/builtin/shockwave.md:3
+#: src/feature/effect/builtin/shockwave.md
 #, fuzzy
 msgid "冲击波效果。建议配合 `progress` 的参数动画使用。"
 msgstr "Shockwave effect. Recommended to use with `progress` parameter."
 
-#: src/feature/effect/builtin/shockwave.md:5
+#: src/feature/effect/builtin/shockwave.md
 #, fuzzy
 msgid "![示例](image/shockwave.png)"
 msgstr "![example](image/shockwave.png)"
 
-#: src/feature/effect/builtin/shockwave.md:9
+#: src/feature/effect/builtin/shockwave.md
 #, fuzzy
 msgid ""
-"`progress`（小数，默认 `0.2`，范围 `0-1`）：冲击波的进度。冲击波是一个动画，`0` 进"
-"度为开始，直到 `1` 进度结束；"
+"`progress`（小数，默认 `0.2`，范围 `0-1`）：冲击波的进度。冲击波是一个动画，"
+"`0` 进度为开始，直到 `1` 进度结束；"
 msgstr ""
-"`progress` (float, default value: `0.2`, range: `0-1`): Progress of the effect. "
-"Shockwave is an animation, `0` for start of animation, `1` for end of animation)."
+"`progress` (float, default value: `0.2`, range: `0-1`): Progress of the "
+"effect. Shockwave is an animation, `0` for start of animation, `1` for end "
+"of animation)."
 
-#: src/feature/effect/builtin/shockwave.md:10
+#: src/feature/effect/builtin/shockwave.md
 #, fuzzy
 msgid "`centerX`（小数，默认 `0.5`，范围 `0-1`）：冲击波中心的 X 坐标；"
 msgstr ""
-"`centerX` (float, default value: `0.5`, range: `0-1`): X coordinate of the effect "
-"center."
+"`centerX` (float, default value: `0.5`, range: `0-1`): X coordinate of the "
+"effect center."
 
-#: src/feature/effect/builtin/shockwave.md:11
+#: src/feature/effect/builtin/shockwave.md
 #, fuzzy
 msgid "`centerY`（小数，默认 `0.5`，范围 `0-1`）：冲击波中心的 Y 坐标；"
 msgstr ""
-"`centerY` (float, default value: `0.5`, range: `0-1`): Y coordinate of the effect "
-"center."
+"`centerY` (float, default value: `0.5`, range: `0-1`): Y coordinate of the "
+"effect center."
 
-#: src/feature/effect/builtin/shockwave.md:12
+#: src/feature/effect/builtin/shockwave.md
 #, fuzzy
 msgid "`width`（小数，默认 `0.1`）：冲击波的宽度；"
 msgstr "`width` (float, default value: `0.1`): Width of the effect."
 
-#: src/feature/effect/builtin/shockwave.md:13
+#: src/feature/effect/builtin/shockwave.md
 #, fuzzy
 msgid "`distortion`（小数，默认 `0.8`）：冲击波扭曲程度；"
 msgstr "`distortion` (float, default value: `0.8`): Intensity of distortion."
 
-#: src/feature/effect/builtin/shockwave.md:14
+#: src/feature/effect/builtin/shockwave.md
 #, fuzzy
 msgid "`expand`（小数，默认 `10.0`）：冲击波延伸广度。"
 msgstr "`expand` (float, default value: `10.0`): Breadth of expansion."
 
-#: src/feature/effect/builtin/vignette.md:1
+#: src/feature/effect/builtin/vignette.md
 msgid "vignette"
 msgstr "vignette"
 
-#: src/feature/effect/builtin/vignette.md:3
+#: src/feature/effect/builtin/vignette.md
 #, fuzzy
 msgid ""
-"虚光照效果。将屏幕的边缘调暗或调成其他颜色，可以用来模拟 Arcaea 的部分异象效果。"
+"虚光照效果。将屏幕的边缘调暗或调成其他颜色，可以用来模拟 Arcaea 的部分异象效"
+"果。"
 msgstr ""
-"Virtual lighting effect. Will darken or tint the edges of the screen to other "
-"colors, can be used to simulate some of Arcaea's anomaly effect."
+"Virtual lighting effect. Will darken or tint the edges of the screen to "
+"other colors, can be used to simulate some of Arcaea's anomaly effect."
 
-#: src/feature/effect/builtin/vignette.md:5
+#: src/feature/effect/builtin/vignette.md
 #, fuzzy
 msgid "![示例](image/vignette.png)"
 msgstr "![example](image/vignette.png)"
 
-#: src/feature/effect/builtin/vignette.md:9
+#: src/feature/effect/builtin/vignette.md
 #, fuzzy
 msgid "`color`（颜色，默认黑色）：边缘的颜色；"
-msgstr "`color` (color, default color: `black`): Color at the edges of the screen."
+msgstr ""
+"`color` (color, default color: `black`): Color at the edges of the screen."
 
-#: src/feature/effect/builtin/vignette.md:10
+#: src/feature/effect/builtin/vignette.md
 #, fuzzy
 msgid ""
-"`extend`（小数，默认 `0.25`，范围 `0-1`）：边缘的延伸程度，值越大黑色部分越多；"
+"`extend`（小数，默认 `0.25`，范围 `0-1`）：边缘的延伸程度，值越大黑色部分越"
+"多；"
 msgstr ""
-"`extend` (float, default value: `0.25`, range: `0-1`): The extension from the "
-"edge, the larger the value, the more black parts."
+"`extend` (float, default value: `0.25`, range: `0-1`): The extension from "
+"the edge, the larger the value, the more black parts."
 
-#: src/feature/effect/builtin/vignette.md:11
+#: src/feature/effect/builtin/vignette.md
 #, fuzzy
 msgid "`radius`（小数，默认 `15.0`）：中央光照大小，值越小受到影响的范围越大。"
 msgstr ""
-"`radius` (float, default value: `15.0`): Size of central light, the smaller the "
-"value, the greater the range affacted."
+"`radius` (float, default value: `15.0`): Size of central light, the smaller "
+"the value, the greater the range affacted."
 
 # `/shader_path` would be a placeholder. A better notation is needed.
-#: src/feature/effect/custom-shader.md:3
+#: src/feature/effect/custom-shader.md
 #, fuzzy
 msgid ""
-"用于特效的着色器是片元着色器。你可以自行编写着色器并将其附加于谱面压缩包中。在 "
-"`shader` 字段，你需要填写 `/shader路径`。注意这里的 `/` 是必不可少的，它将内置着色"
-"器和自定义着色器区分开来。"
+"用于特效的着色器是片元着色器。你可以自行编写着色器并将其附加于谱面压缩包中。"
+"在 `shader` 字段，你需要填写 `/shader路径`。注意这里的 `/` 是必不可少的，它将"
+"内置着色器和自定义着色器区分开来。"
 msgstr ""
-"Fragment shaders are used for making the special effects. You can write your own "
-"shaders and attach them to the chart's zip file. In the `shader` field, you need "
-"to fill in the `/shader_path`. Note that the `/` must be included and this field "
-"must be filled in because it distinguishes the built-in shaders from the custom "
-"shaders."
+"Fragment shaders are used for making the special effects. You can write your "
+"own shaders and attach them to the chart's zip file. In the `shader` field, "
+"you need to fill in the `/shader_path`. Note that the `/` must be included "
+"and this field must be filled in because it distinguishes the built-in "
+"shaders from the custom shaders."
 
-#: src/feature/effect/custom-shader.md:5
+#: src/feature/effect/custom-shader.md
 #, fuzzy
 msgid "为保证兼容性，着色器版本要求为 GLSL 1.00。"
 msgstr "For compatibility, GLSL 1.00 is used."
 
-#: src/feature/effect/custom-shader.md:7 src/uml/syntax/variable.md:13
+#: src/feature/effect/custom-shader.md src/uml/syntax/variable.md
 #, fuzzy
 msgid "内置变量"
 msgstr "Built-in variables"
 
-#: src/feature/effect/custom-shader.md:9
+#: src/feature/effect/custom-shader.md
 #, fuzzy
 msgid "prpr 为着色器内置了如下变量："
 msgstr "prpr has the following variables used for shaders:"
 
-#: src/feature/effect/custom-shader.md:11
+#: src/feature/effect/custom-shader.md
 #, fuzzy
 msgid ""
 "```glsl\n"
@@ -1120,37 +1159,37 @@ msgid ""
 msgstr ""
 "```glsl\n"
 "varying vec2 uv; // UV of texture\n"
-"uniform vec2 screenSize; // Size of the screen (Note that it refers to the entire "
-"screen, and not just the chart/gameplay area)\n"
-"uniform sampler2D screenTexture; // Texture of the screen (Refers to the texture "
-"of the entire screen, and not just the chart/gameplay area)\n"
+"uniform vec2 screenSize; // Size of the screen (Note that it refers to the "
+"entire screen, and not just the chart/gameplay area)\n"
+"uniform sampler2D screenTexture; // Texture of the screen (Refers to the "
+"texture of the entire screen, and not just the chart/gameplay area)\n"
 "uniform float time; // The chart's time in seconds\n"
 "```"
 
-#: src/feature/effect/custom-shader.md:18
+#: src/feature/effect/custom-shader.md
 #, fuzzy
 msgid ""
-"还有一些变量是虽然存在，但在片元着色器中使用无意义的。在定义自己的变量时，你应该避"
-"免与它们重名："
+"还有一些变量是虽然存在，但在片元着色器中使用无意义的。在定义自己的变量时，你"
+"应该避免与它们重名："
 msgstr ""
 "There are also variables that exists, but these variables are useless in the "
 "fragment shaders. When defining your own variables, you should avoid these "
 "variables' name:"
 
-#: src/feature/effect/custom-shader.md:26
+#: src/feature/effect/custom-shader.md
 #, fuzzy
 msgid "着色器变量"
 msgstr "Shader variables"
 
 # I think it is better to put it as plural because you can have multiple uniform variables. There are also multiple uniform vairables in the example.
-#: src/feature/effect/custom-shader.md:28
+#: src/feature/effect/custom-shader.md
 #, fuzzy
 msgid "为了在谱面中可以指定参数，你需要这样定义你的着色器 `uniform` 变量："
 msgstr ""
 "In order to define your own parameters in the chart, you need to define your "
 "shader `uniform` variables like this:"
 
-#: src/feature/effect/custom-shader.md:30
+#: src/feature/effect/custom-shader.md
 #, fuzzy
 msgid ""
 "```glsl\n"
@@ -1161,24 +1200,24 @@ msgstr ""
 "uniform type name; // %def%\n"
 "```"
 
-#: src/feature/effect/custom-shader.md:34
+#: src/feature/effect/custom-shader.md
 #, fuzzy
 msgid ""
-"其中 `type` 为类型，目前支持 `float`、`vec2` 和 `vec4`；`name` 为变量名；`def` 为默"
-"认值。三个都是不可缺少的。"
+"其中 `type` 为类型，目前支持 `float`、`vec2` 和 `vec4`；`name` 为变量名；"
+"`def` 为默认值。三个都是不可缺少的。"
 msgstr ""
 "where `type` is the variable type, currently `float`, `vec2`, and `vec4` are "
-"supported; `name` is the variable name; `def` is the default value. Any of the 3 "
-"values cannot be left out."
+"supported; `name` is the variable name; `def` is the default value. Any of "
+"the 3 values cannot be left out."
 
-#: src/feature/effect/custom-shader.md:38
+#: src/feature/effect/custom-shader.md
 #, fuzzy
 msgid "下面的示例着色器将会根据 `factor` 的值给屏幕叠加上强弱不等的红色："
 msgstr ""
 "The example below shows that the shader will overlay the screen with varying "
 "shades of red depending on the value of factor:"
 
-#: src/feature/effect/custom-shader.md:40
+#: src/feature/effect/custom-shader.md
 #, fuzzy
 msgid ""
 "```glsl\n"
@@ -1211,808 +1250,835 @@ msgstr ""
 "}\n"
 "```"
 
-#: src/feature/video/index.md:3
+#: src/feature/video/index.md
 #, fuzzy
 msgid ""
-"在 prpr 中，你可以在背景播放视频，但音频并不会被播放。但由于大部分视频文件都较大，"
-"且 prpr 的谱面上传限制是 10MB，带有大型 BGA 的谱可能无法上传。如果在上传中需要用到"
-"视频背景，建议是用来实现一些小的动画、并对视频进行压缩（包括但不仅限于删除音频轨"
-"道）。"
+"在 prpr 中，你可以在背景播放视频，但音频并不会被播放。但由于大部分视频文件都"
+"较大，且 prpr 的谱面上传限制是 10MB，带有大型 BGA 的谱可能无法上传。如果在上"
+"传中需要用到视频背景，建议是用来实现一些小的动画、并对视频进行压缩（包括但不"
+"仅限于删除音频轨道）。"
 msgstr ""
-"In prpr, you can play a video in the background, but the audio will not be played. "
-"However, since most videos have a large file size and the upload limit for prpr "
-"charts is 10MB, charts that have large BGA may not be uploaded. If you need to "
-"have a video background, it is recommended that the video background is used for "
-"small animations and compressed (including but not limited to removing audio)."
+"In prpr, you can play a video in the background, but the audio will not be "
+"played. However, since most videos have a large file size and the upload "
+"limit for prpr charts is 10MB, charts that have large BGA may not be "
+"uploaded. If you need to have a video background, it is recommended that the "
+"video background is used for small animations and compressed (including but "
+"not limited to removing audio)."
 
-#: src/feature/video/index.md:7
+#: src/feature/video/index.md
 #, fuzzy
 msgid "你需要在 `extra.json` 中加入 `videos` 字段，其内容为 `Video` 的数组。"
 msgstr ""
-"You need to add a `videos` field in the `extra.json` file, whose content is an "
-"array of `Video`."
+"You need to add a `videos` field in the `extra.json` file, whose content is "
+"an array of `Video`."
 
-#: src/feature/video/index.md:9
+#: src/feature/video/index.md
 msgid "Video"
 msgstr "Video"
 
-#: src/feature/video/index.md:11
+#: src/feature/video/index.md
 #, fuzzy
 msgid "单个 `Video` 的格式如下所示："
 msgstr "The format for a single `Video` is as shown below:"
 
-#: src/feature/video/index.md:15
+#: src/feature/video/index.md
 msgid "\"path\""
 msgstr "\"path\""
 
-#: src/feature/video/index.md:15
+#: src/feature/video/index.md
 msgid "\"bga.mp4\""
 msgstr "\"bga.mp4\""
 
-#: src/feature/video/index.md:17
+#: src/feature/video/index.md
 msgid "\"scale\""
 msgstr "\"scale\""
 
-#: src/feature/video/index.md:17
+#: src/feature/video/index.md
 msgid "\"cropCenter\""
 msgstr "\"cropCenter\""
 
-#: src/feature/video/index.md:18
+#: src/feature/video/index.md
 msgid "\"alpha\""
 msgstr "\"alpha\""
 
-#: src/feature/video/index.md:19
+#: src/feature/video/index.md
 msgid "\"dim\""
 msgstr "\"dim\""
 
-#: src/feature/video/index.md:23
+#: src/feature/video/index.md
 #, fuzzy
 msgid "其中 `path` 为必填，指向视频文件路径，其它四项均为选填。"
 msgstr ""
-"The `path` field is mandatory to be filled in, and it should point to the file "
-"path of the video, the other four fields are optional."
+"The `path` field is mandatory to be filled in, and it should point to the "
+"file path of the video, the other four fields are optional."
 
-#: src/feature/video/index.md:25
+#: src/feature/video/index.md
 #, fuzzy
 msgid "`time` 用拍数表示视频的开始时间。"
 msgstr "`time` indicates the start time of the video in terms of beat numbers."
 
-#: src/feature/video/index.md:27
+#: src/feature/video/index.md
 #, fuzzy
 msgid ""
-"`scale` 表示视频的缩放方式。在制作谱面时，你需要考虑在谱面不同宽高比下的显示情况。"
-"为此，`scale` 有三种值可选："
+"`scale` 表示视频的缩放方式。在制作谱面时，你需要考虑在谱面不同宽高比下的显示"
+"情况。为此，`scale` 有三种值可选："
 msgstr ""
 "`scale` indicates how the video is scaled. When making a chart, you need to "
-"consider how the chart will look at different aspect ratios. For this purpose, the "
-"`scale` field has 3 options available:"
+"consider how the chart will look at different aspect ratios. For this "
+"purpose, the `scale` field has 3 options available:"
 
-#: src/feature/video/index.md:29
+#: src/feature/video/index.md
 #, fuzzy
 msgid "`cropCenter`（默认）：等比例放大视频直到视频能恰好填满屏幕；"
 msgstr ""
-"`cropCenter` (default): Scales up the video uniformly until it fills the screen."
+"`cropCenter` (default): Scales up the video uniformly until it fills the "
+"screen."
 
-#: src/feature/video/index.md:30
+#: src/feature/video/index.md
 #, fuzzy
 msgid "`inside`：等比例缩放视频，保证整个视频能显示在屏幕内；"
 msgstr ""
-"`inside`: Scales down the video uniformly, ensures that the entire video is shown "
-"within the screen."
+"`inside`: Scales down the video uniformly, ensures that the entire video is "
+"shown within the screen."
 
-#: src/feature/video/index.md:31
+#: src/feature/video/index.md
 #, fuzzy
 msgid "`fit`：强制拉伸视频到整个屏幕。"
 msgstr "`fit`: Forcefully stretch the video to the entire screen."
 
-#: src/feature/video/index.md:33
+#: src/feature/video/index.md
 #, fuzzy
 msgid ""
-"`alpha` 和 `scale` 分别代表视频的不透明度（若透明，则会显示下方的曲绘）和昏暗程度，"
-"他们都是 [`动画变量`](../index.html#动画变量)。"
+"`alpha` 和 `scale` 分别代表视频的不透明度（若透明，则会显示下方的曲绘）和昏暗"
+"程度，他们都是 [`动画变量`](../index.html#动画变量)。"
 msgstr ""
-"`alpha` and `dim` represents the transparency of the video (if it is invisible, "
-"the song background art will be displayed instead) and dimness respectively, they "
-"are both [`Animation variables`](../index.html#animation-variables)."
+"`alpha` and `dim` represents the transparency of the video (if it is "
+"invisible, the song background art will be displayed instead) and dimness "
+"respectively, they are both [`Animation variables`](../index.html#animation-"
+"variables)."
 
-#: src/feature/unlock_video/index.md:4
+#: src/feature/unlock_video/index.md
 #, fuzzy
 msgid "**请注意解锁动画和视频背景的区别**"
-msgstr "**Please note the difference between unlock animation and video background**"
+msgstr ""
+"**Please note the difference between unlock animation and video background**"
 
-#: src/feature/unlock_video/index.md:6
+#: src/feature/unlock_video/index.md
 #, fuzzy
 msgid "解锁动画允许在玩家初次游玩谱面前播放一段视频。"
 msgstr ""
 "The unlock animation allows a video to be played before the player's initial "
 "playthrough of the chart."
 
-#: src/feature/unlock_video/index.md:8
+#: src/feature/unlock_video/index.md
 #, fuzzy
 msgid "使用方法"
 msgstr "Usage"
 
-#: src/feature/unlock_video/index.md:10
+#: src/feature/unlock_video/index.md
 #, fuzzy
 msgid "目前 UI 还没做好，稍微有些麻烦。下面的步骤建议在 Windows 上进行。"
 msgstr ""
-"The UI is currently not ready and is slightly cumbersome. The following steps are "
-"recommended for Windows."
+"The UI is currently not ready and is slightly cumbersome. The following "
+"steps are recommended for Windows."
 
-#: src/feature/unlock_video/index.md:12
+#: src/feature/unlock_video/index.md
 #, fuzzy
 msgid "如果你的谱面已经有了 `info.yml`，请跳转到第三步。"
 msgstr "If your chart already has `info.yml`, please skip to step three."
 
-#: src/feature/unlock_video/index.md:14
+#: src/feature/unlock_video/index.md
 #, fuzzy
 msgid "在 Phira 中导入你的谱面；"
 msgstr "Import your chart in Phira."
 
-#: src/feature/unlock_video/index.md:15
+#: src/feature/unlock_video/index.md
 #, fuzzy
 msgid ""
-"在 `data/charts/custom` 中搜索你的谱面 ID（如 `9067228`），找到对应的文件夹，在里面"
-"找到 `info.yml`，拷贝到你的谱面文件夹里（注意不是导入到 Phira 后的文件夹，是 pez 解"
-"压出来的文件夹）；"
+"在 `data/charts/custom` 中搜索你的谱面 ID（如 `9067228`），找到对应的文件夹，"
+"在里面找到 `info.yml`，拷贝到你的谱面文件夹里（注意不是导入到 Phira 后的文件"
+"夹，是 pez 解压出来的文件夹）；"
 msgstr ""
-"Search for your chart ID in `data/charts/custom` (e.g. `9067228`), locate the "
-"corresponding folder, find `info.yml` in the folder, and copy it to your chart "
-"folder (Note that the folder mentioned here is not the folder that you get after "
-"importing into Phira, it's the folder that you extracted from pez)."
+"Search for your chart ID in `data/charts/custom` (e.g. `9067228`), locate "
+"the corresponding folder, find `info.yml` in the folder, and copy it to your "
+"chart folder (Note that the folder mentioned here is not the folder that you "
+"get after importing into Phira, it's the folder that you extracted from pez)."
 
-#: src/feature/unlock_video/index.md:16
+#: src/feature/unlock_video/index.md
 #, fuzzy
 msgid ""
-"向你的谱面文件夹（注意不是导入到 Phira 后的文件夹，是 pez 解压出来的文件夹）内加入"
-"解锁动画，假设文件名为 `unlock.mp4`；"
+"向你的谱面文件夹（注意不是导入到 Phira 后的文件夹，是 pez 解压出来的文件夹）"
+"内加入解锁动画，假设文件名为 `unlock.mp4`；"
 msgstr ""
-"Add the unlock animation to your chart folder (Note that the folder mentioned here "
-"is not the folder that you get after importing into Phira, it's the folder that "
-"you extracted from pez), assuming the file name is `unlock.mp4`."
+"Add the unlock animation to your chart folder (Note that the folder "
+"mentioned here is not the folder that you get after importing into Phira, "
+"it's the folder that you extracted from pez), assuming the file name is "
+"`unlock.mp4`."
 
-#: src/feature/unlock_video/index.md:17
+#: src/feature/unlock_video/index.md
 #, fuzzy
 msgid ""
-"在 `info.yml` 中找到 `unlockVideo: null` 一行，替换为 `unlockVideo: unlock.mp4`（如"
-"果没有这一行，则加上这一行）；"
+"在 `info.yml` 中找到 `unlockVideo: null` 一行，替换为 `unlockVideo: unlock."
+"mp4`（如果没有这一行，则加上这一行）；"
 msgstr ""
-"Find the line `unlockVideo: null` in `info.yml` and replace it with `unlockVideo: "
-"unlock.mp4` (or add that line if it's not there)."
+"Find the line `unlockVideo: null` in `info.yml` and replace it with "
+"`unlockVideo: unlock.mp4` (or add that line if it's not there)."
 
-#: src/feature/unlock_video/index.md:18
+#: src/feature/unlock_video/index.md
 #, fuzzy
 msgid "重新导入你的谱面。"
 msgstr "Re-import your chart."
 
-#: src/uml/index.md:1
+#: src/uml/index.md
 #, fuzzy
 msgid "UML 文档"
 msgstr "UML documentation"
 
-#: src/uml/index.md:3
+#: src/uml/index.md
 #, fuzzy
 msgid "UML 文件是 UI 描述文件, 可以用来创建于代码解耦的可定制界面. "
 msgstr "UML 文件是 UI 描述文件, 可以用来创建于代码解耦的可定制界面. "
 
-#: src/uml/syntax/index.md:3
+#: src/uml/syntax/index.md
 #, fuzzy
 msgid ""
-"UML 文件格式是纯文本的人类可读格式. UML 由 Element(元素), 注释和变量定义语句构成, "
-"每个元素占据一或多行. "
+"UML 文件格式是纯文本的人类可读格式. UML 由 Element(元素), 注释和变量定义语句"
+"构成, 每个元素占据一或多行. "
 msgstr ""
-"UML 文件格式是纯文本的人类可读格式. UML 由 Element(元素), 注释和变量定义语句构成, "
-"每个元素占据一或多行. "
+"UML 文件格式是纯文本的人类可读格式. UML 由 Element(元素), 注释和变量定义语句"
+"构成, 每个元素占据一或多行. "
 
-#: src/uml/syntax/coordinate.md:3
+#: src/uml/syntax/coordinate.md
 #, fuzzy
 msgid "坐标原点在进入活动页后下滑一屏后的左上角处, `x` 轴向右, `y` 轴向下."
 msgstr "坐标原点在进入活动页后下滑一屏后的左上角处, `x` 轴向右, `y` 轴向下."
 
-#: src/uml/syntax/coordinate.md:5
+#: src/uml/syntax/coordinate.md
 #, fuzzy
 msgid ""
-"屏幕宽度总是 `2`, 可以通过宽高比计算屏幕高度, 参见[内置变量](./variable.md#内置变"
-"量)."
+"屏幕宽度总是 `2`, 可以通过宽高比计算屏幕高度, 参见[内置变量](./variable.md#内"
+"置变量)."
 msgstr ""
-"屏幕宽度总是 `2`, 可以通过宽高比计算屏幕高度, 参见[内置变量](./variable.md#内置变"
-"量)."
+"屏幕宽度总是 `2`, 可以通过宽高比计算屏幕高度, 参见[内置变量](./variable.md#内"
+"置变量)."
 
-#: src/uml/syntax/type.md:3
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "UML 中有如下数据类型:"
 msgstr "UML 中有如下数据类型:"
 
-#: src/uml/syntax/type.md:5
+#: src/uml/syntax/type.md
 msgid "`Float`"
 msgstr "`Float`"
 
-#: src/uml/syntax/type.md:7
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "单精度浮点数, 任意的数字都是 `Float`."
 msgstr "单精度浮点数, 任意的数字都是 `Float`."
 
-#: src/uml/syntax/type.md:9
+#: src/uml/syntax/type.md
 msgid "`Rect`"
 msgstr "`Rect`"
 
-#: src/uml/syntax/type.md:11
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid ""
-"矩形. 由 `[left, top, width, height]`(分别是左上角 `x` 坐标, 左上角 `y` 坐标, 矩形"
-"宽度, 矩形高度)定义."
+"矩形. 由 `[left, top, width, height]`(分别是左上角 `x` 坐标, 左上角 `y` 坐"
+"标, 矩形宽度, 矩形高度)定义."
 msgstr ""
-"矩形. 由 `[left, top, width, height]`(分别是左上角 `x` 坐标, 左上角 `y` 坐标, 矩形"
-"宽度, 矩形高度)定义."
+"矩形. 由 `[left, top, width, height]`(分别是左上角 `x` 坐标, 左上角 `y` 坐"
+"标, 矩形宽度, 矩形高度)定义."
 
-#: src/uml/syntax/type.md:13
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "`Rect` 在定义后可以访问一些只读属性, 具体包括:"
 msgstr "`Rect` 在定义后可以访问一些只读属性, 具体包括:"
 
-#: src/uml/syntax/type.md:15
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "`Rect.l` 或 `Rect.x`: 左上角 `x` 坐标"
 msgstr "`Rect.l` 或 `Rect.x`: 左上角 `x` 坐标"
 
-#: src/uml/syntax/type.md:16
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "`Rect.t` 或 `Rect.y`: 左上角 `y` 坐标"
 msgstr "`Rect.t` 或 `Rect.y`: 左上角 `y` 坐标"
 
-#: src/uml/syntax/type.md:17
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "`Rect.w`: 矩形宽度"
 msgstr "`Rect.w`: 矩形宽度"
 
-#: src/uml/syntax/type.md:18
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "`Rect.h`: 矩形高度"
 msgstr "`Rect.h`: 矩形高度"
 
-#: src/uml/syntax/type.md:19
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "`Rect.r`: 右下角 `x` 坐标"
 msgstr "`Rect.r`: 右下角 `x` 坐标"
 
-#: src/uml/syntax/type.md:20
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "`Rect.b`: 右下角 `y` 坐标"
 msgstr "`Rect.b`: 右下角 `y` 坐标"
 
-#: src/uml/syntax/type.md:21
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "`Rect.cx`: 中心 `x` 坐标"
 msgstr "`Rect.cx`: 中心 `x` 坐标"
 
-#: src/uml/syntax/type.md:22
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "`Rect.cy`: 中心 `y` 坐标"
 msgstr "`Rect.cy`: 中心 `y` 坐标"
 
-#: src/uml/syntax/type.md:24
+#: src/uml/syntax/type.md
 msgid "`Bool`"
 msgstr "`Bool`"
 
-#: src/uml/syntax/type.md:26
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "布尔值. 值是 `true` 或 `false`, 目前只能用于元素的属性中."
 msgstr "布尔值. 值是 `true` 或 `false`, 目前只能用于元素的属性中."
 
-#: src/uml/syntax/type.md:28
+#: src/uml/syntax/type.md
 msgid "`String`"
 msgstr "`String`"
 
-#: src/uml/syntax/type.md:30
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "字符串. 用双引号括起来的文本, 用于表示按钮行为, 颜色, URL, 具体如下:"
 msgstr "字符串. 用双引号括起来的文本, 用于表示按钮行为, 颜色, URL, 具体如下:"
 
-#: src/uml/syntax/type.md:32
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid ""
-"`Color`: 颜色. 可以是十六进制 RGB 或 ARGB 颜色值(如 `\"#ff0000\"` 或 "
-"`\"#7fffffff\"`)或颜色名(如 `\"red\"`). 目前可用的颜色名有:"
+"`Color`: 颜色. 可以是十六进制 RGB 或 ARGB 颜色值(如 `\"#ff0000\"` 或 `"
+"\"#7fffffff\"`)或颜色名(如 `\"red\"`). 目前可用的颜色名有:"
 msgstr ""
-"`Color`: 颜色. 可以是十六进制 RGB 或 ARGB 颜色值(如 `\"#ff0000\"` 或 "
-"`\"#7fffffff\"`)或颜色名(如 `\"red\"`). 目前可用的颜色名有:"
+"`Color`: 颜色. 可以是十六进制 RGB 或 ARGB 颜色值(如 `\"#ff0000\"` 或 `"
+"\"#7fffffff\"`)或颜色名(如 `\"red\"`). 目前可用的颜色名有:"
 
-#: src/uml/syntax/type.md:33
+#: src/uml/syntax/type.md
 msgid "`\"white\"`"
 msgstr "`\"white\"`"
 
-#: src/uml/syntax/type.md:34
+#: src/uml/syntax/type.md
 msgid "`\"black\"`"
 msgstr "`\"black\"`"
 
-#: src/uml/syntax/type.md:35
+#: src/uml/syntax/type.md
 msgid "`\"red\"`"
 msgstr "`\"red\"`"
 
-#: src/uml/syntax/type.md:36
+#: src/uml/syntax/type.md
 msgid "`\"blue\"`"
 msgstr "`\"blue\"`"
 
-#: src/uml/syntax/type.md:37
+#: src/uml/syntax/type.md
 msgid "`\"yellow\"`"
 msgstr "`\"yellow\"`"
 
-#: src/uml/syntax/type.md:38
+#: src/uml/syntax/type.md
 msgid "`\"green\"`"
 msgstr "`\"green\"`"
 
-#: src/uml/syntax/type.md:39
+#: src/uml/syntax/type.md
 msgid "`\"gray\"`"
 msgstr "`\"gray\"`"
 
-#: src/uml/syntax/type.md:40
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "`Action`: 按钮行为. 可用的值有:"
 msgstr "`Action`: 按钮行为. 可用的值有:"
 
-#: src/uml/syntax/type.md:41
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "`\"join\"`: 参与该活动"
 msgstr "`\"join\"`: 参与该活动"
 
-#: src/uml/syntax/type.md:42
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "`\"open:url\"`: 打开指定 URL"
 msgstr "`\"open:url\"`: Opens the specified URL"
 
-#: src/uml/syntax/type.md:43
+#: src/uml/syntax/type.md
 #, fuzzy
 msgid "`URL`: 网址"
 msgstr "`URL`: 网址"
 
-#: src/uml/syntax/expression.md:3
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid ""
-"表达式是由 `Float`, 变量, 运算符和函数组成的. 表达式经过计算是 `Float` 类型的值."
+"表达式是由 `Float`, 变量, 运算符和函数组成的. 表达式经过计算是 `Float` 类型的"
+"值."
 msgstr ""
-"表达式是由 `Float`, 变量, 运算符和函数组成的. 表达式经过计算是 `Float` 类型的值."
+"表达式是由 `Float`, 变量, 运算符和函数组成的. 表达式经过计算是 `Float` 类型的"
+"值."
 
-#: src/uml/syntax/expression.md:5
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "运算符"
 msgstr "Operators"
 
-#: src/uml/syntax/expression.md:7
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "可以使用的运算符有:"
 msgstr "The operators that can be used are:"
 
-#: src/uml/syntax/expression.md:9
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`+`: 加法"
 msgstr "`+`: Addition"
 
-#: src/uml/syntax/expression.md:10
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`-`: 减法"
 msgstr "`-`: Subtraction"
 
-#: src/uml/syntax/expression.md:11
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`*`: 乘法"
 msgstr "`*`: Multiplication"
 
-#: src/uml/syntax/expression.md:12
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`/`: 除法"
 msgstr "`/`: Division"
 
-#: src/uml/syntax/expression.md:13
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`()`: 括号, 用于改变运算顺序"
 msgstr "`()`: Parentheses, used to change the order of operations"
 
-#: src/uml/syntax/expression.md:14
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`==`: 是否等于, 成立时值为 `1`, 否则为 `0`"
 msgstr "`==`: Is equal to, `1` if true, `0` otherwise."
 
-#: src/uml/syntax/expression.md:15
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`!=`: 是否不等于, 成立时值为 `1`, 否则为 `0`"
 msgstr "`! =`: If not equal, value is `1` if true, `0` otherwise."
 
-#: src/uml/syntax/expression.md:16
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`>`: 是否大于, 成立时值为 `1`, 否则为 `0`"
 msgstr "`>`: Is more than, `1` if true, `0` otherwise."
 
-#: src/uml/syntax/expression.md:17
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`<`: 是否小于, 成立时值为 `1`, 否则为 `0`"
 msgstr "`<`: Is less than, `1` if true, `0` otherwise."
 
-#: src/uml/syntax/expression.md:18
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`>=`: 是否大于等于, 成立时值为 `1`, 否则为 `0`"
 msgstr "`>=`: Is more than or equal to, `1` if true, `0` otherwise."
 
-#: src/uml/syntax/expression.md:19
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`<=`: 是否小于等于, 成立时值为 `1`, 否则为 `0`"
 msgstr "`<=`: Is less than or equal to, `1` if true, `0` otherwise."
 
-#: src/uml/syntax/expression.md:21
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "函数"
 msgstr "函数"
 
-#: src/uml/syntax/expression.md:23
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "可以使用的函数有:"
 msgstr "可以使用的函数有:"
 
-#: src/uml/syntax/expression.md:25
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`sin(x)`: 正弦函数"
 msgstr "`sin(x)`: 正弦函数"
 
-#: src/uml/syntax/expression.md:26
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`cos(x)`: 余弦函数"
 msgstr "`cos(x)`: 余弦函数"
 
-#: src/uml/syntax/expression.md:27
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`tan(x)`: 正切函数"
 msgstr "`tan(x)`: 正切函数"
 
-#: src/uml/syntax/expression.md:28
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`abs(x)`: 绝对值函数"
 msgstr "`abs(x)`: Absolute value function"
 
-#: src/uml/syntax/expression.md:29
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`exp(x)`: 指数函数"
 msgstr "`exp(x)`: 指数函数"
 
-#: src/uml/syntax/expression.md:30
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`atan2(x)`: 反正切函数"
 msgstr "`atan2(x)`: 反正切函数"
 
-#: src/uml/syntax/expression.md:31
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`ln(x)`: 自然对数函数"
 msgstr "`ln(x)`: 自然对数函数"
 
-#: src/uml/syntax/expression.md:32
+#: src/uml/syntax/expression.md
 #, fuzzy
-msgid "`sig(x)`: 符号函数, `x` 为 `+0` 或正数时返回 `1`, 为 `-0` 或负数时返回 `-1`"
-msgstr "`sig(x)`: 符号函数, `x` 为 `+0` 或正数时返回 `1`, 为 `-0` 或负数时返回 `-1`"
+msgid ""
+"`sig(x)`: 符号函数, `x` 为 `+0` 或正数时返回 `1`, 为 `-0` 或负数时返回 `-1`"
+msgstr ""
+"`sig(x)`: 符号函数, `x` 为 `+0` 或正数时返回 `1`, 为 `-0` 或负数时返回 `-1`"
 
-#: src/uml/syntax/expression.md:33
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`step(x, y)`: 阶跃函数, `x < y` 为 `0` 时返回 `1`, 否则返回 `0`"
 msgstr "`step(x, y)`: 阶跃函数, `x < y` 为 `0` 时返回 `1`, 否则返回 `0`"
 
-#: src/uml/syntax/expression.md:34
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`floor(x)`: 向下取整函数"
 msgstr "`floor(x)`: 向下取整函数"
 
-#: src/uml/syntax/expression.md:35
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`ceil(x)`: 向上取整函数"
 msgstr "`ceil(x)`: 向上取整函数"
 
-#: src/uml/syntax/expression.md:36
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`round(x)`: 四舍五入函数"
 msgstr "`round(x)`: 四舍五入函数"
 
-#: src/uml/syntax/expression.md:37
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`max(x, y...)`: 最大值函数"
 msgstr "`max(x, y...)`: 最大值函数"
 
-#: src/uml/syntax/expression.md:38
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`min(x, y...)`: 最小值函数"
 msgstr "`min(x, y...)`: 最小值函数"
 
-#: src/uml/syntax/expression.md:39
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "`clamp(x, min, max)`: 将 `x` 限制在 `min` 和 `max` 之间"
 msgstr "`clamp(x, min, max)`: 将 `x` 限制在 `min` 和 `max` 之间"
 
-#: src/uml/syntax/expression.md:41
+#: src/uml/syntax/expression.md
 #, fuzzy
 msgid "其中三角函数和反三角函数使用弧度制."
 msgstr "其中三角函数和反三角函数使用弧度制."
 
-#: src/uml/syntax/variable.md:3
+#: src/uml/syntax/variable.md
 #, fuzzy
 msgid "变量是 UML 中可以被读取或者写入的值, 定义方式如下:"
 msgstr "变量是 UML 中可以被读取或者写入的值, 定义方式如下:"
 
-#: src/uml/syntax/variable.md:9
+#: src/uml/syntax/variable.md
 #, fuzzy
 msgid ""
-"定义一个变量 `name`, 其值为 `value`. `value` 可以是 `Float` 或 `Rect` 类型的值, 或"
-"结果是 `Float` 或 `Rect` 类型的表达式."
+"定义一个变量 `name`, 其值为 `value`. `value` 可以是 `Float` 或 `Rect` 类型的"
+"值, 或结果是 `Float` 或 `Rect` 类型的表达式."
 msgstr ""
-"定义一个变量 `name`, 其值为 `value`. `value` 可以是 `Float` 或 `Rect` 类型的值, 或"
-"结果是 `Float` 或 `Rect` 类型的表达式."
+"定义一个变量 `name`, 其值为 `value`. `value` 可以是 `Float` 或 `Rect` 类型的"
+"值, 或结果是 `Float` 或 `Rect` 类型的表达式."
 
-#: src/uml/syntax/variable.md:11
+#: src/uml/syntax/variable.md
 #, fuzzy
 msgid ""
-"变量可以被重复定义, 但只有最后一次定义的值会被使用. 定义变量后, 你可以在新建元素或"
-"定义其他变量时使用这个变量."
+"变量可以被重复定义, 但只有最后一次定义的值会被使用. 定义变量后, 你可以在新建"
+"元素或定义其他变量时使用这个变量."
 msgstr ""
-"变量可以被重复定义, 但只有最后一次定义的值会被使用. 定义变量后, 你可以在新建元素或"
-"定义其他变量时使用这个变量."
+"变量可以被重复定义, 但只有最后一次定义的值会被使用. 定义变量后, 你可以在新建"
+"元素或定义其他变量时使用这个变量."
 
-#: src/uml/syntax/variable.md:15
+#: src/uml/syntax/variable.md
 #, fuzzy
 msgid "UML 内置了如下变量:"
 msgstr "UML 内置了如下变量:"
 
-#: src/uml/syntax/variable.md:17
+#: src/uml/syntax/variable.md
 #, fuzzy
 msgid "`t`: 当前时间, 单位为秒"
 msgstr "`t`: 当前时间, 单位为秒"
 
-#: src/uml/syntax/variable.md:18
+#: src/uml/syntax/variable.md
 #, fuzzy
 msgid "`top`: 实际高度与实际宽度之比"
 msgstr "`top`: 实际高度与实际宽度之比"
 
-#: src/uml/syntax/variable.md:19
+#: src/uml/syntax/variable.md
 #, fuzzy
 msgid "`o`: 滑动距离"
 msgstr "`o`: 滑动距离"
 
-#: src/uml/syntax/variable.md:20
+#: src/uml/syntax/variable.md
 #, fuzzy
 msgid "`joined`: 是否已经参与了该活动, 参与了时值为 `1`, 否则为 `0`"
 msgstr "`joined`: 是否已经参与了该活动, 参与了时值为 `1`, 否则为 `0`"
 
-#: src/uml/syntax/variable.md:21
+#: src/uml/syntax/variable.md
 #, fuzzy
 msgid "`$h`: 用户能滚动的最大高度, 通过设置该变量的值来限制用户的滚动范围"
 msgstr ""
-"`$h`: The maximum height that the user can scroll, limit the user's scrolling "
-"range by setting the value of this variable"
+"`$h`: The maximum height that the user can scroll, limit the user's "
+"scrolling range by setting the value of this variable"
 
-#: src/uml/syntax/variable.md:23
+#: src/uml/syntax/variable.md
 #, fuzzy
 msgid ""
-"UML 并不具备事件功能, 可以利用 `t`, `o` 和[按钮](./elements/btn.md)的按下时刻来为页"
-"面添加动态效果, 如动画, 换页等."
+"UML 并不具备事件功能, 可以利用 `t`, `o` 和[按钮](./elements/btn.md)的按下时刻"
+"来为页面添加动态效果, 如动画, 换页等."
 msgstr ""
-"UML 并不具备事件功能, 可以利用 `t`, `o` 和[按钮](./elements/btn.md)的按下时刻来为页"
-"面添加动态效果, 如动画, 换页等."
+"UML 并不具备事件功能, 可以利用 `t`, `o` 和[按钮](./elements/btn.md)的按下时刻"
+"来为页面添加动态效果, 如动画, 换页等."
 
-#: src/uml/syntax/variable.md:25
+#: src/uml/syntax/variable.md
 #, fuzzy
 msgid "全局变量"
 msgstr "全局变量"
 
-#: src/uml/syntax/variable.md:27
+#: src/uml/syntax/variable.md
 #, fuzzy
 msgid ""
-"全局变量是在 UML 文件的任何地方都可以被读取或者写入的变量. 全局变量的定义方式如下:"
+"全局变量是在 UML 文件的任何地方都可以被读取或者写入的变量. 全局变量的定义方式"
+"如下:"
 msgstr ""
-"全局变量是在 UML 文件的任何地方都可以被读取或者写入的变量. 全局变量的定义方式如下:"
+"全局变量是在 UML 文件的任何地方都可以被读取或者写入的变量. 全局变量的定义方式"
+"如下:"
 
-#: src/uml/syntax/variable.md:33
+#: src/uml/syntax/variable.md
 #, fuzzy
 msgid ""
-"其中, `type` 只能为 `btn`. 此后, 你仍然可以通过 `let` 的方式写入全局变量, 只有最后"
-"一次定义的值会被使用."
+"其中, `type` 只能为 `btn`. 此后, 你仍然可以通过 `let` 的方式写入全局变量, 只"
+"有最后一次定义的值会被使用."
 msgstr ""
-"其中, `type` 只能为 `btn`. 此后, 你仍然可以通过 `let` 的方式写入全局变量, 只有最后"
-"一次定义的值会被使用."
+"其中, `type` 只能为 `btn`. 此后, 你仍然可以通过 `let` 的方式写入全局变量, 只"
+"有最后一次定义的值会被使用."
 
-#: src/uml/syntax/variable.md:35
-#, fuzzy
-msgid "活动界面在每一帧都会被重画, 这意味着 UML 在每一帧都会重新计算所有变量的值."
-msgstr "活动界面在每一帧都会被重画, 这意味着 UML 在每一帧都会重新计算所有变量的值."
-
-#: src/uml/syntax/variable.md:37
+#: src/uml/syntax/variable.md
 #, fuzzy
 msgid ""
-"但[按钮](./elements/btn.md)的一些属性需要在帧之间保持不变, 因此需要使用全局变量."
+"活动界面在每一帧都会被重画, 这意味着 UML 在每一帧都会重新计算所有变量的值."
 msgstr ""
-"但[按钮](./elements/btn.md)的一些属性需要在帧之间保持不变, 因此需要使用全局变量."
+"活动界面在每一帧都会被重画, 这意味着 UML 在每一帧都会重新计算所有变量的值."
 
-#: src/uml/syntax/element.md:3
+#: src/uml/syntax/variable.md
+#, fuzzy
+msgid ""
+"但[按钮](./elements/btn.md)的一些属性需要在帧之间保持不变, 因此需要使用全局变"
+"量."
+msgstr ""
+"但[按钮](./elements/btn.md)的一些属性需要在帧之间保持不变, 因此需要使用全局变"
+"量."
+
+#: src/uml/syntax/element.md
 #, fuzzy
 msgid "元素是活动界面中的可视或可交互的对象, 定义方式如下:"
 msgstr "元素是活动界面中的可视或可交互的对象, 定义方式如下:"
 
-#: src/uml/syntax/element.md:9
+#: src/uml/syntax/element.md
 #, fuzzy
 msgid ""
-"其中, `type` 为元素的类型, `attrN` 和 `valueN` 分别为属性名称和属性值. 不同类型的元"
-"素的属性也各不相同, 其中一些是必填, 会在介绍元素时具体标注."
+"其中, `type` 为元素的类型, `attrN` 和 `valueN` 分别为属性名称和属性值. 不同类"
+"型的元素的属性也各不相同, 其中一些是必填, 会在介绍元素时具体标注."
 msgstr ""
-"其中, `type` 为元素的类型, `attrN` 和 `valueN` 分别为属性名称和属性值. 不同类型的元"
-"素的属性也各不相同, 其中一些是必填, 会在介绍元素时具体标注."
+"其中, `type` 为元素的类型, `attrN` 和 `valueN` 分别为属性名称和属性值. 不同类"
+"型的元素的属性也各不相同, 其中一些是必填, 会在介绍元素时具体标注."
 
-#: src/uml/syntax/element.md:11
+#: src/uml/syntax/element.md
 #, fuzzy
 msgid ""
-"元素的 `id` 属性为所有元素共有的可选属性, 在元素被定义后, 其 `id` 属性将自动对应一"
-"个表示该元素绘制范围的 `Rect` 变量."
+"元素的 `id` 属性为所有元素共有的可选属性, 在元素被定义后, 其 `id` 属性将自动"
+"对应一个表示该元素绘制范围的 `Rect` 变量."
 msgstr ""
-"元素的 `id` 属性为所有元素共有的可选属性, 在元素被定义后, 其 `id` 属性将自动对应一"
-"个表示该元素绘制范围的 `Rect` 变量."
+"元素的 `id` 属性为所有元素共有的可选属性, 在元素被定义后, 其 `id` 属性将自动"
+"对应一个表示该元素绘制范围的 `Rect` 变量."
 
-#: src/uml/syntax/element.md:13
+#: src/uml/syntax/element.md
 #, fuzzy
-msgid "后面的 `{ Hello }` 是可选内容, 代表该元素的文字内容. 只对 `p`(段落元素)生效."
-msgstr "后面的 `{ Hello }` 是可选内容, 代表该元素的文字内容. 只对 `p`(段落元素)生效."
+msgid ""
+"后面的 `{ Hello }` 是可选内容, 代表该元素的文字内容. 只对 `p`(段落元素)生效."
+msgstr ""
+"后面的 `{ Hello }` 是可选内容, 代表该元素的文字内容. 只对 `p`(段落元素)生效."
 
-#: src/uml/syntax/elements/p.md:9 src/uml/syntax/elements/img.md:7
-#: src/uml/syntax/elements/col.md:7 src/uml/syntax/elements/btn.md:7
+#: src/uml/syntax/elements/p.md src/uml/syntax/elements/img.md
+#: src/uml/syntax/elements/col.md src/uml/syntax/elements/btn.md
 #, fuzzy
 msgid "`id`(选填): 元素 ID"
 msgstr "`id`(选填): 元素 ID"
 
-#: src/uml/syntax/elements/p.md:10
+#: src/uml/syntax/elements/p.md
 #, fuzzy
 msgid "`x`(选填, 默认为 `0`): 文本 `x` 坐标"
 msgstr "`x`(选填, 默认为 `0`): 文本 `x` 坐标"
 
-#: src/uml/syntax/elements/p.md:11
+#: src/uml/syntax/elements/p.md
 #, fuzzy
 msgid "`y`(选填, 默认为 `0`): 文本 `y` 坐标"
 msgstr "`y`(选填, 默认为 `0`): 文本 `y` 坐标"
 
-#: src/uml/syntax/elements/p.md:12
+#: src/uml/syntax/elements/p.md
 #, fuzzy
 msgid ""
-"`ax`(选填, 默认为 `0`): 文本横向对齐, `[0, 1]` 间的浮点数. 为 `0` 时, 按照 `x` 坐标"
-"左对齐, 为 `1` 时右对齐, `0.5` 时居中"
+"`ax`(选填, 默认为 `0`): 文本横向对齐, `[0, 1]` 间的浮点数. 为 `0` 时, 按照 "
+"`x` 坐标左对齐, 为 `1` 时右对齐, `0.5` 时居中"
 msgstr ""
-"`ax`(选填, 默认为 `0`): 文本横向对齐, `[0, 1]` 间的浮点数. 为 `0` 时, 按照 `x` 坐标"
-"左对齐, 为 `1` 时右对齐, `0.5` 时居中"
+"`ax`(选填, 默认为 `0`): 文本横向对齐, `[0, 1]` 间的浮点数. 为 `0` 时, 按照 "
+"`x` 坐标左对齐, 为 `1` 时右对齐, `0.5` 时居中"
 
-#: src/uml/syntax/elements/p.md:13
+#: src/uml/syntax/elements/p.md
 #, fuzzy
 msgid "`ay`(选填, 默认为 `0`): 文本纵向对齐, 具体意义同上"
 msgstr "`ay`(选填, 默认为 `0`): 文本纵向对齐, 具体意义同上"
 
-#: src/uml/syntax/elements/p.md:14
+#: src/uml/syntax/elements/p.md
 #, fuzzy
 msgid "`size`(选填, 默认为 `1`): 文本大小"
 msgstr "`size`(选填, 默认为 `1`): 文本大小"
 
-#: src/uml/syntax/elements/p.md:15
-#, fuzzy
-msgid "`ml`(选填, 默认为 `false`): 文本是否多行渲染, 只在设置了 `mw` 的条件下有效"
-msgstr "`ml`(选填, 默认为 `false`): 文本是否多行渲染, 只在设置了 `mw` 的条件下有效"
-
-#: src/uml/syntax/elements/p.md:16
+#: src/uml/syntax/elements/p.md
 #, fuzzy
 msgid ""
-"`mw`(选填): 文本最大宽度. 在单行模式下, 超出范围的文本将被省略；多行模式下将自动换"
-"行"
+"`ml`(选填, 默认为 `false`): 文本是否多行渲染, 只在设置了 `mw` 的条件下有效"
 msgstr ""
-"`mw`(选填): 文本最大宽度. 在单行模式下, 超出范围的文本将被省略；多行模式下将自动换"
-"行"
+"`ml`(选填, 默认为 `false`): 文本是否多行渲染, 只在设置了 `mw` 的条件下有效"
 
-#: src/uml/syntax/elements/p.md:17
+#: src/uml/syntax/elements/p.md
+#, fuzzy
+msgid ""
+"`mw`(选填): 文本最大宽度. 在单行模式下, 超出范围的文本将被省略；多行模式下将"
+"自动换行"
+msgstr ""
+"`mw`(选填): 文本最大宽度. 在单行模式下, 超出范围的文本将被省略；多行模式下将"
+"自动换行"
+
+#: src/uml/syntax/elements/p.md
 #, fuzzy
 msgid "`bl`(选填, 默认为 `true`): 纵向对齐时是否按照基准线对齐"
 msgstr "`bl`(选填, 默认为 `true`): 纵向对齐时是否按照基准线对齐"
 
-#: src/uml/syntax/elements/p.md:18
+#: src/uml/syntax/elements/p.md
 #, fuzzy
 msgid "`c`(选填, 默认为 `\"white\"`): 文本颜色"
 msgstr "`c`(选填, 默认为 `\"white\"`): 文本颜色"
 
-#: src/uml/syntax/elements/p.md:19
+#: src/uml/syntax/elements/p.md
 #, fuzzy
 msgid "`Text`(必填): 文本内容"
 msgstr "`Text`(必填): 文本内容"
 
-#: src/uml/syntax/elements/p.md:21
+#: src/uml/syntax/elements/p.md
 #, fuzzy
 msgid ""
-"`p` 的位置并不通过完整的矩形来定义, 但你仍可以用 `p` 的 `id` 属性来获取其矩形区域."
+"`p` 的位置并不通过完整的矩形来定义, 但你仍可以用 `p` 的 `id` 属性来获取其矩形"
+"区域."
 msgstr ""
-"`p` 的位置并不通过完整的矩形来定义, 但你仍可以用 `p` 的 `id` 属性来获取其矩形区域."
+"`p` 的位置并不通过完整的矩形来定义, 但你仍可以用 `p` 的 `id` 属性来获取其矩形"
+"区域."
 
-#: src/uml/syntax/elements/img.md:8
+#: src/uml/syntax/elements/img.md
 #, fuzzy
 msgid "`url`(必填): 图片 URL, 用双引号括起来"
 msgstr "`url`(必填): 图片 URL, 用双引号括起来"
 
-#: src/uml/syntax/elements/img.md:9
+#: src/uml/syntax/elements/img.md
 #, fuzzy
 msgid "`r`(必填): 图片显示的位置矩形, 类型为 `Rect`"
 msgstr "`r`(必填): 图片显示的位置矩形, 类型为 `Rect`"
 
-#: src/uml/syntax/elements/img.md:10
+#: src/uml/syntax/elements/img.md
 #, fuzzy
 msgid ""
-"`c`(选填, 默认为 `\"white\"`): 在图片上叠加的颜色. 若颜色半透明, 图片也会半透明"
+"`c`(选填, 默认为 `\"white\"`): 在图片上叠加的颜色. 若颜色半透明, 图片也会半透"
+"明"
 msgstr ""
-"`c`(选填, 默认为 `\"white\"`): 在图片上叠加的颜色. 若颜色半透明, 图片也会半透明"
+"`c`(选填, 默认为 `\"white\"`): 在图片上叠加的颜色. 若颜色半透明, 图片也会半透"
+"明"
 
-#: src/uml/syntax/elements/img.md:11
+#: src/uml/syntax/elements/img.md
 #, fuzzy
 msgid "`t`(选填, 默认为 `cropCenter`): 图片的裁剪方式. 可选值有:"
 msgstr "`t`(选填, 默认为 `cropCenter`): 图片的裁剪方式. 可选值有:"
 
-#: src/uml/syntax/elements/img.md:12
+#: src/uml/syntax/elements/img.md
 #, fuzzy
 msgid "`cropCenter`: 保持图片比例, 从图片中心裁剪，保证 `r` 被完全填满"
 msgstr "`cropCenter`: 保持图片比例, 从图片中心裁剪，保证 `r` 被完全填满"
 
-#: src/uml/syntax/elements/img.md:13
+#: src/uml/syntax/elements/img.md
 #, fuzzy
 msgid "`inside`: 保持图片比例, 使图片完全显示在 `r` 中"
 msgstr "`inside`: 保持图片比例, 使图片完全显示在 `r` 中"
 
-#: src/uml/syntax/elements/img.md:14
+#: src/uml/syntax/elements/img.md
 #, fuzzy
 msgid "`fit`: 拉伸为 `r` 的大小"
 msgstr "`fit`: 拉伸为 `r` 的大小"
 
-#: src/uml/syntax/elements/col.md:8
+#: src/uml/syntax/elements/col.md
 #, fuzzy
 msgid "`cid`(必填): 谱面合集 ID"
 msgstr "`cid`(必填): 谱面合集 ID"
 
-#: src/uml/syntax/elements/col.md:9
+#: src/uml/syntax/elements/col.md
 #, fuzzy
 msgid "`r`(必填): 谱面合集显示的位置矩形, 类型为 `Rect`"
 msgstr "`r`(必填): 谱面合集显示的位置矩形, 类型为 `Rect`"
 
-#: src/uml/syntax/elements/col.md:10
+#: src/uml/syntax/elements/col.md
 #, fuzzy
 msgid "`rn`(选填, 默认为 `4`): 一行显示的谱面数"
 msgstr "`rn`(选填, 默认为 `4`): 一行显示的谱面数"
 
-#: src/uml/syntax/elements/col.md:11
+#: src/uml/syntax/elements/col.md
 #, fuzzy
 msgid "`rh`(选填, 默认为 `0.3`): 谱面高度"
 msgstr "`rh`(选填, 默认为 `0.3`): 谱面高度"
 
-#: src/uml/syntax/elements/btn.md:8
+#: src/uml/syntax/elements/btn.md
 #, fuzzy
 msgid "`r`(必填): 按钮显示的位置矩形, 类型为 `Rect`"
 msgstr "`r`(必填): 按钮显示的位置矩形, 类型为 `Rect`"
 
-#: src/uml/syntax/elements/btn.md:9
-#, fuzzy
-msgid "`action`(选填): 按钮的点击行为, 可用的值参见[数据类型](../type.md#数据类型)"
-msgstr "`action`(选填): 按钮的点击行为, 可用的值参见[数据类型](../type.md#数据类型)"
-
-#: src/uml/syntax/elements/btn.md:11
+#: src/uml/syntax/elements/btn.md
 #, fuzzy
 msgid ""
-"在元素被定义后, 其 `id` 属性除了表示该元素绘制范围的 `Rect` 变量, 还具有以下属性:"
+"`action`(选填): 按钮的点击行为, 可用的值参见[数据类型](../type.md#数据类型)"
 msgstr ""
-"在元素被定义后, 其 `id` 属性除了表示该元素绘制范围的 `Rect` 变量, 还具有以下属性:"
+"`action`(选填): 按钮的点击行为, 可用的值参见[数据类型](../type.md#数据类型)"
 
-#: src/uml/syntax/elements/btn.md:13
+#: src/uml/syntax/elements/btn.md
+#, fuzzy
+msgid ""
+"在元素被定义后, 其 `id` 属性除了表示该元素绘制范围的 `Rect` 变量, 还具有以下"
+"属性:"
+msgstr ""
+"在元素被定义后, 其 `id` 属性除了表示该元素绘制范围的 `Rect` 变量, 还具有以下"
+"属性:"
+
+#: src/uml/syntax/elements/btn.md
 #, fuzzy
 msgid "`id.pressing`: 按钮是否正在被按下, 被按下时值为 `1`, 否则为 `0`"
 msgstr "`id.pressing`: 按钮是否正在被按下, 被按下时值为 `1`, 否则为 `0`"
 
-#: src/uml/syntax/elements/btn.md:14
+#: src/uml/syntax/elements/btn.md
 #, fuzzy
 msgid "`id.last`: 按钮上次被按下的时刻, 从未被按下时值为 `-1`"
 msgstr "`id.last`: 按钮上次被按下的时刻, 从未被按下时值为 `-1`"
 
-#: src/uml/syntax/elements/btn.md:15
+#: src/uml/syntax/elements/btn.md
 #, fuzzy
 msgid "`id.count`: 按钮被按下的次数"
 msgstr "`id.count`: 按钮被按下的次数"
 
-#: src/uml/syntax/comment.md:4
+#: src/uml/syntax/comment.md
 #, fuzzy
 msgid ""
 "你可以用 `#` 开头的行添加注释, 除了部分特殊格式的注释([注释表达式](./"
@@ -2021,267 +2087,269 @@ msgstr ""
 "你可以用 `#` 开头的行添加注释, 除了部分特殊格式的注释([注释表达式](./"
 "comment_expression.md)), 注释不会被执行, 可以用来提示当前代码的作用."
 
-#: src/uml/syntax/comment.md:6
+#: src/uml/syntax/comment.md
 #, fuzzy
 msgid "注释行在 `#` 后至少有一个字符, 否则会导致报错."
 msgstr "注释行在 `#` 后至少有一个字符, 否则会导致报错."
 
-#: src/uml/syntax/comment_expression.md:3
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid ""
-"注释表达式是一种特殊的注释, 它是为了兼容旧版本设计的, 可以被执行的注释. 注释表达式"
-"的格式如下:"
+"注释表达式是一种特殊的注释, 它是为了兼容旧版本设计的, 可以被执行的注释. 注释"
+"表达式的格式如下:"
 msgstr ""
-"注释表达式是一种特殊的注释, 它是为了兼容旧版本设计的, 可以被执行的注释. 注释表达式"
-"的格式如下:"
+"注释表达式是一种特殊的注释, 它是为了兼容旧版本设计的, 可以被执行的注释. 注释"
+"表达式的格式如下:"
 
-#: src/uml/syntax/comment_expression.md:9
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid ""
-"其中, `exp` 表示该表达式的类型, 括号内的是该表达式的属性, 是可选内容, `attrN` 和 "
-"`valueN` 分别为属性名称和属性值. 不同类型的表达式的属性也各不相同, 其中一些是必填, "
-"会在介绍表达式时具体标注."
+"其中, `exp` 表示该表达式的类型, 括号内的是该表达式的属性, 是可选内容, "
+"`attrN` 和 `valueN` 分别为属性名称和属性值. 不同类型的表达式的属性也各不相"
+"同, 其中一些是必填, 会在介绍表达式时具体标注."
 msgstr ""
-"其中, `exp` 表示该表达式的类型, 括号内的是该表达式的属性, 是可选内容, `attrN` 和 "
-"`valueN` 分别为属性名称和属性值. 不同类型的表达式的属性也各不相同, 其中一些是必填, "
-"会在介绍表达式时具体标注."
+"其中, `exp` 表示该表达式的类型, 括号内的是该表达式的属性, 是可选内容, "
+"`attrN` 和 `valueN` 分别为属性名称和属性值. 不同类型的表达式的属性也各不相"
+"同, 其中一些是必填, 会在介绍表达式时具体标注."
 
-#: src/uml/syntax/comment_expression.md:11
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "下面逐个介绍各类型的注释表达式:"
 msgstr "下面逐个介绍各类型的注释表达式:"
 
-#: src/uml/syntax/comment_expression.md:13
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "结束表达式 `#>pop`"
 msgstr "结束表达式 `#>pop`"
 
-#: src/uml/syntax/comment_expression.md:19
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid ""
-"注释表达式以行为单位, 作用于数行内的元素, 变量等, 其作用范围是从表达式所在行开始到"
-"下一个 `#>pop` 表达式所在行结束. 因此, 多数其他表达式后面都必须跟一个 `#>pop` 表达"
-"式, 表示结束当前表达式的作用范围."
+"注释表达式以行为单位, 作用于数行内的元素, 变量等, 其作用范围是从表达式所在行"
+"开始到下一个 `#>pop` 表达式所在行结束. 因此, 多数其他表达式后面都必须跟一个 "
+"`#>pop` 表达式, 表示结束当前表达式的作用范围."
 msgstr ""
-"注释表达式以行为单位, 作用于数行内的元素, 变量等, 其作用范围是从表达式所在行开始到"
-"下一个 `#>pop` 表达式所在行结束. 因此, 多数其他表达式后面都必须跟一个 `#>pop` 表达"
-"式, 表示结束当前表达式的作用范围."
+"注释表达式以行为单位, 作用于数行内的元素, 变量等, 其作用范围是从表达式所在行"
+"开始到下一个 `#>pop` 表达式所在行结束. 因此, 多数其他表达式后面都必须跟一个 "
+"`#>pop` 表达式, 表示结束当前表达式的作用范围."
 
-#: src/uml/syntax/comment_expression.md:21
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "旋转表达式 `#>rot`"
 msgstr "旋转表达式 `#>rot`"
 
-#: src/uml/syntax/comment_expression.md:27
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`angle`(必填): 旋转角度, 单位为弧度"
 msgstr "`angle`(必填): 旋转角度, 单位为弧度"
 
-#: src/uml/syntax/comment_expression.md:28
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`cx`(必填): 旋转中心 `x` 坐标"
 msgstr "`cx`(必填): 旋转中心 `x` 坐标"
 
-#: src/uml/syntax/comment_expression.md:29
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`cy`(必填): 旋转中心 `y` 坐标"
 msgstr "`cy`(必填): 旋转中心 `y` 坐标"
 
-#: src/uml/syntax/comment_expression.md:31
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "平移表达式 `#>tr`"
 msgstr "平移表达式 `#>tr`"
 
-#: src/uml/syntax/comment_expression.md:37
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`dx`(选填, 默认为 `0`): 横向平移距离"
 msgstr "`dx`(选填, 默认为 `0`): 横向平移距离"
 
-#: src/uml/syntax/comment_expression.md:38
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`dy`(选填, 默认为 `0`): 纵向平移距离"
 msgstr "`dy`(选填, 默认为 `0`): 纵向平移距离"
 
-#: src/uml/syntax/comment_expression.md:40
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "透明度表达式 `#>alpha`"
 msgstr "透明度表达式 `#>alpha`"
 
-#: src/uml/syntax/comment_expression.md:46
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid ""
-"`a`(选填, 默认为 `0`): 透明度, 取值范围为 `[0, 1]`, `0` 为完全透明, `1` 为完全不透"
-"明"
+"`a`(选填, 默认为 `0`): 透明度, 取值范围为 `[0, 1]`, `0` 为完全透明, `1` 为完"
+"全不透明"
 msgstr ""
 "`a`(optional, default `0`): transparency, range is `[0, 1]`, `0` is fully "
 "transparent, `1` is fully opaque."
 
-#: src/uml/syntax/comment_expression.md:48
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "矩阵表达式 `#>mat`"
 msgstr "矩阵表达式 `#>mat`"
 
-#: src/uml/syntax/comment_expression.md:54
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x00`(选填, 默认为 `0`): 矩阵第一行第一列的值"
 msgstr "`x00`(选填, 默认为 `0`): 矩阵第一行第一列的值"
 
-#: src/uml/syntax/comment_expression.md:55
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x01`(选填, 默认为 `0`): 矩阵第一行第二列的值"
 msgstr "`x01`(选填, 默认为 `0`): 矩阵第一行第二列的值"
 
-#: src/uml/syntax/comment_expression.md:56
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x02`(选填, 默认为 `0`): 矩阵第一行第三列的值"
 msgstr "`x02`(选填, 默认为 `0`): 矩阵第一行第三列的值"
 
-#: src/uml/syntax/comment_expression.md:57
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x03`(选填, 默认为 `0`): 矩阵第一行第四列的值"
 msgstr "`x03`(选填, 默认为 `0`): 矩阵第一行第四列的值"
 
-#: src/uml/syntax/comment_expression.md:58
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x10`(选填, 默认为 `0`): 矩阵第二行第一列的值"
 msgstr "`x10`(选填, 默认为 `0`): 矩阵第二行第一列的值"
 
-#: src/uml/syntax/comment_expression.md:59
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x11`(选填, 默认为 `0`): 矩阵第二行第二列的值"
 msgstr "`x11`(选填, 默认为 `0`): 矩阵第二行第二列的值"
 
-#: src/uml/syntax/comment_expression.md:60
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x12`(选填, 默认为 `0`): 矩阵第二行第三列的值"
 msgstr "`x12`(选填, 默认为 `0`): 矩阵第二行第三列的值"
 
-#: src/uml/syntax/comment_expression.md:61
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x13`(选填, 默认为 `0`): 矩阵第二行第四列的值"
 msgstr "`x13`(选填, 默认为 `0`): 矩阵第二行第四列的值"
 
-#: src/uml/syntax/comment_expression.md:62
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x20`(选填, 默认为 `0`): 矩阵第三行第一列的值"
 msgstr "`x20`(选填, 默认为 `0`): 矩阵第三行第一列的值"
 
-#: src/uml/syntax/comment_expression.md:63
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x21`(选填, 默认为 `0`): 矩阵第三行第二列的值"
 msgstr "`x21`(选填, 默认为 `0`): 矩阵第三行第二列的值"
 
-#: src/uml/syntax/comment_expression.md:64
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x22`(选填, 默认为 `0`): 矩阵第三行第三列的值"
 msgstr "`x22`(选填, 默认为 `0`): 矩阵第三行第三列的值"
 
-#: src/uml/syntax/comment_expression.md:65
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x23`(选填, 默认为 `0`): 矩阵第三行第四列的值"
 msgstr "`x23`(选填, 默认为 `0`): 矩阵第三行第四列的值"
 
-#: src/uml/syntax/comment_expression.md:66
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x30`(选填, 默认为 `0`): 矩阵第四行第一列的值"
 msgstr "`x30`(选填, 默认为 `0`): 矩阵第四行第一列的值"
 
-#: src/uml/syntax/comment_expression.md:67
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x31`(选填, 默认为 `0`): 矩阵第四行第二列的值"
 msgstr "`x31`(选填, 默认为 `0`): 矩阵第四行第二列的值"
 
-#: src/uml/syntax/comment_expression.md:68
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x32`(选填, 默认为 `0`): 矩阵第四行第三列的值"
 msgstr "`x32`(选填, 默认为 `0`): 矩阵第四行第三列的值"
 
-#: src/uml/syntax/comment_expression.md:69
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "`x33`(选填, 默认为 `0`): 矩阵第四行第四列的值"
 msgstr "`x33`(选填, 默认为 `0`): 矩阵第四行第四列的值"
 
-#: src/uml/syntax/comment_expression.md:71
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "可以通过矩阵表达式实现元素的缩放, 平移, 旋转等变换."
 msgstr "可以通过矩阵表达式实现元素的缩放, 平移, 旋转等变换."
 
-#: src/uml/syntax/comment_expression.md:73
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "条件表达式 `#>if` 等"
 msgstr "条件表达式 `#>if` 等"
 
-#: src/uml/syntax/comment_expression.md:85
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid ""
-"`condition`(必填): 条件表达式, 可以是任意表达式, 当值为 `0` 表示假, 否则表示真."
+"`condition`(必填): 条件表达式, 可以是任意表达式, 当值为 `0` 表示假, 否则表示"
+"真."
 msgstr ""
-"`condition`(必填): 条件表达式, 可以是任意表达式, 当值为 `0` 表示假, 否则表示真."
+"`condition`(必填): 条件表达式, 可以是任意表达式, 当值为 `0` 表示假, 否则表示"
+"真."
 
-#: src/uml/syntax/comment_expression.md:87
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "需要注意的是 `#>if` 并不适用 `#>pop` 来结束, 而是使用 `#>fi`."
 msgstr "需要注意的是 `#>if` 并不适用 `#>pop` 来结束, 而是使用 `#>fi`."
 
-#: src/uml/syntax/comment_expression.md:89
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid "低版本兼容表达式 `#>if-no-v2`"
 msgstr "低版本兼容表达式 `#>if-no-v2`"
 
-#: src/uml/syntax/comment_expression.md:95
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid ""
-"如果你的 UML 文件中使用了 V2 版本中没有的特性, 可以在使用这个表达式显示部分元素, 以"
-"提示使用低版本的 Phira 客户端的用户尽快升级."
+"如果你的 UML 文件中使用了 V2 版本中没有的特性, 可以在使用这个表达式显示部分元"
+"素, 以提示使用低版本的 Phira 客户端的用户尽快升级."
 msgstr ""
-"如果你的 UML 文件中使用了 V2 版本中没有的特性, 可以在使用这个表达式显示部分元素, 以"
-"提示使用低版本的 Phira 客户端的用户尽快升级."
+"如果你的 UML 文件中使用了 V2 版本中没有的特性, 可以在使用这个表达式显示部分元"
+"素, 以提示使用低版本的 Phira 客户端的用户尽快升级."
 
-#: src/uml/syntax/comment_expression.md:97
+#: src/uml/syntax/comment_expression.md
 #, fuzzy
 msgid ""
-"注释表达式是 V2 版本的新功能, 只在 V2 版本中有效, 在 V1 版本中会被当作一般注释忽"
-"略. `#if-no-v2` 表达式实际上的作用是忽略其作用范围内的内容."
+"注释表达式是 V2 版本的新功能, 只在 V2 版本中有效, 在 V1 版本中会被当作一般注"
+"释忽略. `#if-no-v2` 表达式实际上的作用是忽略其作用范围内的内容."
 msgstr ""
-"注释表达式是 V2 版本的新功能, 只在 V2 版本中有效, 在 V1 版本中会被当作一般注释忽"
-"略. `#if-no-v2` 表达式实际上的作用是忽略其作用范围内的内容."
+"注释表达式是 V2 版本的新功能, 只在 V2 版本中有效, 在 V1 版本中会被当作一般注"
+"释忽略. `#if-no-v2` 表达式实际上的作用是忽略其作用范围内的内容."
 
-#: src/uml/debugging.md:3
+#: src/uml/debugging.md
 #, fuzzy
 msgid ""
-"编译 `phira-main` 时加入参数 `--features event_debug`, 然后在 Phira 客户端可执行文"
-"件同目录下新建名为 `test.uml` 的文件. 此后进入任意一个活动, 页面内容将与 `test."
-"uml` 保持实时同步."
+"编译 `phira-main` 时加入参数 `--features event_debug`, 然后在 Phira 客户端可"
+"执行文件同目录下新建名为 `test.uml` 的文件. 此后进入任意一个活动, 页面内容将"
+"与 `test.uml` 保持实时同步."
 msgstr ""
-"编译 `phira-main` 时加入参数 `--features event_debug`, 然后在 Phira 客户端可执行文"
-"件同目录下新建名为 `test.uml` 的文件. 此后进入任意一个活动, 页面内容将与 `test."
-"uml` 保持实时同步."
+"编译 `phira-main` 时加入参数 `--features event_debug`, 然后在 Phira 客户端可"
+"执行文件同目录下新建名为 `test.uml` 的文件. 此后进入任意一个活动, 页面内容将"
+"与 `test.uml` 保持实时同步."
 
-#: src/uml/examples/index.md:3
+#: src/uml/examples/index.md
 #, fuzzy
 msgid "提供了几个 UML 的样例, 可供参考."
 msgstr "提供了几个 UML 的样例, 可供参考."
 
-#: src/uml/examples/template_event.md:3
+#: src/uml/examples/template_event.md
 #, fuzzy
 msgid ""
-"此文件为 sjfhsjfh 于 2024-02-07 凌晨为 _2024 羽笙杯_创建的活动文件, 鉴于活动方要求"
-"过于抽象, sjfhsjfh 决定写一个仅包含基本功能的页面."
+"此文件为 sjfhsjfh 于 2024-02-07 凌晨为 _2024 羽笙杯_创建的活动文件, 鉴于活动"
+"方要求过于抽象, sjfhsjfh 决定写一个仅包含基本功能的页面."
 msgstr ""
-"此文件为 sjfhsjfh 于 2024-02-07 凌晨为 _2024 羽笙杯_创建的活动文件, 鉴于活动方要求"
-"过于抽象, sjfhsjfh 决定写一个仅包含基本功能的页面."
+"此文件为 sjfhsjfh 于 2024-02-07 凌晨为 _2024 羽笙杯_创建的活动文件, 鉴于活动"
+"方要求过于抽象, sjfhsjfh 决定写一个仅包含基本功能的页面."
 
-#: src/uml/examples/template_event.md:5 src/uml/examples/xmas-2024.md:5
+#: src/uml/examples/template_event.md src/uml/examples/xmas-2024.md
 #, fuzzy
 msgid "UML 源码"
 msgstr "UML 源码"
 
-#: src/uml/examples/xmas-2024.md:3
+#: src/uml/examples/xmas-2024.md
 #, fuzzy
 msgid "这是 sjfhsjfh 在"
 msgstr "这是 sjfhsjfh 在"
 
-#: src/uml/examples/xmas-2024.md:7
+#: src/uml/examples/xmas-2024.md
 msgid ""
 "```uml\n"
 "let w = 1920\n"
@@ -2290,12 +2358,12 @@ msgid ""
 "\n"
 "let bg_rect = [0, 0 - rh + o, 2, rh]\n"
 "\n"
-"img(id: bg, url: \"https://files-cf.phira.cn/events/xmas-2023-kedmue/bg.jpeg\", r: "
-"bg_rect, t: cropCenter)\n"
+"img(id: bg, url: \"https://files-cf.phira.cn/events/xmas-2023-kedmue/bg.jpeg"
+"\", r: bg_rect, t: cropCenter)\n"
 "\n"
 "# Back button\n"
-"let back_btn_rect = [bg_rect.x + 100 / w * 2, bg_rect.t + 50 / h * rh, -45 / w * "
-"2, 75 / h * 1.18]\n"
+"let back_btn_rect = [bg_rect.x + 100 / w * 2, bg_rect.t + 50 / h * rh, -45 / "
+"w * 2, 75 / h * 1.18]\n"
 "img(id: back_btn_img, url: \"https://files-cf.phira.cn/ltc-arrow.png\", r: "
 "back_btn_rect, t: fit)\n"
 "btn(id: back_btn, r: back_btn_rect, action: \"exit\")\n"
@@ -2306,24 +2374,24 @@ msgid ""
 "let dx1 = 0.003 * sin(90 * t) + 0.01 * sin(11.5 * (1 + t / 100000) * t)\n"
 "let dy1 = 0.004 * sin(87 * t) + 0.008 * sin(11.3 * (1 + t / 10000) * t)\n"
 "let s1 = 1 + 0.03 * sin(10 * exp(1.01 * ln(t)) - 2 * t)\n"
-"let col_r1 = [bg_rect.l + 0.87 + dx1 + 0.45 * (1 - s1), bg_rect.t + 0.452 * rh + "
-"dy1 + chart_h * (1 - s1), 0.45 * s1, chart_h * s1]\n"
+"let col_r1 = [bg_rect.l + 0.87 + dx1 + 0.45 * (1 - s1), bg_rect.t + 0.452 * "
+"rh + dy1 + chart_h * (1 - s1), 0.45 * s1, chart_h * s1]\n"
 "col(id: col_xmas, cid: 12762, r: col_r1, rn: 1, rh: chart_h * s1)\n"
 "\n"
 "# left-bottom\n"
 "let dx2 = 0.003 * sin(89 * t) + 0.01 * sin(12 * (1 + t / 99000) * t)\n"
 "let dy2 = 0.004 * sin(88 * t) + 0.0069 * sin(15 * (1 + t / 11000) * t)\n"
 "let s2 = 1 + 0.03 * sin(10.45 * exp(0.99 * ln(t)) + t)\n"
-"let col_r2 = [bg_rect.l + 1.02 + dx2 + 0.45 * (1 - s2), bg_rect.t + 0.72 * rh + "
-"dy2 + chart_h * (1 - s2), 0.45 * s2, chart_h * s2]\n"
+"let col_r2 = [bg_rect.l + 1.02 + dx2 + 0.45 * (1 - s2), bg_rect.t + 0.72 * "
+"rh + dy2 + chart_h * (1 - s2), 0.45 * s2, chart_h * s2]\n"
 "col(id: col_xmas, cid: 12769, r: col_r2, rn: 1, rh: chart_h * s2)\n"
 "\n"
 "# right-top\n"
 "let dx3 = 0.003 * sin(91 * t) + 0.01 * sin(12.5 * (1 + t / 109000) * t)\n"
 "let dy3 = 0.0035 * sin(86 * t) + 0.0082 * sin(11.6 * (1 + t / 9900) * t)\n"
 "let s3 = 1 + 0.03 * sin(10.2 * exp(1.02 * ln(t)) - 3 * t)\n"
-"let col_r3 = [bg_rect.l + 1.42 + dx3 + 0.45 * (1 - s3), bg_rect.t + 0.49 * rh + "
-"dy3 + chart_h * (1 - s3), 0.45 * s3, chart_h * s3]\n"
+"let col_r3 = [bg_rect.l + 1.42 + dx3 + 0.45 * (1 - s3), bg_rect.t + 0.49 * "
+"rh + dy3 + chart_h * (1 - s3), 0.45 * s3, chart_h * s3]\n"
 "col(id: col_xmas, cid: 12770, r: col_r3, rn: 1, rh: chart_h * s3)\n"
 "\n"
 "let $h = 0\n"
@@ -2336,12 +2404,12 @@ msgstr ""
 "\n"
 "let bg_rect = [0, 0 - rh + o, 2, rh]\n"
 "\n"
-"img(id: bg, url: \"https://files-cf.phira.cn/events/xmas-2023-kedmue/bg.jpeg\", r: "
-"bg_rect, t: cropCenter)\n"
+"img(id: bg, url: \"https://files-cf.phira.cn/events/xmas-2023-kedmue/bg.jpeg"
+"\", r: bg_rect, t: cropCenter)\n"
 "\n"
 "# Back button\n"
-"let back_btn_rect = [bg_rect.x + 100 / w * 2, bg_rect.t + 50 / h * rh, -45 / w * "
-"2, 75 / h * 1.18]\n"
+"let back_btn_rect = [bg_rect.x + 100 / w * 2, bg_rect.t + 50 / h * rh, -45 / "
+"w * 2, 75 / h * 1.18]\n"
 "img(id: back_btn_img, url: \"https://files-cf.phira.cn/ltc-arrow.png\", r: "
 "back_btn_rect, t: fit)\n"
 "btn(id: back_btn, r: back_btn_rect, action: \"exit\")\n"
@@ -2352,101 +2420,98 @@ msgstr ""
 "let dx1 = 0.003 * sin(90 * t) + 0.01 * sin(11.5 * (1 + t / 100000) * t)\n"
 "let dy1 = 0.004 * sin(87 * t) + 0.008 * sin(11.3 * (1 + t / 10000) * t)\n"
 "let s1 = 1 + 0.03 * sin(10 * exp(1.01 * ln(t)) - 2 * t)\n"
-"let col_r1 = [bg_rect.l + 0.87 + dx1 + 0.45 * (1 - s1), bg_rect.t + 0.452 * rh + "
-"dy1 + chart_h * (1 - s1), 0.45 * s1, chart_h * s1]\n"
+"let col_r1 = [bg_rect.l + 0.87 + dx1 + 0.45 * (1 - s1), bg_rect.t + 0.452 * "
+"rh + dy1 + chart_h * (1 - s1), 0.45 * s1, chart_h * s1]\n"
 "col(id: col_xmas, cid: 12762, r: col_r1, rn: 1, rh: chart_h * s1)\n"
 "\n"
 "# left-bottom\n"
 "let dx2 = 0.003 * sin(89 * t) + 0.01 * sin(12 * (1 + t / 99000) * t)\n"
 "let dy2 = 0.004 * sin(88 * t) + 0.0069 * sin(15 * (1 + t / 11000) * t)\n"
 "let s2 = 1 + 0.03 * sin(10.45 * exp(0.99 * ln(t)) + t)\n"
-"let col_r2 = [bg_rect.l + 1.02 + dx2 + 0.45 * (1 - s2), bg_rect.t + 0.72 * rh + "
-"dy2 + chart_h * (1 - s2), 0.45 * s2, chart_h * s2]\n"
+"let col_r2 = [bg_rect.l + 1.02 + dx2 + 0.45 * (1 - s2), bg_rect.t + 0.72 * "
+"rh + dy2 + chart_h * (1 - s2), 0.45 * s2, chart_h * s2]\n"
 "col(id: col_xmas, cid: 12769, r: col_r2, rn: 1, rh: chart_h * s2)\n"
 "\n"
 "# right-top\n"
 "let dx3 = 0.003 * sin(91 * t) + 0.01 * sin(12.5 * (1 + t / 109000) * t)\n"
 "let dy3 = 0.0035 * sin(86 * t) + 0.0082 * sin(11.6 * (1 + t / 9900) * t)\n"
 "let s3 = 1 + 0.03 * sin(10.2 * exp(1.02 * ln(t)) - 3 * t)\n"
-"let col_r3 = [bg_rect.l + 1.42 + dx3 + 0.45 * (1 - s3), bg_rect.t + 0.49 * rh + "
-"dy3 + chart_h * (1 - s3), 0.45 * s3, chart_h * s3]\n"
+"let col_r3 = [bg_rect.l + 1.42 + dx3 + 0.45 * (1 - s3), bg_rect.t + 0.49 * "
+"rh + dy3 + chart_h * (1 - s3), 0.45 * s3, chart_h * s3]\n"
 "col(id: col_xmas, cid: 12770, r: col_r3, rn: 1, rh: chart_h * s3)\n"
 "\n"
 "let $h = 0\n"
 "```"
 
-#: src/uml/advanced/index.md:3
+#: src/uml/advanced/index.md
 #, fuzzy
 msgid ""
-"UML 是一种非常简单的语言, 但是通过组合简单的元素, 我们也能实现一些较为复杂的效果."
+"UML 是一种非常简单的语言, 但是通过组合简单的元素, 我们也能实现一些较为复杂的"
+"效果."
 msgstr ""
-"UML 是一种非常简单的语言, 但是通过组合简单的元素, 我们也能实现一些较为复杂的效果."
+"UML 是一种非常简单的语言, 但是通过组合简单的元素, 我们也能实现一些较为复杂的"
+"效果."
 
-#: src/uml/advanced/page_switch.md:3
+#: src/uml/advanced/page_switch.md
 #, fuzzy
 msgid ""
-"如果我们希望活动界面包括多个页面, 可以通过在超出屏幕的部分放置其他页面的内容, 并通"
-"过整个页面所有元素的移动达到类似页面切换的效果."
+"如果我们希望活动界面包括多个页面, 可以通过在超出屏幕的部分放置其他页面的内"
+"容, 并通过整个页面所有元素的移动达到类似页面切换的效果."
 msgstr ""
-"如果我们希望活动界面包括多个页面, 可以通过在超出屏幕的部分放置其他页面的内容, 并通"
-"过整个页面所有元素的移动达到类似页面切换的效果."
+"如果我们希望活动界面包括多个页面, 可以通过在超出屏幕的部分放置其他页面的内"
+"容, 并通过整个页面所有元素的移动达到类似页面切换的效果."
 
-#: src/uml/advanced/page_switch.md:5
+#: src/uml/advanced/page_switch.md
 #, fuzzy
 msgid "例如, 我们可以这样放置横纵六个页面的内容:"
 msgstr "例如, 我们可以这样放置横纵六个页面的内容:"
 
-#: src/uml/advanced/page_switch.md:20
+#: src/uml/advanced/page_switch.md
 #, fuzzy
 msgid "可以在每个页面的左上角放置一个 `o` 方便计算每个页面上的元素的位置:"
 msgstr "可以在每个页面的左上角放置一个 `o` 方便计算每个页面上的元素的位置:"
 
-#: src/uml/advanced/page_switch.md:25 src/uml/advanced/page_switch.md:28
-#: src/uml/advanced/page_switch.md:31 src/uml/advanced/page_switch.md:34
-#: src/uml/advanced/page_switch.md:38 src/uml/advanced/page_switch.md:43
-#: src/uml/advanced/page_switch.md:242 src/uml/advanced/page_switch.md:245
-#: src/uml/advanced/page_switch.md:248 src/uml/advanced/page_switch.md:251
-#: src/uml/advanced/page_switch.md:255 src/uml/advanced/page_switch.md:260
+#: src/uml/advanced/page_switch.md
 #, fuzzy
 msgid ""
-"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/blank.png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"blank.png\""
 msgstr ""
-"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/blank.png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"blank.png\""
 
-#: src/uml/advanced/page_switch.md:47
+#: src/uml/advanced/page_switch.md
 #, fuzzy
 msgid ""
-"在以上的定义中, 我们通过 `page_offset_x_n` 和 `page_offset_y_n` 定义了 `o11` 的偏移"
-"量, 由于其他页面的偏移量都是相对于 `o11` 的, 所以在 `o11` 移动时, 其他页面的元素也"
-"会跟着移动."
+"在以上的定义中, 我们通过 `page_offset_x_n` 和 `page_offset_y_n` 定义了 `o11` "
+"的偏移量, 由于其他页面的偏移量都是相对于 `o11` 的, 所以在 `o11` 移动时, 其他"
+"页面的元素也会跟着移动."
 msgstr ""
-"在以上的定义中, 我们通过 `page_offset_x_n` 和 `page_offset_y_n` 定义了 `o11` 的偏移"
-"量, 由于其他页面的偏移量都是相对于 `o11` 的, 所以在 `o11` 移动时, 其他页面的元素也"
-"会跟着移动."
+"在以上的定义中, 我们通过 `page_offset_x_n` 和 `page_offset_y_n` 定义了 `o11` "
+"的偏移量, 由于其他页面的偏移量都是相对于 `o11` 的, 所以在 `o11` 移动时, 其他"
+"页面的元素也会跟着移动."
 
-#: src/uml/advanced/page_switch.md:49
+#: src/uml/advanced/page_switch.md
 #, fuzzy
 msgid ""
-"此外, 我们还通过 `#>if` 设置了 `o22` 和 `o32` 绘制的时机. 这是为了防止纵向切换后, "
-"用户在活动首屏看到当前页面上方页面的内容. 通过这个值, 我们可以将页面上方的内容移出"
-"屏幕."
+"此外, 我们还通过 `#>if` 设置了 `o22` 和 `o32` 绘制的时机. 这是为了防止纵向切"
+"换后, 用户在活动首屏看到当前页面上方页面的内容. 通过这个值, 我们可以将页面上"
+"方的内容移出屏幕."
 msgstr ""
-"此外, 我们还通过 `#>if` 设置了 `o22` 和 `o32` 绘制的时机. 这是为了防止纵向切换后, "
-"用户在活动首屏看到当前页面上方页面的内容. 通过这个值, 我们可以将页面上方的内容移出"
-"屏幕."
+"此外, 我们还通过 `#>if` 设置了 `o22` 和 `o32` 绘制的时机. 这是为了防止纵向切"
+"换后, 用户在活动首屏看到当前页面上方页面的内容. 通过这个值, 我们可以将页面上"
+"方的内容移出屏幕."
 
-#: src/uml/advanced/page_switch.md:51
+#: src/uml/advanced/page_switch.md
 #, fuzzy
 msgid ""
-"为了得出这些偏移量的具体值, 我们需要使用定义一些用于切换页面的按钮, 并通过按钮的 "
-"`last` 属性计算出偏移量的值."
+"为了得出这些偏移量的具体值, 我们需要使用定义一些用于切换页面的按钮, 并通过按"
+"钮的 `last` 属性计算出偏移量的值."
 msgstr ""
-"为了得出这些偏移量的具体值, 我们需要使用定义一些用于切换页面的按钮, 并通过按钮的 "
-"`last` 属性计算出偏移量的值."
+"为了得出这些偏移量的具体值, 我们需要使用定义一些用于切换页面的按钮, 并通过按"
+"钮的 `last` 属性计算出偏移量的值."
 
-#: src/uml/advanced/page_switch.md:74 src/uml/advanced/page_switch.md:82
-#: src/uml/advanced/page_switch.md:90 src/uml/advanced/page_switch.md:265
-#: src/uml/advanced/page_switch.md:273 src/uml/advanced/page_switch.md:281
+#: src/uml/advanced/page_switch.md
 msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "right_arrow.png\""
@@ -2454,154 +2519,530 @@ msgstr ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "right_arrow.png\""
 
-#: src/uml/advanced/page_switch.md:78 src/uml/advanced/page_switch.md:86
-#: src/uml/advanced/page_switch.md:94 src/uml/advanced/page_switch.md:269
-#: src/uml/advanced/page_switch.md:277 src/uml/advanced/page_switch.md:285
+#: src/uml/advanced/page_switch.md
 msgid ""
-"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/left_arrow."
-"png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"left_arrow.png\""
 msgstr ""
-"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/left_arrow."
-"png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"left_arrow.png\""
 
-#: src/uml/advanced/page_switch.md:99 src/uml/advanced/page_switch.md:108
-#: src/uml/advanced/page_switch.md:290 src/uml/advanced/page_switch.md:299
+#: src/uml/advanced/page_switch.md
 msgid ""
-"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/up_arrow."
-"png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"up_arrow.png\""
 msgstr ""
-"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/up_arrow."
-"png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"up_arrow.png\""
 
-#: src/uml/advanced/page_switch.md:104 src/uml/advanced/page_switch.md:114
-#: src/uml/advanced/page_switch.md:295 src/uml/advanced/page_switch.md:305
+#: src/uml/advanced/page_switch.md
 #, fuzzy
 msgid ""
-"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/down_arrow."
-"png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"down_arrow.png\""
 msgstr ""
-"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/down_arrow."
-"png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"down_arrow.png\""
 
-#: src/uml/advanced/page_switch.md:119
+#: src/uml/advanced/page_switch.md
 #, fuzzy
 msgid "其中按钮 `id` 最后的编号表示按钮所在的页面."
 msgstr "其中按钮 `id` 最后的编号表示按钮所在的页面."
 
-#: src/uml/advanced/page_switch.md:121
+#: src/uml/advanced/page_switch.md
 #, fuzzy
 msgid "在定义了按钮后, 我们可以通过按钮的 `last` 属性计算出偏移量的值:"
 msgstr "在定义了按钮后, 我们可以通过按钮的 `last` 属性计算出偏移量的值:"
 
-#: src/uml/advanced/page_switch.md:143
+#: src/uml/advanced/page_switch.md
 #, fuzzy
 msgid "关于纵向切换的偏移量，我们可以通过类似的方法计算出."
 msgstr "关于纵向切换的偏移量，我们可以通过类似的方法计算出."
 
-#: src/uml/advanced/page_switch.md:145
+#: src/uml/advanced/page_switch.md
 #, fuzzy
 msgid "这样, 我们就完成了页面切换效果."
 msgstr "这样, 我们就完成了页面切换效果."
 
-#: src/uml/advanced/page_switch.md:147
+#: src/uml/advanced/page_switch.md
 #, fuzzy
 msgid "完整的 UML 代码如下:"
 msgstr "完整的 UML 代码如下:"
 
-#: src/dev-incident/index.md:1
+#: src/phira_build_guide/index.md
+msgid "构建指南"
+msgstr ""
+
+#: src/phira_build_guide/index.md
+msgid "~~什么，移动设备？，我不会，长大后再学习~~"
+msgstr ""
+
+#: src/phira_build_guide/index.md
+msgid " Windows：[here](./Windows.md)"
+msgstr ""
+
+#: src/phira_build_guide/index.md
+msgid " Linux：[here](./Linux.md)"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid "Cargo 安装"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid "点击 [这里](https://win.rustup.rs/) 下载构建工具安装程序。"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid ""
+"双击打开 `rustup-init.exe` 后出现安装窗口；输入`2` 然后输入 `y` 然后再次输入 "
+"`2` ，然后输入 `x86_64-pc-windows-gnu` ，最后一路回车开始安装，直到输出 "
+"`Rust is installed now. Great!`"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid "**注意：千万不要直接回车安装 MSVC，这在后续构建将会出现大量问题！**"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid ""
+"前往 [MSYS2](https://www.msys2.org/) 官网下载 MSYS2 安装程序，下载完成后双击"
+"打开，如无特殊需求，一路下一步即可，直到提示 `Finished the MSYS2 Setup`，点击"
+"右下角的按钮后将弹出一个窗口，输入以下指令，安装过程一路回车即可。 \\>pacman "
+"-Sy && pacman -Syu \\> \\>pacman -S mingw-w64-x86_64-toolchain"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid ""
+"如果您无法连接到 github，您也可以去 [缓存站](https://www.nuanr-mxi.com/msys."
+"exe) 下载 MSYS2， **注意，缓存站只能保证您可以下载，不能高速下载，也不一定是"
+"最新版。**"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid ""
+"打开命令提示符（cmd）或 PowerShell，输入 `cargo -V` 检查是否成功安装，若返回"
+"版本号则安装成功，若出现其他提示，请见 Windows 常见问题。"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid ""
+"按下图所示，修改环境变量 ![sys_path_I](./sys_path_I.png) ![sys_path_II](./"
+"sys_path_II.png) ![sys_path_III](./sys_path_III.png) ![sys_path_IV](./"
+"sys_path_IV.png) ![sys_path_V](./sys_path_V.png)"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid ""
+"打开命令提示符（cmd）或 PowerShell，输入 `gcc -v` 检查是否成功安装，若返回版"
+"本号则安装成功，若出现其他提示，请见 Windows 常见问题。"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid "Windows 常见问题"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid "Q. 双击运行下载成功后的构建工具闪退"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid "A. 请不要更改文件名"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid "Debian 分支 Linux 系统"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid ""
+"打开终端，输入以下命令： \\>sudo aot update \\> \\>sudo apt install cargo -y"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid ""
+"若无报错，输入 `cargo -V` 检查是否输出版本号，若出现其他输出，请见 Linux 常见"
+"问题"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid "其他系统待补充"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid "Linux 常见问题"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid ""
+"Q. 输入 `cargo` 时输出 `bash: /usr/bin/cargo: No such file or directory` 或 "
+"`cargo: command not found`"
+msgstr ""
+
+#: src/phira_build_guide/cargo.md
+msgid "A. 未成功安装 cargo，请检查安装完成后是否输出了其他信息。"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md src/phira_build_guide/Linux.md
+msgid "准备阶段"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid ""
+"确保系统安装了 cargo，可以在命令提示符（cmd）或者 PowerShell 使用 `cargo -V` "
+"检查系统是否安装了 cargo。如果提示以下信息："
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "`'cargo' 不是内部或外部命令，也不是可运行的程序或批处理文件。`"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid ""
+"`cargo : 无法将“cargo”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检"
+"查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。`"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "请点击 [这里](./cargo.md) 按步骤安装构建工具"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md src/phira_build_guide/Linux.md
+msgid "从 GitHub 下载源码到本地："
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid ""
+"若您安装了 git 工具，请使用 `git clone https://github.com/TeamFlos/phira."
+"git` 将仓库克隆到本地。"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid ""
+"若您没有安装 git 工具，您也可以在 Phira 仓库页面点击 Code 按钮选择 `Download "
+"ZIP` 将代码下载到本地，随后将代码解压到本地任意目录。"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md src/phira_build_guide/Linux.md
+msgid ""
+"**如果您无法连接到 GitHub，您也可以使用 git 加速网站提供的加速地址克隆与下"
+"载。**"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid ""
+"**若您要构建指定版本的 Phira，请前往 release 页面在 Assets 中选择下载 "
+"`Source code(zip)` 到本地，解压到任意路径即可。**"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md src/phira_build_guide/Linux.md
+msgid ""
+"**警告：为了防止玄学问题，我们不建议路径中包含除了 ASCII 编码包含字符以外的任"
+"何字符。**"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid ""
+"perl，您可以在命令提示符（cmd）或者 PowerShell 使用 `perl -v` 检查系统是否安"
+"装了 perl，如果没有，请搜索并打开 `MSYS2 UCRT64` 输入 `pacman -S perl` 安装 "
+"perl"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md src/phira_build_guide/Linux.md
+msgid ""
+"静态库文件，您可以 [直接下载](./prpr-avc.zip) 或者在 [缓存站](https://www."
+"nuanr-mxi.com/prpr-avc.zip) 下载静态库文件，下载完成后直接解压到代码根目录"
+"下，如果提示覆盖文件，请点击覆盖。"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md src/phira_build_guide/Linux.md
+msgid "开始构建"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid ""
+"在命令提示符（cmd）或者 PowerShell 切换到代码根目录（如 `D:\\phira\\` ）"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid ""
+"在命令提示符（cmd）或者 PowerShell 使用 `cargo build -r --bin phira-main` ，"
+"如果不出意外，在 `openssl-sys(build)` 时，您将卡很久很久，请不要退出，这是正"
+"常的。"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "构建完成后，在 `.\\target\\release\\` 目录下您可以找到编译完成的主程序"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid ""
+"复制 `.\\assets\\` 目录中的所有文件到 `.\\target\\release\\assets\\` ，至此，"
+"构建流程全部完成，您可以直接运行 `phira-main.exe` 检查资源文件是否完整。"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md src/phira_build_guide/Linux.md
+msgid ""
+"**注意：在此文档编写时，代码目录下的资源文件并不完整，如果您发现主程序闪退，"
+"您可以前往 release 页面下载任意版本，获取资源文件**"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md src/phira_build_guide/Linux.md
+msgid "常见问题"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "Q. 报错 `failed to send request: 操作超时`"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "A. 请检查网络环境，确保您可以正常访问 GitHub"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "Q. 报错 `failed to send request: 无法解析服务器的名称或地址`"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "A. 检查 DNS 或更换 DNS，更换后请刷新 DNS 缓存"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid ""
+"Q. 构建过程中报错 `error: failed to run custom build command for openssl-sys "
+"v0.9.99`"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "A. 缺失 perl，请检查是否正确安装 perl 后再试"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid ""
+"Q. 构建报错`error occurred: Failed to find tool. Is gcc.exe installed? (see "
+"https://github.com/rust-lang/cc-rs#compile-time-requirements for help)`"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "A. 请检查是否安装了 `MSYS2` 以及检查是否配置了环境变量"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "Q. 出现以下报错："
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "Error building OpenSSL dependencies:"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "Command: \"make\" \"depend\""
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "Failed to execute: program not found"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid ""
+"A. 缺失 `make` 指令，请前往 MSYS2 终端中使用 `pacman -S make` 安装此命令。"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "Q. 报错包含 `This perl inplementation doesn't produce lnix like paths`"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid ""
+"A. 使用的 perl 不适用于 gcc，请删除原有 perl 的环境变量或者直接卸载原有的 "
+"perl。"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "Q. 太麻烦了"
+msgstr ""
+
+#: src/phira_build_guide/Windows.md
+msgid "A. 这样，直接去 release 页面下吧~~微软我真谢谢你~~"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid ""
+"确保系统安装了 cargo，可以在终端使用 `cargo -V` 检查系统是否安装了 cargo，如"
+"果没有安装，请点击 [这里](./cargo.md)按步骤安装构建工具"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid ""
+"若您是纯终端，建议使用 git 工具，请使用 `git clone https://github.com/"
+"TeamFlos/phira.git` 将仓库克隆到本地。"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid ""
+"若您使用了桌面环境，您也可以在 Phira 仓库页面点击 Code 按钮选择 `Download "
+"ZIP` 将代码下载到本地，随后将代码解压到本地任意目录。"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid ""
+"**若您要构建指定版本的 Phira，请前往 release 页面在 Assets 中选择下载 "
+"`Source code(tar.gz)` 到本地，解压到任意路径即可。**"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid "构建过程需要库文件补充，输入以下命令即可："
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid "sudo apt update"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid "sudo apt install libasound2-dev"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid "sudo apt install libgtk-3-dev"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid "打开终端，切换到代码根目录"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid "输入 `cargo build -r --bin phira-main` ，直到编译完成。"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid ""
+"复制 `.\\assets\\` 目录中的所有文件到 `.\\target\\release\\assets\\` ，至此，"
+"构建流程全部完成，您可以在带有桌面环境的情况下直接运行 `phira-main` 检查资源"
+"文件是否完整，若您没有桌面环境，程序将会闪退（实测 WSL 无法兼容，如果在 WSL "
+"下运行将会闪退），至此，构建流程结束。"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid "Q. 构建输出 `failed to connect to GitHub`"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid "A. 请检查网络环境。"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid "Q. 构建时报错 `The pkg-config command could not be found`"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid ""
+"A. 缺失 `pkg-config` 指令，使用 `sudo apt install pkg-config -y` 安装即可。"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid "Q. 构建报错 `failed to run custom build command for alsa-sys v0.3.1`"
+msgstr ""
+
+#: src/phira_build_guide/Linux.md
+msgid "A. 缺失库文件"
+msgstr ""
+
+#: src/dev-incident/index.md
 #, fuzzy
 msgid "开发/运营过程中出现的意外事件"
 msgstr "开发/运营过程中出现的意外事件"
 
-#: src/dev-incident/index.md:3
+#: src/dev-incident/index.md
 #, fuzzy
 msgid "其实全都是 sjfhsjfh 的错"
 msgstr "其实全都是 sjfhsjfh 的错"
 
-#: src/dev-incident/长风的柳絮.md:3
+#: src/dev-incident/长风的柳絮.md
 #, fuzzy
 msgid ""
-"此事件发生于 2023-07-10 18:53 (此为 sjfhsjfh 在内部群发送消息 \"我来磕大头了\" 的时"
-"间)"
+"此事件发生于 2023-07-10 18:53 (此为 sjfhsjfh 在内部群发送消息 \"我来磕大头了"
+"\" 的时间)"
 msgstr ""
-"此事件发生于 2023-07-10 18:53 (此为 sjfhsjfh 在内部群发送消息 \"我来磕大头了\" 的时"
-"间)"
+"此事件发生于 2023-07-10 18:53 (此为 sjfhsjfh 在内部群发送消息 \"我来磕大头了"
+"\" 的时间)"
 
-#: src/dev-incident/长风的柳絮.md:5 src/dev-incident/v0.6.0更新消息.md:7
-#: src/dev-incident/6thpecjam.md:7
+#: src/dev-incident/长风的柳絮.md src/dev-incident/v0.6.0更新消息.md
+#: src/dev-incident/6thpecjam.md
 #, fuzzy
 msgid "事件经过"
 msgstr "事件经过"
 
-#: src/dev-incident/长风的柳絮.md:7
+#: src/dev-incident/长风的柳絮.md
 #, fuzzy
 msgid ""
-"sjfhsjfh 在手动操作数据库(使用 SQL 语句)封禁用户 \"长风的柳絮\"时, 一不小心将未写完"
-"的 UPDATE 语句发送出去(没有加上 `WHERE` 关键字, 也没有写好 `SET banned = TRUE`), 导"
-"致所有用户的用户名被修改为 \"长风的柳絮\""
+"sjfhsjfh 在手动操作数据库(使用 SQL 语句)封禁用户 \"长风的柳絮\"时, 一不小心将"
+"未写完的 UPDATE 语句发送出去(没有加上 `WHERE` 关键字, 也没有写好 `SET banned "
+"= TRUE`), 导致所有用户的用户名被修改为 \"长风的柳絮\""
 msgstr ""
-"sjfhsjfh 在手动操作数据库(使用 SQL 语句)封禁用户 \"长风的柳絮\"时, 一不小心将未写完"
-"的 UPDATE 语句发送出去(没有加上 `WHERE` 关键字, 也没有写好 `SET banned = TRUE`), 导"
-"致所有用户的用户名被修改为 \"长风的柳絮\""
+"sjfhsjfh 在手动操作数据库(使用 SQL 语句)封禁用户 \"长风的柳絮\"时, 一不小心将"
+"未写完的 UPDATE 语句发送出去(没有加上 `WHERE` 关键字, 也没有写好 `SET banned "
+"= TRUE`), 导致所有用户的用户名被修改为 \"长风的柳絮\""
 
-#: src/dev-incident/长风的柳絮.md:9
+#: src/dev-incident/长风的柳絮.md
 #, fuzzy
-msgid "此事件耗费 Mivik 一整个下午和晚自习进行恢复(从日志中), 并未造成太多数据损失"
-msgstr "此事件耗费 Mivik 一整个下午和晚自习进行恢复(从日志中), 并未造成太多数据损失"
+msgid ""
+"此事件耗费 Mivik 一整个下午和晚自习进行恢复(从日志中), 并未造成太多数据损失"
+msgstr ""
+"此事件耗费 Mivik 一整个下午和晚自习进行恢复(从日志中), 并未造成太多数据损失"
 
-#: src/dev-incident/长风的柳絮.md:11
+#: src/dev-incident/长风的柳絮.md
 #, fuzzy
 msgid "后记"
 msgstr "后记"
 
-#: src/dev-incident/长风的柳絮.md:13
+#: src/dev-incident/长风的柳絮.md
 #, fuzzy
 msgid ""
-"凡事都要两面看, 此事过后 Mivik 给审核组长提供了一个方便快捷的封禁按钮, 以防止类似事"
-"件再次发生. 不幸的是, sjfhsjfh 的扫帚星属性并未因此事件而消失, 见 [v0.6.0 更新消息]"
-"(./v0.6.0更新消息.md)"
+"凡事都要两面看, 此事过后 Mivik 给审核组长提供了一个方便快捷的封禁按钮, 以防止"
+"类似事件再次发生. 不幸的是, sjfhsjfh 的扫帚星属性并未因此事件而消失, 见 "
+"[v0.6.0 更新消息](./v0.6.0更新消息.md)"
 msgstr ""
-"凡事都要两面看, 此事过后 Mivik 给审核组长提供了一个方便快捷的封禁按钮, 以防止类似事"
-"件再次发生. 不幸的是, sjfhsjfh 的扫帚星属性并未因此事件而消失, 见 [v0.6.0 更新消息]"
-"(./v0.6.0更新消息.md)"
+"凡事都要两面看, 此事过后 Mivik 给审核组长提供了一个方便快捷的封禁按钮, 以防止"
+"类似事件再次发生. 不幸的是, sjfhsjfh 的扫帚星属性并未因此事件而消失, 见 "
+"[v0.6.0 更新消息](./v0.6.0更新消息.md)"
 
-#: src/dev-incident/v0.6.0更新消息.md:3
+#: src/dev-incident/v0.6.0更新消息.md
 #, fuzzy
 msgid ""
-"此事件发生于 2024-01-01 23:16 (此为 Mivik 在上架讨论群内发送消息 \"阿我草你干了啥?"
-"\" 的时间)"
+"此事件发生于 2024-01-01 23:16 (此为 Mivik 在上架讨论群内发送消息 \"阿我草你干"
+"了啥?\" 的时间)"
 msgstr ""
-"此事件发生于 2024-01-01 23:16 (此为 Mivik 在上架讨论群内发送消息 \"阿我草你干了啥?"
-"\" 的时间)"
+"此事件发生于 2024-01-01 23:16 (此为 Mivik 在上架讨论群内发送消息 \"阿我草你干"
+"了啥?\" 的时间)"
 
-#: src/dev-incident/v0.6.0更新消息.md:5
+#: src/dev-incident/v0.6.0更新消息.md
 #, fuzzy
 msgid ""
-"同 [长风的柳絮](./长风的柳絮.md) 事件类似, 为手动操作数据库造成的严重后果. 此事件也"
-"被称为 \"长风的柳絮 2\""
+"同 [长风的柳絮](./长风的柳絮.md) 事件类似, 为手动操作数据库造成的严重后果. 此"
+"事件也被称为 \"长风的柳絮 2\""
 msgstr ""
-"同 [长风的柳絮](./长风的柳絮.md) 事件类似, 为手动操作数据库造成的严重后果. 此事件也"
-"被称为 \"长风的柳絮 2\""
+"同 [长风的柳絮](./长风的柳絮.md) 事件类似, 为手动操作数据库造成的严重后果. 此"
+"事件也被称为 \"长风的柳絮 2\""
 
-#: src/dev-incident/v0.6.0更新消息.md:9
+#: src/dev-incident/v0.6.0更新消息.md
 #, fuzzy
 msgid ""
-"sjfhsjfh 企图修改误放出的错误公告, 且心急如焚, 故不当操作导致所有用户的所有消息内容"
-"被修改为新的公告内容(即 v0.6.0 更新公告)"
+"sjfhsjfh 企图修改误放出的错误公告, 且心急如焚, 故不当操作导致所有用户的所有消"
+"息内容被修改为新的公告内容(即 v0.6.0 更新公告)"
 msgstr ""
-"sjfhsjfh 企图修改误放出的错误公告, 且心急如焚, 故不当操作导致所有用户的所有消息内容"
-"被修改为新的公告内容(即 v0.6.0 更新公告)"
+"sjfhsjfh 企图修改误放出的错误公告, 且心急如焚, 故不当操作导致所有用户的所有消"
+"息内容被修改为新的公告内容(即 v0.6.0 更新公告)"
 
-#: src/dev-incident/v0.6.0更新消息.md:11
+#: src/dev-incident/v0.6.0更新消息.md
 #, fuzzy
 msgid "此事件耗费 Mivik 约一个晚上进行恢复, 当天的消息全部丢失"
 msgstr "此事件耗费 Mivik 约一个晚上进行恢复, 当天的消息全部丢失"
 
-#: src/dev-incident/6thpecjam.md:1
+#: src/dev-incident/6thpecjam.md
 msgid "6thPecJam"
 msgstr "6thPecJam"
 
-#: src/dev-incident/6thpecjam.md:3
+#: src/dev-incident/6thpecjam.md
 #, fuzzy
 msgid ""
 "此事件发生于 2024-02-10 凌晨约 00:40, 相较于预计的 PecJam 提交通道开启时间 "
@@ -2610,18 +3051,18 @@ msgstr ""
 "此事件发生于 2024-02-10 凌晨约 00:40, 相较于预计的 PecJam 提交通道开启时间 "
 "2024-02-10 00:00, 已经推迟超多半个小时"
 
-#: src/dev-incident/6thpecjam.md:5
+#: src/dev-incident/6thpecjam.md
 #, fuzzy
 msgid "注: 2024-02-09 为除夕, 大家都在守岁, 正好等着 PecJam 交稿"
 msgstr "注: 2024-02-09 为除夕, 大家都在守岁, 正好等着 PecJam 交稿"
 
-#: src/dev-incident/6thpecjam.md:9
+#: src/dev-incident/6thpecjam.md
 #, fuzzy
 msgid ""
-"sjfhsjfh 眼看大家在群里询问为何 PecJam 提交通道还未开启, 在焦急之中对 Phira 后端代"
-"码进行了胡乱修改, 提交时甚至没有进行编译检查, 最后不得不请 Mivik 从温暖的被窝中出来"
-"帮忙修复, 实在是罪大恶极"
+"sjfhsjfh 眼看大家在群里询问为何 PecJam 提交通道还未开启, 在焦急之中对 Phira "
+"后端代码进行了胡乱修改, 提交时甚至没有进行编译检查, 最后不得不请 Mivik 从温暖"
+"的被窝中出来帮忙修复, 实在是罪大恶极"
 msgstr ""
-"sjfhsjfh 眼看大家在群里询问为何 PecJam 提交通道还未开启, 在焦急之中对 Phira 后端代"
-"码进行了胡乱修改, 提交时甚至没有进行编译检查, 最后不得不请 Mivik 从温暖的被窝中出来"
-"帮忙修复, 实在是罪大恶极"
+"sjfhsjfh 眼看大家在群里询问为何 PecJam 提交通道还未开启, 在焦急之中对 Phira "
+"后端代码进行了胡乱修改, 提交时甚至没有进行编译检查, 最后不得不请 Mivik 从温暖"
+"的被窝中出来帮忙修复, 实在是罪大恶极"
