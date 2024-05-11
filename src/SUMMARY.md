@@ -55,8 +55,8 @@
   - [使用进阶](./uml/advanced/README.md)
     - [页面切换](./uml/advanced/page_switch.md)
   
-- [phira构建指南](./phira_build_guide/README.md)
-  - [cargo安装教程](./phira_build_guide/cargo.md)
+- [Phira 构建指南](./phira_build_guide/README.md)
+  - [cargo 安装教程](./phira_build_guide/cargo.md)
   - [Windows](./phira_build_guide/Windows.md)
   - [Linux](./phira_build_guide/Linux.md)
 
@@ -64,4 +64,3 @@
   - [长风的柳絮](./dev-incident/长风的柳絮.md)
   - [v0.6.0 更新消息](./dev-incident/v0.6.0更新消息.md)
   - [6th PecJam](./dev-incident/6thpecjam.md)
-
