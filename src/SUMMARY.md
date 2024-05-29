@@ -4,28 +4,38 @@
 
 - [资源包](respack/index.md)
 
-- [谱面特性](feature/index.md)
+- [谱面标准](chart-standard/index.md)
 
-  - [特效](feature/effect/index.md)
+  - [谱面信息](chart-standard/chartinfo.md)
 
-    - [内置着色器](feature/effect/builtin/index.md)
+  - [谱面文件格式](chart-standard/chart-format/index.md)
 
-      - [`chromatic`](feature/effect/builtin/chromatic.md)
-      - [`circleBlur`](feature/effect/builtin/circleBlur.md)
-      - [`fisheye`](feature/effect/builtin/fisheye.md)
-      - [`glitch`](feature/effect/builtin/glitch.md)
-      - [`grayscale`](feature/effect/builtin/grayscale.md)
-      - [`noise`](feature/effect/builtin/noise.md)
-      - [`pixel`](feature/effect/builtin/pixel.md)
-      - [`radialBlur`](feature/effect/builtin/radialBlur.md)
-      - [`shockwave`](feature/effect/builtin/shockwave.md)
-      - [`vignette`](feature/effect/builtin/vignette.md)
+    - [RPE](chart-standard/chart-format/rpe/index.md)
 
-    - [自行编写着色器](feature/effect/custom-shader.md)
+  - [音乐文件格式](chart-standard/music.md)
 
-  - [视频背景](feature/video/index.md)
+  - [扩展特性](chart-standard/extra/index.md)
 
-  - [解锁动画](feature/unlock_video/index.md)
+    - [特效](chart-standard/extra/effect/index.md)
+
+      - [内置着色器](chart-standard/extra/effect/builtin/index.md)
+
+        - [`chromatic`](chart-standard/extra/effect/builtin/chromatic.md)
+        - [`circleBlur`](chart-standard/extra/effect/builtin/circleBlur.md)
+        - [`fisheye`](chart-standard/extra/effect/builtin/fisheye.md)
+        - [`glitch`](chart-standard/extra/effect/builtin/glitch.md)
+        - [`grayscale`](chart-standard/extra/effect/builtin/grayscale.md)
+        - [`noise`](chart-standard/extra/effect/builtin/noise.md)
+        - [`pixel`](chart-standard/extra/effect/builtin/pixel.md)
+        - [`radialBlur`](chart-standard/extra/effect/builtin/radialBlur.md)
+        - [`shockwave`](chart-standard/extra/effect/builtin/shockwave.md)
+        - [`vignette`](chart-standard/extra/effect/builtin/vignette.md)
+
+      - [自行编写着色器](chart-standard/extra/effect/custom-shader.md)
+
+    - [视频背景](chart-standard/extra/video/index.md)
+
+  - [解锁动画](chart-standard/unlock_video/index.md)
 
 - [UML文档](./uml/README.md)
 
