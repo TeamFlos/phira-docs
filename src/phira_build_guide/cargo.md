@@ -27,7 +27,7 @@ A. 请不要更改文件名
 ### Debian 分支 Linux 系统
 
 1. 打开终端，输入以下命令：
-    >sudo aot update
+    >sudo apt update
     >
     >sudo apt install cargo -y
 2. 若无报错，输入 `cargo -V` 检查是否输出版本号，若出现其他输出，请见 Linux 常见问题
