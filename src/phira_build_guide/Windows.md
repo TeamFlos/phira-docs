@@ -14,6 +14,7 @@
     - __警告：为了防止玄学问题，我们不建议路径中包含除了 ASCII 编码包含字符以外的任何字符。__
 3. perl，您可以在命令提示符（cmd）或者 PowerShell 使用 `perl -v` 检查系统是否安装了 perl，如果没有，请搜索并打开 `MSYS2 UCRT64` 输入 `pacman -S perl` 安装 perl
 4. 静态库文件，您可以 [直接下载](./prpr-avc.zip) 或者在 [缓存站](https://www.nuanr-mxi.com/prpr-avc.zip) 下载静态库文件，下载完成后直接解压到代码根目录下，如果提示覆盖文件，请点击覆盖。
+5. 32位静态库文件可用这个：[i686_static-lib](https://github.com/user-attachments/files/16368910/static-lib.zip) 解压到`phira\prpr-avc\static-lib`下
 
 ## 开始构建
 
@@ -23,6 +24,22 @@
 4. 复制 `.\assets\` 目录中的所有文件到 `.\target\release\assets\` ，至此，构建流程全部完成，您可以直接运行 `phira-main.exe` 检查资源文件是否完整。
 
 - __注意：在此文档编写时，代码目录下的资源文件并不完整，如果您发现主程序闪退，您可以前往 release 页面下载任意版本，获取资源文件__
+
+## 32位版本
+1. 在命令提示符（cmd）或者 PowerShell 切换到代码根目录（如 `D:\phira\` ）
+2. 下载上面的静态库文件解压到`phira\prpr-avc\static-lib`或自行编译：
+在msys2上操作
+```msys2
+git clone https://git.ffmpeg.org/ffmpeg.git --depth=1
+cd ffmpeg && mkdir build && cd build
+../configure --disable-programs --disable-doc --disable-everything --disable-debug --arch=i686 --target_os=mingw32 --cross-prefix=i686-w64-mingw32-  #这里有个坑。。。如果报错的话尝试把 msys64\mingw32\bin 这个目录下的 i686-w64-mingw32-gcc-ar.exe , i686-w64-mingw32-gcc-nm.exe , i686-w64-mingw32-gcc-ranlib.exe 复制粘贴一份然后重命名成 i686-w64-mingw32-ar.exe , i686-w64-mingw32-nm.exe , i686-w64-mingw32-ranlib.exe
+make
+```
+接着把build文件夹下的所有形如 `*.a` 的文件复制到 `phira\prpr-avc\static-lib\i686-pc-windows-gnu` 就可以啦
+3. 在命令提示符（cmd）或者 PowerShell 使用 `cargo build --target=i686-pc-windows-gnu --release --package phira-main` ，如果不出意外，在 `openssl-sys(build)` 时，您将卡很久很久，请不要退出，这是正常的。
+4. 构建完成后，在 `.\target\release\` 目录下您可以找到编译完成的主程序
+5. 复制 `.\assets\` 目录中的所有文件到 `.\target\release\assets\` ，至此，构建流程全部完成，您可以直接运行 `phira-main.exe` 检查资源文件是否完整。
+
 
 ## 常见问题
 
