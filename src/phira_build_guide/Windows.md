@@ -71,7 +71,7 @@ A. 缺失 `make` 指令，请前往 MSYS2 终端中使用 `pacman -S make` 安�
 
 Q. 报错包含 `This perl inplementation doesn't produce lnix like paths`
 
-A. 使用的 `perl` 不适用于 `gcc`，请删除原有 `perl` 的环境变量或者直接卸载原有的 perl。
+A. 使用的 `perl` 不适用于 `gcc`，请删除原有 `perl` 的环境变量或者直接卸载原有的 `perl`。
 
 Q. 报错包含`undefined reference to libiconv`
 
