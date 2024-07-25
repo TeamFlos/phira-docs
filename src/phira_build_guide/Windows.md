@@ -36,7 +36,7 @@
 
 在sh上操作（此处使用msys2）
 
-```msys2
+```sh
 git clone https://git.ffmpeg.org/ffmpeg.git --depth=1
 cd ffmpeg && mkdir build && cd build
 ../configure --disable-programs --disable-doc --disable-everything --disable-debug --arch=i686 --target_os=mingw32 --cross-prefix=i686-w64-mingw32-
