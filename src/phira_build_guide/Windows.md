@@ -24,6 +24,29 @@
 
 - __注意：在此文档编写时，代码目录下的资源文件并不完整，如果您发现主程序闪退，您可以前往 release 页面下载任意版本，获取资源文件__
 
+## 32位版本
+
+1. 在命令提示符（cmd）或者 PowerShell 切换到代码根目录（如 `D:\phira\` ）
+2. 下载上面的静态库文件解压到`phira\prpr-avc\static-lib`或自行构建
+3. 在命令提示符（cmd）或者 PowerShell 使用 `cargo build --target=i686-pc-windows-gnu --release --package phira-main` ，如果不出意外，在 `openssl-sys(build)` 时，您将卡很久很久，请不要退出，这是正常的。
+4. 构建完成后，在 `.\target\release\` 目录下您可以找到编译完成的主程序
+5. 复制 `.\assets\` 目录中的所有文件到 `.\target\release\assets\` ，至此，构建流程全部完成，您可以直接运行 `phira-main.exe` 检查资源文件是否完整。
+
+## 有关静态库的构建（以i686-pc-windows-gnu为例）
+
+在sh上操作（此处使用msys2）
+
+```sh
+git clone https://git.ffmpeg.org/ffmpeg.git --depth=1
+cd ffmpeg && mkdir build && cd build
+../configure --disable-programs --disable-doc --disable-everything --disable-debug --arch=i686 --target_os=mingw32 --cross-prefix=i686-w64-mingw32-
+make
+```
+
+note:这里有个坑。。。如果报错的话尝试把 msys64\mingw32\bin 这个目录下的 i686-w64-mingw32-gcc-ar.exe , i686-w64-mingw32-gcc-nm.exe , i686-w64-mingw32-gcc-ranlib.exe 复制粘贴一份然后重命名成 i686-w64-mingw32-ar.exe , i686-w64-mingw32-nm.exe , i686-w64-mingw32-ranlib.exe
+
+接着把build文件夹下的所有形如 `*.a` 的文件复制到 `phira\prpr-avc\static-lib\i686-pc-windows-gnu` 就可以啦
+
 ## 常见问题
 
 Q. 报错 `failed to send request: 操作超时`
@@ -54,7 +77,11 @@ A. 缺失 `make` 指令，请前往 MSYS2 终端中使用 `pacman -S make` 安�
 
 Q. 报错包含 `This perl inplementation doesn't produce lnix like paths`
 
-A. 使用的 perl 不适用于 gcc，请删除原有 perl 的环境变量或者直接卸载原有的 perl。
+A. 使用的 `perl` 不适用于 `gcc`，请删除原有 `perl` 的环境变量或者直接卸载原有的 `perl`。
+
+Q. 报错包含`undefined reference to libiconv`
+
+A. 使用的 `libiconv` 有问题，请在 MSYS2 终端中使用 `pacman -S libiconv`
 
 Q. 太麻烦了
 
