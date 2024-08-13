@@ -12,5 +12,5 @@ runs:
       shell: bash
 
     - name: Install mdbook-i18n-helpers
-      run: cargo install mdbook-i18n-helpers --locked --version 0.3.1
+      run: cargo install mdbook-i18n-helpers
       shell: bash
