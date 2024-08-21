@@ -1,10 +1,14 @@
 # RPE 文档
 
-在 RPE140 中，json 根节点下有一下内容：BPMList，META，judgeLineGroup，judgeLineList，multiLineString，multiScale，前四个比较常用
+# 根节点下的属性
+
+在 RPE140 中，json 根节点下有以下内容：BPMList，META，judgeLineGroup，judgeLineList，multiLineString，multiScale
+
+RPE150 新增了 chartTime 属性。
 
 ## 1.BPMList
 
-这是一个数组，由若干个 bpm 组成，每个 bpm 的由一个数值和开始时间组成，示例：
+这是一个数组，由若干个 bpm 组成，每个 bpm 的由一个数值和开始时间（**带分数结构**）组成，示例：
 
 ```json
 {"BPMList" : [
@@ -19,7 +23,7 @@
 
 储存谱面基本信息，有以下的值
 
-`RPEVersion` : 140
+`RPEVersion` : 格式版本号，比如 150
 
 `background` : 背景图片文件名
 
@@ -27,7 +31,7 @@
 
 `composer` : 曲师
 
-`id` : id
+`id` : id，一般是随机字符
 
 `level` : 等级
 
@@ -63,8 +67,40 @@
 
 `isCover` 是否遮住坐标为负数的音符，0 或者 1
 
-`notes` 音符（**数组**）
+`notes` 音符（**数组**），由若干个**音符结构**组成。
 
 `numOfNotes` notes 数组的长度
 
 `zOrder` 图层
+
+## 5.multiLineString 和 multiScale
+
+多线编辑用的，与谱子无关
+
+# 带分数结构
+
+`[a,b,c]` 表示 a+b/c
+
+# 音符结构
+
+`above` : 1或者2，1上面，2下面
+
+`alpha` : 不透明度，0~255
+
+`endTime` : 结束时间（**带分数结构**）
+
+`isFake` : 0或者1，是否是假音符
+
+`positionX` : x坐标
+
+`size` : 大小，一般为1
+
+`speed` : 速度
+
+`startTime` : 开始时间（**带分数结构**）
+
+`type` : 类型（1Tap 2Hold 3Flick 4Drag）
+
+`visibleTime` : 可见时间
+
+`yOffset` : y偏移
