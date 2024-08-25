@@ -44,6 +44,8 @@
 
   - [解锁动画](chart-standard/unlock_video/index.md)
 
+- [活动指南](./event/index.md)
+
 - [UML文档](./uml/README.md)
 
   - [语法](./uml/syntax/README.md)
