@@ -11,6 +11,13 @@
   - [谱面文件格式](chart-standard/chart-format/index.md)
 
     - [RPE](chart-standard/chart-format/rpe/index.md)
+      - [谱面根目录](chart-standard/chart-format/rpe/root.md)
+      - [判定线](chart-standard/chart-format/rpe/judgeLine.md)
+      - [beat](chart-standard/chart-format/rpe/beat.md)
+      - [音符](chart-standard/chart-format/rpe/note.md)
+      - [普通事件](chart-standard/chart-format/rpe/event.md)
+      - [特殊事件](chart-standard/chart-format/rpe/extendEvent.md)
+      - [扩展特性](chart-standard/chart-format/rpe/extend.md)
 
   - [音乐文件格式](chart-standard/music.md)
 
