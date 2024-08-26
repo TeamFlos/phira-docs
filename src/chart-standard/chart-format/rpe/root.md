@@ -16,27 +16,30 @@
 ### META
 `META` 是一个 `JsonObject`，包含以下字段：
 
-|     字段名      |    类型    |        说明        | 加入版本 |
-|:------------:|:--------:|:----------------:|:----:|
-|  RPEVersion  |   int    |  RPE版本，100~152   |  -   |
-|  background  |  string  |  背景图片相对于谱面根目录路径  |  -   |
-|   charter    |  string  |       谱师名义       |  -   |
-|   composer   |  string  |        曲师        |  -   |
-|      id      | int（待补充） | 谱面ID，在RPE中用于识别谱面 |  -   |
-| illustration |  string  |       曲绘画师       | 141  |
-|    level     |  string  |       谱面等级       |  -   |
-|     name     |  string  |       谱面名称       |  -   |
-|    offset    |   int    |        偏移        |  -   |
-|     song     |  string  |  音乐文件相对于谱面根目录路径  |  -   |
+|     字段名      |   类型   |        说明        | 加入版本 |
+|:------------:|:------:|:----------------:|:----:|
+|  RPEVersion  |  int   |  RPE版本，100~153   |  -   |
+|  background  | string |  背景图片相对于谱面根目录路径  |  -   |
+|   charter    | string |       谱师名义       |  -   |
+|   composer   | string |        曲师        |  -   |
+|      id      | string | 谱面ID，在RPE中用于识别谱面 |  -   |
+| illustration | string |       曲绘画师       | 141  |
+|    level     | string |       谱面等级       |  -   |
+|     name     | string |       谱面名称       |  -   |
+|    offset    |  int   |    音乐偏移，单位为毫秒    |  -   |
+|     song     | string |  音乐文件相对于谱面根目录路径  |  -   |
+- `offset` 为负数时，音乐应该在谱面开始前 `-offset` 毫秒时播放；为正数时，音乐应该在谱面开始后 `offset` 毫秒时播放。
+- `id` 在RPE自动生成时为 `long`，实际上这个值可以随便篡改为任何字符，所以在实际谱面中存储方式为 `string`。
 
 ### chartTime
 _模拟器不需要本属性。_
-- `chartTime` 是一个float值，时间单位是秒，表示谱面编辑时长，在RPE1.4.1加入。  
-- ~~在RPE中，如果谱师在30秒内没有编辑谱面，则该值将不再变动，下次开始编辑后继续计时。~~
+- `chartTime` 是一个float值，时间单位是秒，表示谱面编辑时长，在 `141` 加入。  
+- ~~在RPE中，如果谱师在30秒内没有编辑谱面，则该值将不再变动，下次开始编辑后继续计时。~~（特性被移除）
 - 如果焦点不在RPE窗口，此计时将会停止，直到窗口获得焦点后继续计时。
 
 ### judgeLineGroup
 _模拟器不需要本属性。_  
+
 - `judgeLineGroup` 是一个 `JsonArray`，包含若干个 `string`；  
 - 每一个 `string` 为一个判定线组。  
 
@@ -49,4 +52,9 @@ _模拟器不需要本属性。_
 
 - `multiLineString` 是一个字符串，在RPE中多线编辑时使用，以空格分割，每个数字代表一个判定线。  
 - `multiLineString` 中也可能含有 `:` ，它的作用和 `~` 差不多，如 `1:20` 将选中 `1` 到 `20` 号的所有判定线。
+
+### multiScale
+_模拟器不需要本属性。_
+
+- `multiScale` 是一个 `float`，在RPE中用于缩放多线编辑页面的大小。
 

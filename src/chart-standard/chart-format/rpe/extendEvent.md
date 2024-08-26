@@ -15,9 +15,9 @@
 | easingRight  |       float       |                                              缓动的右边界位置，最小为 `0.0`，最大为 `1.0`                                              |          1.0           |  -   |
 |  easingType  |        int        |                                        缓动类型，详见[extend](./extend.md#easingtype)                                         |           1            |  -   |
 |  linkgroup   |        int        |                                                           -                                                            |           -            |  -   |
-|    start     |     JsonArray     |                                        事件开始时数值，三个值分别对应 `RGB`；最大为 `255`，最小为 `0`                                         |           -            |  -   |
+|    start     |     JsonArray     |                                        事件开始时颜色，三个值分别对应 `RGB`；最大为 `255`，最小为 `0`                                         |           -            |  -   |
 |  startTime   | [beat](./beat.md) |                                                        事件开始的时间                                                         |           -            |  -   |
-|     end      |     JsonArray     |                                        事件结束时数值，三个值分别对应 `RGB`；最大为 `255`，最小为 `0`                                         |           -            |  -   |
+|     end      |     JsonArray     |                                        事件结束时颜色，三个值分别对应 `RGB`；最大为 `255`，最小为 `0`                                         |           -            |  -   |
 |   endTime    | [beat](./beat.md) |                                                        事件结束的时间                                                         |           -            |  -   |
 ## scaleXEvents
 X轴缩放事件，可以控制判定线、纹理或文字的宽度缩放，它包含以下字段：
@@ -31,8 +31,8 @@ X轴缩放事件，可以控制判定线、纹理或文字的宽度缩放，它�
 |  easingType  |           int           |                                        缓动类型，详见[extend](./extend.md#easingtype)                                         |           1            |  -   |
 |  linkgroup   |           int           |                                                           -                                                            |           -            |  -   |
 |    start     |          float          |                                                        事件开始时缩放                                                         |           1            |  -   |
-|  startTime   |    [beat](./beat.md)    |                                                        事件开始的时间                                                         |           1            |  -   |
-|     end      |          float          |                                                        事件结束时缩放                                                         |           -            |  -   |
+|  startTime   |    [beat](./beat.md)    |                                                        事件开始的时间                                                         |           -            |  -   |
+|     end      |          float          |                                                        事件结束时缩放                                                         |           1            |  -   |
 |   endTime    |    [beat](./beat.md)    |                                                        事件结束的时间                                                         |           -            |  -   |
 
 ## scaleYEvents
@@ -46,9 +46,9 @@ Y轴缩放事件，可以控制判定线、纹理或文字的高度缩放，它�
 | easingRight  |          float          |                                              缓动的右边界位置，最小为 `0.0`，最大为 `1.0`                                              |          1.0           |  -   |
 |  easingType  |           int           |                                        缓动类型，详见[extend](./extend.md#easingtype)                                         |           1            |  -   |
 |  linkgroup   |           int           |                                                           -                                                            |           -            |  -   |
-|    start     |          float          |                                                        事件开始时数值                                                         |           1            |  -   |
-|  startTime   |    [beat](./beat.md)    |                                                        事件开始的时间                                                         |           1            |  -   |
-|     end      |          float          |                                                        事件结束时数值                                                         |           -            |  -   |
+|    start     |          float          |                                                        事件开始时缩放                                                         |           1            |  -   |
+|  startTime   |    [beat](./beat.md)    |                                                        事件开始的时间                                                         |           -            |  -   |
+|     end      |          float          |                                                        事件结束时缩放                                                         |           1            |  -   |
 |   endTime    |    [beat](./beat.md)    |                                                        事件结束的时间                                                         |           -            |  -   |
 
 ## textEvents
@@ -62,33 +62,39 @@ Y轴缩放事件，可以控制判定线、纹理或文字的高度缩放，它�
 | easingRight  |       float       |                                              缓动的右边界位置，最小为 `0.0`，最大为 `1.0`                                              |          1.0           |  -   |
 |  easingType  |        int        |                                        缓动类型，详见[extend](./extend.md#easingtype)                                         |           1            |  -   |
 |  linkgroup   |        int        |                                                           -                                                            |           -            |  -   |
-|    start     |      string       |                                                        事件开始时字符                                                         |           1            |  -   |
-|  startTime   | [beat](./beat.md) |                                                        事件开始的时间                                                         |           1            |  -   |
+|    start     |      string       |                                                        事件开始时字符                                                         |           -            |  -   |
+|  startTime   | [beat](./beat.md) |                                                        事件开始的时间                                                         |           -            |  -   |
 |     end      |      string       |                                                        事件结束时字符                                                         |           -            |  -   |
 |   endTime    | [beat](./beat.md) |                                                        事件结束的时间                                                         |           -            |  -   |
-|     font     |      string       |                                                   文字字体（_本字段疑似已被弃用_）                                                    |         cmdysj         |  -   |
+|     font     |      string       |                                                  文字字体（**本字段需看下方解释**）                                                   |       **请看下方解释**       |  -   |
+- **从 `152` 版本开始，`font` 字段在为 `cmdysj` 默认字体时不会有本字段，只有有自定义字体时才会存在本字段。**
+- **在 `152` 版本之前，`font` 字段默认存在且默认为 `cmdysj`。**
 - 此事件设置缓动可能不会有效，也可能会出现未定义的错误导致模拟器崩溃，详见[issue](https://github.com/TeamFlos/phira/issues/252)。
 - 文字事件的文字中含有 `%P%` 时，可以让文本中的数字在事件播放过程中根据缓动动态变化。
 - 有文字事件的判定线会始终隐藏，只显示文字（即使播放的地方没有文字事件），也会清除自定义纹理。
+- 有文字事件但是没有颜色事件时，文字的颜色会始终为白色。
+- 从 `153` 版本开始，文字事件中的文字可以包含 `\n` 换行符且有效（其他的不可用）。
 ## paintEvents
 画笔事件，此事件在 `143` 版本被 `shader` 编辑功能取代。
 
 ## gifEvents
 GIF播放进度事件，此事件在 `150` 版本与GIF判定线纹理一同加入，用于控制GIF的播放进度。
 
-|     字段名      |        类型         |                   描述                    |   默认值   | 加入版本 |
-|:------------:|:-----------------:|:---------------------------------------:|:-------:|:----:|
-|  easingType  |        int        | 缓动类型，详见[extend](./extend.md#easingtype) |       1 |   -  |
-|  linkgroup   |        int        |                    -                    |    -    |  -   |
-|    start     |       float       |              事件开始时GIF的播放进度              |    1    |  -   |
-|  startTime   | [beat](./beat.md) |                 事件开始的时间                 |    1    |  -   |
-|     end      |       float       |              事件结束时GIF的播放进度              |    -    |  -   |
-|   endTime    | [beat](./beat.md) |                 事件结束的时间                 |    -    |  -   |
+|     字段名      |        类型         |                   描述                    | 默认值 | 加入版本 |
+|:------------:|:-----------------:|:---------------------------------------:|:---:|:----:|
+|  easingType  |        int        | 缓动类型，详见[extend](./extend.md#easingtype) |  1  |  -   |
+|  linkgroup   |        int        |                    -                    |  -  |  -   |
+|    start     |       float       |              事件开始时GIF的播放进度              |  -  |  -   |
+|  startTime   | [beat](./beat.md) |                 事件开始的时间                 |  -  |  -   |
+|     end      |       float       |              事件结束时GIF的播放进度              |  -  |  -   |
+|   endTime    | [beat](./beat.md) |                 事件结束的时间                 |  -  |  -   |
 - 若判定线纹理是GIF但是没有 `gifEvents` 时，GIF会自动循环播放。
-- GIF的第一帧为 `0.0`，最后一帧为 `1.0`，若播放进度超出此范围，则GIF会自动循环播放。
+- GIF的第一帧为 `0.0`，最后一帧为 `1.0`，若播放进度超出此范围，GIF将会自动循环播放。
+- 若当前播放进度没有 `gifEvents` 时，GIF会自动循环播放。
 - 文字事件同样会将此纹理清除。
-- 超过 `15MB` 大小的GIF会使RPE解码失败。
+- 超过 `15MB` 大小的GIF会使RPE在加载谱面时弹出解码失败。
 - 纹理为GIF以后，流速事件会被替换为此事件的编辑，所以理论上此事件不可能与流速事件同时出现。
+- 位于其他层级的 `gifEvents` 会被忽略，且RPE纠错会标红。
 
 ## inclineEvents
 倾斜事件，疑似已被弃用，但是默认会在 `extended` 字段下留一个垫底事件。  
