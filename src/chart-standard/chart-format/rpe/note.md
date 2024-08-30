@@ -12,7 +12,7 @@ note，即音符，是谱面的主要构成之一，每个note都应该含有以
 |    size     |       float       |                                     note大小倍率                                      |     1.0     |  -   |
 |    speed    |       float       |                                      流速倍率，默认                                      |     1.0     |  -   |
 |    type     |        int        |            note类型，`1` 为 `Tap`、`2` 为 `Hold`、`3` 为 `Flick`、`4` 为 `Darg`             |      -      |  -   |
-| visibleTime |       float       |                                     note可见时间                                      | visibleTime |  -   |
+| visibleTime |       float       |                                   note可见时间，单位为秒                                   | 999999.0000 |  -   |
 |   yOffset   |       float       |                        note的Y轴偏移，正数向上偏移，负数向下偏移，同时偏移打击特效的位置                        |      0      |  -   |
 |  hitsound   |      string?      |             note自定义打击音音频文件路径，相对于谱面文件根目录。没有自定义音效时，字段不存在，`Hold` 不会有本字段              |      -      | 142  |
 - `size` 字段实际上在RPE中显示为宽度，即只能控制音符的宽度而不是音符的整个大小。
