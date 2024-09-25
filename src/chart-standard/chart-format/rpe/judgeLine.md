@@ -9,8 +9,8 @@
 |   Texture    |  string   |       判定线贴图，若非默认值，则为相对于谱面根目录的路径，更多详见[Texture](./extend.md#texture)       |    line.png    |  -   |
 |    anchor    | JsonArray |                  判定线锚点，详见 [extend](./extend.md#anchor)                   | `[ 0.5, 0.5 ]` | 142  |
 | eventLayers  | JsonArray | 事件层级，默认包含至少一个层级（JsonObject），空层级为 `null`，最大有五个，层级下事件见 [event](./event.md) |       -        |  -   |
-|   extended   | JsonArray |                    特殊事件，详见 [extend](./extendEvent.md)                    |       -        |  -   |   
-|    father    |    int    |                            父线，-1表示无父线（行为待补充）                             |       -        |  -   |                      |      -1       |  -   |
+|   extended   | JsonArray |                 特殊事件，详见 [extend Event](./extendEvent.md)                 |       -        |  -   |   
+|    father    |    int    |                           父线，`-1` 表示无父线（行为待补充）                           |       -        |  -   |                      |      -1       |  -   |
 |   isCover    |    int    |                                遮罩（行为待补充）                                 |       1        |  -   |
 |    notes     | JsonArray |                      线上所有的Note，详见 [note](./note.md)                      |       -        |  -   |
 |  numOfNotes  |    int    |                    Note总数量(包含 `FakeNote`，不包含 `Hold`)                     |       0        |  -   |
