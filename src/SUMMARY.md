@@ -18,6 +18,11 @@
       - [普通事件](chart-standard/chart-format/rpe/event.md)
       - [特殊事件](chart-standard/chart-format/rpe/extendEvent.md)
       - [扩展特性](chart-standard/chart-format/rpe/extend.md)
+    - [Official](chart-standard/chart-format/phi/index.md)
+      - [谱面根目录](chart-standard/chart-format/phi/root.md)
+      - [音符](chart-standard/chart-format/phi/note.md)
+      - [事件](chart-standard/chart-format/phi/event.md)
+      - [判定线](chart-standard/chart-format/phi/judgeLine.md)
 
   - [音乐文件格式](chart-standard/music.md)
 
