@@ -27,9 +27,10 @@
   - 若所有层级都为空，`eventLayers` 字段不会出现。
 
 ## 事件插值
-### `python`示例
-- 定义`rpe_easing.py` (略)
-- 定义`Chart_Objects_Rpe.py` (部分略)
+
+### Python 示例
+- 定义 `rpe_easing.py` (略)
+- 定义 `Chart_Objects_Rpe.py` (部分略)
 ```python
 from __future__ import annotations
 
@@ -242,7 +243,7 @@ class Rpe_Chart:
             return self is oth
         return False
 ```
-- 我们加载谱面:
+- 加载谱面:
 ```python
 def load(chart: dict):
     meta = chart.get("META", {})
@@ -429,4 +430,4 @@ def load(chart: dict):
 
 result = load({}) # 这里传入你的谱面
 ```
-- 最后调用`result.JudgeLineList[i].GetState`, 并传入当前拍数为`t`和判定线默认颜色为`defaultColor`, 和谱面对象`master` 即可获取当前拍数下的判定线全部状态
+- 最后调用 `result.JudgeLineList[i].GetState` , 并传入当前拍数为 `t` 和判定线默认颜色为 `defaultColor` , 和谱面对象 `master` 即可获取当前拍数下的判定线全部状态
