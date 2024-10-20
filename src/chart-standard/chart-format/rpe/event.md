@@ -28,9 +28,9 @@
   - 音符流速事件**不支持缓动**，即只有线性变化。
   - 流速为负数时，音符会向上飞，若音符为 `Hold`，在 `Hold` 尾出现时，整个音符都会出现（即使 `Hold` 还没完全回到判定线正面）。
   
-## `python`示例 (不支持bezier):
-- 定义`rpe_easing.py` (略)
-- 定义`Beat`:
+## Python 示例 (不支持bezier):
+- 定义 `rpe_easing.py` (略)
+- 定义 `Beat`:
 ```python
 @dataclass
 class Beat:
@@ -45,7 +45,7 @@ class Beat:
     def __hash__(self) -> int:
         return self._hash
 ```
-- 定义`LineEvent`:
+- 定义 `LineEvent`
 ```python
 @dataclass
 class LineEvent:
@@ -61,7 +61,7 @@ class LineEvent:
         self.easingType = 1 if self.easingType < 1 else (len(rpe_easing.ease_funcs) if self.easingType > len(rpe_easing.ease_funcs) else self.easingType)
         self.easingFunc = rpe_easing.ease_funcs[self.easingType - 1]
 ```
-- 定义`easing_interpolation`
+- 定义 `easing_interpolation`
 ```python
 def easing_interpolation(
     t: float, st: float,
@@ -71,7 +71,7 @@ def easing_interpolation(
     if t == st: return sv
     return f((t - st) / (et - st)) * (ev - sv) + sv
 ```
-- `default`为事件默认值
+- `default` 为事件默认值
 - 则有:
 ```python
 def GetEventValue(t: float, es: list[LineEvent], default):
