@@ -8,8 +8,8 @@ double seconds = BPM * beat / 60;
 ```
 多BPM计算方式待补充。
 
-## `python`示例:
-- 若`self.BPMList`为一个`list[BPMEvent]`
+## Python 示例
+- 若 `self.BPMList` 为一个 `list[BPMEvent]`
 - `BPMEvent`定义:
 ```python
 @dataclass
@@ -17,9 +17,9 @@ class BPMEvent:
     startTime: Beat
     bpm: float
 ```
-- `sec2beat`中`t`为秒数, `bpmfactor`为判定线中的`bpmfactor`字段`
-- `beat2sec`中`t`为拍数, `bpmfactor`为判定线中的`bpmfactor`字段`
-- 且`beat2sec(sec2beat(x)) == x`与`sec2beat(beat2sec(x)) == x`的结果均为`True`
+- `sec2beat` 中 `t` 为秒数, `bpmfactor` 为判定线中的 `bpmfactor` 字段`
+- `beat2sec` 中 `t` 为拍数, `bpmfactor` 为判定线中的 `bpmfactor` 字段`
+- 且 `beat2sec(sec2beat(x)) == x` 与 `sec2beat(beat2sec(x)) == x` 的结果均为 `True`
 - 则有:
 ```python
 def sec2beat(self, t: float, bpmfactor: float):

@@ -65,7 +65,7 @@ RPE允许你设置判定线的 `Texture` 字段来修改判定线的纹理，当
 
 你可以在[这个网站](https://easings.net/zh-cn)查看它们的函数等信息。
 
-### `python`格式的缓动函数
+### Python 缓动示例
 ```python
 import math
 import typing
