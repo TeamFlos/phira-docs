@@ -83,6 +83,7 @@
   - [cargo 安装教程](./phira_build_guide/cargo.md)
   - [Windows](./phira_build_guide/Windows.md)
   - [Linux](./phira_build_guide/Linux.md)
+  - [Android to Linux](./phira_build_guide/android_to_linux.md)
 
 - [糗事集锦](./dev-incident/README.md)
   - [长风的柳絮](./dev-incident/长风的柳絮.md)
