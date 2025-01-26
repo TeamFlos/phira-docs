@@ -1,4 +1,5 @@
 # 构建指南
-~~什么，移动设备？，我不会，长大后再学习~~<br>
+针对安卓手机的Linux便携式开发环境构建:[here](./android_to_linux.md)<br>
 Windows：[here](./Windows.md)<br>
 Linux：[here](./Linux.md)<br>
+~~什么，你说apk？没有Java和kotlin我怎么写啊QAQ~~<br>
