@@ -1,7 +1,9 @@
 # Android
-
 ## 构建
-- #### 注意：此构建方案的产物**不包含成绩上传**的部分（与Windows端类似）
+  > [!IMPORTANT]
+  >
+  > #### 注意：此构建方案的产物**不包含成绩上传**的部分（与Windows端类似）
+
 1. 方便起见，这里使用**Github Action**构建Android端Phira。本地构建待补充。~~才不是因为几次都失败了惹~~
 2. **Fork**你的Phira，创建 `.github/workflows/`目录并在该目录下创建一个.yml文件，名称任意。
 3. 在该.yml文件写入以下内容并commit，进入Action页面的Build Android Phira工作流，**请求一个workflow**（可选择构建分支），等待约5分钟，工作流即可运行完毕。**下载Artifact解压**备用。
@@ -78,13 +80,19 @@ jobs:
 ## 替换
 > 由于未提供打包工具，需要我们手动替换apk下libphira.so文件
 
+> [!NOTE]
+>
+> ### 直接安装运行，会提示找不到quad_native.QuadNative.preprocessInput的定义
+
+#### 方法一：
+
 1. 将libphira.so文件**推送到Android设备上**你熟悉的位置。
 
 2. 从Phira官方仓库的Release下载libphira.so对应架构的apk，用MT管理器查看。
 
 3. 将构建出来的libphira.so**替换掉**lib/arm64-v8a（或armeabi-v7a）/**libphira.so**。
 
-4. 用Dex编辑器++打开classes.dex，进入org，flos.phira，查看QuadSurface类。
+4. 用Dex编辑器++打开classes.dex，进入org，flos.phira，查看**QuadSurface**类。
 
 5. ##### 找到153行（或其他调用preprocessInput的语句），移除这一行的内容（或注释掉）。
 
@@ -92,5 +100,26 @@ jobs:
 
 7. 按需可选择进行apk共存操作。
 
-- *特别感谢qaqFei提供的思路*。
+#### 方法二：
+
+##### 在phira/src/lib.rs中加入以下声明：
+
+```Rust
+#[cfg(target_os = "android")]
+#[no_mangle]
+pub unsafe extern "C" fn Java_quad_1native_QuadNative_preprocessInput(
+    _: *mut std::ffi::c_void,
+    _: *const std::ffi::c_void,
+    #[allow(dead_code)] motionEvent: ndk_sys::AInputEvent,
+    #[allow(dead_code)] f: ndk_sys::jfloat,
+    #[allow(dead_code)] f2: ndk_sys::jfloat,
+    #[allow(dead_code)] z: ndk_sys::jboolean,
+    #[allow(dead_code)] z2: ndk_sys::jboolean,
+) {
+    
+}
+```
+
+# [原理](https://github.com/qaqFei/phira/tree/main)
+- *特别感谢qaqFei进行的测试*。
 
