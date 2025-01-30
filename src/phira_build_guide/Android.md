@@ -120,6 +120,6 @@ pub unsafe extern "C" fn Java_quad_1native_QuadNative_preprocessInput(
 }
 ```
 
-# [原理](https://github.com/qaqFei/phira/tree/main)
-- *特别感谢qaqFei进行的测试*。
+# 原理
+- *特别感谢[qaqFei进行的测试](https://github.com/qaqFei/phira/tree/main)*。
 
