@@ -1,11 +1,10 @@
 # Android
 ## 构建
-  > [!IMPORTANT]
-  >
-  > #### 注意：此构建方案的产物**不包含成绩上传**的部分（与Windows端类似）
 
-1. 方便起见，这里使用**Github Action**构建Android端Phira。本地构建待补充。~~才不是因为几次都失败了惹~~
-2. **Fork**你的Phira，创建 `.github/workflows/`目录并在该目录下创建一个.yml文件，名称任意。
+> <span style="color:yellow;">注意：此构建方案的产物**不包含成绩上传**的部分（与Windows端类似）</span> 
+
+1. 方便起见，这里使用**Github Action**构建Android端Phira，本地构建待补充。~~才不是因为几次都失败了惹~~
+2. **Fork**官方Phira仓库，创建 `.github/workflows/`目录并在该目录下创建一个.yml文件，名称任意。
 3. 在该.yml文件写入以下内容并commit，进入Action页面的Build Android Phira工作流，**请求一个workflow**（可选择构建分支），等待约5分钟，工作流即可运行完毕。**下载Artifact解压**备用。
 > 如果需要armeabi-v7a架构构建，请将"arm64-v8a"，"aarch64-linux-android"分别全部**替换**为"armeabi-v7a"，"armv7-linux-androideabi"（未测试）
 ```yaml
@@ -80,9 +79,7 @@ jobs:
 ## 替换
 > 由于未提供打包工具，需要我们手动替换apk下libphira.so文件
 
-> [!NOTE]
->
-> ### 直接安装运行，会提示找不到quad_native.QuadNative.preprocessInput的定义
+> **直接安装运行，会提示找不到quad_native.QuadNative.preprocessInput的定义**
 
 #### 方法一：
 
