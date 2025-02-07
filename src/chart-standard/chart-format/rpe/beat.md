@@ -4,7 +4,7 @@
 单BPM计算方式为：
 ```csharp
 double beat = RPEBeat[1] / RPEBeat[2] + RPEBeat[0];
-double seconds = BPM * beat / 60;
+double seconds = 60 / BPM * beat;
 ```
 多BPM计算方式待补充。
 
