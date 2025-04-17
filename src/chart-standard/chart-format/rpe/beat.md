@@ -6,7 +6,7 @@
 double beat = RPEBeat[1] / RPEBeat[2] + RPEBeat[0];
 double seconds = 60 / BPM * beat;
 ```
-多BPM计算方式待补充。
+多BPM计算方式见 Python 示例。
 
 ## Python 示例
 - 若 `self.BPMList` 为一个 `list[BPMEvent]`
@@ -25,7 +25,7 @@ class BPMEvent:
 def sec2beat(self, t: float, bpmfactor: float):
     beat = 0.0
     for i, e in enumerate(self.BPMList):
-        bpmv = e.bpm * bpmfactor
+        bpmv = e.bpm / bpmfactor
         if i != len(self.BPMList) - 1:
             et_beat = self.BPMList[i + 1].startTime.value - e.startTime.value
             et_sec = et_beat * (60 / bpmv)
@@ -43,7 +43,7 @@ def sec2beat(self, t: float, bpmfactor: float):
 def beat2sec(self, t: float, bpmfactor: float):
     sec = 0.0
     for i, e in enumerate(self.BPMList):
-        bpmv = e.bpm * bpmfactor
+        bpmv = e.bpm / bpmfactor
         if i != len(self.BPMList) - 1:
             et_beat = self.BPMList[i + 1].startTime.value - e.startTime.value
             
