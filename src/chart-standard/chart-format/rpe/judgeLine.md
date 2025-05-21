@@ -6,8 +6,8 @@
 |:------------:|:----------:|:------------------------------------------------------------:|:--------------:|:----:|
 |    Group     |    int     |              判定线所属[组](./root.md#judgelinegroup)              |       0        |  -   |
 |     Name     |   string   |                            判定线名称                             |    Untitled    |  -   |
-|   Texture    |   string   | 判定线贴图，若非默认值，则为相对于谱面根目录的路径，更多详见[Texture](./extend.md#texture) |    line.png    |  -   |
-|    anchor    | JsonArray  |            判定线锚点，详见 [extend](./extend.md#anchor)             | `[ 0.5, 0.5 ]` | 142  |
+|   Texture    |   string   | 判定线纹理，若非默认值，则为相对于谱面根目录的路径，更多详见[Texture](./extend.md#texture) |    line.png    |  -   |
+|    anchor    | JsonArray  |           判定线纹理锚点，详见 [extend](./extend.md#anchor)            | `[ 0.5, 0.5 ]` | 142  |
 | eventLayers  | JsonArray? | 事件层级，默认包含至少一个层级（JsonObject），最大有五个，层级下事件见 [event](./event.md) |       -        |  -   |
 |   extended   | JsonArray  |           特殊事件，详见 [extend Event](./extendEvent.md)           |       -        |  -   |   
 |    father    |    int     |                        父线，`-1` 表示无父线                         |       -        |  -   |                      |      -1       |  -   |
@@ -28,7 +28,6 @@
 - 判定线的当前 `BPM` 应为 当前 `BPM` 除以 `bpmfactor`，而非乘以。
 - 父线允许嵌套，父线不影响子线的旋转角度与透明度。
 - `isCover` 字段在RPE中为 `1` 时，表示遮罩，其他值为不遮罩；遮罩时，位于判定线背面的音符（如果音符 `Above` 不为 1 则为正面）不会渲染，反之则渲染（除非已被打击，则不渲染）。
-- 
 
 ## 事件插值
 

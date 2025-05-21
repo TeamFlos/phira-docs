@@ -32,6 +32,7 @@
 - `offset` 为负数时，音乐应该在谱面开始前 `-offset` 毫秒时播放；为正数时，音乐应该在谱面开始后 `offset` 毫秒时播放。
 - `id` 在RPE自动生成时为 `long`，实际上这个值可以随便篡改为任何字符，所以在实际谱面中存储方式为 `string`。
 -  <span style="color:red;">**RPE 1.5.0 ~ RPE 1.6.0 之间的版本（不含RPE 1.6.0，含Alpha版本），META中的 `RPEVersion` 字段保持为 `150`，没有被更改。**</span>
+- <span style="color:red;">**RPE 1.6.1 版本，META中的 `RPEVersion` 字段保持为 `160`，没有被更改。**</span>
 ### chartTime
 _模拟器不需要本属性。_
 - `chartTime` 是一个 `double` 变量，时间单位是秒，表示谱面编辑时长，在 `141` 加入。  
