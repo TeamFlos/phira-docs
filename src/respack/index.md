@@ -18,7 +18,7 @@
 
 资源文件可以包括（即若不包括，将使用默认）：
 
-- `click.ogg`、`drag.ogg` 和 `flick.ogg`：对应音符的打击音效，注意采样率必须为 44100Hz，否则在渲染时（prpr-render）会导致崩溃；
+- `click.ogg`、`drag.ogg` 和 `flick.ogg`：对应音符的打击音效，若使用 prpr-render 渲染，采样率必须为 44100Hz；
 - `ending.ogg`：结算界面背景音乐。
 
 ### 配置文件
@@ -26,11 +26,28 @@
 配置文件采用 yml，其中必填项如下（以默认资源包为例）：
 
 ```yml
-name: Default
-author: "Mivik & MisaLiu"
-hitFx: [5, 6]
+# 必填
+name: "Default"
+author: "XingLuELEC"
+hitFx: [8, 8]
 holdAtlas: [50, 50]
-holdAtlasMH: [50, 110]
+holdAtlasMH: [200, 200]
+# 选填
+description: "打击音效来自：小赵同学"
+hitFxDuration: 0.5
+hitFxScale: 1.2
+hitFxRotate: true
+hideParticles: false
+circleParticles: true
+holdKeepHead: false
+holdRepeat: false
+holdCompact: false
+hitFxTinted: true
+LineTinted: true
+colorPerfectFx: (1.0, 0.9, 0.65, 0.9)
+colorGoodFx: (0.70, 0.9, 1.0, 0.9)
+colorPerfectLine: (1.0, 1.0, 0.7, 1.0)
+colorGoodLine: (0.65, 0.94, 1.0, 1.0)
 ```
 
 - `name`：资源包的名字；
