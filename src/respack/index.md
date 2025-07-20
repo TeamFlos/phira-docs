@@ -44,10 +44,10 @@ holdRepeat: false
 holdCompact: false
 hitFxTinted: true
 LineTinted: true
-colorPerfectFx: (1.0, 0.9, 0.65, 0.9)
-colorGoodFx: (0.70, 0.9, 1.0, 0.9)
-colorPerfectLine: (1.0, 1.0, 0.7, 1.0)
-colorGoodLine: (0.65, 0.94, 1.0, 1.0)
+colorPerfectFx: [1.0, 0.9, 0.65, 0.9]
+colorGoodFx: [0.70, 0.9, 1.0, 0.9]
+colorPerfectLine: [1.0, 1.0, 0.7, 1.0]
+colorGoodLine: [0.65, 0.94, 1.0, 1.0]
 ```
 
 - `name`：资源包的名字；
