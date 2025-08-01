@@ -27,6 +27,7 @@
 - ~~速度事件只有上述的 `startTime`、`endTime`、`start`、`end`、`linkgroup` 字段。~~
   - <span style="color:red;">速度事件在 `162` 版本支持了所有缓动字段，但是仍然不支持贝塞尔曲线缓动（没有上述的 `bezier`、`bezierPoints`字段）。</span>
   - <span style="color:red;">RPE作者原文：速度事件缓动不为1时，实际的速度变化与缓动的导函数形状相同，从而floorposition的变化遵循缓动曲线。为了兼容性，缓动为1时我们保持原含义不变，也即缓动为 `1` 和缓动为 `5` 都代表二次型的floorposition变化</span>
+  - <span style="color:red;">RPE 1.7.0版本，速度事件缓动回归最原始的逻辑，即与切割后的缓动事件行为一致。</span>
   - ~~音符流速事件**不支持缓动**，即只有线性变化。~~
   - 流速为负数时，音符会向上飞，若音符为 `Hold`，在 `Hold` 尾出现时，整个音符都会出现（即使 `Hold` 还没完全回到判定线正面）。（此行为与本家行为不符，请酌情选择）
 
