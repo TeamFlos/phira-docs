@@ -32,37 +32,39 @@ RPE允许你设置判定线的 `Texture` 字段来修改判定线的纹理，当
 ## easingType
 `easingType` 是RPE用于对应缓动的数字标识，对照表如下：
 
-| 值  |      对应缓动      |    注     |
-|:--:|:--------------:|:--------:|
-| 1  |     Linear     |    -     |
-| 2  |    Out Sine    |    -     |
-| 3  |    In Sine     |    -     |
-| 4  |    Out Quad    |    -     |
-| 5  |    In Quad     |    -     |
-| 6  |  In Out Sine   |    -     |
-| 7  |  In Out Quad   |    -     |
-| 8  |   Out Cubic    |    -     |
-| 9  |    In Cubic    |    -     |
-| 10 |   Out Quart    |    -     |
-| 11 |    In Quart    |    -     |
-| 12 |  In Out Cubic  |    -     |
-| 13 |  In Out Quart  |    -     |
-| 14 |   Out Quint    |    -     |
-| 15 |    In Quint    |    -     |
-| 16 |    Out Expo    |    -     |
-| 17 |    In Expo     |    -     |
-| 18 |    Out Circ    |    -     |
-| 19 |    In Circ     |    -     |
-| 20 |    Out Back    |    -     |
-| 21 |    In Back     |    -     |
-| 22 |  In Out Circ   |    -     |
-| 23 |  In Out Back   |    -     |
-| 24 |  Out Elastic   |    -     |
-| 25 |   In Elastic   |    -     |
-| 26 |   Out Bounce   |    -     |
-| 27 |   In Bounce    |    -     |
-| 28 | In Out Bounce  |    -     |
-| 29 | In Out Elastic | 无法在RPE使用 |
+| 值  |      对应缓动      |     注     |
+|:--:|:--------------:|:---------:|
+| 1  |     Linear     |     -     |
+| 2  |    Out Sine    |     -     |
+| 3  |    In Sine     |     -     |
+| 4  |    Out Quad    |     -     |
+| 5  |    In Quad     |     -     |
+| 6  |  In Out Sine   |     -     |
+| 7  |  In Out Quad   |     -     |
+| 8  |   Out Cubic    |     -     |
+| 9  |    In Cubic    |     -     |
+| 10 |   Out Quart    |     -     |
+| 11 |    In Quart    |     -     |
+| 12 |  In Out Cubic  |     -     |
+| 13 |  In Out Quart  |     -     |
+| 14 |   Out Quint    |     -     |
+| 15 |    In Quint    |     -     |
+| 16 |    Out Expo    |     -     |
+| 17 |    In Expo     |     -     |
+| 18 |    Out Circ    |     -     |
+| 19 |    In Circ     |     -     |
+| 20 |    Out Back    |     -     |
+| 21 |    In Back     |     -     |
+| 22 |  In Out Circ   |     -     |
+| 23 |  In Out Back   |     -     |
+| 24 |  Out Elastic   |     -     |
+| 25 |   In Elastic   |     -     |
+| 26 |   Out Bounce   |     -     |
+| 27 |   In Bounce    |     -     |
+| 28 | In Out Bounce  |     -     |
+| 29 | In Out Elastic | 无法在速度事件使用 |
+
+- RPE 1.7.0版本恢复了29号缓动的使用。
 
 你可以在[这个网站](https://easings.net/zh-cn)查看它们的函数等信息。
 
