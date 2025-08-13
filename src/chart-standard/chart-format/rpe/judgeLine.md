@@ -17,19 +17,21 @@
 |      zOrder      |    int     |                  线z轴(即图层），范围为±100（_范围需要验证_）                  |       0        |  -   |
 |     attachUI     |  string?   |     UI绑定，详见 [extend](./extend.md#attachui)；无绑定情况下，不存在本属性     |       -        |  -   |
 |      isGif       |    bool    |             纹理是否为GIF，若为 `true` ，Texture为一个GIF文件              |     false      | 150  |
-|    posControl    | JsonArray  |                        _此字段无法在RPE中编辑_                        |       -        |  -   |
-|   sizeControl    | JsonArray  |                        _此字段无法在RPE中编辑_                        |       -        |  -   |
-|   skewControl    | JsonArray  |                        _此字段无法在RPE中编辑_                        |       -        |  -   |
-|     yControl     | JsonArray  |                        _此字段无法在RPE中编辑_                        |       -        |  -   |
-|   alphaControl   | JsonArray  |                        _此字段无法在RPE中编辑_                        |       -        |  -   |
+|    posControl    | JsonArray  |                 详见[Controls](./controls.md)                  |       -        |  -   |
+|   sizeControl    | JsonArray  |                 详见[Controls](./controls.md)                  |       -        |  -   |
+|   skewControl    | JsonArray  |                 详见[Controls](./controls.md)                  |       -        |  -   |
+|     yControl     | JsonArray  |                 详见[Controls](./controls.md)                  |       -        |  -   |
+|   alphaControl   | JsonArray  |                 详见[Controls](./controls.md)                  |       -        |  -   |
 |    bpmfactor     |   float    |                     BPM因子 _此字段无法在RPE中编辑_                     |      1.0       |  -   |
 | rotateWithFather |    bool    |              子线是否继承父线的旋转角度，若为 `true` 则继承，否则不继承               |      true      | 163  |
 
 - 若层级为空，在某个版本之前，字段为 `null` ，在某个版本及以后，空层级无字段。（当前已知至少在 `143` 版本时无字段）
     - 若所有层级都为空，`eventLayers` 字段不会出现。
 - 判定线的当前 `BPM` 应为 当前 `BPM` 除以 `bpmfactor`，而非乘以。
-- 父线允许嵌套，父线是否影响子线的旋转角度取决于 `rotateWithFather` 是否为 `true`，若不存在此字段应视为 `false`（兼容163以前的版本）。
-- `isCover` 字段在RPE中为 `1` 时，表示遮罩，其他值为不遮罩；遮罩时，位于判定线背面的音符（如果音符 `Above` 不为 1 则为正面）不会渲染，反之则渲染（除非已被打击，则不渲染）。
+- 父线允许嵌套，父线是否影响子线的旋转角度取决于 `rotateWithFather` 是否为 `true`，若不存在此字段应视为 `false`
+  （兼容163以前的版本）。
+- `isCover` 字段在RPE中为 `1` 时，表示遮罩，其他值为不遮罩；遮罩时，位于判定线背面的音符（如果音符 `Above` 不为 1
+  则为正面）不会渲染，反之则渲染（除非已被打击，则不渲染）。
 
 ## 事件插值
 
