@@ -18,6 +18,7 @@
       - [普通事件](chart-standard/chart-format/rpe/event.md)
       - [特殊事件](chart-standard/chart-format/rpe/extendEvent.md)
       - [扩展特性](chart-standard/chart-format/rpe/extend.md)
+      - [Controls](chart-standard/chart-format/rpe/controls.md)
     - [Official](chart-standard/chart-format/phi/index.md)
       - [谱面根目录](chart-standard/chart-format/phi/root.md)
       - [音符](chart-standard/chart-format/phi/note.md)
