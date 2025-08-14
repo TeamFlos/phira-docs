@@ -14,7 +14,7 @@
 - `drag.png` 和 `drag_mh.png`：Drag 音符的皮肤，`mh` 代表双押；
 - `flick.png` 和 `flick_mh.png`：Flick 音符的皮肤，`mh` 代表双押；
 - `hold.png` 和 `hold_mh.png`：Hold 音符的皮肤，`mh` 代表双押；
-- `hit_fx.png`：打击特效图片。
+- `hit_fx.png`：打击特效图片，必须为透明背景，除特殊需求外图像色彩均为灰度。
 
 资源文件可以包括（即若不包括，将使用默认）：
 
