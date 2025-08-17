@@ -39,6 +39,7 @@ hitFxScale: 1.2
 hitFxRotate: true
 hideParticles: false
 circleParticles: true
+particleCount: 4
 holdKeepHead: false
 holdRepeat: false
 holdCompact: false
@@ -64,6 +65,7 @@ colorGoodLine: [0.65, 0.94, 1.0, 1.0]
 - `hitFxRotate` (布尔值，默认 `false`)  打击特效是否随 Note 旋转；
 - `hideParticles` (布尔值，默认 `false`)  是否隐藏粒子效果；
 - `circleParticles` (布尔值，默认 `false`)  是否使用圆形粒子效果；
+- `particleCount` (整数，默认 `4`)  打击特效的粒子数量；
 - `holdKeepHead` (布尔值，默认 `false`)  Hold 触线后是否显示头部；
 - `holdRepeat` (布尔值，默认 `false`)  Hold 的中间部分是否采用重复式拉伸。![Image](image/hold_repeat.jpg) 这里的三张图从左到右依次是 Hold 原图、不启用 `holdRepeat` 时的长条和启用 `holdRepeat` 时的长条；
 - `holdCompact` (布尔值，默认 `false`)  是否把 Hold 的头部和尾部与 Hold 中间重叠 (将锚点居中)。还是用上面的图，如果不开启 `holdCompact`，效果就会是左边第一张图，Hold 的头尾是和中间隔开的；而右边两张图都是开启了 `holdCompact` 的效果；
