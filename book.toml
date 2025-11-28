@@ -1,7 +1,6 @@
 [book]
 authors = ["TeamFlos"]
 language = "zh-CN"
-multilingual = false
 src = "src"
 title = "Phira Documents"
 
