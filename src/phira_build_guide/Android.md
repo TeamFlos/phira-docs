@@ -23,15 +23,16 @@ env:
 jobs:
   Build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
     - uses: actions/checkout@v4.2.2
     
     - run: |
         sudo apt-get update
-        sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.0-dev libayatana-appindicator3-dev librsvg2-dev libasound2-dev libssl-dev pkg-config
-        sed -i '1d' prpr/src/lib.rs
+        sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev libasound2-dev libssl-dev pkg-config
+        # For compatibility of release v0.6.7 and stable channel of Rust
+        sed -i 's/#!\[feature(local_key_cell_methods)\]//g' prpr/src/lib.rs
         
     - name: Download static-lib
       uses: suisei-cn/actions-download-file@v1.3.0
@@ -65,7 +66,7 @@ jobs:
       run: |
         cd phira
         cargo install cargo-ndk
-        cargo ndk -t arm64-v8a -p 35 build --release
+        cargo ndk -t arm64-v8a --platform 35 build --release
     
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
