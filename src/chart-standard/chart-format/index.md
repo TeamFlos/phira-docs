@@ -3,7 +3,7 @@
 目前支持的谱面文件格式包括:
 
 - RPE 格式, 见 [RPE 文档](./rpe/index.md)
-- PEC 格式 (文档待完善)
+- PEC 格式, 见 [PE 文档](./pe/index.md)
 - PBC 格式 (文档待完善)
 
 格式的推断通过 `info.yml` 中的 `format` 字段进行, 若为空则通过文件内容进行推断.
