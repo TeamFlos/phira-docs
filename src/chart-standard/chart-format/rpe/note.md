@@ -17,8 +17,8 @@ note，即音符，是谱面的主要构成之一，每个note都应该含有以
 |                  yOffset                   |       float       |         note的Y轴偏移，正数向上偏移，负数向下偏移，同时偏移打击特效的位置          |        0        |  -   |
 |                  hitsound                  |      string?      |               note自定义打击音文件相对于谱面文件根目录路径               |        -        | 142  |
 |                 judgeArea                  |       float       |                       判定区域宽度倍率                       |       1.0       | 170  |
-| <span style="color:red;">tint或color</span> |     JsonArray     |           note颜色，格式为`[R, G, B]`，范围为`0-255`           | [255, 255, 255] | 170  |
-|               tintHitEffects               |    JsonArray?     |         note打击特效颜色，格式为`[R, G, B]`，范围为`0-255`         | [255, 255, 255] | 170  |
+| <span style="color:red;">tint或color</span> |     int\[3\]      |           note颜色，格式为`[R, G, B]`，范围为`0-255`           | [255, 255, 255] | 170  |
+|               tintHitEffects               |     int\[3\]?     |         note打击特效颜色，格式为`[R, G, B]`，范围为`0-255`         | [255, 255, 255] | 170  |
 
 - `size` 字段实际上在RPE中显示为宽度，即只能控制音符的宽度而不是音符的整个大小。
 - `above` 字段在RPE中，`Hold` 如果从背面下落默认被设置为 `2`，其他Note均为 `0`，但是为 `1` 一定是从正面下落！
