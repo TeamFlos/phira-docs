@@ -4,6 +4,8 @@
 
 - [资源包](respack/index.md)
 
+- [基础帮助文档](help/index.md)
+
 - [谱面标准](chart-standard/index.md)
 
   - [谱面信息](chart-standard/chartinfo.md)
@@ -83,6 +85,11 @@
 
   - [使用进阶](./uml/advanced/README.md)
     - [页面切换](./uml/advanced/page_switch.md)
+
+- [Phira MP 构建指南](./mp_build_guide/index.md)
+  - [Termux](./mp_build_guide/Termux.md)
+  - [Windows](./mp_build_guide/Windows.md)
+  - [Linux](./mp_build_guide/Linux.md)
   
 - [Phira 构建指南](./phira_build_guide/README.md)
   - [cargo 安装教程](./phira_build_guide/cargo.md)

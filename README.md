@@ -1,3 +1,3 @@
-# Phira-docs
+# Phira-Doc
 
-Visit [here](https://teamflos.github.io/phira-docs/)
+See ON [Phira-Doc](https://phira-doc.star-trip.space)
