@@ -1,8 +1,8 @@
-book
+node_modules
+pnpm-lock.yaml
+pnpm-workspace.yaml
 
-# gettext
-*.pot
-*.mo
-
-# m*ther f*cking Mac
-.DS_Store
+# Vitepress
+.vitepress/dist
+.vitepress/cache
+.vitepress/.temp

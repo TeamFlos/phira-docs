@@ -1,0 +1,139 @@
+@import './fonts/LXGW/LXGW Wenkai.css';
+@import './css/vp-code-group.css';
+@import './css/custom-block.css';
+@import './css/sidebarIcon.css';
+@import './css/vp-code.css';
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('./fonts/GoogleSans-VariableFont_GRAD,opsz,wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mi Sans';
+  src: url('./fonts/MiSans-Medium.woff') format('woff');
+}
+
+:root {
+  --vp-font-family-base: 'Google Sans', 'Mi Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --vp-font-family-mono: 'LXGW WenKai Mono', "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+.VPSocialLinks.VPNavBarSocialLinks.social-links {
+  margin-right: 0;
+}
+
+/* 设置标题的字重为 Medium (500) */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+
+/* 默认（浅色模式）下，隐藏深色图片 */
+.dark-image {
+  display: none;
+}
+
+/* 当 html 标签有 .dark class 时（深色模式下） */
+.dark .dark-image {
+  display: block; /* 显示深色图片 */
+}
+
+.dark .light-image {
+  display: none;  /* 隐藏浅色图片 */
+}
+
+/* checkbox 颜色设置 */
+li.task-list-item {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  /* margin: 2px 0 0; */
+  list-style: inherit;
+}
+
+/* Target the last child element to push it to the next line */
+li.task-list-item ul:last-child {
+  flex-basis: 100%;
+  margin-right: 0;
+}
+
+li.task-list-item input[type="checkbox"] {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  line-height: 12px;
+  margin-right: 8px;
+  border: 1px solid #949494;
+
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+}
+
+li.task-list-item input[type="checkbox"]:after {
+  position: absolute;
+  top: 0;
+  color: #000;
+  width: 13px;
+  height: 13px;
+  display: inline-block;
+  visibility: visible;
+  padding-left: 0;
+  text-align: center;
+  content: " ";
+  border-radius: 3px;
+}
+
+li.task-list-item input[type="checkbox"]:checked {
+  background-color: var(--vp-c-brand);
+}
+
+li.task-list-item input[type="checkbox"]:checked::after {
+  content: "✓";
+  color: #fff;
+  line-height: 13px;
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.timeline-dot {
+  color: #7f8c8d;
+}
+
+.task-list {
+  margin: 0 !important;
+}
+
+li.task-list-item p {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+/* checkbox 颜色设置 end */
+
+/* 图片放大时盖掉导航栏 */
+
+.medium-zoom-overlay {
+  z-index: 30;
+}
+
+.medium-zoom-image {
+  z-index: 9999 !important;/* 给的值是21，但是实测盖不住，直接999 */
+}
+/* 图片放大时盖掉导航栏 end */
+
+/* 去掉下划线 */
+.vp-doc a {
+    text-decoration: none;
+}
+/* 去掉下划线 end */
+
+/* 终端字体 */
+.ap-terminal {
+  font-family: "MesloLGS" !important;
+}
+/* 终端字体 end */

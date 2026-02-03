@@ -1,6 +1,6 @@
 # Phira-docs 说明
 
-这里是 Phira 相关的文档说明, 可前往 [GitHub](https://github.com/TeamFlos/phira-docs) 提出问题或者贡献文档, 其他语言请通过修改 url 来访问, 如 [`/en/`](./en/)
+这里是 Phira 相关的文档说明, 可前往 [GitHub](https://github.com/TeamFlos/phira-docs) 提出问题或者贡献文档
 
 如果希望提供翻译, 请参考
 
