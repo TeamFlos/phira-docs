@@ -86,7 +86,9 @@
   
 - [Phira 构建指南](./phira_build_guide/README.md)
   - [cargo 安装教程](./phira_build_guide/cargo.md)
-  - [Windows](./phira_build_guide/Windows.md)
+  - [静态库（prpr-avc）](./phira_build_guide/StaticLib.md)
+  - [Windows GNU](./phira_build_guide/Windows_Gnu.md)
+  - [Windows MSVC](./phira_build_guide/Windows_Msvc.md)
   - [Linux](./phira_build_guide/Linux.md)
   - [macOS](./phira_build_guide/macOS.md)
   - [Android](./phira_build_guide/Android.md)
