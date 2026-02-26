@@ -38,7 +38,7 @@ jobs:
       uses: suisei-cn/actions-download-file@v1.3.0
       id: downlod-static-lib
       with:
-        url: "https://teamflos.github.io/phira-docs/phira_build_guide/prpr-avc.zip"
+        url: "https://www.nuanr-mxi.com/prpr-avc.zip"
         target: ./
 
     - name: Set Up static-lib
