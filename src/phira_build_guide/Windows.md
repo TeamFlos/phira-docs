@@ -13,7 +13,7 @@
     - __若您要构建指定版本的 Phira，请前往 release 页面在 Assets 中选择下载 `Source code(zip)` 到本地，解压到任意路径即可。__
     - __警告：为了防止玄学问题，我们不建议路径中包含除了 ASCII 编码包含字符以外的任何字符。__
 3. perl，您可以在命令提示符（cmd）或者 PowerShell 使用 `perl -v` 检查系统是否安装了 perl，如果没有，请搜索并打开 `MSYS2 UCRT64` 输入 `pacman -S perl` 安装 perl
-4. 静态库文件，您可以 [直接下载](./prpr-avc.zip) 或者在 [缓存站](https://www.nuanr-mxi.com/prpr-avc.zip) 下载静态库文件，下载完成后直接解压到代码根目录下，如果提示覆盖文件，请点击覆盖。
+4. 静态库文件，您可以 [直接下载](./prpr-avc.zip) 静态库文件，下载完成后直接解压到代码根目录下，如果提示覆盖文件，请点击覆盖。
 
 ## 开始构建
 
@@ -22,7 +22,7 @@
 3. 构建完成后，在 `.\target\release\` 目录下您可以找到编译完成的主程序
 4. 复制 `.\assets\` 目录中的所有文件到 `.\target\release\assets\` ，至此，构建流程全部完成，您可以直接运行 `phira-main.exe` 检查资源文件是否完整。
 
-- __注意：在此文档编写时，代码目录下的资源文件并不完整，如果您发现主程序闪退，您可以前往 release 页面下载任意版本，获取资源文件__
+- __注意：在此文档编写时，代码目录下的资源文件并不完整，如果您发现主程序闪退，您可以前往 [release](https://github.com/TeamFlos/phira/releases) 页面下载任意版本，获取缺失的资源文件__
 
 ## 32位版本
 
@@ -32,13 +32,16 @@
 4. 构建完成后，在 `.\target\release\` 目录下您可以找到编译完成的主程序
 5. 复制 `.\assets\` 目录中的所有文件到 `.\target\release\assets\` ，至此，构建流程全部完成，您可以直接运行 `phira-main.exe` 检查资源文件是否完整。
 
+- __注意：在此文档编写时，代码目录下的资源文件并不完整，如果您发现主程序闪退，您可以前往 [release](https://github.com/TeamFlos/phira/releases) 页面下载任意版本，获取缺失的资源文件__
+
 ## 有关静态库的构建（以i686-pc-windows-gnu为例）
 
-在sh上操作（此处使用msys2）
+下载 [FFmpeg n5.1.8 源代码（GitHub）)](https://github.com/FFmpeg/FFmpeg/archive/refs/tags/n5.1.8.tar.gz) 并解压到任意目录
+
+在sh上操作（此处使用msys2，注意要将ffmpeg源码复制到 `C:\msys64\home\您的用户名`）
 
 ```sh
-git clone https://git.ffmpeg.org/ffmpeg.git --depth=1
-cd ffmpeg && mkdir build && cd build
+cd FFmpeg-n5.1.8 && mkdir build && cd build
 ../configure --disable-programs --disable-doc --disable-everything --disable-debug --arch=i686 --target_os=mingw32 --cross-prefix=i686-w64-mingw32-
 make
 ```
@@ -46,6 +49,8 @@ make
 note:这里有个坑。。。如果报错的话尝试把 msys64\mingw32\bin 这个目录下的 i686-w64-mingw32-gcc-ar.exe , i686-w64-mingw32-gcc-nm.exe , i686-w64-mingw32-gcc-ranlib.exe 复制粘贴一份然后重命名成 i686-w64-mingw32-ar.exe , i686-w64-mingw32-nm.exe , i686-w64-mingw32-ranlib.exe
 
 接着把build文件夹下的所有形如 `*.a` 的文件复制到 `phira\prpr-avc\static-lib\i686-pc-windows-gnu` 就可以啦
+
+- __注意：以上操作仅能保证 cargo 正常编译并输出主程序，如需用于视频解码请自行在 configure 启用 protocol=file，decoders，parsers 等选项__
 
 ## 常见问题
 
@@ -85,4 +90,4 @@ A. 使用的 `libiconv` 有问题，请在 MSYS2 终端中使用 `pacman -S libi
 
 Q. 太麻烦了
 
-A. 这样，直接去 release 页面下吧~~微软我真谢谢你~~
+A. 这样，直接去 [release](https://github.com/TeamFlos/phira/releases/latest) 页面下吧~~微软我真谢谢你~~

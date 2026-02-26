@@ -88,6 +88,7 @@
   - [cargo 安装教程](./phira_build_guide/cargo.md)
   - [Windows](./phira_build_guide/Windows.md)
   - [Linux](./phira_build_guide/Linux.md)
+  - [macOS](./phira_build_guide/macOS.md)
   - [Android](./phira_build_guide/Android.md)
 
 - [糗事集锦](./dev-incident/README.md)
