@@ -1,5 +1,6 @@
 # 构建指南
-Windows：[here](./Windows.md)<br>
-Linux：[here](./Linux.md)<br>
-macOS：[here](./macOS.md)<br>
-Android：[here](./Android.md)<br>
+Windows GNU：[here](./Windows_Gnu.md)  
+Windows MSVC：[here](./Windows_Msvc.md)  
+Linux：[here](./Linux.md)  
+macOS：[here](./macOS.md)  
+Android：[here](./Android.md)
