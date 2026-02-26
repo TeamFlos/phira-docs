@@ -28,8 +28,7 @@
 4. 复制 `.\assets\` 目录中的所有文件到 `.\target\release\assets\` ，至此，构建流程全部完成，您可以直接运行 `phira-main.exe`
    检查资源文件是否完整。
 
-- _
-  _注意：在此文档编写时，代码目录下的资源文件并不完整，如果您发现主程序闪退，您可以前往 [release](https://github.com/TeamFlos/phira/releases)
+- __注意：在此文档编写时，代码目录下的资源文件并不完整，如果您发现主程序闪退，您可以前往 [release](https://github.com/TeamFlos/phira/releases)
   页面下载任意版本，获取缺失的资源文件__
 
 ## 常见问题
@@ -45,3 +44,8 @@ A. 检查 DNS 或更换 DNS，更换后请刷新 DNS 缓存
 Q. 构建过程中报错包含 `note: LINK : fatal error LNK1181: cannot open input file 'kernel32.lib'`
 
 A. 缺失 Windows SDK，请检查是否正确安装 Windows SDK 后再试
+
+Q. 不够具有挑战性
+
+A. 这样，你去 [GNU构建方式](./Windows_Gnu.md) 吧，稍微难一点点。  
+A2. 你可以去编译静态库，绝对有挑战性，但是我觉得你来找构建指南一定不是为了挑战性吧...
