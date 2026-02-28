@@ -12,7 +12,8 @@
     - __如果您无法连接到 GitHub，您也可以使用 git 加速网站提供的加速地址克隆与下载。__
     - __若您要构建指定版本的 Phira，请前往 release 页面在 Assets 中选择下载 `Source code(zip)` 到本地，解压到任意路径即可。__
     - __警告：为了防止玄学问题，我们不建议路径中包含除了 ASCII 编码包含字符以外的任何字符。__
-3. 静态库文件，您可以 [直接下载](https://www.nuanr-mxi.com/prpr-avc.zip) 静态库文件，下载完成后直接解压到代码根目录下，如果提示覆盖文件，请点击覆盖。
+3. 静态库文件，您可以在 [ESA](https://www.nuanr-mxi.com/prpr-avc.zip) 或 [EdgeOne](https://eo.nuanr-mxi.com/prpr-avc.zip) 
+   下载静态库文件，下载完成后直接解压到代码根目录下，如果提示覆盖文件，请点击覆盖。
 4. 确认您拥有 `x64 Native Tools Command Prompt for VS 20**`，若无此环境，但是已经安装了 cargo，请考虑单独安装
    `Visual Studio 20xx`，并在安装时安装 `MSVC` 与 `Windows SDK` 组件，安装完成后您将会拥有
    `x64 Native Tools Command Prompt for VS 20**` 环境。
