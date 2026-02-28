@@ -2,7 +2,8 @@
 
 ## 介绍
 - 此文件为 Phira 使用的用于解码视频的静态库，此静态库由 [FFmpeg commit hash 4a80db5fc2b1b134550ffbcb8fd3b7ce2ad734b3](https://github.com/FFmpeg/FFmpeg/commit/4a80db5fc2b1b134550ffbcb8fd3b7ce2ad734b3) 编译而来。
-- Phira 引用的静态库 FFmpeg 版本无需非常严格，使用什么版本由您决定，但是当您需要修改音视频解码相关功能并做出贡献时，请严格遵守这一版本，当前官方提供的[静态库](https://www.nuanr-mxi.com/prpr-avc.zip)都由此版本编译，由贡献者贡献的静态库可能版本不一致。
+- Phira 引用的静态库 FFmpeg 版本无需非常严格，使用什么版本由您决定，但是当您需要修改音视频解码相关功能并做出贡献时，请严格遵守这一版本，当前官方提供的静态库都由此版本编译，由贡献者贡献的静态库可能版本不一致。
+- 预编译的静态库可以在 [ESA](https://www.nuanr-mxi.com/prpr-avc.zip) 或 [EdgeOne](https://eo.nuanr-mxi.com/prpr-avc.zip) 下载，下载完成后直接解压到代码根目录下，如果提示覆盖文件，请点击覆盖。
 - prpr-avc 仅包含最精简的 FFmpeg 组件，编译选项为：
 ```shell
 --disable-everything \
