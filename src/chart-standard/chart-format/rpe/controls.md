@@ -92,6 +92,7 @@ control是以关键帧形式控制note各项参数的一个rpe特性。
 |   x    | float |                 note与判定线的纵向距离                  |  -  |  -   |
 
 - `pos control` 可以动态控制 note 的 `positionX` 倍率。
+- 不能控制 `Hold` 类型的note。
 
 ### 行为
 
