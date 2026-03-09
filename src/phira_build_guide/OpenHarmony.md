@@ -2,7 +2,7 @@
 
 ## 准备阶段
 
-1. 首先需要新增ohos平台，如果你没有安装`cargo`，如果没有安装，请点击 [这里]([./cargo.md](https://rust-lang.org/learn/get-started/)) 按系统安装构建工具。
+1. 首先需要新增ohos平台，如果你没有安装`cargo`，如果没有安装，请点击 [这里](https://rust-lang.org/learn/get-started/) 按系统安装构建工具。
 
 更多内容可以参考 [ohos-rs](https://ohos.rs/)
 
@@ -17,12 +17,13 @@ rustup target add x86_64-unknown-linux-ohos # 理论可以不加，如果不在x
 下载完成之后，你需要为系统设置一个环境变量来帮助我们构建原生模块。假设你安装的 SDK 路径为 /path/Sdk，那么我们只需要设置如下的环境变量即可：
 
 ```
-# 一般来说 SDK 目录下面都有多个版本，选择你自己需要使用的版本即可。
-# 对于 unix 系统的用户来说请务必使用 export 否则会导致读取不到环境变量
-export OHOS_NDK_HOME=/path/Sdk/9/
-
-# 对于 5.0.0 release 的 IDE 来说他的路径示例如下所示：
+# 通常情况下，Windows/MacOS下的Deveco Studio已经包含了一套齐全的ndk。你只需要设置OHOS_NDK_HOME为Deveco Studio位置/sdk/default/openharmony即可。
+# 这里Deveco Studio的版本不得低于6.0.0(API 20).
+# MacOS示例，这里仅推荐ARM版的MacOS对本项目进行开发。
 export OHOS_NDK_HOME=/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony
+# Windows的Deveco Studio sdk 示例位置。
+set OHOS_NDK_HOME="C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony"
+# 针对Linux平台，因为没有Deveco Studio支持，只能下载Command Line Tools。下载位置需要自行确定并且设置OHOS_NDK_HOME。
 ```
 
 3. 安装ohrs
@@ -36,13 +37,17 @@ cargo install ohrs
 1. 首先克隆代码。
 
 ```
-https://github.com/teamFlos/phira
-https://github.com/teamFlos/phira-ohos
+git clone https://github.com/TeamFlos/phira
+git clone https://github.com/TeamFlos/phira-ohos
 ```
 
-2. 静态库文件，您可以 [直接下载](https://teamflos.github.io/phira-docs/phira_build_guide/prpr-avc.zip) 或者在 [缓存站](https://www.nuanr-mxi.com/prpr-avc.zip) 下载静态库文件，下载完成后直接解压到代码根目录下，如果提示覆盖文件，请点击覆盖。
+2. 静态库文件，您可以在 [ESA](https://www.nuanr-mxi.com/prpr-avc.zip) 或 [EdgeOne](https://eo.nuanr-mxi.com/prpr-avc.zip) 下载静态库文件，下载完成后直接解压到 phira 代码根目录下，如果提示覆盖文件，请点击覆盖。
+   
+3. 添加 `config.toml` ,配置cmake位置，此部分为编译ohos平台的phira所需要的。
 
-3. 添加 `config.toml` ,配置cmake位置。
+```
+$ cd phira
+```
 
 针对 `Linux` 平台
 
@@ -59,6 +64,17 @@ OHOS_NDK_HOME = "/你的ohos sdk位置/command-line-tools/sdk/default/openharmon
 
 针对 `Windows` 平台，你需要在项目的 `.cargo` 文件夹中新建 `cmake-wrapper.cmd`
 
+`.cargo/cmake-wrapper.cmd`
+
+我们采用临时变量的方式防止与系统默认的cmake发生冲突
+
+```
+@echo off
+set PATH=D:\你的ohos sdk位置\default\openharmony\native\build-tools\cmake\bin;%PATH%
+"D:/你的ohos sdk位置\default\openharmony\native\build-tools\cmake\bin\cmake.exe" %*
+```
+
+
 `.cargo/config.toml`
 
 ```
@@ -73,16 +89,22 @@ CMAKE_MAKE_PROGRAM = "D:/你的ohos sdk位置/default/openharmony/native/build-t
 
 ```
 phira>cd phira #这里要进入到phira文件夹。否则会没有产物输出
-phira/phira>ohrs build --release --arch aarch #可以不加--arch 参数，即默认在x86 armv7 arm64编译，但目前鸿蒙设备均为arm64
+phira/phira>ohrs build --release --arch aarch #可以不加--arch 参数，即默认在x86_64 armv7 arm64编译，但目前鸿蒙设备均为arm64
 ```
 
-5. 构建成功之后会在phira/dist找到`libphira.so`
+5. 构建成功之后会在 `phira/dist/<对应的arch>` 找到 `libphira.so`
 
-6. `phira-ohos` 代码目录下不包含资源文件，如果您发现主程序黑屏，您可以前往 [release](https://github.com/TeamFlos/phira/releases)页面下载任意版本，获取缺失的资源文件，将缺失的资源文件放入 `entry\src\main\resources\resfile\assets` 中。
+6. `phira-ohos` 代码目录下不包含资源文件，你需要提前将 `assets/` 文件夹提前复制到 `entry/src/main/resources/resfile/assets` 中，如果您发现主程序黑屏，您可以前往 [release](https://github.com/TeamFlos/phira/releases)页面下载任意版本，获取缺失的资源文件并且复制到同一目录。
 
-7. 进入 `phira-ohos` 文件夹中,将 `build-profile-nosigncfg.json5` 改成 `build-profile.json5` ，然后打开 `Deveco Studio` 。连接设备，在 `Project Structure` 中找到 `Signing configs` 选择自动生成签名。
+7. 进入 `phira-ohos` 文件夹中,将 `build-profile-nosigncfg.json5` 改成 `build-profile.json5` ，然后打开 `Deveco Studio` 。
 
-复制生成的 `libphira.so` 到 `entry\libs\arm64-v8a`文件夹中。点击编译即可在ohos设备运行。
+连接设备，在 `Project Structure` 中找到 `Signing configs` 选择 `Automatically generate signature` 后点击 `Apply`，同时项目会自动触发Sync。
+
+![](image.png)
+
+Project Structure位置在箭头所示
+
+复制生成的 `libphira.so` 到 `entry/libs/arm64-v8a`文件夹中。点击编译即可在ohos设备运行。
 
 
 ## 常见问题
