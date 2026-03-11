@@ -92,6 +92,7 @@
   - [Linux](./phira_build_guide/Linux.md)
   - [macOS](./phira_build_guide/macOS.md)
   - [Android](./phira_build_guide/Android.md)
+  - [OpenHarmony](./phira_build_guide/OpenHarmony.md)
 
 - [糗事集锦](./dev-incident/README.md)
   - [长风的柳絮](./dev-incident/长风的柳絮.md)
