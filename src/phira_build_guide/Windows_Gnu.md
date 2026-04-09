@@ -14,7 +14,7 @@
     - __警告：为了防止玄学问题，我们不建议路径中包含除了 ASCII 编码包含字符以外的任何字符。__
 3. perl，您可以在命令提示符（cmd）或者 PowerShell 使用 `perl -v` 检查系统是否安装了 perl，如果没有，请搜索并打开
    `MSYS2 UCRT64` 输入 `pacman -S perl` 安装 perl
-4. 静态库文件：您可以在 `MSYS2中` 使用 `./prpr-avc/pull-static-lib.sh` 来拉取静态库文件。
+4. 静态库文件：参阅[静态库](./StaticLib.md#获取)页。
 
 ## 开始构建
 

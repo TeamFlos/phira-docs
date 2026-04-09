@@ -39,7 +39,7 @@ git clone https://github.com/TeamFlos/phira
 git clone https://github.com/TeamFlos/phira-ohos
 ```
 
-2. 静态库文件：您可以使用 `./prpr-avc/pull-static-lib.sh` 来拉取静态库文件。
+2. 静态库文件：参阅[静态库](./StaticLib.md#获取)页。
 
 3. 添加 `config.toml`，配置 cmake 位置，此部分为编译 ohos 平台的 phira 所需要的。
 

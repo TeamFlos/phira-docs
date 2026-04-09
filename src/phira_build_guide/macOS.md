@@ -11,7 +11,7 @@
     - __若您要构建指定版本的 Phira，请前往 [release](https://github.com/TeamFlos/phira/releases) 页面在 Assets
       中选择下载 `Source code (tar.gz)` 到本地，解压到任意路径即可。__
     - __警告：为了防止玄学问题，我们不建议路径中包含除了 ASCII 编码包含字符以外的任何字符。__
-3. 静态库文件：您可以使用 `./prpr-avc/pull-static-lib.sh` 来拉取静态库文件。
+3. 静态库文件：参阅[静态库](./StaticLib.md#获取)页。
 
 ## 开始构建
 

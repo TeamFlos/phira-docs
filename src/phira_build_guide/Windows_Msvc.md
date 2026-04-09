@@ -12,7 +12,7 @@
     - __如果您无法连接到 GitHub，您也可以使用 git 加速网站提供的加速地址克隆与下载。__
     - __若您要构建指定版本的 Phira，请前往 release 页面在 Assets 中选择下载 `Source code(zip)` 到本地，解压到任意路径即可。__
     - __警告：为了防止玄学问题，我们不建议路径中包含除了 ASCII 编码包含字符以外的任何字符。__
-3. 静态库文件：您可以使用 `./prpr-avc/pull-static-lib.sh` 来拉取静态库文件，或手动前往 [prpr-avc-ffmpeg发行页](https://github.com/TeamFlos/prpr-avc-ffmpeg/releases/latest) 下载所需要的静态库文件，并手动解压。
+3. 静态库文件：参阅[静态库](./StaticLib.md#获取)页。
 4. 确认您拥有 `x64 Native Tools Command Prompt for VS 20**`，若无此环境，但是已经安装了 cargo，请考虑单独安装
    `Visual Studio 20xx`，并在安装时安装 `MSVC` 与 `Windows SDK` 组件，安装完成后您将会拥有
    `x64 Native Tools Command Prompt for VS 20**` 环境。
@@ -47,5 +47,4 @@ A. 缺失 Windows SDK，请检查是否正确安装 Windows SDK 后再试
 
 Q. 不够具有挑战性
 
-A. 这样，你去 [GNU构建方式](./Windows_Gnu.md) 吧，稍微难一点点。  
-A2. 你可以去编译静态库，绝对有挑战性，但是我觉得你来找构建指南一定不是为了挑战性吧...
+A. 有空多写点代码
