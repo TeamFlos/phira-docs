@@ -14,7 +14,7 @@
     - __警告：为了防止玄学问题，我们不建议路径中包含除了 ASCII 编码包含字符以外的任何字符。__
 3. perl，您可以在命令提示符（cmd）或者 PowerShell 使用 `perl -v` 检查系统是否安装了 perl，如果没有，请搜索并打开
    `MSYS2 UCRT64` 输入 `pacman -S perl` 安装 perl
-4. 静态库文件，您可以在 [ESA](https://www.nuanr-mxi.com/prpr-avc.zip) 或 [EdgeOne](https://eo.nuanr-mxi.com/prpr-avc.zip) 下载静态库文件，下载完成后直接解压到代码根目录下，如果提示覆盖文件，请点击覆盖。
+4. 静态库文件：您可以在 `MSYS2中` 使用 `./prpr-avc/pull-static-lib.sh` 来拉取静态库文件。
 
 ## 开始构建
 

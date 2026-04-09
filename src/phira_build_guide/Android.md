@@ -34,16 +34,9 @@ jobs:
         # For compatibility of release v0.6.7 and stable channel of Rust
         sed -i 's/#!\[feature(local_key_cell_methods)\]//g' prpr/src/lib.rs
         
-    - name: Download static-lib
-      uses: suisei-cn/actions-download-file@v1.3.0
-      id: downlod-static-lib
-      with:
-        url: "https://www.nuanr-mxi.com/prpr-avc.zip"
-        target: ./
-
     - name: Set Up static-lib
       run: |
-        unzip prpr-avc.zip -d ./
+        bash prpr-avc/pull-static-lib.sh
 
     - name: Install Android SDK Tools
       run: |

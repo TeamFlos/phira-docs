@@ -39,7 +39,7 @@ git clone https://github.com/TeamFlos/phira
 git clone https://github.com/TeamFlos/phira-ohos
 ```
 
-2. 静态库文件，您可以在 [prpr-avc-ffmpeg](https://github.com/TeamFlos/prpr-avc-ffmpeg/releases) 下载 `aarch64-unknown-linux-ohos.tar.gz`，并解压所有链接库文件 `*.a` 到 `phira/prpr-avc/static-lib/aarch64-unknown-linux-ohos` 中。
+2. 静态库文件：您可以使用 `./prpr-avc/pull-static-lib.sh` 来拉取静态库文件。
 
 3. 添加 `config.toml`，配置 cmake 位置，此部分为编译 ohos 平台的 phira 所需要的。
 
