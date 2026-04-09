@@ -36,7 +36,9 @@ jobs:
         
     - name: Set Up static-lib
       run: |
-        bash prpr-avc/pull-static-lib.sh
+        cd prpr-avc
+        bash pull-static-lib.sh
+        cd ..
 
     - name: Install Android SDK Tools
       run: |
