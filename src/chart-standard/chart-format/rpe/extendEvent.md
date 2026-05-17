@@ -95,9 +95,9 @@ Y轴缩放事件，可以控制判定线、纹理或文字的高度缩放，它�
 | easingRight  |       float       |                                              缓动的右边界位置，最小为 `0.0`，最大为 `1.0`                                              |          1.0           |  -   | 143  |
 |  easingType  |        int        |                                        缓动类型，详见[extend](./extend.md#easingtype)                                         |           1            |  -   | 143  |
 |  linkgroup   |        int        |                                                           -                                                            |           -            |  -   | 143  |
-|    start     |      string       |                                                       事件开始时画笔大小                                                        |           0            |  -   | 143  |
+|    start     |       float       |                                                       事件开始时画笔大小                                                        |           0            |  -   | 143  |
 |  startTime   | [beat](./beat.md) |                                                        事件开始的时间                                                         |           -            |  -   | 143  |
-|     end      |      string       |                                                       事件结束时画笔大小                                                        |           0            |  -   | 143  |
+|     end      |       float       |                                                       事件结束时画笔大小                                                        |           0            |  -   | 143  |
 |   endTime    | [beat](./beat.md) |                                                        事件结束的时间                                                         |           -            |  -   | 143  |
 
 - 其它行为待补充

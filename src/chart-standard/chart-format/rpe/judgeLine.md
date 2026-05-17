@@ -10,10 +10,10 @@
 |      anchor      |           float\[2\]           |           判定线纹理锚点，详见 [extend](./extend.md#anchor)            | `[ 0.5, 0.5 ]` | 142  |
 |   eventLayers    |  [EventLayer](./event.md)[]?   |       事件层级，默认包含至少一个层级，最大有五个，层级下事件见 [event](./event.md)       |       -        |  -   |
 |     extended     | [JsonObject](./extendEvent.md) |          特殊事件层，详见 [extend Event](./extendEvent.md)           |       -        |  -   |   
-|      father      |              int               |                        父线，`-1` 表示无父线                         |       -        |  -   |                      |      -1       |  -   |
-|     isCover      |              int               |                              遮罩                              |       1        |  -   |
-|      notes       |     [Note](./note.md)\[\]      |                线上所有的Note，详见 [note](./note.md)                |       -        |  -   |
-|    numOfNotes    |              int               |              Note总数量(包含 `FakeNote`，不包含 `Hold`)               |       0        |  -   |
+|      father      |              int               |                       父线索引，`-1` 表示无父线                        |       -        |  -   |                      |      -1       |  -   |
+|     isCover      |              int               |                             是否遮罩                             |       1        |  -   |
+|      notes       |     [Note](./note.md)\[\]      |                 线上所有的音符，详见 [note](./note.md)                 |       -        |  -   |
+|    numOfNotes    |              int               |               音符总数量(包含 `FakeNote`，不包含 `Hold`)                |       0        |  -   |
 |      zOrder      |              int               |                  线z轴(即图层），范围为±100（_范围需要验证_）                  |       0        |  -   |
 |     attachUI     |            string?             |     UI绑定，详见 [extend](./extend.md#attachui)；无绑定情况下，不存在本字段     |       -        |  -   |
 |      isGif       |              bool              |             纹理是否为GIF，若为 `true` ，Texture为一个GIF文件              |     false      | 150  |
@@ -26,9 +26,9 @@
 | rotateWithFather |              bool              |              子线是否继承父线的旋转角度，若为 `true` 则继承，否则不继承               |      true      | 163  |
 
 - 若层级为空，在某个版本之前，字段为 `null` ，在某个版本及以后，空层级无字段。（当前已知至少在 `143` 版本时无字段）
-  - 若某个层级中的某个事件不存在，则该事件字段不会出现。
-  - 若所有层级都为空，`eventLayers` 字段不会出现。
-- 判定线的当前 `BPM` 应为 当前 `BPM` 除以 `bpmfactor`，而非乘以。
+    - 若某个层级中的某个事件不存在，则该事件字段不会出现。
+    - 若所有层级都为空，`eventLayers` 字段不会出现。
+- 判定线的当前 `BPM` 为 `nowBpm / bpmfactor`，而非 `nowBpm * bpmfactor`。
 - 父线允许嵌套，父线是否影响子线的旋转角度取决于 `rotateWithFather` 是否为 `true`，若不存在此字段应视为 `false`
   （兼容163以前的版本）。
 - `isCover` 字段在RPE中为 `1` 时，表示遮罩，其他值为不遮罩；遮罩时，位于判定线背面的音符（如果音符 `Above` 不为 1
