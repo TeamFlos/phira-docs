@@ -26,49 +26,47 @@ jobs:
     runs-on: ubuntu-24.04
 
     steps:
-    - uses: actions/checkout@v4.2.2
-    
-    - run: |
-        sudo apt-get update
-        sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev libasound2-dev libssl-dev pkg-config
-        # For compatibility of release v0.6.7 and stable channel of Rust
-        sed -i 's/#!\[feature(local_key_cell_methods)\]//g' prpr/src/lib.rs
-        
-    - name: Set Up static-lib
-      run: |
-        cd prpr-avc
-        bash pull-static-lib.sh
-        cd ..
+      - uses: actions/checkout@v4.2.2
 
-    - name: Install Android SDK Tools
-      run: |
-        wget https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip
-        unzip commandlinetools-linux-8512546_latest.zip -d $ANDROID_HOME
-        echo y | $ANDROID_HOME/cmdline-tools/bin/sdkmanager --sdk_root=${ANDROID_HOME} "platform-tools" "build-tools;33.0.2" "platforms;android-35"
+      - run: |
+          sudo apt-get update
+          sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev libasound2-dev libssl-dev pkg-config
 
-    - name: Install Android NDK
-      run: |
-        wget https://googledownloads.cn/android/repository/android-ndk-r27c-linux.zip
-        unzip android-ndk-r27c-linux.zip -d ${{github.workspace}}
+      - name: Set Up static-lib
+        run: |
+          cd prpr-avc
+          bash pull-static-lib.sh
+          cd ..
 
-    - name: Install Rust Toolchains
-      uses: actions-rs/toolchain@v1.0.6
-      with:
-        toolchain: stable
-        target: aarch64-linux-android
-    
-    - name: Build for Android
-      run: |
-        cd phira
-        cargo install cargo-ndk
-        cargo ndk -t arm64-v8a --platform 35 build --release
-    
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: android-build
-        path: |
-          target/aarch64-linux-android/release/libphira.so
+      - name: Install Android SDK Tools
+        run: |
+          wget https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip
+          unzip commandlinetools-linux-8512546_latest.zip -d $ANDROID_HOME
+          echo y | $ANDROID_HOME/cmdline-tools/bin/sdkmanager --sdk_root=${ANDROID_HOME} "platform-tools" "build-tools;33.0.2" "platforms;android-35"
+
+      - name: Install Android NDK
+        run: |
+          wget https://googledownloads.cn/android/repository/android-ndk-r27c-linux.zip
+          unzip android-ndk-r27c-linux.zip -d ${{github.workspace}}
+
+      - name: Install Rust Toolchains
+        uses: actions-rs/toolchain@v1.0.6
+        with:
+          toolchain: nightly-2026-01-01 # If there are updates to the nightly toolchain that Phira relies on, these changes need to be synchronized here
+          target: aarch64-linux-android
+
+      - name: Build for Android
+        run: |
+          cd phira
+          cargo install cargo-ndk
+          cargo ndk -t arm64-v8a --platform 35 build --release
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-build
+          path: |
+            target/aarch64-linux-android/release/libphira.so
 ```
 
 
