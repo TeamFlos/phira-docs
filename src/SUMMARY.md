@@ -97,6 +97,7 @@
   - [Windows MSVC](./phira_build_guide/Windows_Msvc.md)
   - [Linux](./phira_build_guide/Linux.md)
   - [macOS](./phira_build_guide/macOS.md)
+  - [iOS](./phira_build_guide/iOS.md)
   - [Android](./phira_build_guide/Android.md)
   - [OpenHarmony](./phira_build_guide/OpenHarmony.md)
 
