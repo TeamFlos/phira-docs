@@ -2,7 +2,7 @@
 
 ## 准备阶段
 
-1. 确保系统安装了 cargo 和 Xcode，可以在终端使用 `cargo -V` 检查系统是否安装了
+1. 确保系统安装了 cargo 和 命令行工具 ，可以在终端使用 `cargo -V` 检查系统是否安装了
    cargo，如果没有安装，请点击 [这里](./cargo.md#macos) 按步骤安装构建工具
 2. 从 GitHub 下载源码到本地：
     - 使用 git 工具，在终端输入 `git clone https://github.com/TeamFlos/phira.git` 将仓库克隆到本地。

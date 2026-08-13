@@ -70,10 +70,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 2. 出现选项后输入1，一路回车直到输出 `Rust is installed now. Great!`
 3. 打开终端，输入 `cargo -V` 检查是否成功安装，若返回版本号则安装成功，若出现其他提示，请见 macOS 常见问题。
-4. 前往 [Xcode Downloads](https://developer.apple.com/download/all/?q=Xcode) 下载 Xcode，下载完成后双击解压放入盘符根目录
-   `/Application`
-   ，接着前往 [Command Line Tools Downloads](https://developer.apple.com/download/all/?q=Command%20Line%20Tools)
-   下载命令行工具，下载完成后双击打开，一路下一步直到安装完成即可。
+4. 前往 [Command Line Tools Downloads](https://developer.apple.com/download/all/?q=Command%20Line%20Tools)
+下载命令行工具，下载完成后双击打开，一路下一步直到安装完成即可。
 
 其他系统待补充
 
