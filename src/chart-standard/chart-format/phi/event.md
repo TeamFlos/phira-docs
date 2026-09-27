@@ -64,3 +64,5 @@
 |  endTime  | float | 事件的结束时间 | `1.875 / bpm` |
 |   start   | float | 事件的开始值  |       -       |
 |    end    | float | 事件的结束值  |       -       |
+
+blockArea 下的时间格式可见 [这里](./blockArea.md#event)

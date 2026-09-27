@@ -20,3 +20,8 @@
 ### judgeLineList
 
 - `judgeLineList` 是一个 `JsonArray`，包含若干个 `JsonObject`，每个 `JsonObject` 代表一个[判定线](./judgeLine.md)。
+
+### blockAreaList
+
+- `blockAreaList` 是一个 `JsonArray`，包含若干个 `JsonObject`，每个 `JsonObject` 代表一个[禁止区域](./blockArea.md)。
+> `blockAreaList` 系 Phigros 4.0.0 新增字段
