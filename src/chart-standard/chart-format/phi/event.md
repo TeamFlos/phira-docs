@@ -47,16 +47,16 @@
 | start2 | float | 事件的开始y坐标 | 谱面渲染范围高度 |
 |  end2  | float | 事件的结束y坐标 | 谱面渲染范围高度 |
 
-### judgeLineRotateEvent
+## judgeLineRotateEvent
 
 |    字段名    |  类型   |   描述    |      单位       |
 |:---------:|:-----:|:-------:|:-------------:|
-| startTime | int | 事件的开始时间 | `1.875 / bpm` |
-|  endTime  | int | 事件的结束时间 | `1.875 / bpm` |
+| startTime | float | 事件的开始时间 | `1.875 / bpm` |
+|  endTime  | float | 事件的结束时间 | `1.875 / bpm` |
 |   start   | float | 事件的开始值  |      角度       |
 |    end    | float | 事件的结束值  |      角度       |
 
-### judgeLineDisappearEvent
+## judgeLineDisappearEvent
 
 |    字段名    |  类型   |   描述    |      单位       |
 |:---------:|:-----:|:-------:|:-------------:|
@@ -64,3 +64,5 @@
 |  endTime  | float | 事件的结束时间 | `1.875 / bpm` |
 |   start   | float | 事件的开始值  |       -       |
 |    end    | float | 事件的结束值  |       -       |
+
+blockArea 下的时间格式可见 [这里](./blockArea.md#event)
