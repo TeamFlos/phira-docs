@@ -2,7 +2,7 @@
 
 本页将介绍 blockAreaList 下的所有字段。
 
-`blockAreaList` 是一个 `JsonArray`，包含若干个 `JsonObject`，每个 `JsonObject` 代表一个 blockArea（限制区域）。
+`blockAreaList` 是一个 `JsonArray`，包含若干个 `JsonObject`，每个 `JsonObject` 代表一个 blockArea（噪域）。
 
 > `blockAreaList` 系 Phigros 4.0.0 新增字段
 
