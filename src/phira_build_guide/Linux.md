@@ -26,9 +26,7 @@ sudo apt install libgtk-3-dev
 3. 复制 `.\assets\` 目录中的所有文件到 `.\target\release\assets\` ，至此，构建流程全部完成，您可以在带有桌面环境的情况下直接运行
    `phira-main` 检查资源文件是否完整，若您没有桌面环境，程序将会闪退（实测 WSL 无法兼容，如果在 WSL 下运行将会闪退），至此，构建流程结束。
 
-- _
-  _注意：在此文档编写时，代码目录下的资源文件并不完整，如果您发现主程序闪退，您可以前往 [release](https://github.com/TeamFlos/phira/releases)
-  页面下载任意版本，获取缺失的资源文件__
+- __注意：在此文档编写时，代码目录下的资源文件并不完整，如果您发现主程序闪退，您可以前往 [release](https://github.com/TeamFlos/phira/releases)页面下载任意版本，获取缺失的资源文件__
 
 ## 常见问题
 

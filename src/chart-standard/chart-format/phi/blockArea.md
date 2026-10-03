@@ -17,9 +17,9 @@
 |     disableTime      |               float                | 方块进入 Disabled 的时间 |  秒  |
 |    disappearTime     |               float                |      方块消失的时间      |  秒  |
 |      isSubtract      |                bool                |      是否为减算方块      |  -   |
-|     rotateEvents     | List<[rotateEvent](#rotateEvents)> |         旋转事件         |  -   |
-|      moveEvents      |   List<[moveEvent](#moveEvents)>   |         移动事件         |  -   |
-|     scaleEvents      |  List<[scaleEvent](#scaleEvents)>  |         缩放事件         |  -   |
+|     rotateEvents     | List<[rotateEvent](#rotateevents)> |         旋转事件         |  -   |
+|      moveEvents      |   List<[moveEvent](#moveevents)>   |         移动事件         |  -   |
+|     scaleEvents      |  List<[scaleEvent](#scaleevents)>  |         缩放事件         |  -   |
 
 > 四个时间点以及下文所有事件的 `time` 都是 **音乐时间（秒）**，与判定线事件使用的 `1.875 / bpm` 不同。
 > 原版直接拿它们与 `ProgressControl.nowTime`（当前播放时间，秒）比较，不做任何单位换算。
