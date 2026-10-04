@@ -51,7 +51,7 @@
 |       `[enableTime, disableTime)`        |           Active           |                         激活（完全显示）                         |
 |      `[disableTime, disappearTime)`      |          Disabled          |           退回未激活状态，到 `disappearTime` 不再显示            |
 
-- `0.5` 来自 prefab 常量 `disabledBlockReadyDuration`（预备时长）与 `disabledBlockShowDuration`（渐显时长），原版固定为 `0.5` 秒， **谱面无法修改**
+- `0.5` 来自预制件常量 `disabledBlockReadyDuration`（预备时长）与 `disabledBlockShowDuration`（渐显时长），原版固定为 `0.5` 秒， **谱面无法修改**
 - 渐显只在方块 **由不显示变为显示、且此时还不是 `Active`** 时触发一次；若 `appearTime >= enableTime`（一出现就已激活）则没有渐显
 - `Ready` 的起点 `enableTime - 0.5` 若早于 `appearTime`，方块从 `appearTime` 起才显示
 - 区间长度为 `0` 时该阶段不存在
@@ -100,7 +100,7 @@ blockArea 下的事件均为 “关键帧” 形式: 事件只有 `time` 而没�
 
 ### easeType
 
-> 这是官谱中第一次出现easeType。。。
+> 这是官谱中第一次出现easeType……
 
 事件值按 `start + (end - start) * f(p)` 计算, 其中 `p` 为事件区间内的时间进度:
 
@@ -110,7 +110,7 @@ blockArea 下的事件均为 “关键帧” 形式: 事件只有 `time` 而没�
 
 | 值 |    名称    |                  曲线 `f(p)`                  |   描述   |
 |:--:|:----------:|:---------------------------------------------:|:--------:|
-| 0  |   Liner    |                      `p`                      |   线性   |
+| 0  |   Linear   |                      `p`                      |   线性   |
 | 1  |   InSine   |                     `p²`                      |   缓入   |
 | 2  |  OutSine   |                `1 - (1 - p)²`                 |   缓出   |
 | 3  | InOutSine  | `p < 0.5 ? 0.5 * (2p)² : 1 - 0.5 * (2 - 2p)²` | 缓入缓出 |
@@ -129,14 +129,34 @@ blockArea 下的事件均为 “关键帧” 形式: 事件只有 `time` 而没�
 - **注意: 枚举名与实际曲线并不一致**。原版用幂函数生成, 指数 `n = (type - 1) // 3 + 2`（即按每组的 `In` 类型算 `n`）:
     - `InSine` / `OutSine` / `InOutSine` (`n = 2`) 实为二次幂, 并没有用到正弦
     - `InQuad` (`n = 3`) 实为三次幂, `InCubic` (`n = 4`) 实为四次幂, `InQuart` (`n = 5`) 实为五次幂
+    - 将枚举对应曲线与真正的缓动函数名称对应起来的表格在下方有提供，方便理解。
 - `Liner` 为线性 (原版枚举名即 `Liner`), 等价于不做缓动
 - `Zero` 恒为 `0`, 事件值在整个区间内保持上一个事件的值, 到该事件时间点才跳到目标值
 - `One` 恒为 `1`, 事件值在该事件时间点立即跳到目标值
 - `rotateEvents` 只使用单个 `easeType`; `moveEvents` 与 `scaleEvents` 的 `x` `y` 分量分别使用 `easeTypeX` 与 `easeTypeY`
 
+#### 实际枚举对应名称
+| 值 |    名称    |
+|:--:|:----------:|
+| 0  |   Linear   |
+| 1  |   InQuad   |
+| 2  |  OutQuad   |
+| 3  | InOutQuad  |
+| 4  |  InCubic   |
+| 5  |  OutCubic  |
+| 6  | InOutCubic |
+| 7  |  InQuart   |
+| 8  |  OutQuart  |
+| 9  | InOutQuart |
+| 10 |  InQuint   |
+| 11 |  OutQuint  |
+| 12 | InOutQuint |
+| 13 |    Zero    |
+| 14 |    One     |
+
 #### 实现细节
 
-原版 `GetEase.GetEaseWithProgress(progress, type)` 并非直接计算函数, 而是「按 `1%` 采样成 `101` 项查表 + 线性插值」:
+原版 `GetEase.GetEaseWithProgress(progress, type)` 并非直接计算函数, 而是“按 `1%` 采样成 `101` 项查表 + 线性插值”:
 
 - `i = (int)(progress * 100)`（向零取整）
 - `i >= 100` 时返回 `table[100]`; `i < 0` 时返回 `table[0]`（即负进度与超过 `1.0` 的进度都被夹到端点值）
